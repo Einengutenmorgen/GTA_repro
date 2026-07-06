@@ -1,0 +1,886 @@
+[
+    {
+        "chunk_id": 1,
+        "codes": "neutral evaluation, prior knowledge, graduate program exposure, interest in deeper detail, textbook reliance, PowerPoint supplement, introductory course, limited coding instruction"
+    },
+    {
+        "chunk_id": 2,
+        "codes": "neutral stance, supplemental information, prior consumption, instructor influence, thematic scanning, pattern identification, connection seeking, cross\u2011transcript comparison, category formation, meaning construction, research\u2011context dependence, holistic synthesis"
+    },
+    {
+        "chunk_id": 3,
+        "codes": "narrative construction, interpreting participant feelings, specific research questions, coding as data unit, researcher immersion, researcher\u2011generated codes, influence of researcher reading, determining importance, balancing researcher and participant perspectives, internal manifestation of importance, subjective coding process, researcher\u2011driven code creation"
+    },
+    {
+        "chunk_id": 4,
+        "codes": "codes as initial word/phrase units, codes not always leading to categories, balancing act in code selection, researcher bias affecting coding, one\u2011off individual specific codes, reflection on researcher perspective, codes as precursors to themes, uncertainty about code importance"
+    },
+    {
+        "chunk_id": 5,
+        "codes": "mentioning multiple qualitative approaches, forgetting specific method name, confusing similar methods, inductive vs deductive distinction, relying on PowerPoint for details, intro course superficial, not reading primary texts, referencing Strauss and Glaser, feeling uncertain about differences, seeking clarification"
+    },
+    {
+        "chunk_id": 6,
+        "codes": "high-level overview of approaches, introductory course limitations, delayed literature review discovery, class time used as lab, in\u2011class interview practice, in\u2011class coding practice, hands\u2011on data collection experience, transcribing instructor\u2011provided transcript, coding instructor\u2011provided transcript, practical experience valued for analysis, recognition of qualitative versus quantitative differences, perception of quantitative work as computer\u2011lab activity"
+    },
+    {
+        "chunk_id": 7,
+        "codes": "preference for manual qualitative analysis, belief that software cannot replace analysis, manual faster than program setup, hands\u2011on transcript reading, highlighting and note\u2011taking, value of dedicated lab space and time, fine\u2011tuning research approach, instructor\u2019s suggestion of software vs personal experience, time saved by manual coding, recall of paper\u2011based exercise, use of columns and rows on sheets, involvement of daughter and dad in exercise, lab experiment context."
+    },
+    {
+        "chunk_id": 8,
+        "codes": "assignment perceived as difficult, lack of contextual information, uncertainty about research purpose, need for research questions, desire for study abstract, feeling assignment was random, recognition of helpful aspects, suggestion for more guidance, frustration with ambiguous data, reliance on coding without framework"
+    },
+    {
+        "chunk_id": 9,
+        "codes": "uncertainty about code usefulness, need for research question, need for background context, difficulty coding unfamiliar document, lack of familiarity with subjects, dog barking interruption, film about Jewish family illness, California setting, film linked to qualitative analysis learning, ethnography discussion, researcher as instrument idea, video as reflective tool, importance of community integration, emphasis on long-term field exposure, goal of obtaining rich data"
+    },
+    {
+        "chunk_id": 10,
+        "codes": "validation of results,concept misunderstood,unclear purpose of video,integration of woman into community,no questioning of integration,unclear central point,long video duration,video split across days,perceived waste of time,key takeaways after 30 minutes,did not take notes,instructor asked to be mindful,film not discussed extensively,other films prompted note-taking"
+    },
+    {
+        "chunk_id": 11,
+        "codes": "lack of memorable content, no standout information, no note\u2011taking, brief movie reflection activity, low perceived value of full video, researchers viewed as community\u2011engaged, suggestion for future instructor, emphasize course sequencing, prerequisite methodology courses, instructor teaching background influences, introduction to qualitative research as entry point, reflection reveals researcher role, participant disengagement during activity"
+    },
+    {
+        "chunk_id": 12,
+        "codes": "basic understanding of qualitative research, desire for deeper methodological exposure, interest in ethnographic study, interest in grounded theory, need for more literature exposure, positive view of Merriam and Teasdale text, enjoyed dance book, perceived outdated examples, lack of preparation for conducting research, instructor providing examples, exposure to dated sources, need for updated examples, frustration with course materials, recognition of introductory course value"
+    },
+    {
+        "chunk_id": 13,
+        "codes": "historical references, citing Glaser\u202f&\u202fStrauss, seeking practical ethnography guidance, seeking grounded theory resources, mention of critical perspective literature, students feeling they learned something new, learning coding skills, course not requiring attendance, request for current empirical examples, request for theoretical justification, need for methodological tools, perceived lack of concrete examples"
+    },
+    {
+        "chunk_id": 14,
+        "codes": "replicating previous module,stretching module duration,using prior methodology courses,self\u2011directed learning via Google,perceived ease of understanding qualitative methods,no additional topics to discuss,interviewer expressing gratitude,interview described as generative,well\u2011wishes for summer and internship"
+    },
+    {
+        "chunk_id": 15,
+        "codes": "hands\u2011on practice,group coding activity,in\u2011class data coding,participant observation exercise,real\u2011time feedback,small chunk learning,opportunity to ask questions,practical application,collaborative learning,observational learning,assignment integration,learning by doing"
+    },
+    {
+        "chunk_id": 16,
+        "codes": "coding as note-taking, structured coding process, theme identification, open coding, predefined coding scheme, multiple coding approaches, uncertainty about analysis approach, feeling unsure, class covering study types, learning ethnography, exposure to qualitative methods"
+    },
+    {
+        "chunk_id": 17,
+        "codes": "learned data analysis types, practiced collection methods, analysis linked to study type, grounded theory coding, ethnographic coding, analysis guided by research question, uncertain about analysis approaches, connecting analysis to methodology, helpful lesson discussion, class content overlap, isolating class material"
+    },
+    {
+        "chunk_id": 18,
+        "codes": "hands\u2011on activities, instructor feedback, group discussion, peer perspective sharing, coding exercise, observation exercise, multiple interpretive lenses, absence of research question guidance, instructor tips, written reflections, assignment reflection, difficulty determining focus, uncertainty between observation and interview."
+    },
+    {
+        "chunk_id": 19,
+        "codes": "avoid note\u2011taking when recorded, receive helpful tip, class reflection feedback, written reflection feedback, recall retirement community interview, recall assisted living topic, coding exercise with two sheets, use of colored pens, enjoyment of activity, understand memoing vs open coding, uncertainty about a priori coding"
+    },
+    {
+        "chunk_id": 20,
+        "codes": "different colored pens, color\u2011coded open coding, separate color for personal memos, noticing peer similarities and differences, think\u2011pair\u2011share discussion, self\u2011initiated coding strategy, worksheet with table format, marking up text on worksheet, observing classmates\u2019 varied approaches, visual organization aid, independent reflection."
+    },
+    {
+        "chunk_id": 21,
+        "codes": "single-page preference,dual-paper comparison challenge,handwriting readability issue,paragraph summarization,ease of on-sheet marking,memoing as content reflection,open coding identifies specific details,family medicine involvement theme,personal experience influences care approach,reduced back-and-forth effort"
+    },
+    {
+        "chunk_id": 22,
+        "codes": "text-derived meaning, personal sadness, memo creation, internal reaction, non-textual opinion, film viewing assignment, Jewish people film, anger at film ending, researcher death, abrupt film conclusion, cancer journey observation, watching deterioration, emotional response to illness"
+    },
+    {
+        "chunk_id": 23,
+        "codes": "class shock, emotional impact, witnessing progressive illness, recorded observation, researcher questioning style, personal experience influencing research, Jewish identity, cultural tradition in dying, conversation about tradition, ethnographic example, participant observation lesson, community engagement, wig decision, hair covering, invasive questioning, researcher\u2011participant relationship, reflection on researcher influence"
+    },
+    {
+        "chunk_id": 24,
+        "codes": "seeing finished examples,film as learning tool,reverse engineering process,lack of explicit methodology,reflection points in film,verbal analysis on camera,helpful for understanding qualitative analysis,comparison to research paper,interactive scene observation,learning through observation"
+    },
+    {
+        "chunk_id": 25,
+        "codes": "active reflection by participant, suggestion to anchor activities in literature, emphasis on research questions, perceived extra workload for literature review, coding as analytical step, emergent grounded theory approach, value of research questions in emergent studies, student relief at reduced literature tasks"
+    },
+    {
+        "chunk_id": 26,
+        "codes": "need for activity guidance, importance of writing good research questions, practice improves competence, preference for tactile tools (highlighters, printing), preference for digital analysis software, unfamiliarity with library resources, nervousness approaching librarians, librarians perceived as knowledgeable experts, desire for librarian-led tutorials, need for clear setup instructions, weighing software usefulness against effort, reluctance to struggle with unfamiliar tools"
+    },
+    {
+        "chunk_id": 27,
+        "codes": "sharing additional learning activity, class presentations on qualitative analysis, exposure to diverse research examples, inclusion of formal papers, inclusion of arts-based research, inclusion of narrative studies, inclusion of documentary projects, personal resonance with certain presentations, seeing breadth of qualitative methods, comparison of quantitative visibility, perception of quantitative as more visible outside academia, collaborative peer learning, appreciation of variety in research formats"
+    },
+    {
+        "chunk_id": 28,
+        "codes": "quantitative_focus_numbers,qualitative_ambiguous,no_mastery_qualitative,interest_explore_forums,appreciation_suggestions,interview_closure,gratitude_exchange,summer_rest_wishes,casual_farewell"
+    },
+    {
+        "chunk_id": 29,
+        "codes": "positive instructor appraisal, instructor clarity on themes, themes identified as key concept, class activity: theme extraction, use of written paper for theme coding, discussion of sub\u2011themes, instructor provided theme list, student recall of last class, uncertainty about retaining paper, focus on theme understanding"
+    },
+    {
+        "chunk_id": 30,
+        "codes": "approach inquiry, lens metaphor, outsider perspective, insider perspective, terminology gap, use of Deon Dans book, Chicago school desegregation example, classroom interview, data interpretation process, lesson helpfulness, learning from literature, application of external case, confusion about terms, seeking methodology, reference to author, influence of case study, writing data interpretation"
+    },
+    {
+        "chunk_id": 31,
+        "codes": "listening to personal narratives helpful,video of professor dying of cancer,personal lived experience,scientific background,quantitative data perceived as hard/black\u2011and\u2011white,qualitative seen as soft skills,exposure to video and book improves qualitative reasoning,contrast between quantitative and qualitative,engagement with personal stories aids understanding,learning through multimedia."
+    },
+    {
+        "chunk_id": 32,
+        "codes": "clear explanation from instructor, no confusion about analysis, provided interview segment, invited to code and memo, first coding experience, exposure to lived experiences, reading interview helpful for own work, example of coding practice, coding viewed as sub\u2011type of themes, recalls instructor\u2019s coding guidance, memory of coding instruction"
+    },
+    {
+        "chunk_id": 33,
+        "codes": "memory lapse, instructor invitation, film viewing, note\u2011taking request, interest in film, unfamiliar cultural practices, cancer\u2011related hair loss, wig trial, Jewish community pool, cleansing ritual, lack of familiarity, learning through observation, emotional engagement, recall difficulty"
+    },
+    {
+        "chunk_id": 34,
+        "codes": "exposure via documentary,personal narrative insight,structured instructor,less structured instructor,soft skills focus,interviewing skills learned,categorization skills learned,theme identification learned,satisfaction with courses,no concerns expressed,uncertainty about first course content,applicability emphasized"
+    },
+    {
+        "chunk_id": 35,
+        "codes": "uncertainty about categorizing vs theming, view of qualitative research as interpretation, acknowledgment of multiple interpretations, no suggestions for instructor, expressing not knowing, acceptance of uncertainty, interest in qualitative analysis, value of course experience"
+    },
+    {
+        "chunk_id": 36,
+        "codes": "grateful for limited exposure, interviewer respects time, no further questions, follow-up email promised, appreciation expressed, positive well-wishes, polite goodbye"
+    },
+    {
+        "chunk_id": 37,
+        "codes": "first inquiry course,weak quantitative background,chosen qualitative research,instructor highly rated,instructor teaching style relaxed,instructor perceived as nice,instructor perceived as flexible,instructor shares personal research experience,real-time feedback from instructor,contrast with static literature,student reliance on references,student perception of instructor expertise"
+    },
+    {
+        "chunk_id": 38,
+        "codes": "lack of citation requirements, classroom discussion for reflection, subjectivity in qualitative research, expressing personal perspective, use of observation method, use of interview method, encouragement to choose interesting topics, partner rock climbing observation activity, importance of interest in observation, need for detailed focus, positive affect toward course"
+    },
+    {
+        "chunk_id": 39,
+        "codes": "positive classroom discussions, useful off\u2011class assignments, intro level course, good first impression of qualitative research, qualitative research not scary, enjoyable learning, course two parts, enjoyed course, no formal reference list, heavier reading, methodology readings, case study examples, seeing methodology applied, appreciation of materials, principles emphasized"
+    },
+    {
+        "chunk_id": 40,
+        "codes": "cheat list provided, summarizing method part, observation assignment list, focus on environment, pre\u2011activity observation, participatory observation, observer as participant, note weather, note personal feelings, note clothing, note teammate comments, note facial expressions, note gestures, recognize diverse expression styles"
+    },
+    {
+        "chunk_id": 41,
+        "codes": "limited verbal cues, reliance on gestures, broadened knowledge, observation techniques, seeking richer data, multiple resource types, cheat sheet provided, PowerPoint reference, new perspective, positive learning experience, recall of coding activity, disease case study, reflection on activity"
+    },
+    {
+        "chunk_id": 42,
+        "codes": "coding topic, instructor solo interview, interview excerpt, group of three collaboration, dual-sheet setup, columns as themes/feelings, rows as paragraphs, noting theme and feelings, keyword identification method, daughter's perspective on father's illness, perspective shift from worry to positivity, group reading and analysis"
+    },
+    {
+        "chunk_id": 43,
+        "codes": "group turn-taking, member summarization, pre-set research question, pre-coding concept, a priori coding reference, four Ws framework, perspective change, event keyword identification, location focus, reason exploration, family relational influence, instructor balancing freedom and structure, group diverse perspectives"
+    },
+    {
+        "chunk_id": 44,
+        "codes": "maintaining methodological framework, tension between student freedom and structure, subjectivity of qualitative research, importance of teaching structure, reference to 4Ws, unclear source of 4Ws idea, personal generation of 4Ws concept, influence of writing class teacher, teacher offering suggestions not constraints, provision of table as teaching aid, guiding students within widely used method, emphasis on start point for teaching."
+    },
+    {
+        "chunk_id": 45,
+        "codes": "seeking validation,interviewer affirmation,distinguishing coding domains,initial misunderstanding of coding,learning coding as categorization,teaching coding to novices,emphasis on theme generation,coding as data reduction,linking coding to content analysis,acknowledging interdisciplinary usage"
+    },
+    {
+        "chunk_id": 46,
+        "codes": "distinguishing coding vs categorizing, codes as keywords, categories as grouping, using interview paragraphs as codes, code for father's illness, multiple codes under one category, formal terminology in research, personal uncertainty, self\u2011reflection, thinking aloud, conceptual clarification, research terminology preference"
+    },
+    {
+        "chunk_id": 47,
+        "codes": "perception that coding isn\u2019t widely used, limited reading in field, sense of unfamiliarity with coding, instructor using films for teaching, film about ancient healing/herbal medicine, film about European village, film about Chinese topic, recalling film after a month, keeping instructor\u2019s PowerPoint slide, instructor asking to focus on details, linking film viewing to qualitative data analysis, interviewer highlighting coding as essence, participant\u2019s surprise at new coding perspective."
+    },
+    {
+        "chunk_id": 48,
+        "codes": "theoretical background slide, content areas economics politics culture history, interviewer minimizes concern, time pressure, request for teaching suggestions, consider student background, teaching PhD-level course, focus on research relevance, practical application emphasis, identifying qualitative\u2011suitable research questions, developing topic taxonomy"
+    },
+    {
+        "chunk_id": 49,
+        "codes": "desire for cheat sheet, need for practical tools, appreciation of flexible teaching style, suggestion to connect course to own research, request for brief proposal assignment, emphasis on method applicability, positive sentiment toward instructor, acknowledgment of research difficulty, call for flexible guidelines, wish for concrete examples"
+    },
+    {
+        "chunk_id": 50,
+        "codes": "positive evaluation of course,interest in additional courses,seeking next steps,awareness of diverse student backgrounds,desire to apply method to own research,request for future course recommendations,inquiry about coding software,perceived professor supportiveness,seeking validation from professor,emailing professor with research questions,request for guidance on best approach,summarizing course experience"
+    },
+    {
+        "chunk_id": 51,
+        "codes": "offering future support,open email inbox,willingness to answer questions,suggesting relevant classes,peer/friend outreach,expressing gratitude,acknowledging stress,sending positive energy,polite closing,hope for calm"
+    },
+    {
+        "chunk_id": 52,
+        "codes": "discomfort with being filmed, self\u2011conscious about appearance, concern about audience perception, increased deliberation on teaching content, intention to be more explicit, emphasis on recognition in analysis, satisfaction with class material, difficulty recalling lesson details"
+    },
+    {
+        "chunk_id": 53,
+        "codes": "time pressure end of semester, squeezing content into place, satisfaction with added recognition content, reflection on recognition concept, personal significance of recognition, emphasis on careful listening, recognition as listening to participant, perspective taking, attempt to understand meaning, clarity through articulation, new slide on recognition, ongoing slide updates each semester, continuous curriculum adaptation"
+    },
+    {
+        "chunk_id": 54,
+        "codes": "concern about detail balance, perceived misunderstanding, semester curriculum changes, confusion between classes, coding exercise implementation, desire for more time on coding activity, presentation scheduling causing backlog, insufficient class time, wish for extended discussion, emphasis on student recognition, perception of successful implementation"
+    },
+    {
+        "chunk_id": 55,
+        "codes": "positive feeling, serendipitous moment, artistic piece about incarceration, arts-based research approach, feeling observed helpful, self-questioning purpose, reflective insight, realization of need for self-inquiry, coding exercise description, content-based open coding, reflexive coding, preset coding skepticism, uncertainty about preset codes"
+    },
+    {
+        "chunk_id": 56,
+        "codes": "new topic for learners, uncertainty about repeating exercise, teaching as experimentation, evaluating method usefulness, favoring open coding, limited use of Braun & Clarke framework, avoiding preset codes, introducing qualitative to non\u2011specialists, directing serious students to advanced course, linking preset coding to quantitative studies, student specialization hesitation"
+    },
+    {
+        "chunk_id": 57,
+        "codes": "limited quantitative background, teaching introductory methodology, emphasizing open coding, students generating themes, satisfaction with student interview outcomes, focus on operationalizing codes, students grasp theme purpose, balancing quantitative and qualitative, perceived student difficulty with operationalization, interview used for assessment"
+    },
+    {
+        "chunk_id": 58,
+        "codes": "pleased with interview outcomes,interviews described as awesome,grad students viewed as beautiful breed,education pursued for altruistic reasons,not motivated by money or ease,emergent insights valued,beauty of unplanned findings,researcher\u2011participant reciprocal relationship,mutual contribution of perspectives,hope for unique outcomes,positive perception of class,emphasis on intrinsic motivation."
+    },
+    {
+        "chunk_id": 59,
+        "codes": "changing slide order, perceiving detail as persnickety, forgetting written content, memory lapse after break, discussing study with colleague, feeling overwhelmed by writing, relating to colleague's experience, acknowledging nuanced nature of teaching, slide changes improve coherence, self\u2011doubt about progress, collaborative feedback, recognizing small details matter"
+    },
+    {
+        "chunk_id": 60,
+        "codes": "overloading slides with text, acknowledging common PowerPoint habit, student comment about boring slides, feeling sleepy during lecture, time pressure limits depth, graduate student fatigue, class schedule conflicts with nap time, energy dip late morning, unintentional boring presentation, desire to cover too much material"
+    },
+    {
+        "chunk_id": 61,
+        "codes": "energy drink use, morning alertness, building allergy, allergy medication drowsiness, embarrassment falling asleep, cultural norm against sleeping in class, professor referencing student fatigue, extreme tiredness in lecture, chewing to stay awake, carrot consumption for alertness, classroom noise from eating, pen trailing off, grad student fatigue commonality, perceived severity differences"
+    },
+    {
+        "chunk_id": 62,
+        "codes": "allergy to building, sneezing, runny eyes, falling asleep, drowsiness, course challenge, self\u2011doubt, analysis anxiety, difficulty articulating analysis, fear of wasting time, perceived incompetence, uncertainty about cause, teaching analysis difficulty, multiple analysis approaches, time allocation concerns, subjectivity in analysis, researcher\u2011participant relationship, analysis intimidating, forgetting ease of analysis"
+    },
+    {
+        "chunk_id": 63,
+        "codes": "seeking language to discuss,recognition valued,uncertainty about analysis,analysis as moving target,constant not knowing,accepting uncertainty,professor emphasizes more questions,beauty in endless questioning,desire to master,feeling of paradox,academic pressure to master"
+    },
+    {
+        "chunk_id": 64,
+        "codes": "never achieving mastery, feeling rough, questioning fixed certainty, lesson timing issue, student refusal to be filmed, respecting participant autonomy, desire for inclusive class community, emergence of small cliques, concern about lesson plan deviation, awareness of research ethics"
+    },
+    {
+        "chunk_id": 65,
+        "codes": "large class size,international students feel isolated,quieter participants,desire for integrated group work,uncertainty about impact,challenge of generative groups,discomfort with unfamiliar peers,difficulty being generative,actual class size 22\u201123,usual class size max 16"
+    },
+    {
+        "chunk_id": 66,
+        "codes": "satisfied with number, perceived perfect, optimal small group size, balance group mix vs name recall, avoid term pedagogy, discomfort with pedagogy term, use interview as shared material, individual pre\u2011work 5\u202fmin, group work after individual, reflection on insufficient solo time, uncertainty about timing, concern remembering names, need manageable group numbers, interview analysis process, hesitation labeling pedagogy"
+    },
+    {
+        "chunk_id": 67,
+        "codes": "group formation, collaborative work, small groups, session duration, whole\u2011class debrief, theme sharing, cross\u2011group variation, preset difficulty, agreement, disagreement, idea challenge, idea bounce"
+    },
+    {
+        "chunk_id": 68,
+        "codes": "learning from mistake, avoidance of repeat, external insight, forgotten details, desire to share inspiration, emotional resonance of personal story, seeking recognition, subconscious cue, motivation to inspire others, intention to provide positivity, participants noting beauty of Alzheimer's, surprise at unexpected perspective, answering interviewer's question"
+    },
+    {
+        "chunk_id": 69,
+        "codes": "difficulty with terminology, preference for alternative naming, selecting movie for student representation, desire for ownership and recognition, personal emotional impact, postponed viewing due to finals, interest sparked by description, perception of multiple thematic layers, themes of capitalism, globalization, colonialism, authenticity, appreciation of movie quality, preference for insider-produced content, sharing movie with class"
+    },
+    {
+        "chunk_id": 70,
+        "codes": "enjoyed sharing,short on time,competing priorities,bad planning,self\u2011blame,regret not taking notes,living life,desire to repeat,artistic beauty,thoughtful piece,no narration,recommendation to watch,system constraints"
+    },
+    {
+        "chunk_id": 71,
+        "codes": "Chinese sweatshop labor, copying famous art, worker dissatisfaction, lack of appreciation for art significance, worker travels to Amsterdam, imagined gallery vs cheap trinket store, awareness of price markup, low worker wages, global capitalism influence, self\u2011reflection on artistic capacity, shift to personal art creation, interviewer merchandising background, awareness of supply chain dynamics, differing perspective on film, admiration for worker\u2019s initiative"
+    },
+    {
+        "chunk_id": 72,
+        "codes": "low wages, unfair labor practices, cheap kids shoes, perception of unfair pay, ethical education in undergrad, desire for corporate ethics videos, art depicting factory/sweatshop, paintings of labor conditions, workers sleeping on floor, identification with poor artist, Van Gogh as symbol of poverty, disillusionment after visiting Amsterdam, emotional response of disappointment, critique of corporate responsibility, visual critique through artwork, awareness of exploitation, feeling that situation is \"crazy\", undergrad ethics training, desire to raise corporate awareness."
+    },
+    {
+        "chunk_id": 73,
+        "codes": "respect for Van Gogh, pilgrimage to grave, museum visit, self\u2011comparison with artist, researcher\u2011like curiosity, learning through painting and words, group movie viewing, emotional crying, moving experience, budget\u2011friendly purchase, using Vimeo, using YouTube premium, schedule kept open for activities, commercial considerations"
+    },
+    {
+        "chunk_id": 74,
+        "codes": "uses older tech, prefers full version, avoids YouTube cut, watches whole movie, finds scenes moving, seeks larger themes, focuses on thematic analysis, researcher mindset enhances observation, aware of researcher mode, notes dual perspectives, considers student feedback, reflects on lesson questions"
+    },
+    {
+        "chunk_id": 75,
+        "codes": "coding difficulties,focus on language quirks,surface\u2011level analysis,odd vs substantive coding,language\u2011oriented relevance,broad general codes,overly vague terms,laughter,first\u2011level coding,need to break down codes,uncertainty about correct coding,noticing big themes,drilling down to specifics"
+    },
+    {
+        "chunk_id": 76,
+        "codes": "noticing occasions vs nuances, uncertainty about terminology, emphasis on situational context, collaboration on coding, differing coding approaches, philosophical discussion, avoidance of nitty\u2011gritty teaching, fear of influencing students, self\u2011censorship about relevance, acceptance of digression, paraphrasing coding style, alternative coding method by professor, relevance assessment, increased communication with professor, bridging theory and practice"
+    },
+    {
+        "chunk_id": 77,
+        "codes": "interest in high inference,comparison of teaching styles,discursive psychology focus on language structure,fascination with methodological diversity,idea of coding same text multiple ways,suggestion for future class,recognition of dense textbook,awareness of multiple qualitative methods,curiosity about coding approaches,lack of experience with multiple coding on same piece"
+    },
+    {
+        "chunk_id": 78,
+        "codes": "excitement about seeing pieces, surprise at process similarity, assigning dense book, feeling of redundancy, desire to summarize, speculation about professor's prior idea, belief summary would help all classes, appreciation of early analysis training, recognition of silos within discursive psychology, shifting focus across sessions, attention to turn in talk, noticing changes in talk."
+    },
+    {
+        "chunk_id": 79,
+        "codes": "seeking interpretive repertoires, learning through practice, dislike huge final paper, propose weekly tasks, use same dataset repeatedly, overwhelm by analytical options, experiencing panic attacks, anxiety about unknown material, shared panic experiences, not following professor's meaning fields, deviating from professor's approach, mention of professor's feedback"
+    },
+    {
+        "chunk_id": 80,
+        "codes": "skip meaning field, rely on intuition, familiarity with participants, perceived redundancy, insider knowledge, implicit meanings, dataset-dependent analysis, awareness of insider language, shared data analysis fatigue, feeling of already knowing, intuitive coding, lack of need for explicit coding, different degree of separation, recognition of subtle references"
+    },
+    {
+        "chunk_id": 81,
+        "codes": "proximity reduces perceived interest, need to make norms explicit, desire for more peer interview discussion time, feeling of time being squeezed, planning and timing challenges, students sharing interview themes, wish for clear student learning outcomes, frustration with scheduling, need to adjust system, emphasis on collaborative sense\u2011making"
+    },
+    {
+        "chunk_id": 82,
+        "codes": "students' quantitative background, acknowledging biases as strengths, generative potential of personal experiences, contrast with quantitative bias elimination, encouraging positive view of subjectivity, concern about reductive analysis, unique dataset\u2011person interaction, individual's baggage as insight, teaching students to value their perspectives, listening for hidden insights"
+    },
+    {
+        "chunk_id": 83,
+        "codes": "appreciation of qualitative research, reminder of purpose, feeling present, gratitude to interviewer, reflective thinking, interview helpful, emotional relief, satisfaction"
+    },
+    {
+        "chunk_id": 84,
+        "codes": "colleague reminder about forgetting, feeling horrified about forgetting, request to record interview, teaching introductory qualitative methods, graduate-level course, students from diverse departments, first exposure to qualitative methods, students taking course lightly, avoidance of qualitative methodology, students seeking comprehensive methods, spectrum of student attitudes, online class attracts novices, uncertainty about student characteristics"
+    },
+    {
+        "chunk_id": 85,
+        "codes": "enjoys teaching qualitative methods, long teaching tenure (>10 years), adjunct background, course changes each semester, perceives course as evolving child/adolescent, faculty position increases student interest, students seek instructor due to prior familiarity, difficulty describing typical students, increased enrollment from prior methodology courses, perception of course progression."
+    },
+    {
+        "chunk_id": 86,
+        "codes": "explaining research legitimacy,students unfamiliar with research,adjunct online teaching,repeatedly defending research,students now value qualitative research,changing attitudes toward qualitative methods,appreciation of shift,students described as lovely,high number of international students,diverse student cohort,students seen as favorites,students delightful"
+    },
+    {
+        "chunk_id": 87,
+        "codes": "notice student nationalities, less focus on program type, cultural knowledge differences, perceived diversity across board, identify \"check the box\" qualitative students, early years online class prevalence, pandemic disruption of course, teaches each semester except summer, mixed delivery mode, changes in student composition over time"
+    },
+    {
+        "chunk_id": 88,
+        "codes": "desire for face\u2011to\u2011face interaction, perception that others are desperate for face\u2011to\u2011face, shift from online to in\u2011person teaching, difficulty recalling pre\u2011pandemic normal, limited experience with online teaching, uncertainty about life before pandemic, belief that things won\u2019t return to previous state, happiness about being in\u2011person, brain \u201cfloats away\u201d when teaching online, computer perceived as work rather than people, fatigue with computer\u2011mediated teaching."
+    },
+    {
+        "chunk_id": 89,
+        "codes": "Zoom class exhaustion, In-person class rejuvenation, Increased energy after in-person, Feeling world\u2011ready after in-person, Desire to withdraw after Zoom, Colleague influence on mannerisms, Noticing personal mimicry, Self\u2011monitoring of behavior, Engagement in discussion without content change, Teaching analytical techniques, Perception of data\u2011analysis question as large/complex"
+    },
+    {
+        "chunk_id": 90,
+        "codes": "feeling overwhelmed, thinking about analysis since semester start, uncertainty where to begin, intent to follow up thought, morning clarity feeling, checking recording device, device confirmed working, interviewer reassurance, anticipating technical issues, past device mishap experience, collaborative interview stance"
+    },
+    {
+        "chunk_id": 91,
+        "codes": "analysis integration, emic vs etic distinction, social life understanding beyond statistics, participatory activity, pairing students with different backgrounds, insider/outsider role swapping, pandemic challenges, outside classroom interaction, tango activity, geocaching activity, knitting teaching."
+    },
+    {
+        "chunk_id": 92,
+        "codes": "cooking exchange, insider\u2011outsider perspective, learning by doing, cultural immersion, introducing culture to others, noticing cultural oddities, explicating process reveals details, making strange familiar, making familiar strange, rapport building, position taking, analysis beyond intellect, teaching analytical mindset, pre\u2011observation preparation"
+    },
+    {
+        "chunk_id": 93,
+        "codes": "teaching qualitative analysis as mindset, critique of checklist approach, \"way of being\" concept, positive reaction to phrase, uncertainty about originality, alignment with qualitative philosophy, reference to Rogerian theory, mention of Karl Rodgers book, intention to read suggested text, interactive interview dynamic"
+    },
+    {
+        "chunk_id": 94,
+        "codes": "no classes summer, teacher memory lapse, teaching sequence observations validity interviews, analysis taught in two classes, perceived rushed analysis sessions, student feels rushed, limited instructional time, introduce coding vocabulary, introduce analytical approaches, demystify coding, coding linked to everyday activities, coding as organizing data, definition of coding as organization"
+    },
+    {
+        "chunk_id": 95,
+        "codes": "multiple synonyms for coding, organizing categorizing ordering, demystifying coding, fear of coding, coding perceived as technical, comparison to statistics, emphasis on open coding, prioritized coding, paraphrasing practice, listening to text, staying true to text, encouraging interviewer, supportive feedback"
+    },
+    {
+        "chunk_id": 96,
+        "codes": "two-way process, researcher\u2011interviewee relationship, social constructivist stance, positivist stance, fusion of horizons, back\u2011and\u2011forth dialogue, researcher bias awareness, respect for participant, active listening, demystifying coding, presenting basics before coding, acknowledging participant voice, philosophical grounding, reflexivity"
+    },
+    {
+        "chunk_id": 97,
+        "codes": "introducing analysis methods, dense theory overload, simplifying via PowerPoint, providing starter guide, brain overload with discourse analysis, using tables to simplify, skipping philosophy sections, feeling helped by summaries, creating entry point for students, referencing Five Ways book"
+    },
+    {
+        "chunk_id": 98,
+        "codes": "focus on open coding, uncertainty about discourse analysis familiarity, comparing phenomenological and grounded theory, summarizing interview data, making sense of data, teaching open coding practice, using student notes, developing broader themes, limited course exposure, perceived similarity of methods, lack of familiarity with discourse analysis, student familiarity higher than instructor, uncertainty about future time passage"
+    },
+    {
+        "chunk_id": 99,
+        "codes": "using Enrique's Journey book, assigning subheadings as clues, coding types of power, leveraging diverse media for coding instruction, using personal interviews as data, expressing excitement about material, individual and small-group coding activities, conducting open coding in class, flexible teaching approach, encouraging student discovery"
+    },
+    {
+        "chunk_id": 100,
+        "codes": "overwhelmed by page length, page perceived as rich, too much information, difficulty comparing fields, uncertainty about system structure, peer expectation pressure, light\u2011hearted laughter, semester\u2011by\u2011semester design, reluctance to label as academic, framing data as existing in world, viewing work as qualitative research, distinction between secondary and primary data, confusion about terminology, feeling of adequacy, focus on discourse rather than content."
+    },
+    {
+        "chunk_id": 101,
+        "codes": "own-data collection, minimal observation analysis, emergent theme generation, avoid preconceptions, class practice exercises, limited practice sessions, time limitation, peer theme feedback, week-count ambiguity, interviewer confusion, participant doubt answering, broad"
+    },
+    {
+        "chunk_id": 102,
+        "codes": "avoid pre\u2011determined interview agenda, listen and summarize participant, favor emergent open analysis, dislike term emergent, teach open interviewing/coding/theming skills, frustration with procedural appearance, uncertainty about voicing concerns, concern methods misinterpreted, reference thematic analysis and grounded theory, perception of step\u2011by\u2011step process"
+    },
+    {
+        "chunk_id": 103,
+        "codes": "perceived inappropriateness of thematic analysis, belief that all research should be grounded, view that special procedures are unnecessary, appreciation of thematic analysis as natural practice, labeling influences committee approval, frustration with methodological labeling, teaching analysis as a way of being, qualitative research framed as way of being, emphasis on phenomenological experience, difficulty conducting social research without experience, reference to structuralist attempts."
+    },
+    {
+        "chunk_id": 104,
+        "codes": "frustration, knowledge gap, inability to argue, questioning norms, appreciation of research systems, emphasis on checks, need for validation, desire for critique, self\u2011deprecating humor, offering to share validity work, uncertainty, reporting hierarchy"
+    },
+    {
+        "chunk_id": 105,
+        "codes": "feeling muddled, desire for research vocabulary, perception of open coding as manageable, comprehension as goal, brain spinning from intro course, overwhelm from multiple approaches, open coding provides stability, curriculum pre\u2011designed before enrollment, faculty emphasis on hands\u2011on learning, one\u2011semester time constraint, inclusion of real\u2011life interviews, inclusion of real\u2011life observations, inclusion of real\u2011life analysis, enjoyment of teaching hands\u2011on activities, satisfaction from student engagement."
+    },
+    {
+        "chunk_id": 106,
+        "codes": "practice interviews,interactive class activities,preference for hands\u2011on learning,uncertainty about time allocation,squeezing analysis into short span,teaching analysis early,appreciation of paraphrase,seeking critique,recognition of emic/etic concepts,learning new terminology,appreciation of program focus,satisfaction with response,no further comments"
+    },
+    {
+        "chunk_id": 107,
+        "codes": "offering to send PowerPoint, providing supplemental materials, introducing basic vocabulary, defining key terms, relying on familiar analytic approaches, using grounded theory, using narrative analysis, using thematic analysis, using phenomenological approach, recent adoption of thematic analysis, observing peer trends, adapting methods over time, implicit adaptation, explicit decision\u2011making, influence of qualitative community, hearing popular methods repeatedly"
+    },
+    {
+        "chunk_id": 108,
+        "codes": "panic, feeling of inadequacy, searching for resources, note\u2011taking importance, semester\u2011by\u2011semester routine, regret for missed reflection, coding perceived as ubiquitous, coding seen as essential tool, emergent practice, feeling overwhelmed"
+    },
+    {
+        "chunk_id": 109,
+        "codes": "demystifying, introducing vocabulary, PowerPoint as reference tool, teaching coding types, simplifying concepts, preparing students, basic qualitative research knowledge, practice coding, quantitative vs qualitative distinction"
+    },
+    {
+        "chunk_id": 110,
+        "codes": "fear of statistics, lack of recent stats experience, perceived complexity of integrating quantitative and qualitative, feeling overwhelmed, demystifying coding, separating qualitative from quantitative coding, qualitative researchers seeking relevance, borrowing quantitative methods, need for systematic rationale, concern about ad hoc methods, validation of coding approach, reference to professor's class"
+    },
+    {
+        "chunk_id": 111,
+        "codes": "emphasize procedural understanding, acknowledge semester variability, use caregiver interview as teaching tool, share inspiring interview, provide printed materials, small group activity, individual reading, collaborative summary comparison, create concise summaries, use PowerPoint presentation, adapt teaching strategies, engage students through real-world examples, reflective teaching approach"
+    },
+    {
+        "chunk_id": 112,
+        "codes": "open coding, class feedback session, movie viewing, Chinese mass\u2011produced Van Gogh copies, sweatshop labor conditions, emotional impact (moving), disheartening observation of junky store, characters traveling to Amsterdam, inspiration to paint grandmother, personal artistic inspiration, discussion of art commodification, collaborative coding activity"
+    },
+    {
+        "chunk_id": 113,
+        "codes": "observation, recording interview, interest in classroom demonstration, theme-based analysis, use of PowerPoint for analysis, lack of class practice, too many methods, time constraints, technical check, concern about intrusiveness, spontaneous idea, columnar self\u2011reflective coding, a\u2011priori coding, tracking emergent codes"
+    },
+    {
+        "chunk_id": 114,
+        "codes": "stay true to participant,avoid imposing meaning,semester time constraint,limited depth expectation,professor uses high inference,students not required deep analysis,focus on coding,challenge teaching analysis,time limits depth,students interview their own data,instructor avoids second\u2011guessing,emphasis on surface\u2011level analysis"
+    },
+    {
+        "chunk_id": 115,
+        "codes": "feeling challenged, analysis beyond intellect, difficulty teaching non\u2011intellectual aspect, tension with quantitative audience, participation changes researcher, qualitative\u2011quantitative distinction, non\u2011cognitive analysis, enjoying the challenge, perceiving it as cool, seeking strategies to address challenge, feeling pushed cognitively, openness to cognitive input, reflecting on approaches when challenged"
+    },
+    {
+        "chunk_id": 116,
+        "codes": "literature increases empathy, historical narratives shift public opinion, empathetic understanding drives change, story power, multi\u2011level understanding influences change, feminist critical perspective, qualitative research advocacy, aim for positive social impact, empathy prioritized over intellect, citing empirical study, emphasis on narrative influence, desire to effect change."
+    },
+    {
+        "chunk_id": 117,
+        "codes": "belief that everyone should share view, students perceive course difficulty, bias as recurring concern, history of biased research oppressing groups, qualitative research not seeking general laws, struggle to explain bias differences, wish for clearer explanation of bias, portrait metaphor for qualitative findings, emphasis on holistic context, validity of qualitative despite bias, contrast with random sampling in quantitative"
+    },
+    {
+        "chunk_id": 118,
+        "codes": "struggle to persuade others, self\u2011doubt about persuasion effectiveness, addressing student issues, using visual/metaphorical explanations, difficulty conveying concepts, leveraging personal experiences for change, rejecting reliance on numbers, qualitative research motivated by intuition, criticism of prescriptive questionnaires, coding as core analytic method, assessing student comprehension via coding, student hand\u2011in as evidence of learning"
+    },
+    {
+        "chunk_id": 119,
+        "codes": "receiving coding samples,providing feedback on coding,checking theme\u2011interview alignment,limited depth in analysis,participant\u2011oriented approach,summary of participant statements,learning coding approach,open coding,broad coding scope,memory recall after interview,feeling completed,concern about exceeding time,awareness of interview length"
+    },
+    {
+        "chunk_id": 120,
+        "codes": "initial enjoyment,positive early reaction,ending recording,perceived lack of further input,disagreement,uncertainty"
+    },
+    {
+        "chunk_id": 121,
+        "codes": "slow learning process,initial confusion,gradual comprehension,multiple classes needed,progressive understanding,instructor prompts \u201cwhy\u201d,encouragement to dig deeper,focus on depth over surface,self\u2011reflection requirement,embarrassment over repeated feedback,perceived improvement,hands\u2011on fieldwork exercises,sense of challenge,frustration with feedback,development of qualitative analysis skills"
+    },
+    {
+        "chunk_id": 122,
+        "codes": "guided observation,scaffolding instruction,progressive complexity,detailed field notes,multiple observations,incremental learning,fear of being overwhelmed,increased interest,desire for more classes,advanced qualitative course,experiential learning,qualitative research engagement,class differentiation,initial class observation,case study focus,step\u2011by\u2011step guidance,hooked on methodology,avoidance of deep theory early,building analytical skills,observing campus participants"
+    },
+    {
+        "chunk_id": 123,
+        "codes": "engaging with Deleuze/Foucault/Butler theory, reading Denzin\u2019s manifesto, creating personal manifesto, emphasizing justification for methods, discouraging random actions, collaborative class discussion, small\u2011group manifesto development, large\u2011group sharing, diverse project formats, art\u2011based manifesto, video\u2011project manifesto, individualizing research approach, accompanying reflective paper, faculty granting autonomy, seeking sense\u2011making, peer feedback on ideas"
+    },
+    {
+        "chunk_id": 124,
+        "codes": "growth feedback, self\u2011reflection, list making, personal glossary creation, term inventory, knowledge check on terms, conference insight about data, realization of data necessity, extensive literature reading, article archive building, treasure\u2011trove feeling, extracting quotes for each term"
+    },
+    {
+        "chunk_id": 125,
+        "codes": "revisiting shelved material,exploring learned ideas,deep investment in qualitative,recognizing marginal notes,gratitude for rediscovery,building personal resource,excitement about project,allocating extra hours,creating qualitative manifesto,preparing for field experience,anticipating future use,sense of accomplishment"
+    },
+    {
+        "chunk_id": 126,
+        "codes": null
+    },
+    {
+        "chunk_id": 127,
+        "codes": "resistance to silence, opposition to discrimination, commitment to qualitative methods, reinterpretation of concepts, dual meaning of refusal, pedagogy of refusal as teaching approach, inquiry into meaning of refusal, application of refusal in data analysis, questioning data ownership, reflective questioning of why"
+    },
+    {
+        "chunk_id": 128,
+        "codes": "making decisions about data,considering refusal,identifying unsaid parts,desiring silences,concern for confidentiality,handling sensitive information,leaving data unsaid for alternative analysis,managing participant treatment,respecting field norms,refusal as research decision,coding perceived as nebulous,uncertainty in coding,qualitative coding challenges"
+    },
+    {
+        "chunk_id": 129,
+        "codes": "seeking instructor approval, instructor says \u201cdepends\u201d, coding flexibility, multiple coding approaches, personal preference in coding, maintains literature matrix spreadsheet, color\u2011coding organization, self\u2011identified nerd, structured coding system, alternative method\u202f\u2014\u202fprinting\u202f+\u202fhighlighting, considering qualitative software, coding method person\u2011dependent, adapting coding to project, openness to shift coding style, article claims coding isn\u2019t qualitative, perceiving article as harsh"
+    },
+    {
+        "chunk_id": 130,
+        "codes": "project-dependent coding decision, data-driven coding choice, flexibility in qualitative coding, contrast quantitative rigidity, fear of quantitative errors, lack of error feedback in qualitative, ability to revise qualitative coding, fairness and sense\u2011making emphasis, ethical considerations in coding, instructor introduction to coding tools, software as aid not replacement, learning coding in interview class"
+    },
+    {
+        "chunk_id": 131,
+        "codes": "coding flexibility, no step-by-step guidance, student choice of methods, emphasis on study relevance, revisiting data multiple times, small group discussion, applying different analytical lens, reanalysis of prior interview, shift in analytical focus, collaborative learning, student autonomy in coding"
+    },
+    {
+        "chunk_id": 132,
+        "codes": "positionality awareness, interviewing replacement, purposeful participant selection, bias realization, reanalysis with new lens, small group discussion, defending lens choice, peer feedback exchange, mutual learning, instructor feedback absent"
+    },
+    {
+        "chunk_id": 133,
+        "codes": "peer learning opportunity, future teaching plans, anticipating teaching role, recording instructor's lessons, comparing self to instructor, self\u2011doubt about teaching, fear of inadequacy, temporary shutdown, building confidence, small\u2011group data analysis, reflecting on data selection, willingness to share data, concerns about data sharing, experience of group exercise"
+    },
+    {
+        "chunk_id": 134,
+        "codes": "self\u2011reflection, need to pause and reflect, projected expectations, justification exercise, rethinking decisions, shift in perspective, stuck in habits, small\u2011group discussion, peer input, revelatory moment, insecurity, positive feedback, instructor criticism, growth support"
+    },
+    {
+        "chunk_id": 135,
+        "codes": "variable group work formats, instructor changes activity mode, no single best method, Jamboard discussion board use, face-to-face discussion, written peer feedback, confidence building via peer validation, self\u2011doubt about writing, peer affirmation boosts confidence, confusion about data analysis lessons, shared laughter about confusion, case study class lacks step\u2011by\u2011step guidance, instructor does not outline case study steps"
+    },
+    {
+        "chunk_id": 136,
+        "codes": "case study discovery,room anxiety,student crying,teacher-centered expectations,alternative teaching method,student analysis assignment,Three Little Pigs exercise,fun creative learning,model conflict,physical discomfort,over seriousness,learning achieved"
+    },
+    {
+        "chunk_id": 137,
+        "codes": "misuse of case study term, awareness of methodological rules, feeling of increased understanding, frustration with French philosophers, language barrier, difficulty pronouncing names, taking ownership of interpretation, active self\u2011directed learning, rejecting passive reception, intensive reading, piecing together concepts, class presentation assignments, learning from classmates, selective integration of peer analysis, reduced pressure feeling"
+    },
+    {
+        "chunk_id": 138,
+        "codes": "note-taking, capture all information, selective extraction, personalized learning, forming teaching philosophy, acknowledging individual differences, case study class stress, need for clearer outlines, content\u2011first vs experiment\u2011first dilemma, allowing student struggle, providing variety, alternating data and explanation"
+    },
+    {
+        "chunk_id": 139,
+        "codes": "student frustration with open-ended tasks, feeling vulnerable in unknown tasks, uncertainty about performance, analogy between qualitative research and teaching, providing factual outlines, allowing student struggle, learning through stress, applying science teaching methods to qualitative instruction, encouraging student exploration, incorporating verification of learning, emphasizing individual takeaways, ensuring all students on same track, concern about students being lost, balancing guidance and autonomy, teacher reflection on pedagogy"
+    },
+    {
+        "chunk_id": 140,
+        "codes": "methodological sampling, pedagogy of refusal, uncertainty about explaining, self\u2011directed reading, dialogue over direct instruction, learning through discovery, reading articles to form opinions, group discussion learning, absence of direct instruction model, discussion language emphasis, lesson plan reference"
+    },
+    {
+        "chunk_id": 141,
+        "codes": "discussion-based class, shift from lecture to discussion, PowerPoint reduced to logistics, student presentations on theorists, dialogue among students, instructor adds insights, non-authoritative correction, collaborative knowledge construction, instructor perceived as grounded, clear articulation, conscientious teaching style"
+    },
+    {
+        "chunk_id": 142,
+        "codes": "thought\u2011provoking, acceptance, enthusiasm for final question, participant surprise, expectation mismatch, learning as progression, need for practice, struggle with analysis, feedback loop, instructor feedback, peer feedback, iterative adjustments, scaffolded understanding, questioning purpose, curiosity about design"
+    },
+    {
+        "chunk_id": 143,
+        "codes": "gradual learning,learning by doing,learning through failure,incremental skill accumulation,lack of formal instruction,guided after assignment,positive feedback,self-directed book learning,building manifesto,multiple analysis perspectives,uncertainty about teaching,experiential learning"
+    },
+    {
+        "chunk_id": 144,
+        "codes": "readiness to proceed, complexity acknowledged, individualized process noted, no additional input, pseudonym selection, positive appraisal of conversation, well-wishes for project, recognition of research gap, anticipation of future conference, enthusiasm expressed, friendly goodbye"
+    },
+    {
+        "chunk_id": 145,
+        "codes": "frustration with political interference, concern about academic freedom, student self\u2011motivation, desire for explicit assignment/product, preference for process over product, critique of research training focus on product, instructor explains purpose to students, sarcasm/exasperation about study relevance"
+    },
+    {
+        "chunk_id": 146,
+        "codes": "paying attention, no rejection, curiosity about product impact, uncertainty of participant responses, comfort with no assignment, appreciation for collaborative data workshop, reading Norm's qualitative manifesto, critique of manifesto application, highlighting lack of diversity citation, perceived preaching without practice, empowerment to create own manifesto, participant engagement with manifesto content, evaluation question focus, concerns about process productivity."
+    },
+    {
+        "chunk_id": 147,
+        "codes": "academic socialization to papers, default to paper assignments, shift to non\u2011paper formats, deliberate production thinking, reconceptualizing manifesto, qual\u2011fessionals podcast assignment, Spotify playlist assignment, DJ script as text, group variability, students inclined to creativity"
+    },
+    {
+        "chunk_id": 148,
+        "codes": "explicit data analysis interrogation, deliberate reflection on expression, re-imagining research, manifesto writing, uncertainty about outcomes, student fear of paper, meandering response, effect of analysis on thinking, pedagogy of refusal framework, coding as creative, emphasis on elasticity, individual student conferences, encouraging rethink of analysis, use of Tuck\u202fYang article, student anxiety, teacher intentional guidance"
+    },
+    {
+        "chunk_id": 149,
+        "codes": "dry lockstep coding, desire to avoid rigid coding, deliberate coding choices, grant acquisition, formation of qualitative survival group, marginalized student identities, adoption of pedagogy of refusal, reading Bell Hooks, aligning teaching with critical theory, limited class application, intention to expand framework, teaching case study methodology, incorporating social justice, future pedagogical plans."
+    },
+    {
+        "chunk_id": 150,
+        "codes": "student agency,critical interrogation,explicit deliberation,shifting workload to students,pedagogy of refusal challenges,predominantly white undergraduates,upper socioeconomic status,high out-of-state enrollment,recruitment machine targeting wealthy,media coverage of recruitment,homogenous student body,repeat pipeline from undergrad to doctoral,institutional culture consistency,assumption of student homogeneity"
+    },
+    {
+        "chunk_id": 151,
+        "codes": "large intl student group, Black women in education, cross\u2011university teaching, highlight systemic oppression, assumed oppression focus, research seen as oppressive, colonial critique of research, students affirm oppression, pedagogy of refusal used, grant\u2011funded marginalized cohort, students selected framework, queer students present, majority students of color, student mothers, advanced qualitative class"
+    },
+    {
+        "chunk_id": 152,
+        "codes": "new student unfamiliar with instructor, lack of choice in course enrollment, enrollment driven by credential requirements, students aware of course content, perceived difficulty, integration of concepts into manifestos, direct engagement with Norm's work, refusal to accept authority, critical engagement with scholars, productive empowerment, instructor feeling unprepared, inheriting course mid\u2011semester, using existing syllabus, group of Black women PhD students, uncertainty about teaching, adapting syllabus on the fly"
+    },
+    {
+        "chunk_id": 153,
+        "codes": "recognition of Eurocentrism, discomfort with dominant narratives, critique of cisheteronormativity, embarrassment about Eurocentric bias, student critical awareness, expectation of critical lens in qualitative research, confusion in advanced qualitative class, student-led critique paper, short papers for early feedback, student autonomy in text selection, pedagogical refusal, lack of pushback or challenge, institutional Eurocentric bias, moments of student misunderstanding"
+    },
+    {
+        "chunk_id": 154,
+        "codes": "older veteran student, unintentionally offensive remarks, student mitigation of offense, recognizing lack of harmful intent, veteran receptive to education, majority of students embrace pedagogy of refusal, useful discussion point, reading about refusals of norms, meta\u2011analysis of refusing norms, articulating why refusals are problematic, confusion about interview question"
+    },
+    {
+        "chunk_id": 155,
+        "codes": "pedagogy of refusal, norm rejection, critical reflection on qualitative tradition, student awareness of structural pretence, diversity performativity, gatekeeping in qualitative research, benefitting from existing norms, privilege and low risk for established scholars, questioning doctoral student position"
+    },
+    {
+        "chunk_id": 156,
+        "codes": "lack of tenure protection, institutional exploitation, systemic inequities, underpaid essential labor, profit-driven institution, job insecurity, work feasibility tied to identity, work feasibility tied to location, fear of repercussions without protections, need for legibility in field, balancing conformity and innovation, risk of becoming illegible to advisors, navigating field norms, vulnerability without institutional support."
+    },
+    {
+        "chunk_id": 157,
+        "codes": "frustration with performative activism, feeling set up by peers, critique of non\u2011empirical scholars, ease of critiquing without participation, emphasis on community\u2011engaged research, perceived hypocrisy, pedagogy of refusal, analysis of structural reproduction, reference to Butler\u2019s frames of war, view of oppression as dynamic"
+    },
+    {
+        "chunk_id": 158,
+        "codes": "evolving racism, invisible structural racism, oppressive institutional norms, advisor-imposed expectations, gatekeeping in academia, marketability pressure, publication barriers, employability concerns, research on civil rights trauma, counselor PhD student focus, perceived advisor hostility, structural oppression, dynamic concept of racism, institutional control mechanisms"
+    },
+    {
+        "chunk_id": 159,
+        "codes": "structural_norms_vs_risk, peer_review_practice, collaborative_feedback, mutual_intellectual_growth, instructor_self_improvement, academic_competitiveness, dark_academia_aspect, peers_as_obstacles, equity_concept, resource_limited_metaphor, critique_of_competition, desire_for_collaboration"
+    },
+    {
+        "chunk_id": 160,
+        "codes": "envy of peers' achievements, comparative insecurity, perceived lack of faculty support, publish-or-perish pressure, belief in collaborative thinking, peer review improves manuscripts, student feedback improves teaching, valuing others' perspectives, incorporating peer feedback in class, use of focus groups, participant\u2011observer roles, collaborative manifesto workshops, use of Google Jamboard, preference for collaborative tools, building collaborative learning environment"
+    },
+    {
+        "chunk_id": 161,
+        "codes": "collegial environment, meaningful experiences, empowering experiences, PhD motivation beyond academic performance, teaching continuous learning, peer support for alternative thinking, arts-based versus non-arts thinkers, collaborative tool suggestions, desire to experiment with research tools, collaboration providing new tools, collaboration providing new perspectives, collaboration providing new ideas, non\u2011competitive atmosphere, no grade for focus group activity, graded pre\u2011 and post\u2011focus group reflections, focus group as learning space, peer interaction fostering learning, empowerment through tool use"
+    },
+    {
+        "chunk_id": 162,
+        "codes": "in\u2011class collaboration time, prior outside\u2011class collaboration ineffective, schedule constraints, instructor as resource, building community, safe space for peer credit, mutual dependence, non\u2011judgmental correction, familiarity reduces defensiveness, positive peer feedback, shared scholar identity, recognition of common experiences"
+    },
+    {
+        "chunk_id": 163,
+        "codes": "diverse interests and abilities, ditzy stereotype, subject-matter expertise, peer perception change, data sharing as learning, challenging airhead label, small-group interaction focus, instructor desire to capture dialogue, weekly data revisions, freedom to choose data source, dissertation-mode students, novice data uncertainty, using intro-qual data, guaranteed interview data"
+    },
+    {
+        "chunk_id": 164,
+        "codes": "initial ignorance, feeling overwhelmed, crying during class, recognizing researcher growth, self\u2011critique of voice, colonizing mindset, collaborative validation, shared mistakes, complex terminology anxiety, reflection on development, initial dumb actions, emotional overwhelm, voice ethics dilemma, peer support, learning through reflection"
+    },
+    {
+        "chunk_id": 165,
+        "codes": "personal failure feeling,learning process,recognizing personal growth,manifesto effort,creating term dictionary,redefining qualitative terms,data analysis prompting reflection,past mistake awareness,intention to improve,new data after first week,vulnerability in sharing data,fear of judgment,shared vulnerability in collaboration,openness to share data"
+    },
+    {
+        "chunk_id": 166,
+        "codes": "peer coding help, self\u2011criticism, moments of confidence, first\u2011night vulnerability, limited session slots, good\u2011faith collaboration, mutual support, feedback and idea sharing, willingness to change data, realizing alternative approach, student discarding dissertation plan, extensive peer feedback, recognizing good intentions but problems, renegotiating with chair, concern about legibility"
+    },
+    {
+        "chunk_id": 167,
+        "codes": "minimal prerequisites for advanced class,weird advanced qualitative course,fellows program funded by institute/government,fellows required to take qualitative certificate,field perceived as quantitative-heavy,program managers lack qualitative expertise,qualitative questions differ from quantitative,interviewee loses train of thought,uncertainty about funding source,recognition of need for qualitative training,mention of introductory qualitative courses,limited enrollment capacity,confusion about course sequence,honoring prior conversations"
+    },
+    {
+        "chunk_id": 168,
+        "codes": "advanced students, PhD pursuit, certificate attainment, advanced class for fun, only introductory courses, feeling dangerous, non-researcher identity, mindset shift, peer feedback sharing, thinking like researcher without own data, policy prohibiting apologies"
+    },
+    {
+        "chunk_id": 169,
+        "codes": "apologizing before asking question, fear of appearing dumb, peer monitoring of behavior, peer support, collaborative data analysis understanding, identity modification through research, instructor openness to questions, forgetting questions, offering email follow\u2011up, interviewer noting email responsiveness"
+    },
+    {
+        "chunk_id": 170,
+        "codes": "wish for better data collection, hybrid format eases data collection, breakout groups aid collection, prior data analysis experience, analyzing structural norms, plan to embed method in social justice class, mixed feelings about case study, no case study prerequisites, health education unit requirement, students' sole qual class, alarm over limited qual exposure, students taking class for co\u2011op credit, variable task turnaround time, perception of normal response speed"
+    },
+    {
+        "chunk_id": 171,
+        "codes": "elective selection, case study motivation, uncertainty about refusal, lack of knowledge to refuse, new data analytic component, focus group facilitation, ethnographic fieldnote collection, ethnographic narrative production, process\u2011over\u2011product emphasis, narrative workshopping, reimagining data production, missing post\u2011production step, student and researcher confusion, perceived gap in analysis"
+    },
+    {
+        "chunk_id": 172,
+        "codes": "desperation to produce data, questioning meaningful use of data, methodological vs method distinction, data analysis experimentation, frank communication with students, future emphasis on process over product, student insistence on assignments, proposal of reflection paper, suggestion of group reflection paper, shift away from data\u2011crunch pressure, incorporating explicit data analysis engagement, students no longer overwhelmed."
+    },
+    {
+        "chunk_id": 173,
+        "codes": "interview class teaching, substantial data collection, intentional data production, intentional data analysis, practice-theory alignment, black feminist stance, interjecting during interview, not listening to participants, self-reflective analysis, intent vs effect incongruence, shaping research process, shaping research product, analysis representation, non-arts epistemology, collaborating with arts thinkers, valuing other perspectives"
+    },
+    {
+        "chunk_id": 174,
+        "codes": "exploring alternative analysis, opting out of methods, meandering thoughts, productive semester, positive class perception, student reflective thinking, self-awareness in field, initial student identity, identity shift to researcher, hesitancy to generalize, feeling well-equipped"
+    },
+    {
+        "chunk_id": 175,
+        "codes": "enthusiasm for project, feeling honored to contribute, uncertainty about impact, positive perception of students, willingness to be contacted for clarification, acknowledgment of added logistical burden, appreciation of collaborative learning, view of project as important, generative experience, acceptance of situation, gratitude towards researchers, excitement about data analysis"
+    },
+    {
+        "chunk_id": 176,
+        "codes": "generative group discussion, prompting off\u2011project questions, reflection on data analysis, comparing introductory vs advanced qualitative methods, collaborative thinking while viewing classroom data, balancing act of idea introduction, sense of awesomeness about collaboration, ongoing virtual co\u2011presence, pandemic enabling remote connection, increased ease connecting with distant colleagues"
+    },
+    {
+        "chunk_id": 177,
+        "codes": "recording announcement, instructor uncertainty about course goals, inherited syllabus late, advanced doctoral students, students pursuing qual PhD or certificate, previous teaching of introductory courses, changed introductory course content, program discussions on curriculum alignment, advanced course unchanged for years, first year teaching advanced course"
+    },
+    {
+        "chunk_id": 178,
+        "codes": "mixed student familiarity,new student in class,prior relationships with students,transparent communication,insufficient time to redesign syllabus,uncertainty about course goals,misaligned objectives,collaborative sense\u2011making with students,repeated teaching without clarity,COVID hybrid year ambiguity,first\u2011day framing of depth,minimal competence expectation,mandatory enrollment,requirement\u2011driven motivation"
+    },
+    {
+        "chunk_id": 179,
+        "codes": "deep engagement metaphor, questioning theoretical frameworks, active data production, advanced course interrogation, introductory focus on procedural knowledge, ethical self\u2011questioning, surprise at student demographics, pleasure at diversity, undergraduate homogeneity, high out\u2011of\u2011state enrollment, doctoral program diversity, international student presence, black women representation, queer student representation, lack of preparation for diversity, excitement about diverse cohort"
+    },
+    {
+        "chunk_id": 180,
+        "codes": "questioning qualitative methods,reflecting on appropriateness,challenging taken-for-granted norms,pedagogies of refusal,refusing status quo,refusing colonization of research,reading critical papers,disrupting methodological norms,feeling excited about new practice,interrogating methodological standardization,recognizing potential problems in dominant conversations,early semester task,collaborative reading,critical self\u2011reflection,confronting research colonization,rethinking qualitative assumptions"
+    },
+    {
+        "chunk_id": 181,
+        "codes": "disruptive classroom discourse, potentially reifying, students nickname \u201cMindfuck\u201d class, positive view of disruption, hard reading assignments, challenging content, self\u2011interrogation exercises, encouraging critical questioning, advanced student confidence, qualitative/mixed\u2011methods focus, students feel equipped, sense of awe, exploring unknown knowledge, recognizing possible misconceptions, instructor promises syllabus, instructor responsiveness, diverse student backgrounds, methods vs other programs."
+    },
+    {
+        "chunk_id": 182,
+        "codes": "full-time doctoral students, students also teachers/counselors/administrators, diverse academic backgrounds, qualitative research focus, older student age, lived experience valued, articulation of experience as research, marginalized identities, qualitative method centers identity, quantitative method perceived as limited for identity personalization"
+    },
+    {
+        "chunk_id": 183,
+        "codes": "education background,full-time status,part-time status,awareness of knowledge gaps,perceived overconfidence,mandatory attendance frustration,previous elective experience,capstone class expectations,schedule-driven enrollment,ABD status,single class concern,concern about program requirement"
+    },
+    {
+        "chunk_id": 184,
+        "codes": "occupying marginalized identities, research focus on marginalized groups, concern for methodological rigor, motivation to graduate, need to placate committee, awareness of past research harms, tight\u2011knit student cohort, shared qualitative classes, multiple courses with same instructor, qualitative certificate pathway, intentional course redesign for broader networking, encouragement of diverse collaborations, administrative scheduling constraints, failed implementation of networking goal"
+    },
+    {
+        "chunk_id": 185,
+        "codes": "confusion about EdD vs PhD, perception of EdD as fast\u2011track, no coursework difference, students switching to PhD, academic cachet of PhD, premium payment for fast\u2011track, funding committee role, mixed PhD/EdD cohort, questioning purpose of EdD, dismissive attitude toward EdD, cohort\u2011specific pricing, fast\u2011track associated with practitioners."
+    },
+    {
+        "chunk_id": 186,
+        "codes": "limited funding eligibility, short program duration, required student record, time constraints, EdD to PhD transition, perceived equivalence of work, perceived superiority of some EdD students, advocacy for EdD students, EdD concentration in higher education, EdD concentration in library sciences, special education EdD for minors, employment in affiliated facilities, institution-specific role alignment for EdD."
+    },
+    {
+        "chunk_id": 187,
+        "codes": "no fast\u2011tracked EdDs, cohort grouping, online asynchronous delivery, occasional in\u2011person meetings, cohort\u2011specific faculty, health cohort takes Advanced Qualitative\u202f3, class size cap 15, actual enrollment 16, student dropped due to scheduling, full class, introducing analytic strategies, pedagogy of refusal introduced, promote critical qualitative approach, instructor aims to use refusal as analytic frame"
+    },
+    {
+        "chunk_id": 188,
+        "codes": "desire for explicit decolonial/anti\u2011racist focus, resistance to optional inclusion, concern about burden on already marginalized students, applying decolonial frame to literature and data analysis, questioning status\u2011quo, reconceptualizing data collection, reconceptualizing data analysis, uncertainty about outcomes, feeling of prolonged avoidance, reference to Tuck\u202f&\u202fYang coding critique, reading literature on problematic coding practices, instructor probing student learning"
+    },
+    {
+        "chunk_id": 189,
+        "codes": "dissertation coding uncertainty, data analysis standard critique, philosophical differences, ethical attachment concerns, researcher identity questioning, consent process trouble, transcription difficulty, inability to transcribe, transcript as static fact, unexamined transcript production, transcription decision\u2011making, engagement with transcript as data, qualitative norm interrogation, feeling overwhelmed, need to interrogate methods"
+    },
+    {
+        "chunk_id": 190,
+        "codes": "course introduction, collaborative reading, notion of refusal, critical application of refusal, student manifesto assignment, engaging with Denzin's refusal, pushback from students of color, critique of reading list representation, absence of Black women scholars, gender imbalance in citations, student awareness of bias, resistance to canonical norms"
+    },
+    {
+        "chunk_id": 191,
+        "codes": "questioning racial representation,refusal as analytical lens,self\u2011reflection on scholarly identity,integrating refusal throughout curriculum,engagement with critical theorists,reading Derrida,reading Deleuze,reading Butler,reading Berard,revisiting outsider/insider concept,students relating self to participants,students relating self to committees,students relating self to dissertation topics,desire for disruptive classroom,critical pedagogy"
+    },
+    {
+        "chunk_id": 192,
+        "codes": "desire for constant questioning, hopeful aspiration, uncertainty about effectiveness, participants excited, trust in team members, team jumps in eagerly, collaborative approach, first-time use of pedagogy of refusal, grant-funded data analysis group, qualitative PhD cohort, rejecting academic norms, student\u2011TA dual role, conflict of dual roles, mandatory engagement, fellow doctoral status"
+    },
+    {
+        "chunk_id": 193,
+        "codes": "undergrad-like engagement, leveraging prior class experience, frontload disruption discussion, vocabulary gap for disruption, explicit norm discussion, student frustration, introductory coding exposure, coding used in dissertations, desire for single correct coding method, tendency to code everything, coding as analytic tool"
+    },
+    {
+        "chunk_id": 194,
+        "codes": "quantitative background of students, misconception of qualitative methods, post\u2011positivist framing vs actual approach, emotional distress (tears), feeling out of depth, lack of support (no \u201cfloaties\u201d), socialization to positivist research, coding viewed as procedural, emphasis on counting occurrences, questioning significance of frequency, instructor prompting methodological reflection"
+    },
+    {
+        "chunk_id": 195,
+        "codes": "confusion about software capabilities, expectation that software performs analysis, frustration with software limitations, reliance on in\u2011vivo coding, perception of software as a holding cell, emphasis on researcher as analysis instrument, struggle with self\u2011coding, need to stress researcher agency, denial of objectivity pretense, instructor asserting decision authority, student dependence on instructor guidance, battle over student autonomy, misunderstanding of qualitative software role"
+    },
+    {
+        "chunk_id": 196,
+        "codes": "metaphor of alien emergence, codes are constructed, responsibility for coding decisions, reflection on coding rationale, students struggle with explaining why, focus on what vs why, encouraging autonomy in coding, need to justify coding choices, perceived lack of right way, instructor emphasizes sense\u2011making"
+    },
+    {
+        "chunk_id": 197,
+        "codes": "confusion about why vs how, perceived over\u2011complexity, coding viewed as engineering, emphasis on pattern detection, optional fancy complexity, intimidation fear, belief coding is impossible, modeling as teaching method, showing multiple coding strategies, emphatic instructional tone, non\u2011authoritative approach, old\u2011school printing and highlighting"
+    },
+    {
+        "chunk_id": 198,
+        "codes": "paper waste avoidance, modeling for students, resonating with students, color\u2011coding research questions, visual highlighting, stepwise rereading, analytical parsing, demonstrating software tools, student enthusiasm for tech, student resistance to tech, delegating modeling to TA, collaborative coding demonstration, non\u2011prescriptive teaching, emphasis on flexibility, teaching phenomenological interviewing, deep listening difficulty, requiring nontraditional interviews, photo\u2011voice method, object\u2011based interview, timeline\u2011based interview, walking interview"
+    },
+    {
+        "chunk_id": 199,
+        "codes": "unconventional data collection,alternative analysis methods,found poetry, narrative analysis,art\u2011based assignments,link to elective courses,aspirational goal/utopia,student internalization of multiple methods,student preference for familiar method,instructor tolerance of student choice,faculty resistance to change,instructor frustration,perceived faculty rigidity"
+    },
+    {
+        "chunk_id": 200,
+        "codes": "faculty pushback on research methods, citing personal past experience as authority, students using new versus existing data, students ABD status, special education fellows program offering free PhD, mandatory placement with adjudicated youth, qualitative certificate requirement, instructor's grant collaboration, instructor serving as methodologist, perceived compromised qualitative methods, instructor feeling underqualified, refusing to graduate unprepared students, program director reliance on instructor, grant influence on program design, student data source decisions, tension between expectations and capabilities"
+    },
+    {
+        "chunk_id": 201,
+        "codes": "qual class certificate discussion, progression through qualitative courses, second-year PhD status, limited existing data, instructor offering supplemental data, encouragement to collect own data, emphasizing utility of self-collected data, ability to reuse data later, some students needing to collect data, archival dissertations incompatible with talk\u2011based methods, instructor readiness to assist, variability in student data needs"
+    },
+    {
+        "chunk_id": 202,
+        "codes": "uses own data for teaching, uses student-collected data when available, students delay course due to data concerns, instructor flexible with data sources, uses manuscript excerpts as teaching examples, seeks volunteer data, concerns about student comfort sharing data, ABD students postpone course, instructor questions student timing in program, no strict rule on data source selection"
+    },
+    {
+        "chunk_id": 203,
+        "codes": "quantitative data pool, educational neuroscience users, data not relevant to students, MRI/eye\u2011tracking examples, use unfamiliar data to teach coding, emphasis on process over content, envelopes with data excerpts, students cut and rearrange data, cutting process problematic, changing coding decisions, use of tape for adjustments, hands\u2011on learning activity, modeling with instructor's data, co\u2011teaching with doctoral students, instructor assesses student understanding"
+    },
+    {
+        "chunk_id": 204,
+        "codes": "student code copying, instructor creates obscure codes, assessment of explanatory ability, focus on process over product, paradigm shift toward process, evaluation of reflection quality, no evaluation of data collection, student struggle explaining rationale, instructor prioritizes process, pre\u2011interview reflection, post\u2011interview reflection"
+    },
+    {
+        "chunk_id": 205,
+        "codes": "evaluation of process, clarity of articulation, self\u2011handle on process, describing non\u2011authentic process, lockstep compliance, following prescribed method, pain justified as effectiveness, struggle with authenticity, early education framing research as results, lack of self\u2011interrogation, contemplating pedagogy of refusal."
+    },
+    {
+        "chunk_id": 206,
+        "codes": "uncertainty about student uptake, hope for extensive reflective writing, emphasis on self\u2011analytic writing, emphasis on data\u2011analytic writing, promotion of class discussion, encouraging interrogation of qualitative field, encouraging self\u2011interrogation, seeking authenticity in student narratives, concern about parroting literature, concern about parodying literature, desire for student ownership of work, desire for authentic voice, instructor\u2019s perception of authenticity, expectation of continued learning."
+    },
+    {
+        "chunk_id": 207,
+        "codes": "feeling overwhelmed by feedback, refusing to apologize for feedback, giving critical feedback (\"forced\", \"unclear\"), students acknowledging correctness, desire for work to be meaningful and useful, aim for authentic, heartfelt writing, frustration with journal editors' vague standards, criticism of peer review process, moments of student ownership of writing, hope for student autonomy in final product, allowing flexible paper formats, referencing past student example"
+    },
+    {
+        "chunk_id": 208,
+        "codes": "thread-based project, sense of ownership, perceived authenticity, desire for critical stance, framework of refusal, questioning authenticity, interviewer praise, self-described \"bad participant\", lack of expectations, navigating unknown class dynamics, class commencement, uploading syllabus, self-judgment, reflective regret, desire to improve"
+    },
+    {
+        "chunk_id": 209,
+        "codes": "never-ending process, valuing student group, upfront openness, admitting lack of knowledge, legitimizing uncertainty, research as useful uncertainty, excitement for collaboration, students perceived as smart, students perceived as thoughtful, students' sense of humor, anticipating fun, self-perceived correctness, positive course outcome, course release benefit, class perceived as straightforward"
+    },
+    {
+        "chunk_id": 210,
+        "codes": "applying theoretical frameworks, using critical race theory, using feminist theory, seeking analytical meaning, switching analytical lenses, impact of lenses on data engagement, research journey progression, advanced qualitative class perceived as messier, scholar developmental stage, expectation of clarity vs reality, surprise at increased complexity, questioning software access, confirming student software access, department-provided software"
+    },
+    {
+        "chunk_id": 211,
+        "codes": "free software access for students, institution provides qualitative software, undergrads unfamiliar with quantitative software, software selection discussion, library collaboration on software choice, grant applications require qualitative software, mixed student attitudes toward software, software compatibility with library systems, software not favorite but functional, software availability across university"
+    },
+    {
+        "chunk_id": 212,
+        "codes": "uncertainty about software functionality, library support integrated in decision\u2011making, ability to schedule appointments with research librarians, instructor opened software and felt lost, no clear favorite software, ease of use linked to prior doctoral experience, familiarity drives software preference, moments of task\u2011specific confusion, turning to YouTube for troubleshooting, emailing librarians with questions, perception of personal problem needing solution, librarians described as delightful and helpful, librarians kept busy/employed, students have autonomy to choose software, variable software selection among students."
+    },
+    {
+        "chunk_id": 213,
+        "codes": "student excitement, student disappointment, instructor laughter, instructor suppressing laughter, perception of qualitative research as chaotic, varying student engagement, semester week focus on analysis, syllabus inspection, random blank pages in Word, inability to delete pages, technical document problem, instructor frustration, methodological conservatism first weeks, week five transition"
+    },
+    {
+        "chunk_id": 214,
+        "codes": "optimal weeks identified, uncertainty about later weeks, student\u2011led class periods, recording logistics discussion, Zoom recording option, mailing recording device option, potential increased instructor workload, student virtual attendance choice, assumption of face\u2011to\u2011face semester, no mask mandate context, sarcastic comment on pandemic safety"
+    },
+    {
+        "chunk_id": 215,
+        "codes": "mask mandate, bar outings, no vaccine mandate, state law limits on mandates, faculty senate protest, policy frustration, political divide, virtual class option, provost push for face\u2011to\u2011face, sarcastic comment toward administration, student Zoom attendance"
+    },
+    {
+        "chunk_id": 216,
+        "codes": "share Zoom link, use cloud transcript, built-in classroom microphone, pivoting webcam, test Zoom later weeks, fallback plan if fail, prioritize ease for instructor, need co\u2011host privileges, monitor online students, create breakout rooms, prefer own Zoom account for control, flexibility in platform choice, no objection to using others' link"
+    },
+    {
+        "chunk_id": 217,
+        "codes": "researcher presence consent, student decision authority, students aware of research norms, possible student objection, teacher education observation experience, participant questioning identity, observation as acceptable, camera off to reduce discomfort, creepy feeling of passive observation, plan for researcher non-presence, reminder to students about participation, instructor comfort with researcher role, ethical concern about intrusion, duration of observation concerns"
+    },
+    {
+        "chunk_id": 218,
+        "codes": "recording for learning, confidence in student enthusiasm, prior high school teaching experience, neutral attitude toward observation, invitation to observe, flexible scheduling before week five, willingness to host study session, agreement to email follow\u2011up, mostly night teaching schedule, provision of specific days/times, logistical confidence"
+    },
+    {
+        "chunk_id": 219,
+        "codes": "evening class scheduling,full\u2011time professional participants,program requirement constraints,interviewer arranging follow\u2011up,email coordination,weekly instructor attendance,flexible meeting times,reference to deaf scholar,disability studies focus,critique of transcription,sharing academic resources,interest in radical methodology,acknowledgment of scholarly work"
+    },
+    {
+        "chunk_id": 220,
+        "codes": "deaf researcher identity, Jeffersonian transcription discussion, collaborative doctoral group, teaching social interaction class, paper on transcription subjectivity, learning from mentor, following new ideas, program development planning, excitement about project, gratitude expressed, positive meeting interaction, delight in collaboration"
+    },
+    {
+        "chunk_id": 221,
+        "codes": "dog called fool, dog misbehaving, closed blinds, dog big ears, dog hears all, blinds ineffective, speaker resigned, interviewer positive comment, instructor acknowledges moments, polite closing"
+    }
+]
