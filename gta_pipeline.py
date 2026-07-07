@@ -10,7 +10,7 @@ def run_open_coding(text_chunks, model_type="local"):
     
     for i, chunk in enumerate(text_chunks):
         print(f"  -> Open Coding chunk {i+1}/{total}...")
-        raw_response = call_llm(OPEN_CODING_PROMPT, chunk, model_type)[cite: 1, 2]
+        raw_response = call_llm(OPEN_CODING_PROMPT, chunk, model_type)
         
         try:
             # Clean and parse the JSON array

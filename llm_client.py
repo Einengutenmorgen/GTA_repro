@@ -45,7 +45,7 @@ def call_llm(system_prompt, user_text, model_type="local"):
             # The pipeline automatically applies the correct chat template for the model
             outputs = pipe(
                 messages,
-                max_new_tokens=1024,
+                #max_new_tokens=1024, #erst nach letztem run geändert 
                 temperature=0.3, # Low temperature for consistent qualitative analysis
                 do_sample=True
             )
