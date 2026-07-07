@@ -7,7 +7,7 @@ from gta_pipeline import run_open_coding, run_axial_coding, run_selective_coding
 
 BASE_DATA_DIR = "data/RelationshipQuality"
 
-def extract_and_chunk_interviews(target_dir,chunk_size=1500):
+def extract_and_chunk_interviews(target_dir,chunk_size=50000):
     """
     Reads only the interview PDFs from the data directory and splits them 
     into character-length chunks to safely fit inside the LLM context window.
@@ -61,31 +61,31 @@ def main():
         print(f"=======================================================")
 
         # 2. Extract Data
-        # print("=== Phase 0: Data Extraction ===")
-        # chunks = extract_and_chunk_interviews(country_dir)
+        print("=== Phase 0: Data Extraction ===")
+        chunks = extract_and_chunk_interviews(country_dir)
         
-        # if not chunks:
-        #     print(f"No text extracted for {run_name}. Skipping...\n")
-        #     continue
+        if not chunks:
+            print(f"No text extracted for {run_name}. Skipping...\n")
+            continue
             
-        # print(f"Extracted {len(chunks)} text chunks from PDFs.\n")
+        print(f"Extracted {len(chunks)} text chunks from PDFs.\n")
 
-        # # 3. Open Coding
-        # print("=== Phase 1: Open Coding ===")
-        # open_codes = run_open_coding(chunks, MODEL_TO_USE)
-        # open_out_path = os.path.join(output_dir, "output_open_codes.json")
+        # 3. Open Coding
+        print("=== Phase 1: Open Coding ===")
+        open_codes = run_open_coding(chunks, MODEL_TO_USE)
+        open_out_path = os.path.join(output_dir, "output_open_codes.json")
         
-        # with open(open_out_path, "w") as f:
-        #     json.dump(open_codes, f, indent=4)
-        # print(f"Saved -> {open_out_path}\n")
+        with open(open_out_path, "w") as f:
+            json.dump(open_codes, f, indent=4)
+        print(f"Saved -> {open_out_path}\n")
 
         #contuinue from step 2 
-        with open('/Users/christophhau/Desktop/GTA/data/RelationshipQuality/output_Silan-Ciruelas_USA_Silan-Ciruelas_USA_Opt1/output_open_codes.json', "r") as f:
-            open_codes=json.load(f)
+        # with open('/Users/christophhau/Desktop/GTA/data/RelationshipQuality/output_Silan-Ciruelas_USA_Silan-Ciruelas_USA_Opt1/output_open_codes.json', "r") as f:
+        #     open_codes=json.load(f)
         
-        for oc in open_codes:
-            print(oc)
-            continue
+        # for oc in open_codes:
+        #     print(oc)
+        #     continue
 
 
         # 4. Axial Coding (Now correctly saving as JSON)
