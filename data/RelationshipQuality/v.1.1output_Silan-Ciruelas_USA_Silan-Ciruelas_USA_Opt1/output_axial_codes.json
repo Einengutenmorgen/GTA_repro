@@ -1,0 +1,219 @@
+[
+    {
+        "reasoning": "Trust and communication are repeatedly highlighted as the core foundations of relationship quality; participants explicitly label trust as the most important factor and describe communication as essential for positive interaction.",
+        "supporting_open_codes": [
+            "Code: Trust identified as a key factor in current marriage",
+            "Code: Trust identified as most important relationship factor",
+            "Code: Communication identified as important relationship factor",
+            "Code: view of communication as positive",
+            "Code: Perception that ex\u2011boyfriends lacked trust",
+            "Code: trust issues with ex\u2011boyfriends",
+            "Code: Communication identified as important relationship factor"
+        ],
+        "axial_category": "Core Trust and Communication",
+        "condition": "Partners need mutual trust and effective communication to maintain a stable relationship.",
+        "action_interaction": "Partners discuss issues openly, share feelings, apologize, and maintain positive dialogue.",
+        "consequence": "Higher perceived stability, satisfaction, and relationship longevity."
+    },
+    {
+        "reasoning": "A set of codes describes how couples manage conflict by using silence, delaying arguments, or postponing discussions until emotions subside, indicating a distinct conflict\u2011management strategy.",
+        "supporting_open_codes": [
+            "Code: open discussion of differing opinions",
+            "Code: view of communication as positive",
+            "Code: keeping quiet to think before responding",
+            "Code: avoiding fighting while both are angry",
+            "Code: withholding response when partner in bad mood",
+            "Code: delaying argument and retaliation",
+            "Code: Avoid discussing issues while angry",
+            "Code: Not fight at that moment when both are angry"
+        ],
+        "axial_category": "Conflict Management Strategies",
+        "condition": "When disagreements arise and partners feel angry or upset.",
+        "action_interaction": "Partners employ silence, postpone discussions, and later revisit issues calmly.",
+        "consequence": "Reduced escalation, improved resolution, and preservation of relational harmony."
+    },
+    {
+        "reasoning": "Multiple codes focus on parenting responsibilities, differing educational opinions, and household chores, showing how child\u2011rearing dynamics shape relational interactions.",
+        "supporting_open_codes": [
+            "Code: Number of children",
+            "Code: Household composition count",
+            "Code: Differing opinions on children\u2019s education",
+            "Code: Perceived lack of husband's effort in parenting",
+            "Code: Frequent arguments over parenting involvement",
+            "Code: Positive perception of husband as a good dad",
+            "Code: suggestion to outsource housework to reduce tension",
+            "Code: perception that housework overload reduces relationship quality",
+            "Code: Providing vague guidelines to children",
+            "Code: Mother paying detailed attention to child's grades and school performance",
+            "Code: Son's behavior requires more parental attention",
+            "Code: Daughter's disciplined behavior reduces conflict",
+            "Code: Husband's belief in shared responsibility for children",
+            "Code: Desire for increased husband involvement in parenting",
+            "Code: unresolved family issue and ongoing struggle",
+            "Code: anticipation that resolution depends on son leaving for college"
+        ],
+        "axial_category": "Parenting and Household Responsibilities",
+        "condition": "Presence of children and shared domestic duties.",
+        "action_interaction": "Partners negotiate educational approaches, divide chores, and discuss parenting roles.",
+        "consequence": "Conflict or cooperation that directly influences overall relationship quality."
+    },
+    {
+        "reasoning": "Codes emphasize emotional support, safety, and practical assistance, indicating that perceived reliability and caring behavior constitute a central emotional support system.",
+        "supporting_open_codes": [
+            "Code: Partner apologizing after conflict",
+            "Code: Perceived stability and emotional support in the relationship",
+            "Code: feeling safe in the relationship",
+            "Code: ability to count on partner for help",
+            "Code: partner as first point of contact during emergencies",
+            "Code: trust in partner's reliability",
+            "Code: partner perceived as primary source of emotional and practical support",
+            "Code: Partner provides emotional support during disagreements",
+            "Code: emotional safety and vulnerability",
+            "Code: ability to confide in partner without judgment"
+        ],
+        "axial_category": "Emotional Support and Safety",
+        "condition": "When partners require reassurance, assistance, or crisis response.",
+        "action_interaction": "Partner apologizes, offers help, listens, and provides emergency support.",
+        "consequence": "Increased sense of safety, trust, and overall relational stability."
+    },
+    {
+        "reasoning": "Sexual intimacy and non\u2011sexual affection are discussed through frequency, desire, and alternative forms of closeness, highlighting their impact on satisfaction.",
+        "supporting_open_codes": [
+            "Code: Low frequency of sexual activity",
+            "Code: Reduced personal sexual desire, accommodating partner's needs",
+            "Code: Self-reported satisfaction with current sex life",
+            "Code: Valuing simple non\u2011sexual physical affection",
+            "Code: Partial satisfaction with relationship",
+            "Code: Expression of being very satisfied",
+            "Code: Self-rated satisfaction score of 8-9",
+            "Code: Acknowledgment of occasional unhappiness in relationship"
+        ],
+        "axial_category": "Sexual Intimacy and Physical Affection",
+        "condition": "Age, privacy constraints, and differing sexual desire levels.",
+        "action_interaction": "Partners engage in varying sexual frequency, provide non\u2011sexual affection, and accommodate each other's needs.",
+        "consequence": "Variable satisfaction levels; occasional dissatisfaction when intimacy needs are unmet."
+    },
+    {
+        "reasoning": "A cluster of codes describes role transitions after marriage (e.g., learning cooking, increased irritability, shifting focus), indicating personal change linked to marital status.",
+        "supporting_open_codes": [
+            "Code: Learning new domestic skill (cooking) after marriage",
+            "Code: Increased irritability after marriage",
+            "Code: Need to adapt to spouse's habits",
+            "Code: Shift of focus from husband to children after having kids",
+            "Code: Perceived increase in husband's responsibility",
+            "Code: Transition from student to working adult after marriage",
+            "Code: Shift in role identity from daughter to wife/mother with new responsibilities",
+            "Code: personal change and identity loss",
+            "Code: personal maturation"
+        ],
+        "axial_category": "Role Transition and Personal Change",
+        "condition": "Life\u2011stage changes such as marriage, parenthood, and career shifts.",
+        "action_interaction": "Individuals acquire new skills, adapt habits, and re\u2011prioritize responsibilities.",
+        "consequence": "Personal growth, occasional irritability, and redefined self\u2011identity."
+    },
+    {
+        "reasoning": "Several codes reference external influences\u2014friends\u2019 divorces, cultural expectations, and family pressure\u2014showing how social context shapes participants\u2019 relationship perceptions.",
+        "supporting_open_codes": [
+            "Code: Observation that friends' marriages ended in divorce",
+            "Code: Another friend\u2019s marriage ended in divorce",
+            "Code: friends' divorces due to financial issues",
+            "Code: Perception that ex\u2011boyfriends lacked trust",
+            "Code: Cultural differences from other parents",
+            "Code: maternal pressure to avoid dating during college",
+            "Code: post\u2011graduation pressure to find a partner and marry",
+            "Code: expectation to marry quickly and have children immediately",
+            "Code: perception of cultural differences from other parents",
+            "Code: perception that having a family provides stability"
+        ],
+        "axial_category": "External Social and Cultural Influences",
+        "condition": "Observations of peers, cultural norms, and family expectations.",
+        "action_interaction": "Participants compare their relationships to others and adjust expectations accordingly.",
+        "consequence": "Influences on relationship expectations, perceived pressure, and sense of stability."
+    },
+    {
+        "reasoning": "Data\u2011sharing ethics codes form a distinct group describing consent procedures, options, and participant preferences for transcript handling.",
+        "supporting_open_codes": [
+            "Code: Commitment to ethical transparency",
+            "Code: Offering partial de\u2011identified transcript option",
+            "Code: Offering full transcript with anonymization option",
+            "Code: Acknowledgement of minimal re\u2011identification risk",
+            "Code: Participant selects de\u2011identified option",
+            "Code: Researcher emphasizes ethical transparency",
+            "Code: Option for sharing de\u2011identified transcript",
+            "Code: Option for sharing full transcript with anonymization",
+            "Code: Participant selects option one",
+            "Code: Researcher confirms participant's choice"
+        ],
+        "axial_category": "Data Sharing Ethics and Consent",
+        "condition": "Research protocol requires participant consent for data use.",
+        "action_interaction": "Researchers present sharing options, explain risks, and obtain participant choice.",
+        "consequence": "Ethical compliance and documented participant preference."
+    },
+    {
+        "reasoning": "Codes related to partner responsiveness and helpfulness (e.g., cooking, errands, emergency response) cluster together, reflecting a functional support dimension.",
+        "supporting_open_codes": [
+            "Code: Partner offers to help with cooking when free",
+            "Code: Partner reliably helps with cooking when free",
+            "Code: Partner reliably helps with errands (e.g., medication, shampoo)",
+            "Code: Partner responsiveness rating (6\u20118)",
+            "Code: Partner listening rating",
+            "Code: Partner responds quickly in emergencies",
+            "Code: Partner's responsiveness (rating 8\u20119)",
+            "Code: Partner's listening rating (7.5)",
+            "Code: Partner's responsiveness rating (8)",
+            "Code: Partner's responsiveness rating (9)"
+        ],
+        "axial_category": "Partner Responsiveness and Helpfulness",
+        "condition": "Partner is needed for practical tasks or emergency assistance.",
+        "action_interaction": "Partner provides cooking help, runs errands, and responds promptly to requests.",
+        "consequence": "Increased reliance, trust, and perceived support within the relationship."
+    },
+    {
+        "reasoning": "A set of codes explores alternative conflict\u2011resolution avenues beyond direct discussion, such as involving grandparents or using video calls, indicating a search for supplementary strategies.",
+        "supporting_open_codes": [
+            "Code: Question about alternative conflict resolution methods beyond talking",
+            "Code: Perception that no alternative method exists",
+            "Code: Attempt to handle issue by talking to child in the right way",
+            "Code: Use of video calls with grandparents for communication",
+            "Code: Requesting grandparents to discuss issues with grandchildren",
+            "Code: Belief that grandparents provide different attention due to generational differences",
+            "Code: Identification of grandparents as an additional communication channel"
+        ],
+        "axial_category": "Alternative Conflict\u2011Resolution Strategies",
+        "condition": "When direct discussion does not resolve a disagreement.",
+        "action_interaction": "Participants consider involving third parties (grandparents) or using technology to mediate conflict.",
+        "consequence": "Potential resolution through external mediation or continued impasse if alternatives are deemed ineffective."
+    },
+    {
+        "reasoning": "Satisfaction\u2011rating codes collectively capture participants\u2019 overall evaluation of their relationship, ranging from high satisfaction to occasional unhappiness.",
+        "supporting_open_codes": [
+            "Code: Self-rated satisfaction score of 8-9",
+            "Code: Partial satisfaction with relationship",
+            "Code: Expression of being very satisfied",
+            "Code: Acknowledgment of occasional unhappiness in relationship",
+            "Code: Perceived stability and low worry in marriage",
+            "Code: overall satisfaction rating (8\u20119)",
+            "Code: high overall relationship satisfaction",
+            "Code: self\u2011reported complete satisfaction",
+            "Code: partial fulfillment of expectations",
+            "Code: relationship does not fully meet expectations"
+        ],
+        "axial_category": "Overall Relationship Satisfaction",
+        "condition": "Participants are asked to evaluate their relationship on a numeric scale.",
+        "action_interaction": "Participants provide ratings, describe satisfaction levels, and note occasional issues.",
+        "consequence": "Provides a nuanced picture of relational quality, highlighting strengths and areas needing improvement."
+    },
+    {
+        "reasoning": "Family\u2011structure codes differentiate simple versus extended household arrangements and their impact on conflict levels, forming a distinct category.",
+        "supporting_open_codes": [
+            "Code: Simple family structure perceived as reducing conflict",
+            "Code: Extended family living together creates pressure and conflict",
+            "Code: Simple family structure",
+            "Code: Simple family structure"
+        ],
+        "axial_category": "Family Structure and Household Pressure",
+        "condition": "Living arrangements involve either a simple nuclear family or an extended family.",
+        "action_interaction": "Household composition influences daily interactions and potential sources of tension.",
+        "consequence": "Simple structures tend to lower conflict; extended arrangements increase pressure and relational stress."
+    }
+]

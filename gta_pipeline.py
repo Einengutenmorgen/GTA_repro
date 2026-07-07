@@ -11,6 +11,11 @@ def run_open_coding(text_chunks, model_type="local"):
     for i, chunk in enumerate(text_chunks):
         print(f"  -> Open Coding chunk {i+1}/{total}...")
         raw_response = call_llm(OPEN_CODING_PROMPT, chunk, model_type)
+
+        if not raw_response or not raw_response.strip():
+            print(f"  -> Warning: empty response for chunk {i+1}. Marking as failed.")
+            open_codes.append({"__status__": "failed", "chunk_id": i + 1, "reason": "empty_response"})
+            continue
         
         try:
             # Clean and parse the JSON array
@@ -21,6 +26,8 @@ def run_open_coding(text_chunks, model_type="local"):
             open_codes.extend(structured_codes)
         except json.JSONDecodeError:
             print(f"  -> Warning: LLM failed to return valid JSON for chunk {i+1}. Skipping.")
+            open_codes.append({"__status__": "failed", "chunk_id": i + 1, "reason": "json_parse_error"})
+
             
     return open_codes
 
@@ -33,7 +40,7 @@ def run_axial_coding(open_codes, model_type="local"):
     ])
     
     print("  -> Running Axial Coding synthesis...")
-    raw_response = call_llm(AXIAL_CODING_PROMPT, combined_codes, model_type)[cite: 1, 2]
+    raw_response = call_llm(AXIAL_CODING_PROMPT, combined_codes, model_type)
     
     try:
         clean_response = raw_response.strip().strip("```json").strip("```")

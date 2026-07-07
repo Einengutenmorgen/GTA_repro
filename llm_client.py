@@ -63,6 +63,7 @@ def call_llm(system_prompt, user_text, model_type="local"):
             client = OpenAI(
                 base_url="https://openrouter.ai/api/v1",
                 api_key=os.environ.get("OPENROUTER_API_KEY", "YOUR_OPENROUTER_KEY"),
+                max_retries=3,
             )
             
             # Select the proprietary model hosted on OpenRouter (e.g., GPT-4o or Claude 3.5 Sonnet)
