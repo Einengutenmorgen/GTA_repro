@@ -1,0 +1,902 @@
+[
+  {
+    "code": "Love",
+    "definition": "Responses that refer to romantic love",
+    "example": "Speaker 1 [00:23:29] Yeah, definitely. And. Just trying to understand conceptually what you think about relationships in general. What makes a relationship high quality? \n\nSpeaker 2 [00:23:42]... Just like. Loving each other and not just like. Like I just love each other, like physically, emotionally and mentally. Mhm. Because some relationships I feel like don't always have all three",
+    "theme": "Love/Affection",
+    "n_passages": 14,
+    "n_participants": 12,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Showing affection",
+    "definition": "Responses that indicate the individual or the partner showing affection",
+    "example": "Showing affection and taking their time to spend with a partner and not doing anything else and just spending time with them, going to the beach and stuff. And getting food would be my high quality.",
+    "theme": "Love/Affection",
+    "n_passages": 4,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Not just infatuation",
+    "definition": "Responses that distinguish between love from infatuation",
+    "example": "The whole time. It's just there's there's there's more of a connection going on, more of a draw towards each other than just like physical or pretend infatuation.",
+    "theme": "Love/Affection",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Don't need to fight for love",
+    "definition": "Responses that indicate love as something to be given excessive effort to earn",
+    "example": "High quality would be… In a sense um like, low maintenance in the in the sense of like she doesn't have to like, fully try to like, win my love and I don't have to fully try to win her love. Like we have each other's love right there. Like we love each other. Right. So it's not like we have to like, you know, go 110% only on like, special occasions, you know, is how I'd say, like anniversaries or birthdays. But like, like I think what makes our relationship high quality is that on it, like today we're just chillin or not probably not going to do anything.",
+    "theme": "Love/Affection",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Stability/temporality",
+    "definition": "Responses that indicate the continued existence of the relationship through time, or otherwise references to the stability of the relationship through time",
+    "example": "Speaker 2 [00:07:17] I think the best way for that is to just look back and see how long you've come. Because I know a lot of relationships, especially at this age, kind of tend don't last that long and just kind of become on and off.",
+    "theme": "Stability/Temporality",
+    "n_passages": 20,
+    "n_participants": 16,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Not about time",
+    "definition": "Responses that indicate relationship quality (or its elements) to not be about the duration of the relationship",
+    "example": "Speaker 2 [00:05:51] I guess the only difference is that, like, instead of like, talking for like, a very long period of time, me and him, we're talking to spend a fuck about like two months before getting together. But compared to, like, one of my closer friends, they waited to get together with them after like probably 1 or 2 years as friends in order to actually, like, want to date. \n\nSpeaker 1 [00:06:21] And what do you think about that difference? I guess I'm talking about a short amount of time compared to like a longer time. \n\nSpeaker 2 [00:06:31] Um, I don't. I don't really think that me and my friend are really different when it comes to relationships. We just like different compared to our experiences. But. Um, since I feel like people who are their own faces, I don't really think it really, really matters to compare me and my friends relationships. So I don't really feel bad about myself for like, moving fast. \n\nSpeaker 1 [00:06:55] I just. \n\nSpeaker 2 [00:06:56] I just kind of think about like, oh yeah, was slow that I size. So it's just like, oh, that's cool that you guys would slow. And sometimes I would think like, maybe I should have been slower with it. But then it was like I already had felt like a really deep connection.",
+    "theme": "Stability/Temporality",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Satisafction",
+    "definition": "Responses that indicate satisfaction or happiness particularly in regards to the relationship or the partner",
+    "example": "Speaker 1: Do you have any questions kind a about the quality of relationship or how do you base the quality of relationships in general?\nSpeaker 2: I would say a happiness.",
+    "theme": "Satisfaction",
+    "n_passages": 15,
+    "n_participants": 12,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Novelty",
+    "definition": "Responses that refer to doing novel activities or feeling novelty",
+    "example": "So you kind of have a strike, a good balance in between where everybody's benefiting from the relationship. So, you know, we get to do new things, for example, together. So think about, you know, what they like and what they dislike and or are willing to try. So, you know, you're just kind of trying to be adventurous in a way and trying to discover new things together. So I think if in a relationship, if you can do those things, then you can continue to grow. Right. It's just the same old thing every day. And you're not learning anything new about that person or with that person. I think that, you know, it'll you'll get bored or it'll start to create issues down the road where we're. Yeah, it's nothing is growing or nothing's developing, you as a person.",
+    "theme": "Satisfaction",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Comfort",
+    "definition": "Responses that refer to the feelings of comfort, especially as it pertains to the relationship",
+    "example": "Most I'd say most of. My married friends. We've all been kind of married for quite a while, and so the marriages are like, mature. There's a there is an ease and a comfort with them. The friends I have that have gotten divorced, married did that. I had quite a few friends get divorced when they had young kids like toddlers. But I get because young kids are terrible in a marriage. And so, yeah, there's an ease and comfort",
+    "theme": "Satisfaction",
+    "n_passages": 6,
+    "n_participants": 4,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Having fun",
+    "definition": "Responses that indicate of the individual as having fun",
+    "example": "Speaker 1: So what do you say? Or what would you say are the most important things in a relationship in general? \n\nSpeaker 2 [00:12:40] In general?\n\nSpeaker 1 [00:12:42] Yeah. \n\nSpeaker 2 [00:12:45] Maybe it’s just, it’s just loyalty. Or maybe cause you love each other. . Like I said, be respectful, or respecting each other. And then have fun with each other.",
+    "theme": "Satisfaction",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Not just about fun",
+    "definition": "Responses that indicate relationship quality to be beyond just having fun",
+    "example": "Well, I think my barometer used to be like, this is the first time I've gotten this far in a relationship, Right? So my barometer used to be what, I rather be in this relationship or out of it, like on a day to day basis for my life. Or if I were dating this person or not. But at this point, I don't know. I think I am invested enough in her life that it doesn't feel like it is just about whether or not I'm having fun anymore. So I don't really know how to answer that question.",
+    "theme": "Satisfaction",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Quality time",
+    "definition": "Responses that refer to spending \"quality time\" among with the partner",
+    "example": "I think being able to spend quality time with, you know, your partner or like my in my case, like being able to spend quality time with my girlfriend or being able to talk about things that I'm worried about or she's worried about and like always being there. So I'd be a shoulder to lean on. Even when you disagree with something they say, you know, or if they do the same. And I always kind of like being like a like a backbone when you can't have one.",
+    "theme": "Satisfaction",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Like spending time with each other",
+    "definition": "Responses that indicate of wanting or liking to spend time with each other",
+    "example": "Yeah. I guess with Alex specifically, it is that we. You get on like a house on fire. We have very similar senses of humor and we just I mean, we've been dating for nine months and we still call each other every day for like. 3 hours on the low end. So it just it feels good to spend time with [him]",
+    "theme": "Satisfaction",
+    "n_passages": 16,
+    "n_participants": 11,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Doing things togehter",
+    "definition": "Responses that indicate of doing things together",
+    "example": "Speaker 2 [00:05:58] High quality relationship would be doing things together as a couple and communication. Passion. Holly Passion really is the number one. Would be more of a high quality relationship for me. \n\nSpeaker 1 [00:06:25] And what would you say would be a low quality relationship for you. \n\nSpeaker 2 [00:06:31] Not spending time together, not doing things together, not having things in common? Yeah, that kind of just leads to all of the other things, like not being able. You don't communicate, you don't have things to communicate about. If you don't have things in common.",
+    "theme": "Satisfaction",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Having future plans",
+    "definition": "Responses that indicate planning future activities",
+    "example": "We have plans, we have things going on next week, we have things going on the week after that we have things that we're doing. I think that you've got to work on staying engaged with one another and with your lives together. And that if you don't have that it's almost a death knell. Because you've got to care about what you're going to do with this person, next week or next month or next year. And if you don't, the relationship has probably run its course.",
+    "theme": "Satisfaction",
+    "n_passages": 3,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Emotional safety",
+    "definition": "Responses that indicate being able to tell the partner thoughts, experiences or identities without fear of judgement or reprisal",
+    "example": "I think communication that you can have in a safe place is number one where you don't feel like somebody you have to walk on eggshells or that somebody's going to fly off the handle just because you say something.",
+    "theme": "Safety/Intimacy",
+    "n_passages": 13,
+    "n_participants": 9,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Intimacy / Can tell them stuff",
+    "definition": "Responses that either explicityly refer to intimacy or otherwise being able to tell the partner things that wouldn't necessarily or typically be divulged to other individuals",
+    "example": "I think it's a lot more intimate. You know, like, I feel like I can talk to her about other things. Like, I definitely open up to her a lot more about like how I feel about, like, what's going on at home and just like, kind of like my everyday things.",
+    "theme": "Safety/Intimacy",
+    "n_passages": 5,
+    "n_participants": 5,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Acceptence for who they are",
+    "definition": "Responses that indicate accepting the partner including both positive and negative aspects",
+    "example": ". Being in a relationship where you're you're in this place where you're thinking this person, oh, they have so much potential and they're going to change rather than just loving and enjoying the person who they are right now.",
+    "theme": "Safety/Intimacy",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Connecting emotionally",
+    "definition": "Responses that broadly refer to the emotional connection between partners",
+    "example": "We have like a sort of. Like. Connection that I never had with anyone else. We. No matter how hard things get, we're always there for each other. And we said breakup is not an option. We’d rather work through the problem. And like, talk about the loss. It's us against the problem, not us against each other. I don't know. I don't really know what else to sa",
+    "theme": "Presence/Emotional Connection",
+    "n_passages": 18,
+    "n_participants": 13,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Entitativity",
+    "definition": "Responses that refer to seeing one's relationship as that of a partnership or like a team",
+    "example": "This is very much me growing and becoming better as a person because of our being married or our partnership, as opposed to just being an individual. Like, say, in the past relationship, you're just an individual, so you're not really growing so much with that person. But this is different where, you know, we're kind of helping each other improve in some aspects and you know, just work as a team. And so you're learning how to be a team player and, you know, not just thinking about your own needs. So I think that's the big thing.",
+    "theme": "Presence/Emotional Connection",
+    "n_passages": 5,
+    "n_participants": 4,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Mutual respect",
+    "definition": "Responses that refer to the respect of the partner to each other",
+    "example": "Respect is more than love is more important. Because when you respect each other, we will love each other.",
+    "theme": "Respect",
+    "n_passages": 11,
+    "n_participants": 18,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Kindness",
+    "definition": "Responses that explicitly refer to kindness",
+    "example": "Kindness. Compassion. A desire to want to work together as a team. A love for each other",
+    "theme": "Respect",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Patience",
+    "definition": "Responses that explicitly refer to patience",
+    "example": "Honesty, Trust, Patience. I think those are our main qualities that we have towards each other, that we maintain. So. She has a lot of patience",
+    "theme": "Respect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Modeling relationships",
+    "definition": "Responses that refer to relationships that the individual model their relationship towards",
+    "example": "So back east, I think I was I kind of saw so many examples of relationships in my family that were very high drama. And then therefore, I thought that's what relationships should be like. There should be like a lot of nonsense and so forth",
+    "theme": "Respect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Consistency",
+    "definition": "Responses that explicitly refer to the perceived consistency of the respect of the partner",
+    "example": "The way he treats me like like being very respectful is super important and like, maintaining that like, Oh, don't be doing all that gentlemen's stuff in the beginning and then fall off later. Like, you have to keep it up. Yeah, just consistency, I would say, and a lot of reassurance. Yeah.",
+    "theme": "Respect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "General responsiveness",
+    "definition": "Responses that indicate perceived partner responsiveness in general i.e. that the individual can turn to the partner in times of distress, and can reasonably expect them for support and fulfillment of needs",
+    "example": "So I feel like for myself, it's very important because like just my family, like we, we tend to like emotionally support each other a lot. So like that kind of grew into like what I look for in a relationship. And so that's is kind of what I like about kind. I've been looking for like, I really care like if you're pretty or you know how to cook or whatever. Like, I don't care about that stuff as long as you, you know how to, like, listen to me and be there for me when I need you. I feel like that pretty much completes that.",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 8,
+    "n_participants": 8,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Occupational lattitude",
+    "definition": "Responses that indicate that the person is able to achieve their goals as facilitated by the relationship or the parnter",
+    "example": "The third one was a disaster, the guy that I should never have been with, at all. There he was, he was in love with me. I don't think I was ever in love with him. But he was a means to an end, I wanted to I had moved back in with my parents, I was out of school. And I wanted to get away from San Francisco, he was in LA. And I had a great excuse for getting away, gave me somebody who could help me establish myself in LA. He had a he was a lot older than I was, let me think he was 29. I was 21. And so he had this really sort of wild group of friends hanging out on the Sunset Strip, those types of friends. And therefore I could have those friends, I could have all of them. So I very much sort of took advantage of his relationships with other people. And in order to be able to move out of my parents house. I think that was the final time because it kept moving back and forth. And he Yeah, it was interesting, but a complete disaster. And I we didn't belong together should never have been together. I think he was gay anyway. I think ultimately. And that, you know, so but yeah, he wasn't it wasn't going to work out long term. But he was very that's what I want to use for him. He was very movie star ish. There's one I want to use. He was French. And he was tall. And he was very interesting looking at he had this fabulous wardrobe. And he had all these glamorous friends. And he was sort of the entree into that world in LA. Because at the time, that's what I wanted to do. And you know, we hung out a lot on nude beaches with all the beautiful people. There's a really long time ago. And but it was, as far as a relationship went, it was a disaster it was in, there was never, there was not any real love there. There was just a couple of people that for a moment got into each other's orbit. And believe me when he went out the door, I was never so happy to see the back of somebody. Because I was like, Yeah, please, please leave. Just Just go. You've been? You've been a huge mistake. There. Yeah. So this is the I guess this is my only decent relationship. Is this one here? I guess that makes a difference to Yeah. And there's which is why I've stuck with it. Because if it hadn't been good, I am somebody that would leave. So if it hadn't worked out, I would be would have been out of here a long time ago",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 6,
+    "n_participants": 6,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Being there through thick and thin",
+    "definition": "Responses that indicate that the partner is there for the individual both through easy and difficult periods",
+    "example": "Also, just being there for each other, not only in the lowest moment, but also in the highest moments, always being there like supporter in anything",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 4,
+    "n_participants": 4,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Somebody will be there for you",
+    "definition": "Responses that indicate the expectation that there will be someone who will be there for the individual",
+    "example": "You know, just living your life with another person and always knowing that somebody will be there for you. Like no matter what happens, like you don't really have to go through life by yourself. Like you have somebody there, like on your sidelines basically just like cheering you on or like you're there for them to cheer them on.",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 5,
+    "n_participants": 4,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Fulfilling each other's needs",
+    "definition": "Responses that indicarte the needs fulfillment within the relationship",
+    "example": "Then there are, like, happy moments. Like we fulfill each other's needs. And we have, yeah. Like, I don't know. I guess we're, like, in between like having, like, a low quality and a high quality.",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 2,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Look after one another",
+    "definition": "Responses that explicitly refer to the state of looking after one another in the relationship",
+    "example": "I think for the most important things in relationship is that I think that you have to look out for one another. I think that if you don't do that, I think that and I think that a lot of people don't do that in their relationships that they don't want. It's it's little things. Like, is it think of it in terms of the way that you would would look out for a child or look out for our pet? Except that in this case, it's another adult. And so to make sure that they're comfortable to you know, Is he is he hungry? Is he hangry? Is he doesn't need a blanket. Is he sitting on the couch? And even though he's you know, he looks okay, but are you cold? You know, do I need to get you a blanket. Little tiny fear giving things, I think are what maybe what's a little bit different about our relationship than what I see in friends relationships, where they don't do that.",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 13,
+    "n_participants": 9,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Dependability",
+    "definition": "Responses that explicitly refer to the perceived dependability of the partner",
+    "example": "Like, for, he's very, like, a dependable person. Reliable person. Like, no matter what. Like, you know, he's just always has my back. And I think that's kind of like, we just have, like, we always, like, are there for each other. I think that's what makes it, high quality is just always being supportive and being there for each other no matter what.",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Prioritizing loved one's well-being or happiness",
+    "definition": "Responses that indicate prioiritizing the partner's well-being and/or happiness",
+    "example": "For example, when something is upsetting you. Does your partner do whatever is in their power to accommodate or fix it, or either for you because like, for example, I think a lot of people when they get in arguments about something. So, for example, one partner is behaving in a certain way that's making the other partner, for example, feel insecure and then the partner who the issue is being brought up to will get defensive or try to explain why the other person shouldn't feel that way. Um, whereas like. One indicator I think that always kind of. Makes me smile is if someone, instead of reacting defensively like that, goes, Oh, well, I want you to feel good. And so. I'll fix that or I'll talk through it with you. But yeah, I don't want you feeling bad and. Yeah, I think that's something that we, my girlfriend and I really consistently do for each other. But other than that, just, you know, do you enjoy spending time together? Maybe that's a very 21 year old answer because we don't live together and we don't really have shared responsibilities yet.",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Like to help each other sometimes / doing things for each other",
+    "definition": "Responses that explicitly refer to wanting to help the partner",
+    "example": "Well, I have seen some friends who went through like, bad relationships, like a guy who didn't really, like, listened to her, like, emotional or like mental needs and said he liked us or if she like, I guess, like the one thing girls would say is like flowers. Like they have to like, well, I guess kind of like beg the boyfriend for flowers or like to do nice things, which is something that he should want to do. Like, I've seen them like I heard them like, complain about that and some difference is that, Mark. It's more he does things because he wants to. I've never had to beg him to do something nice or anything. He kind of just wanted to out of like the love in his heart. Yeah. Yeah.",
+    "theme": "Responsiveness/Instrumentality",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Trust",
+    "definition": "Responses that refer to trust",
+    "example": "feel like I know I'm in a very trusting relationship as far as we have, pretty similar upbringings. Like as far as, pretty similar childhood, with our, I don't know, like, kind of similar. The way we're raised is very similar. And on top of that, as far as our previous relationships, those ones kind of ended, like, at least for me, like, I got cheated on and so did he. He got left for someone else. So it's kind of like one of those things where when we got older, it was when we met each other. It was that trust. of like, well, I don't understand how that happened to me. I don't I would never want to hurt somebody like that. And he kind of like can relate to that feeling of like, yeah, I don't like I don't like a, you know, untrustworthy person kind of thing.",
+    "theme": "Trust",
+    "n_passages": 27,
+    "n_participants": 13,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Honesty",
+    "definition": "Responses that refer to honesty",
+    "example": ". I think it was. There are more like. I don't know. Like, not really. Like I feel like usually on they are trying to get to know the other person …Mhm… But those, they weren't like as open or honest about what they wanted. Like there was kind of like I guess other girls in the picture and. Like it was like basically like backlit, you know? Yeah. Like with [my boyfriend], who was very, like. Like honest from the beginning. Told me what he wanted. Mhm. I like out of that like knew that he wants to pursue something more. Had it I guess like goal in mind. Mhm. Like much better than the previous one.",
+    "theme": "Trust",
+    "n_passages": 4,
+    "n_participants": 5,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Authenticity/Sincerity",
+    "definition": "Responses that refer to the individual or partner's authenticity or sincerity",
+    "example": "I am definitely more comfortable and authentic. I'm also a lot older. And so my hormones aren’t As bonkers. Yeah. No, I think just they're just more authentically comfortable. And I think that that's probably because [my girflriend] and I were friends for. Like I said, almost four years before we became. Like romantically involved. And so our relationship was very much built on a friendship and. In a friendship where we knew each other doing their their stuff. Right. You know, like. You know, I've seen what you've done. You better not be doing that while we’re together. You know, kind of things, right? So there is that authenticity and openness that didn't really even need to be communicated between us. It was just kind of a known given.",
+    "theme": "Trust",
+    "n_passages": 3,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Physical attraction",
+    "definition": "Responses that refer to physical attraction among the couple",
+    "example": "You know, it's one thing to be romantically, mentally into someone, but it's it's it's wrong to to say that the physical part doesn't matter. The physical part does matter because you have to also evolve physically. You know, our relationship physically at our early twenties doesn't look as similar the way it does in our late forties. It's just different and it's not going to look the same in ten years",
+    "theme": "Attraction/Passion",
+    "n_passages": 4,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Passion",
+    "definition": "Responses that refer to passion in the relationship",
+    "example": "Passion really is the number one. Would be more of a high quality relationship for me.",
+    "theme": "Attraction/Passion",
+    "n_passages": 3,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Sex",
+    "definition": "Responses that refer to sex",
+    "example": "I think a lot of people downplay it nowadays, but just attraction and sex life is. It's very important because very it's tied in with our like, our biology. And your emotions and your serotonin and whatever, all kind of chemicals react a certain way. They completely change your thought processes of your feelings. But you. It's kind of looked over a lot because it seems it seems shallow, I guess, but I really don't think it is this. That's really important. Never. Just. It's somebody. You're okay with this? It's important to. If you're with somebody where you feel like your life can turn into a partnership with somebody else. And how you are living",
+    "theme": "Attraction/Passion",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Not just attraction",
+    "definition": "Responses that indicate relationship quality to be not just about attraction",
+    "example": "The whole time. It's just there's there's there's more of a connection going on, more of a draw towards each other than just like physical or pretend infatuation.",
+    "theme": "Attraction/Passion",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Not just about liking/passion",
+    "definition": "Responses that indicate relationship quality to be not just about liking and or passion",
+    "example": "You know, there's not just like, Oh, we're romantic and we're in love and you're so hot, blah, blah, blah. And I mean, you know, she's hot, but I it's one of those things of look where we like, we connect in an emotional and mental level where we like each othe",
+    "theme": "Attraction/Passion",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Communication",
+    "definition": "Responses that broadly refer to communication between partners",
+    "example": "Speaker 2 [00:04:27] I would say that my quality of relationship is better. I don't want to rank us, but like from from an outside perspective, people would say that me, the relationship between my partner is a lot more stronger, a lot more just better than my friends. \n\nSpeaker 1 [00:04:45] Okay. And what exactly would make it less, better or less stronger for your friend's relationship? \n\nSpeaker 2 [00:04:55] Me and my partner, we tend to communicate our feelings and our thoughts a lot more than my friends in their relationships.",
+    "theme": "Communication",
+    "n_passages": 57,
+    "n_participants": 28,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Recognition of partner's needs",
+    "definition": "Responses that refer to the recognition of needs between partners",
+    "example": "He did those little things without me asking, without me knowing, like. The other day I was complaining about I needed vitamins. So he took the liberty of, you know, he bought me a whole bunch of vitamins and then sent them to my place. And I didn't know. And it was just to me, that was okay. Well, here he is listening to me. He wasn't just like. He didn't just pick up the phone and let it go. He just he was you know, listening to what I was saying. And he addressed it not just, okay, she's out of vitamins, but he took action.",
+    "theme": "Communication",
+    "n_passages": 11,
+    "n_participants": 10,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Consensus in or making decisions together",
+    "definition": "Responses that indicate consensus in decision making",
+    "example": "So high quality is that you make decisions together. Right. So if you think you are, you're always sort of making sure that they agree or what are their thoughts. You know, you want to get their opinion about things and you're not just making like, you know, executive decisions all the time, because if that's what you think is best, because maybe it's not. Right. So I think that would be the highest, the best quality, the highest quality part, the lowest. For a relation relationship, I think is just the opposite of that. I want to say where I'm you're you're just self-centered in a sense, and so you're not considering a lot of other, you know, issues or just considering other things that should be given enough value in your. I'm thinking about it. I want to say. So many things.",
+    "theme": "Communication",
+    "n_passages": 5,
+    "n_participants": 4,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Communication not the most important thing",
+    "definition": "Responses that explicitly indicate communication as not the most important element in a relationship",
+    "example": "Contrary to popular belief, I do not actually think communication is the most important thing in a relationship. And I hate when people say that all the time. I feel like communication is a Band-Aid for when two people just cannot adapt to one another. More often than not, obviously, I'm not saying like all the time, but communication as a means of conflict Resolution 24 seven, if you're constantly having to communicate conflict away, there's something fucking wrong. Ask me how I know you should just be able to like get a little annoyed with one another and then like them enough to decide, Hey, this isn't worth getting annoyed over. And either like fixing yourself or, you know, just deciding, you know, let it go. So yeah, adaptation would probably be one of the most important things, especially when looking at long term, because the person you're with, whether you want them to or not, is going to grow and change as a person, as are you the person that she will be? You know, in the case that we happen to stay with each other for ten more years, she will not be the same person in ten years that she is right now. And who knows what she will actually end up like if I'm not prepared to, you know, go with her through those adaptations within reason. Um, obviously, if she becomes a serial killer, perhaps I would leave. But if I'm not prepared to adapt and grow with her and I'm not prepared for the relationship to adapt and grow as the both of us do, then we're not going to last very long.",
+    "theme": "Communication",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Non-verbal recognition",
+    "definition": "Responses that indicate recognition of needs and/or other internal states of the partner among each other",
+    "example": "Well, I think I want to say that we have a good understanding of each other. So you don't have to talk all the time to kind of just look at each other. Okay, we know what you're thinking kind of thing. But I think that we're different enough that we kind of learn from each other and benefit from each other's opinions and, you know, thoughts. So I think that it's we work well together. So if we have any issues or arguments or whatever, we we work it out. You know, because, you know, we know in the long term, it's you know, it's small things, I guess, aren't as important. It's kind of like pick your battles kind of thing if you've heard that. So we yeah, we just we know that we have to work together. And compared to everyone else, I think I want to say that we're more in sync. Maybe we kind of know each other very well inside out. So I think that's the biggest strength I think that we have.",
+    "theme": "Communication",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Listening",
+    "definition": "Responses that explicitly refer to listening to one another in a relationship",
+    "example": "I was actually reflecting, though, with a friend. Recently that I think. Our marriage. Honestly, our marriage is better than it probably ever has been. And I think it's because we're doing a better job of actually listening. So it's not like, Oh, we need to talk more because we both talk plenty. But actually listening to each other's back.",
+    "theme": "Communication",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Self change",
+    "definition": "Responses that indicate to the self-change perceived by the participant",
+    "example": "I was actually reflecting, though, with a friend. Recently that I think. Our marriage. Honestly, our marriage is better than it probably ever has been. And I think it's because we're doing a better job of actually listening. So it's not like, Oh, we need to talk more because we both talk plenty. But actually listening to each other's back.",
+    "theme": "Identity/Compatibility",
+    "n_passages": 6,
+    "n_participants": 6,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Growing together",
+    "definition": "Responses that explicitly refer to 'growth', 'growing' or perceived positive self and partner change within the relationship",
+    "example": "This is very much me growing and becoming better as a person because of our being married or our partnership, as opposed to just being an individual. Like, say, in the past relationship, you're just an individual, so you're not really growing so much with that person. But this is different where, you know, we're kind of helping each other improve in some aspects and you know, just work as a team. And so you're learning how to be a team player and, you know, not just thinking about your own needs. So I think that's the big thing.",
+    "theme": "Identity/Compatibility",
+    "n_passages": 8,
+    "n_participants": 7,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Having goals / clear direction",
+    "definition": "Responses that indicate having clear goals and/or clear life direction",
+    "example": "Or they don't have set goals. They're just kind of flying by the seat of their pants. I don't think that's sustainable. Right. If they don't know kind of what they want to do with their lives, it could change things. They don't have early discussions about children and they want to be married. Where do you want to live? Where do you want to retire? All those kinds of things. Are you planning for the future? I think those are not not good for a relationship because it can cause problems later on.",
+    "theme": "Identity/Compatibility",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Compatibility",
+    "definition": "Responses that refer broadly to the notion of compatibility among the couple",
+    "example": "So yeah. But. Yeah, I don't know. I think. I think my other friends are kind of having trouble either knowing how to look for compatibility between themselves and partners or knowing how to enforce their boundaries and ask for respect",
+    "theme": "Identity/Compatibility",
+    "n_passages": 10,
+    "n_participants": 9,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Opposites balancing each other",
+    "definition": "Responses that reefer broadly to the notion of discrepant personalities (\"opposites\") as beneficial or as balancing each other",
+    "example": "I feel like we have a really good relationship compared to the rest of my friends. And it's. I was kind of thinking about this like, No, I didn't know you're going to be asking this question. I was thinking about this, and I knew I'd be talking about Anastasia and my relationship with you. So I was kind of thinking about that a little bit today and kind of like why we've been together for so long. And I kind of feel like it's because we're the exact opposite, like total one eighty's from each other, you know? Anastasia A little bit, a little bit more reserved, doesn't like to go out to, you know, big parties, big areas like I would prefer to stay home and, you know, watch a movie or going to walk together, go to the dog park where me I'm like, you know, let's let's go out to dinner with people. Let's go have a party, invite people over, Let's go on a trip. Let's go to the sporting event like I'm all about getting out, doing stuff, being social. So we're kind of like the exact opposite in that regard. I mean, as well as, you know, quite a bit of other things as well. So in some way it's kind of weird that we like, found each other and work together, but in other ways, like it makes perfect sense at the same time too, because we're so different from each other, we kind of we mesh together in that way where, you know, I'm kind of sociable and she's not, but she's very smart, very analytical. And, you know, I love everyone. You know, when I meet someone, I see they're my friend. She meets someone and she assumes that there's some motivation behind it. So, like, you know, we balance each other out in that regard, kind of finding a happy, happy medium. For the most part, I'm kind of everything we do.",
+    "theme": "Identity/Compatibility",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Conflicts",
+    "definition": "Responses that refer broadly to conflicts",
+    "example": "I don't know. Just like we to have petty fights, like, over everything, and we wouldn't be questioning each other stuff. We'd be like, oh, what about this? Or I don't know, it's just like, and there was even I even felt like peace. Like if you would be going, like I wouldn't even care. But oh, they have fun. Like, you could text me whenever you're done. Like, I don't want to be checking up on you.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 24,
+    "n_participants": 15,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Conflict resolution",
+    "definition": "Responses that refer broadly to conflict resolution",
+    "example": "I don't know. Just like we to have petty fights, like, over everything, and we wouldn't be questioning each other stuff. We'd be like, oh, what about this? Or I don't know, it's just like, and there was even I even felt like peace. Like if you would be going, like I wouldn't even care. But oh, they have fun. Like, you could text me whenever you're done. Like, I don't want to be checking up on you.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 6,
+    "n_participants": 6,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "\"Fight kindly\" / fight well",
+    "definition": "Responses that refer to the notion of \"fighting kindly\" or positive handling of conlict",
+    "example": "[My partner] and I figured out how to fight kindly merely early in our marriage. Up until a couple of years ago, we would have a major blowout about every 6 to 12 months. But. I'm trying to think and I think we've had a blowout since I had cancer, and that was seven years ago. And so the good communication is, is that being able to openly just talk about this is what's going on. Are you okay with this? Is that going to happen? Right cause That alleviates a lot of the like the stories that we tell ourselves in terms of what actually is going to occur without actually confirming if that's going to occur or the story of this person is thinking this about me because they just acted that way versus just asking them what's going on? Are you pissed at me because you're seeming like you are? You know, so solid communication that way. And then in terms of when you're going to fail, it's the idea of fighting with the goal that nobody wins and you're fighting to try to move forward. In in solving something, in working together, in being able to move in a forward positive progression in the relationship. And it's okay if it doesn't get solved and settled. Not everything gets solved and settled. Like I. I don't like that you're doing that and you're still doing it. And so I will figure out what I'm going to do. But you keep doing that. And decide if I'm okay with sitting with that or not. Right. So. Yep.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 4,
+    "n_participants": 4,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Post-conflict growth",
+    "definition": "Responses that indicate growth or other positive outcomes post-conflict",
+    "example": "I think there's also like a music and a relationship that happens, especially when you have different milestones, whether they're children, careers, sicknesses, etc.. And I think that all of the stressors that we've had. Have been ways for us to grow rather than to separate. And I think that's that's important in any relationship is that you'll always have something that comes up. That's not quite the script. And how you get through those moments and how you support each other in those moments and and how you also kind of inspect yourself in those moments. That's the important bit.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 3,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "\"never to go to bed mad\" quick conflict resolution",
+    "definition": "Responses that refer to quick conflict resolution",
+    "example": "But, you know, we made a agreement a long time ago to never go to bed mad",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Adaptation",
+    "definition": "Responses that indicate behavioral adaptation towards each other, in the context of conflict resolution or prevention",
+    "example": "We have to make some adjustments",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Expectation management",
+    "definition": "Responses that indicate the management of expectation/s within the relationship",
+    "example": "And also like giving equal effort and equally meeting each other's needs and not setting, like, high expectations for your partner.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 3,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Relationship repair",
+    "definition": "Response that indicate relationship repair, especially after perceived damage or dysfunction. In contrast to the code 'conflict resolution' which broadly refer to ways of (and the importance of) resolving conflicts when they happen, this code refers to the notion of \"coming back\" once the perceived damage or dysfunction has been done",
+    "example": "And so we really had to like, kind of come together and say, okay, look, this isn't working. We need to figure out how we work and reinvest in our relationship. And it was a reinvestment, an emotional and a physical and and just a friend way that that that helped to keep our marriage going",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 2,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Forgiveness",
+    "definition": "Responses that explicitly refer to forgiveness as means of conflict resolution",
+    "example": "The ability to forgive as big. Recognizing we all matter.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Pettiness",
+    "definition": "Responses that explicity indicate \"pettiness\"",
+    "example": "Pettiness, which I feel like also kind of ties into, like lack of communication. It's always like, oh, like he should have known that or, you know, maybe she shouldn't have done that. But they never, like, actually vocalize that stuff. So I feel like that's kind of like the heart of where bad relationships come from. Because, you know, there's like cheating and stuff like that. But it usually all comes down to like the rooted like something was missing in the relationship or something wasn't talked about. So I feel like pettiness was something that kind of a lot of people tend to do, and it leads to missing that part of a relationship",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Insecurity",
+    "definition": "Responses that explicity indicate \"insecurity\"",
+    "example": "I guess constant fights, insecurities. Um... insecurities… lack of effort",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Forced to stay",
+    "definition": "Responses that explicity indicate the perception of being forced to stay",
+    "example": "Yeah. You know, I feel like. I feel like relationships that are kind of forced can sometimes be low quality. And I'm not even talking about like, you know, like arranged marriages, nothing like that. But like, you know, people having a kid together, for example, that like. Kind of just stay together for the kids, but really, they don't really like each other that much. I feel like that can make a relationship like very low quality or. I don't know. So I'm marrying someone for money or something like that. Can make it low quality if, if you're gonna like low hanging fruit answers.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 2,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Being selfish",
+    "definition": "Responses that explicity indicate perceived selfishness",
+    "example": "Having a lot of trust issues. I'm always constantly worrying about what the other person is doing. Yeah. Being selfish, I think that's like reiterating because then, you know, you're not caring about what the other person is doing in a sense that benefits you, but you only care if it's not benefiting you. And then you like, you know, those treasured trust issues become anger, become jealousy or like envy. And then eventually you start to, like, lash out in different ways, like, you know, verbally, physically. Like, those are like, low quality relationship things.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 2,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Immature / Maturity",
+    "definition": "Responses that explicitly refer to maturity or immaturity often in the context of previous relationships",
+    "example": "I think so much better. I mean, have grown up so much. I was in my previous relationship. I was immature, definitely. I've seen a lot of growth in me with my spouse's health. I've seen a lot of growth in her with my help. So we kind of like, you know, we we have an open conversation about things like that. So, like, what can we do to improve on each other? So yeah, I would definitely say it's I feel sorry for that my past relationship because that was like, terrible.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 8,
+    "n_participants": 8,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Not serious",
+    "definition": "Responses that explicitly refer to \"seriousness\" as it relates to relationships",
+    "example": "The previous relationship was just like high school, like that young thing. I don't know. It's. Look, looking back on it, I mean, it's just like high school. Nothing. Yeah, nothing really serious or anything. Just a high school relationship.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Toxic",
+    "definition": "Responses that explicitly refer to being \"toxic\"",
+    "example": "The past one was like. It was like messy since it was the first. So like you know the act and all that, it was like immature thinking. So you can say it was like a toxic type of relationship. But this relationship, I’m a lot more mature and. Like and I'm more experienced, so I can like. Treat her better and stuff, you know?",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 5,
+    "n_participants": 5,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Co-dependence",
+    "definition": "Responses that refer to perceived (negative) degree of dependence among the couple",
+    "example": "Being young definitely doesn't help, but that sort of thing, I it was just very codependent, as all and so was the second one. I kept that going. And that's why I ended up staying with him for so long was because of the huge factor being codependent with one another. I wouldn’t say  [my] relationship is very codependent. I'd like to think that we both have separate lives for one another and we're both pretty good at keeping relationships with other people, you know, good friendships. She has good relationships with some family members, so. That helps. And obviously it's hard to be codependent when you've got states between you.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Affairs/Cheating",
+    "definition": "Responses that refer to infidelity",
+    "example": "And that's probably that and we're gonna throw this in. You can't disagree about money. Because that's the thing that kills. That's probably that and infidelity are probably the two things that kill most relationships",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 4,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Kids as stressors",
+    "definition": "Responses that indicate to childrend or child-raising as potential stressors",
+    "example": "But I get because young kids are terrible in a marriage",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Finances",
+    "definition": "Responses that indicate finances within the couple",
+    "example": "I think stable sources of income are extremely important.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 4,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Jealousy",
+    "definition": "Responses that refer to jealousy",
+    "example": "I guess, like, jealousy. But on the, on the, like, extreme level.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Controlling",
+    "definition": "Responses that explicitly refer to being \"controlling\" within the relationship",
+    "example": "To me, it's a. They're always together. Right. Someone's controlling. I don't think that's very good. They cheat on each other. I think that's a very big red flag, even though some open relationships work. So like I said, this is for me. Everyone has their own view on relationships.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Withdrawal",
+    "definition": "Responses that explicitly refer to withdrawal of interaction or isolation of oneself in the relationshiop",
+    "example": "Would it be isolating yourself in anything that you're going through or anything like that? It's kind of hypocrite because I do that, but I need to try to work on that. Just like to not ball up your feelings and just dump to the side. You know, you have something to say. I say, speak your mind.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Housework",
+    "definition": "Responses that refer to housework as a potential stressor in the relationship",
+    "example": "Low quality, I think is. Actually, I don't know. Maybe housework. Too many housework. If you can hire someone to do the housework for you, well, just hire someone. Don't. Don't do. Don't do the tedious work by yourself and make the make your relationship really tension. I don't think that's the. Yeah, that's. That's what I'm thinking.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Healed",
+    "definition": "Responses that explicitly refer to being \"healed\" or recovering from previous issues",
+    "example": "Yeah. I finally have peace within myself… Mm... And he helped also bring that out and like heal wounds that I didn't even know.",
+    "theme": "Conflict/Stressors/Negative Affect",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "General evaluative",
+    "definition": "Responses that refer to non-specific evaluations of the relationship or otherwise evaluative standards not captured by existing codes",
+    "example": "Comparing my relationship with [my friend] I mean, I was better than some of my friends relationships, for sure, but I'd say like pretty on par with some of my other friends relationships.",
+    "theme": "Other codes",
+    "n_passages": 13,
+    "n_participants": 11,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Family",
+    "definition": "Responses that refer to the relationship of the individual to their family",
+    "example": "Just like a like, like my family, my husband and I and my for, four of us living here. So now that my parents living with us. This make the family structure very simple. So there's no other like. Well, some people fighting because, they think, the husband's mom has, a lot of, pressure to the wife or the wife's parents. I have a lot of pressure to the husband. So that's the where, conflict is sometimes. The simple structure of the family might be easier for the– Yeah, please. Yeah.",
+    "theme": "Other codes",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Relationship with partner's family",
+    "definition": "Responses that refer to the relationship of the individual to their partner's family",
+    "example": "I think what makes our relationship high quality is that our families get along with each other. Uhm, our parents have the same political beliefs, they have, they were raised pretty much in the same generation. Uhm, and they have like similar music tastes, similar interests, and I think that's really important in, I guess like a romantic relationship because any sort of conflict can be really rough. Uhm, and that's also a problem that I've seen with my friends and their partners and their partner's families that they don't get along, and it's like really tough, especially during big gatherings like Thanksgiving and Christmas, but it's the opposite for me like everyone gets along.",
+    "theme": "Other codes",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Love languages",
+    "definition": "Responses that explicitly refer to 'love languages'",
+    "example": "Oh, and also, like, understanding each other's love languages.",
+    "theme": "Other codes",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Emotional contagion",
+    "definition": "Responses that indicate of emotional contagion (i.e., of the emotion of an individual  affecting a similar emotion to the partner)",
+    "example": "Talking to each other. So it's not something I used to do a lot of it's just, you know, try to keep things to yourself and and, you know, if you're happy, then that's good. But then you've got another person that you think about, and if that person's not happy, then it'll affect your relationship, right",
+    "theme": "Other codes",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Feeling of completeness",
+    "definition": "Responses that explicitly refer to a feeling of completeness",
+    "example": "Yeah. Like I'd be missing out on something. If I were to go with them. But with him, it was different. It felt like complete. Like I wasn't missing on anything. If anything, I wanted to. I was complete with him",
+    "theme": "Other codes",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Natural/organic",
+    "definition": "Responses that refer to the sense that the relationship is \"natural\" or have developed \"organically\"",
+    "example": "It was more natural. It was just, you know, some connected, some clicked is, you know, I could talk to her, you know, with the other people that, you know, I had crushes on, I, I don't, I just. They were never really. I never really approached them because I was too nervous. But I don't know, something with [my girlfriend]. It just it was easy for me to approach her and and she was in my class and we just started talking, and I think that's what made it so easy.",
+    "theme": "Other codes",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Independence",
+    "definition": "Responses that broadly refer to independence and agency within the relationship such as in pursuing activities and other goals without necessarily the involvement of the partner)",
+    "example": "Send him off with his friends to go mountain climbing and you go off with your friends. Do whatever it is that he doesn't like to do, and then get back together and do something you do like to do together, I think you have to have things that you enjoy doing together",
+    "theme": "Other codes",
+    "n_passages": 8,
+    "n_participants": 7,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Boundaries",
+    "definition": "Responses that explicitly refer to the notion of boundaries",
+    "example": "So yeah. But. Yeah, I don't know. I think. I think my other friends are kind of having trouble either knowing how to look for compatibility between themselves and partners or knowing how to enforce their boundaries and ask for respect.",
+    "theme": "Other codes",
+    "n_passages": 1,
+    "n_participants": 1,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Acknowledgement that relationships are different for everybody",
+    "definition": "Responses that acknowledge that relationships (and relationship quality) differ across individuals",
+    "example": "To me, it's a. They're always together. Right. Someone's controlling. I don't think that's very good. They cheat on each other. I think that's a very big red flag, even though some open relationships work. So like I said, this is for me. Everyone has their own view on relationships.",
+    "theme": "Other codes",
+    "n_passages": 2,
+    "n_participants": 2,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Love/relationship is not perfect",
+    "definition": "Responses that explicitly state that love and/or relationships are not perfect",
+    "example": "The most important thing is. Number one, I think I would say that love is definitely not an easy thing, nor is it a perfect thing. You can't both both people have to accept that love is. Something where you kind of have to workout at the same time. It's not it's not going to be perfect. But if you're just true to it and you're kind of loyal to that love and that feeling and that affection, that will definitely lead to a happy, healthy relationship. And then also the same thing like you have to kind of it's not always 50/50. If one person can't do as much, then the other person should definitely be able to butt in and stand out like, Hey, you know, I can help you out. It's okay. Everything will be fine. Like that. Just those two are the key points.",
+    "theme": "Other codes",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  },
+  {
+    "code": "Reciprocate effort",
+    "definition": "Responses that explicitly  refer to the notion of reciprocated effort among the couple",
+    "example": "And I like a partner who's going to kind of reciprocate. What I give. And with the one that I'm in currently, I feel like I've given. You know all that I can. And he's done the same thing",
+    "theme": "Other codes",
+    "n_passages": 3,
+    "n_participants": 3,
+    "unit": "USA",
+    "level": "open"
+  }
+]
