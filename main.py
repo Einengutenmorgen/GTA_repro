@@ -42,7 +42,8 @@ def main():
         #"Silan-Ciruelas_PHL",
         #"Silan-Ciruelas_TUR",
         #"Silan-Ciruelas_USA"
-        "Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1"
+        #"Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1"
+        "Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1and2"
     ]
 
     for folder_name in target_countries:

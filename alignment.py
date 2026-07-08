@@ -164,6 +164,60 @@ class AlignmentResult:
 # Stage 1: embedding (the only expensive call)
 # ---------------------------------------------------------------------------
 
+# Known input shapes -> the internal {code, definition} schema.
+# Keyed on FIELD NAMES emitted by prompts.py (dataset-agnostic), not on any
+# particular dataset. The plain `code` shape is the already-normalized human
+# codebook (from codebook_extractors.py) and passes through untouched.
+_SHAPE_ADAPTERS = {
+    "code":           lambda r: (r.get("code"),           r.get("definition")),   # human codebook / already-normalized
+    "open_code":      lambda r: (r.get("open_code"),      r.get("text_passage")), # LLM open-coding output
+    "axial_category": lambda r: (r.get("axial_category"), r.get("reasoning")),    # LLM axial-coding output
+}
+
+
+def normalize_codes(codes: Sequence[dict], side: str) -> List[dict]:
+    """Map any known input shape onto the internal {code, definition, ...} schema.
+
+    Accepts three shapes (see _SHAPE_ADAPTERS): the plain `code` schema
+    (already-normalized human codebooks), LLM `open_code`+`text_passage`,
+    and LLM `axial_category`+`reasoning`. Extra keys (`unit`, `level`,
+    `n_participants`, ...) are preserved. Rows carrying a `__status__` marker
+    (failed-chunk sentinels from the pipeline) are dropped.
+
+    Raises on any row whose shape matches none of the adapters, so a renamed
+    output field surfaces loudly here rather than silently zeroing coverage.
+    """
+    out: List[dict] = []
+    skipped_status = 0
+    for i, r in enumerate(codes):
+        if not isinstance(r, dict):
+            raise TypeError(f"{side}[{i}]: expected dict, got {type(r).__name__}")
+        if "__status__" in r:                # pipeline failed-chunk sentinel
+            skipped_status += 1
+            continue
+        for key, extract in _SHAPE_ADAPTERS.items():
+            if key in r:
+                code, definition = extract(r)
+                break
+        else:
+            raise KeyError(
+                f"{side}[{i}]: unrecognized code shape; keys={sorted(r.keys())}. "
+                f"Expected one of {sorted(_SHAPE_ADAPTERS)} (add an adapter if a "
+                f"prompt field was renamed)."
+            )
+        code = str(code).strip() if code is not None else ""
+        if not code:
+            continue  # empty code text carries no signal; skip quietly
+        merged = dict(r)                     # preserve unit / level / weights
+        merged["code"] = code
+        if definition is not None:
+            merged["definition"] = definition
+        out.append(merged)
+    if skipped_status:
+        warnings.warn(f"{side}: dropped {skipped_status} row(s) with a __status__ marker")
+    return out
+
+
 def _dedupe(codes: Sequence[dict], side: str) -> List[dict]:
     """Drop duplicate `code` strings within one set (keep first), warn."""
     seen: Dict[str, int] = {}
@@ -285,15 +339,17 @@ def compute_similarity(
 
     Parameters
     ----------
-    human_codes, llm_codes : lists of dicts in the common schema,
-        pre-filtered to one unit and one level. Matching is on `code` text.
+    human_codes, llm_codes : lists of dicts, pre-filtered to one unit and
+        one level. Accepts the common `code`/`definition` schema OR raw
+        pipeline output (`open_code`/`text_passage`, `axial_category`/
+        `reasoning`); see normalize_codes. Matching is on `code` text.
     enrich_with_definition : append `definition` to the embedded text.
         If an LLM code lacks a definition, its bare `code` is embedded
         instead and the fallback is recorded on the cache (count + codes).
     level : provenance only in v1; axial/selective are a later seam.
     """
-    human = _dedupe(list(human_codes), "human_codes")
-    llm = _dedupe(list(llm_codes), "llm_codes")
+    human = _dedupe(normalize_codes(list(human_codes), "human_codes"), "human_codes")
+    llm = _dedupe(normalize_codes(list(llm_codes), "llm_codes"), "llm_codes")
 
     human_texts, llm_texts, fallbacks = _build_texts(human, llm, enrich_with_definition)
 
