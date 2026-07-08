@@ -4,20 +4,32 @@ import glob
 import json
 from PyPDF2 import PdfReader
 from gta_pipeline import run_open_coding, run_axial_coding, run_selective_coding
-from chunking import chunk_transcript
 
 BASE_DATA_DIR = "data/RelationshipQuality"
 
-def extract_and_chunk_interviews(target_dir, pairs_per_chunk=1):
-    """Q&A-aware chunking: one interviewer-question + participant-answer per chunk
-    (or `pairs_per_chunk` pairs batched). Nothing dropped."""
-    pdf_files = glob.glob(os.path.join(target_dir, "**", "*.pdf"), recursive=True)
+def extract_and_chunk_interviews(target_dir,chunk_size=50000):
+    """
+    Reads only the interview PDFs from the data directory and splits them 
+    into character-length chunks to safely fit inside the LLM context window.
+    """
+    # Target only Instructor and Student interviews (ignore codebook/metadata)
+
+    search_pattern = os.path.join(target_dir, "**", "*.pdf")
+    pdf_files = glob.glob(search_pattern, recursive=True)
     text_chunks = []
     
-    for file_path in sorted(pdf_files):
+    for file_path in pdf_files:
         print(f"    Reading: {os.path.basename(file_path)}")
-        text_chunks.extend(chunk_transcript(file_path, pairs_per_chunk=pairs_per_chunk))
-
+        reader = PdfReader(file_path)
+        full_text = ""
+        for page in reader.pages:
+            extracted = page.extract_text()
+            if extracted:
+                full_text += extracted + "\n"
+        
+        chunks = [full_text[i:i+chunk_size] for i in range(0, len(full_text), chunk_size)]
+        text_chunks.extend(chunks)
+        
     return text_chunks
 
 def main():
@@ -30,8 +42,8 @@ def main():
         #"Silan-Ciruelas_PHL",
         #"Silan-Ciruelas_TUR",
         #"Silan-Ciruelas_USA"
-        "Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1"
-        #"Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1and2"
+        #"Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1"
+        "Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1and2"
     ]
 
     for folder_name in target_countries:
