@@ -5,6 +5,7 @@ import json
 from PyPDF2 import PdfReader
 from gta_pipeline import run_open_coding, run_axial_coding, run_selective_coding
 from chunking import chunk_transcript
+import time
 
 BASE_DATA_DIR = "data/RelationshipQuality"
 
@@ -42,7 +43,8 @@ def main():
         run_name = folder_name.replace("/", "_")
         
         # Create a dedicated output directory for this specific run
-        output_dir = os.path.join(BASE_DATA_DIR, f"output_{run_name}")
+        timecode = time.strftime("%Y%m%d%H%M%S")
+        output_dir = os.path.join(BASE_DATA_DIR, f"output_{run_name}_{timecode}")
         os.makedirs(output_dir, exist_ok=True)
         
         print(f"\n=======================================================")

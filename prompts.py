@@ -1,5 +1,7 @@
 # # prompts.py
 
+#The Strauss & Corbin condition/action/consequence paradigm
+
 OPEN_CODING_PROMPT = """You are an expert qualitative researcher performing inductive open coding in a Straussian grounded-theory tradition.
  
 STUDY CONTEXT (orienting focus only — do NOT treat as a list of expected findings):

@@ -1,6 +1,7 @@
 # gta_pipeline.py
 from llm_client import call_llm
-from prompts import OPEN_CODING_PROMPT, AXIAL_CODING_PROMPT, SELECTIVE_CODING_PROMPT
+#from prompts import OPEN_CODING_PROMPT, AXIAL_CODING_PROMPT, SELECTIVE_CODING_PROMPT
+from prompts_charmaz import OPEN_CODING_PROMPT, AXIAL_CODING_PROMPT, SELECTIVE_CODING_PROMPT
 import json
 
 def run_open_coding(text_chunks, model_type="local"):
