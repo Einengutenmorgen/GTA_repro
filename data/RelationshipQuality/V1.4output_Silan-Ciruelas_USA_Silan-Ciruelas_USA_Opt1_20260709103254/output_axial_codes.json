@@ -1,0 +1,282 @@
+[
+    {
+        "reasoning": "These codes all describe the emotional bond, empathy, and caring behaviours that participants view as essential for a high\u2011quality relationship and that are lacking when the relationship is judged low\u2011quality.",
+        "supporting_open_codes": [
+            "Code: emotional aspect of relationship perceived as lacking",
+            "Code: lack of emotional connection in the relationship",
+            "Code: emotional disconnection from partner",
+            "Code: partner wants emotional connection",
+            "Code: feeling partner's pain / empathy",
+            "Code: providing emotional support when partner has a hard day",
+            "Code: trying to cheer up partner / caring for partner's wellbeing",
+            "Code: prioritizing partner over self / selflessness",
+            "Code: Perceived least compassionate period early in the relationship",
+            "Code: Compassion attributed to novelty of the relationship",
+            "Code: Living separate lives associated with reduced compassion",
+            "Code: Later period experienced increased compassion after several years"
+        ],
+        "axial_category": "Emotional Connection & Empathy",
+        "condition": "When partners feel emotionally distant, lack empathy, or are living separate lives",
+        "action_interaction": "Participants express empathy, provide emotional support, prioritize the partner, and attempt compassionate behaviours",
+        "consequence": "Increased closeness and perceived quality when empathy is present; persistent dissatisfaction when emotional connection is absent"
+    },
+    {
+        "reasoning": "These codes focus on the role of communication, its breakdown, and the strategies participants use to manage conflict, indicating that communication quality directly shapes relationship outcomes.",
+        "supporting_open_codes": [
+            "Code: importance of communication",
+            "Code: communication breakdown",
+            "Code: no topics to discuss",
+            "Code: conflict perceived as about trivial issues",
+            "Code: partner withdraws and stops communicating for days",
+            "Code: conflicts remain unresolved",
+            "Code: conflicts become entangled or escalated",
+            "Code: Participant initiates conversation by steering toward business topics",
+            "Code: Partner eventually engages after participant's prompting",
+            "Code: Pausing before addressing conflict when both are angry",
+            "Code: Giving partner space when they are in a bad mood",
+            "Code: Later expressing dissatisfaction about how partner treated you",
+            "Code: Communicating the impact of hurtful comments and asking partner to consider their feelings",
+            "Code: Partner apologizes after reflecting on the incident",
+            "Code: Avoiding communication during anger",
+            "Code: Anger disrupts the purpose of communication"
+        ],
+        "axial_category": "Communication & Conflict Management",
+        "condition": "When disagreements or misunderstandings arise",
+        "action_interaction": "Participants attempt to talk, pause, give space, apologize, or steer conversations toward neutral topics",
+        "consequence": "Effective communication can resolve conflict and improve quality; unresolved or poorly managed conflict leads to lingering tension and lower satisfaction"
+    },
+    {
+        "reasoning": "These codes describe how financial contributions, division of labour, and shared business activities structure the partnership and affect perceived stability and satisfaction.",
+        "supporting_open_codes": [
+            "Code: financial aspect of relationship perceived as good",
+            "Code: Division of labor: participant handles family care, partner ensures financial provision",
+            "Code: Partner's primary focus is financial provision and making money",
+            "Code: shared business involvement with partner",
+            "Code: Both partners contribute financially through their salaries",
+            "Code: partner's work schedule limits immediate phone availability",
+            "Code: partner's business involvement makes the relationship feel like a business"
+        ],
+        "axial_category": "Financial & Practical Roles",
+        "condition": "When household economic needs and role expectations are salient",
+        "action_interaction": "Partner provides financial resources; participant manages childcare and household tasks; both may engage in joint business ventures",
+        "consequence": "Perceived stability and satisfaction when roles are clear and resources adequate; strain when financial focus overshadows emotional intimacy"
+    },
+    {
+        "reasoning": "These codes capture participants\u2019 experiences of sexual frequency, desire, and the meaning of sex, showing how sexual satisfaction is intertwined with emotional connection and overall relationship quality.",
+        "supporting_open_codes": [
+            "Code: Sexual frequency about once a month",
+            "Code: Unsatisfied with sex life",
+            "Code: Loss of passion and desire",
+            "Code: Sex ranked as third or fourth most important thing",
+            "Code: Sex viewed as part of intimacy",
+            "Code: Feeling a little connected through sex",
+            "Code: Need emotional connection and love before sex feels meaningful",
+            "Code: Sex feels empty when lacking desire or love",
+            "Code: Love or desire makes sex feel significant",
+            "Code: low frequency of sexual activity",
+            "Code: age-related decline in sexual desire",
+            "Code: perceived lack of personal need for sex",
+            "Code: partner-driven sexual activity"
+        ],
+        "axial_category": "Sexual Intimacy & Desire",
+        "condition": "When emotional connection is low, aging occurs, or sexual needs differ",
+        "action_interaction": "Partners engage in sex at varying frequencies, discuss desires, or attempt to align sexual activity with emotional closeness",
+        "consequence": "Satisfaction when sex aligns with love and desire; dissatisfaction and feelings of emptiness when sex is mechanical or infrequent"
+    },
+    {
+        "reasoning": "These codes reflect participants\u2019 definitions of love, its perceived limits, and how love is expressed through actions rather than grand gestures, indicating love\u2019s central role in relationship quality.",
+        "supporting_open_codes": [
+            "Code: love identified as the most important aspect of a relationship",
+            "Code: love defined as being in love",
+            "Code: Being in love as an all\u2011encompassing commitment, willing to do anything",
+            "Code: Love does not require unlimited sacrifice",
+            "Code: Exaggerated expressions of love (kill) are unrealistic",
+            "Code: Perception of willingness to do anything for a loved one",
+            "Code: Limits to love involve not always bending over backwards",
+            "Code: Love based on the positive contributions a partner brings",
+            "Code: Uncertainty about defining love",
+            "Code: Distinguishing love as a broader feeling with limits",
+            "Code: actions valued over words to gauge love",
+            "Code: partner would do anything as proof of love",
+            "Code: Belief that love is demonstrated through actions",
+            "Code: selfish actions are not love",
+            "Code: loving oneself more than partner is not love"
+        ],
+        "axial_category": "Love Conceptualization & Importance",
+        "condition": "When participants reflect on what love means for them",
+        "action_interaction": "Express love through supportive actions, set limits on sacrifice, and evaluate love via behaviours rather than symbols",
+        "consequence": "Higher relationship quality when love is felt as mutual, action\u2011based, and bounded; confusion or dissatisfaction when love is ambiguous or perceived as unrealistic"
+    },
+    {
+        "reasoning": "These codes illustrate how compassion and empathy fluctuate across relationship stages, with early novelty fostering high compassion that may wane and later be restored through shared experiences.",
+        "supporting_open_codes": [
+            "Code: Perceived least compassionate period early in the relationship",
+            "Code: Compassion attributed to novelty of the relationship",
+            "Code: Living separate lives associated with reduced compassion",
+            "Code: Later period experienced increased compassion after several years",
+            "Code: perceived high quality in the first year",
+            "Code: lack of shared activities",
+            "Code: absence of togetherness"
+        ],
+        "axial_category": "Compassion Over Time",
+        "condition": "During early novelty, mid\u2011relationship separation, and later re\u2011connection phases",
+        "action_interaction": "Partners experience high empathy early, may drift apart, then rebuild compassion through joint activities and shared responsibilities",
+        "consequence": "Relationship quality improves when compassion is renewed; declines when sustained separation reduces empathy"
+    },
+    {
+        "reasoning": "These codes emphasize the importance of shared time, joint activities, and common interests as concrete indicators of relationship closeness and quality.",
+        "supporting_open_codes": [
+            "Code: shared activities as a couple",
+            "Code: shared morning routine / waking up together",
+            "Code: lack of shared time and activities",
+            "Code: absence of common interests or shared ground",
+            "Code: doing things together as a couple",
+            "Code: watching TV together",
+            "Code: going on vacations together",
+            "Code: engaging in many joint activities",
+            "Code: relationship felt more fun",
+            "Code: perceiving the partnership as a couple rather than roommates or business partners"
+        ],
+        "axial_category": "Shared Activities & Time Together",
+        "condition": "When schedules allow or restrict joint participation",
+        "action_interaction": "Couples plan and engage in joint leisure, routines, and vacations; lack of such activities leads to feelings of distance",
+        "consequence": "Increased satisfaction and sense of partnership when time is shared; perceived low quality when activities are absent"
+    },
+    {
+        "reasoning": "These codes capture participants\u2019 personal development, identity shifts, and feelings of self\u2011loss or growth that occur through long\u2011term partnership and parenting.",
+        "supporting_open_codes": [
+            "Code: personal growth over many years due to relationship",
+            "Code: learning to be a wife and mother through marriage",
+            "Code: feeling of losing one's personal identity in a relationship",
+            "Code: becoming more like the partner",
+            "Code: re\u2011discovering self after children become independent",
+            "Code: personal maturation",
+            "Code: increased maturity, wisdom, patience",
+            "Code: feeling of losing oneself in the relationship",
+            "Code: becoming more like the partner",
+            "Code: personal transformation due to relationship",
+            "Code: increased maturity",
+            "Code: increased wisdom",
+            "Code: increased patience"
+        ],
+        "axial_category": "Personal Growth & Identity Change",
+        "condition": "During long\u2011term marriage, especially after children are raised",
+        "action_interaction": "Participants reflect, adapt, and sometimes sacrifice personal preferences to align with partner or parental roles",
+        "consequence": "Enhanced maturity and self\u2011awareness, but also occasional loss of personal identity and need for re\u2011discovery"
+    },
+    {
+        "reasoning": "These codes relate to trust, perceived safety (physical and emotional), and the ability to confide without judgment, all of which participants cite as foundational for a high\u2011quality relationship.",
+        "supporting_open_codes": [
+            "Code: Trust is a key factor in current relationship",
+            "Code: perceived physical safety in the relationship",
+            "Code: conditional emotional safety depending on discussion topics",
+            "Code: ability to confide without being judged",
+            "Code: experiencing judgment when disclosing certain behaviors",
+            "Code: perceived judgment for social partying or drinking",
+            "Code: feeling safe in a good relationship",
+            "Code: overall feeling of safety in the relationship",
+            "Code: trust identified as most important relationship element",
+            "Code: trust is essential for relationship quality"
+        ],
+        "axial_category": "Trust & Safety",
+        "condition": "When partners consider sharing vulnerable information or face potential threats",
+        "action_interaction": "Participants disclose feelings, assess partner\u2019s reactions, and evaluate safety based on trust cues",
+        "consequence": "Higher satisfaction when trust is strong and judgment minimal; anxiety and dissatisfaction when trust is compromised"
+    },
+    {
+        "reasoning": "These codes describe how parenting responsibilities, disagreements about children\u2019s education, and extended family dynamics shape the couple\u2019s interaction and overall relationship quality.",
+        "supporting_open_codes": [
+            "Code: Different opinions about children's education",
+            "Code: Husband prefers minimal involvement in kids' study decisions",
+            "Code: Participant prefers detailed monitoring of children's academic performance",
+            "Code: Frequent arguments over parenting decisions",
+            "Code: Participant still views husband positively as a good dad",
+            "Code: children reduce arguing and fighting",
+            "Code: choosing to avoid conflict in front of children",
+            "Code: protecting children from animosity",
+            "Code: Cultural emphasis on child's education as primary parental concern",
+            "Code: Parental worries shift across child's life stages (career, marriage)",
+            "Code: Grandparents perceived as offering more love and less pressure",
+            "Code: Children tend to listen more to grandparents than to parents",
+            "Code: Family issues impact relationship quality",
+            "Code: conflict attributed to in\u2011law pressure on wife",
+            "Code: conflict attributed to pressure on husband from wife's family"
+        ],
+        "axial_category": "Family & Parenting Dynamics",
+        "condition": "When children are present and extended family influences are active",
+        "action_interaction": "Partners negotiate parenting choices, protect children from conflict, and balance cultural expectations",
+        "consequence": "Cooperation can strengthen the bond; persistent disagreements can strain the partnership"
+    },
+    {
+        "reasoning": "These codes reflect participants\u2019 tendency to compare their own relationship with friends\u2019 or societal norms, influencing their self\u2011assessment of quality.",
+        "supporting_open_codes": [
+            "Code: friends' relationships also perceived as low quality",
+            "Code: Difficulty comparing relationship quality across different life stages",
+            "Code: perceived similarity between own relationship and friends' relationships",
+            "Code: Using friends' divorces as a comparison point for relationship quality",
+            "Code: friends have other relationship issues",
+            "Code: Observation that friends have divorced",
+            "Code: Perceived difficulty in making comparisons",
+            "Code: Perceived differences if alone",
+            "Code: Perceives own relationship as longest among peers"
+        ],
+        "axial_category": "Social Comparison & Context",
+        "condition": "When participants reflect on their relationship relative to peers or societal benchmarks",
+        "action_interaction": "They evaluate their own partnership against friends\u2019 experiences, divorce rates, and life\u2011stage differences",
+        "consequence": "Validation and confidence when their relationship appears superior; doubt or dissatisfaction when comparisons highlight shortcomings"
+    },
+    {
+        "reasoning": "These codes pertain to the household composition, living arrangements, and privacy issues that shape daily interaction patterns and perceived intimacy.",
+        "supporting_open_codes": [
+            "Code: Household composition includes mother, husband, daughter, son, and self",
+            "Code: relationship described as living separate lives but together",
+            "Code: Perceived separation of lives between partners",
+            "Code: simple family structure seen as facilitating relationship ease",
+            "Code: lack of privacy due to living with parents",
+            "Code: All household members still cohabiting",
+            "Code: living separate lives associated with reduced compassion",
+            "Code: simple physical proximity (toes touching) during communication"
+        ],
+        "axial_category": "Household Structure & Living Arrangements",
+        "condition": "When multiple family members share a residence or privacy is limited",
+        "action_interaction": "Partners navigate shared spaces, negotiate personal time, and adjust routines to maintain intimacy",
+        "consequence": "Potential reduction in closeness when privacy is low; adaptation can preserve relationship quality"
+    },
+    {
+        "reasoning": "These codes use metaphors of maintenance (car, road, recipe) and concrete rituals to illustrate the ongoing effort participants believe is required to sustain relationship quality.",
+        "supporting_open_codes": [
+            "Code: relationship described as a long road",
+            "Code: relationship likened to car requiring maintenance",
+            "Code: ongoing maintenance as essential",
+            "Code: continuous tuning of relationship",
+            "Code: keeping relationship passionate and active",
+            "Code: preventing relationship stagnation and reviving when needed",
+            "Code: weekly 'toe talks' ritual",
+            "Code: Physical proximity (toes touching) during communication",
+            "Code: Ongoing openness, talks reinforce existing communication",
+            "Code: Ritual as grounding and staying informed despite busy lives"
+        ],
+        "axial_category": "Maintenance Metaphor & Ongoing Effort",
+        "condition": "Throughout the lifespan of the partnership",
+        "action_interaction": "Couples engage in regular maintenance activities (rituals, tuning, shared tasks) to keep the relationship functional",
+        "consequence": "Sustained quality and resilience when maintenance is consistent; deterioration when effort wanes"
+    },
+    {
+        "reasoning": "These codes highlight respect, mutual understanding, and appreciation as foundational attitudes that participants associate with a healthy, high\u2011quality relationship.",
+        "supporting_open_codes": [
+            "Code: respect identified as most important aspect",
+            "Code: Respect is more important than love",
+            "Code: Respect fosters love",
+            "Code: mutual understanding",
+            "Code: understanding each other",
+            "Code: appreciating each other",
+            "Code: mutual respect between partners",
+            "Code: Respect considered essential or fundamental",
+            "Code: Respect seen as expression of love"
+        ],
+        "axial_category": "Respect & Mutual Understanding",
+        "condition": "When partners interact in everyday situations and decision\u2011making",
+        "action_interaction": "They demonstrate respect, listen, appreciate differences, and seek to understand each other's perspectives",
+        "consequence": "Higher relationship satisfaction and stability when respect is present; erosion of quality when respect is lacking"
+    }
+]

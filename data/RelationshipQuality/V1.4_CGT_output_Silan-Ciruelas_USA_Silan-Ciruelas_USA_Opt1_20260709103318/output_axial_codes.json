@@ -1,0 +1,101 @@
+[
+    {
+        "reasoning": "These codes all describe the emotional bond, affection, and intimacy that participants view as central to a high\u2011quality relationship. They capture feeling loved, caring for each other\u2019s feelings, experiencing passion, and the loss of emotional connection when quality declines.",
+        "supporting_open_codes": [
+            "Feeling partner's pain",
+            "Prioritizing partner over self",
+            "Feeling emotionally detached",
+            "Not being emotionally connected",
+            "Feeling not in love",
+            "Experiencing loss of passion and desire",
+            "Loving someone",
+            "Defining love as unconditional giving",
+            "Feeling cared for by partner",
+            "Providing presence for the partner",
+            "Feeling safe",
+            "Feeling emotionally safe depending on the topic"
+        ],
+        "axial_category": "Maintaining emotional connection and intimacy"
+    },
+    {
+        "reasoning": "These codes converge on how couples communicate, listen, and manage conflict. Frequent references to talking, listening, misunderstanding, fighting, and de\u2011escalation illustrate the process of negotiating disagreements and sustaining relational health through communication.",
+        "supporting_open_codes": [
+            "Communicating",
+            "Not communicating",
+            "Partner not listening despite repeated explanation",
+            "Listening when interested",
+            "Not listening when uninterested",
+            "Avoiding fighting when angry",
+            "Keeping quiet to de\u2011escalate",
+            "Apologizing after conflict",
+            "Encouraging reciprocal empathy",
+            "Talking it out",
+            "Expressing uncertainty about low quality definition",
+            "Partner listening rating"
+        ],
+        "axial_category": "Negotiating and resolving conflict through communication"
+    },
+    {
+        "reasoning": "These codes highlight joint activities and shared time that participants cite as evidence of a strong partnership. Doing things together, sharing meals, vacations, and everyday routines reinforce a sense of togetherness and partnership.",
+        "supporting_open_codes": [
+            "Doing things together as a couple",
+            "Spending little time together",
+            "Having few common interests",
+            "Going on vacations together",
+            "Enjoying shared time",
+            "Watching TV together",
+            "Eating together",
+            "Planning outings",
+            "Having date nights",
+            "Shared meals",
+            "Engaging in shared activities"
+        ],
+        "axial_category": "Engaging in shared activities to foster togetherness"
+    },
+    {
+        "reasoning": "These codes refer to the practical, financial, and caregiving responsibilities that participants see as essential to relationship quality. Managing money, childrearing, household tasks, and business collaboration are portrayed as joint work that sustains the partnership.",
+        "supporting_open_codes": [
+            "Evaluating financial aspect positively",
+            "Focusing on financial responsibilities and taking care of children",
+            "Providing financial support",
+            "Raising children",
+            "Housework overload as low quality factor",
+            "Outsourcing housework to reduce tension",
+            "Partner's focus on business",
+            "Running businesses together",
+            "Providing presence for partner",
+            "Offering practical support when partner is tired",
+            "Helping with cooking"
+        ],
+        "axial_category": "Coordinating practical responsibilities and financial support"
+    },
+    {
+        "reasoning": "These codes capture the sense of trust, reliability, and safety that participants associate with a high\u2011quality relationship. Trust, feeling safe, counting on the partner, and consistent responsiveness are repeatedly mentioned as foundational.",
+        "supporting_open_codes": [
+            "Trust",
+            "Feeling safe",
+            "Relying on partner",
+            "Partner's constant presence",
+            "Partner listening rating",
+            "Partner responsiveness rating",
+            "Avoiding actions that breach trust",
+            "Feeling secure",
+            "Counting on partner for essential supplies"
+        ],
+        "axial_category": "Building trust and safety in the partnership"
+    },
+    {
+        "reasoning": "These codes reflect participants\u2019 personal growth and change that they attribute to the relationship. Maturation, increased confidence, learning new skills, and shifting self\u2011identity are described as outcomes of being in a long\u2011term partnership.",
+        "supporting_open_codes": [
+            "Maturing",
+            "Changing self through relationship",
+            "Developing higher self\u2011esteem",
+            "Becoming more confident",
+            "Learning new skills after marriage",
+            "Growing as a person over many years",
+            "Developing healthier thought process",
+            "Personal growth and self\u2011awareness"
+        ],
+        "axial_category": "Fostering personal growth and self\u2011development through partnership"
+    }
+]

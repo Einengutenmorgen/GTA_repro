@@ -1,0 +1,4938 @@
+[
+    {
+        "open_code": "Estimating relationship length",
+        "text_passage": "Almost [11-15] years. So maybe [11-15] years."
+    },
+    {
+        "open_code": "Naming household members",
+        "text_passage": "My mother, my husband, my daughter and my son and myself."
+    },
+    {
+        "open_code": "Assessing own relationship quality",
+        "text_passage": "I would say that my relationship now is not so great."
+    },
+    {
+        "open_code": "Comparing friends' relationships to own",
+        "text_passage": "some of my friends also don't have great relationships after being married so long"
+    },
+    {
+        "open_code": "Recognizing marital ups and downs",
+        "text_passage": "I feel like all marriages have ups and downs."
+    },
+    {
+        "open_code": "Identifying multiple aspects of relationship quality",
+        "text_passage": "there's many different aspects to that."
+    },
+    {
+        "open_code": "Evaluating financial aspect positively",
+        "text_passage": "financially, things are great."
+    },
+    {
+        "open_code": "Evaluating emotional aspect negatively",
+        "text_passage": "Emotionally, not so much."
+    },
+    {
+        "open_code": "Noting friends' relationship issues",
+        "text_passage": "my friends have other issues."
+    },
+    {
+        "open_code": "Emphasizing dependence on context",
+        "text_passage": "I think it just all depends."
+    },
+    {
+        "open_code": "Acknowledging uncertainty about others' private dynamics",
+        "text_passage": "you never really know what happens behind closed doors in other people's relationships."
+    },
+    {
+        "open_code": "Struggling to compare relationship quality",
+        "text_passage": "It's kind of hard to compare them because my previous relationships was when I was a teenager and I got married very young."
+    },
+    {
+        "open_code": "Reflecting on being young in past relationships",
+        "text_passage": "because I was so young, I feel like in my past relationships there is more of an emotional connection than my married relationship."
+    },
+    {
+        "open_code": "Perceiving marriage as business-like",
+        "text_passage": "My married relationship almost sometimes feels like it's a business."
+    },
+    {
+        "open_code": "Raising children and doing what's best for them",
+        "text_passage": "We're here to raise our children and do what's best for them."
+    },
+    {
+        "open_code": "Not being emotionally connected",
+        "text_passage": "So we are not very emotionally connected."
+    },
+    {
+        "open_code": "Focusing on financial responsibilities and taking care of children",
+        "text_passage": "it's more financial and taking care of our children."
+    },
+    {
+        "open_code": "Viewing relationship as a business",
+        "text_passage": "Well for me it is."
+    },
+    {
+        "open_code": "Running businesses together",
+        "text_passage": "And we have businesses together, so."
+    },
+    {
+        "open_code": "Feeling everything seems the same",
+        "text_passage": "It just all kind of seems the same."
+    },
+    {
+        "open_code": "Clarifying question scope",
+        "text_passage": "In a relationship in general or this relationship."
+    },
+    {
+        "open_code": "Doing things together as a couple",
+        "text_passage": "doing things together as a couple"
+    },
+    {
+        "open_code": "Communicating",
+        "text_passage": "communication"
+    },
+    {
+        "open_code": "Feeling passion",
+        "text_passage": "Passion"
+    },
+    {
+        "open_code": "Prioritizing passion",
+        "text_passage": "Holly Passion really is the number one"
+    },
+    {
+        "open_code": "Spending little time together",
+        "text_passage": "Not spending time together, not doing things together, not having things in common?"
+    },
+    {
+        "open_code": "Not communicating",
+        "text_passage": "You don't communicate, you don't have things to communicate about."
+    },
+    {
+        "open_code": "Having few common interests",
+        "text_passage": "If you don't have things in common."
+    },
+    {
+        "open_code": "Feeling drawn to partner on sight",
+        "text_passage": "I think it's just the feeling you have when you see that person."
+    },
+    {
+        "open_code": "Anticipating waking up together",
+        "text_passage": "When you talk to that person, you wake up with that person the next in the morning."
+    },
+    {
+        "open_code": "Wanting to be with partner",
+        "text_passage": "It's just that it's you want to be with them, I think."
+    },
+    {
+        "open_code": "Feeling partner's pain",
+        "text_passage": "You feel you feel their pain when they're having a bad day."
+    },
+    {
+        "open_code": "Trying to cheer partner up despite own mood",
+        "text_passage": "You know, you want to try to make them not have a bad day and cheer them up no matter how your day is."
+    },
+    {
+        "open_code": "Prioritizing partner over self",
+        "text_passage": "I think you just look towards that other person more than yourself."
+    },
+    {
+        "open_code": "Recalling early years as compassionate because it was new",
+        "text_passage": "maybe now in the beginning, maybe the [1st-5th] year or so. It was because it was new. It was compassionate."
+    },
+    {
+        "open_code": "Living separate lives",
+        "text_passage": "we went on to really just living our own lives for the most part."
+    },
+    {
+        "open_code": "Noticing shift toward more compassion later",
+        "text_passage": "things turned around and was more compassionate."
+    },
+    {
+        "open_code": "Observing change after first year",
+        "text_passage": "Probably just the first year, I would say after that it became more."
+    },
+    {
+        "open_code": "Doing own activities separately",
+        "text_passage": "We were just always doing our own thing."
+    },
+    {
+        "open_code": "Experiencing lack of togetherness",
+        "text_passage": "We were never really together."
+    },
+    {
+        "open_code": "Focusing on raising children",
+        "text_passage": "focused on raising my children"
+    },
+    {
+        "open_code": "Not working",
+        "text_passage": "didn't work"
+    },
+    {
+        "open_code": "Viewing children as primary focus",
+        "text_passage": "they were my huge focus"
+    },
+    {
+        "open_code": "Viewing partner's focus as financial",
+        "text_passage": "his huge focus is financial, also making money"
+    },
+    {
+        "open_code": "Living separate yet together lives",
+        "text_passage": "live separate lives, but together"
+    },
+    {
+        "open_code": "Raising our family",
+        "text_passage": "raised our family"
+    },
+    {
+        "open_code": "Providing financial support",
+        "text_passage": "he made sure we were financially provided for"
+    },
+    {
+        "open_code": "Stating love as most important",
+        "text_passage": "Most important. Is really just love."
+    },
+    {
+        "open_code": "Equating love with being in love",
+        "text_passage": "And when I say love, I mean being in love."
+    },
+    {
+        "open_code": "Wanting the partner's happiness",
+        "text_passage": "you just want you want that person to be happy"
+    },
+    {
+        "open_code": "Being willing to sacrifice oneself for partner",
+        "text_passage": "willing to give up yourself for that person"
+    },
+    {
+        "open_code": "Avoiding making partner's day harder",
+        "text_passage": "you\u2019re not trying to make that person\u2019s day harder"
+    },
+    {
+        "open_code": "Trying to improve partner's difficult day",
+        "text_passage": "If they\u2019re having a hard day, you\u2019re trying to make it a little bit a little bit better."
+    },
+    {
+        "open_code": "Refraining from fighting with partner during distress",
+        "text_passage": "you\u2019re not going to sit here and fight with them when they come home, sad or angry or stressed out"
+    },
+    {
+        "open_code": "Alleviating partner's stress",
+        "text_passage": "You\u2019re going to help alleviate some of that stress."
+    },
+    {
+        "open_code": "Feeling compelled to do anything for loved one",
+        "text_passage": "you\u2019d almost do anything for them."
+    },
+    {
+        "open_code": "Recognizing limits in love",
+        "text_passage": "there\u2019s limits, though, when it comes to loving someone."
+    },
+    {
+        "open_code": "Loving someone",
+        "text_passage": "you can love someone."
+    },
+    {
+        "open_code": "Questioning limitless devotion",
+        "text_passage": "That doesn't mean you're going to do absolutely, absolutely anything for them."
+    },
+    {
+        "open_code": "Rejecting extreme sacrifice",
+        "text_passage": "I was going to say you would kill for someone, but that's not really reality."
+    },
+    {
+        "open_code": "Suggesting willingness to do anything",
+        "text_passage": "you would just do anything for them."
+    },
+    {
+        "open_code": "Acknowledging limits to bending over backwards",
+        "text_passage": "you're not going to always bend over backwards."
+    },
+    {
+        "open_code": "Attributing love to benefits they bring",
+        "text_passage": "you love them because they bring many things to your life."
+    },
+    {
+        "open_code": "Describing love as a distinct feeling",
+        "text_passage": "love is a whole different feeling."
+    },
+    {
+        "open_code": "Reflecting on the first year of being together",
+        "text_passage": "the first year of being together"
+    },
+    {
+        "open_code": "Falling in love again",
+        "text_passage": "when I fell in love again or being in love again"
+    },
+    {
+        "open_code": "Enjoying shared time",
+        "text_passage": "I enjoyed my time. Our time together."
+    },
+    {
+        "open_code": "Going on vacations together",
+        "text_passage": "We would go on vacations together"
+    },
+    {
+        "open_code": "Doing lots of things together",
+        "text_passage": "we would do lots of things together"
+    },
+    {
+        "open_code": "Feeling the relationship as fun",
+        "text_passage": "our relationship was more fun"
+    },
+    {
+        "open_code": "Seeing the partnership as a couple rather than roommates",
+        "text_passage": "we were a couple opposed to just roommates, business partners, Partners"
+    },
+    {
+        "open_code": "Clarifying love definition",
+        "text_passage": "As in being in love or being just loving someone."
+    },
+    {
+        "open_code": "loving many people",
+        "text_passage": "I love lots of people."
+    },
+    {
+        "open_code": "loving my family",
+        "text_passage": "I love all my family."
+    },
+    {
+        "open_code": "struggling to go out of my way for loved ones",
+        "text_passage": "I wouldn't always go out of my way for them, which I do love them, but that's a hard one."
+    },
+    {
+        "open_code": "feeling extreme love for my children",
+        "text_passage": "I would jump off a bridge for them."
+    },
+    {
+        "open_code": "evaluating love by its extremeness",
+        "text_passage": "the different forms of love are how extreme things are"
+    },
+    {
+        "open_code": "prioritizing being in love in a relationship",
+        "text_passage": "being in love is, I think, the most important."
+    },
+    {
+        "open_code": "Thinking about different degrees of love",
+        "text_passage": "Um, I think the different degrees of love."
+    },
+    {
+        "open_code": "Seeking affirmation of understanding",
+        "text_passage": "Yes. If that makes sense."
+    },
+    {
+        "open_code": "Contrasting romantic love with parental love",
+        "text_passage": "I'm not in love with my children like that, but I would do more for them than anybody in my entire life."
+    },
+    {
+        "open_code": "Considering willingness to do anything for romantic partner",
+        "text_passage": "Then I suppose I would probably do almost anything for them, too."
+    },
+    {
+        "open_code": "Comparing love for extended family to romantic love",
+        "text_passage": "But then there's just like your love for your aunt. So your uncles or your cousins and stuff like that."
+    },
+    {
+        "open_code": "Rejecting extreme sacrifice for extended family",
+        "text_passage": "I'm not jumping off a bridge for them."
+    },
+    {
+        "open_code": "Agreeing with interviewer's framing",
+        "text_passage": "Yes. Okay. Good way to put it."
+    },
+    {
+        "open_code": "Prioritizing romantic love",
+        "text_passage": "I think romantic love is the most important thing in a relationship,"
+    },
+    {
+        "open_code": "Expecting relationship qualities to emerge from romantic love",
+        "text_passage": "once you're romantically in love, then all the things that should come with a relationship will automatically happen."
+    },
+    {
+        "open_code": "Associating love with faithfulness and loyalty",
+        "text_passage": "Being faithful, being loyal, you know, all those things."
+    },
+    {
+        "open_code": "Feeling like the other's partner",
+        "text_passage": "Being beat, just being that other person's."
+    },
+    {
+        "open_code": "Providing presence for the partner",
+        "text_passage": "Being there. Being there."
+    },
+    {
+        "open_code": "Viewing love as companionship or other half",
+        "text_passage": "More like their companion or their other half that's being in love."
+    },
+    {
+        "open_code": "Losing relationship priorities without love",
+        "text_passage": "if you don't have that, then you kind of lose some of those other priorities, all those things that you really think should be happening in a relationship."
+    },
+    {
+        "open_code": "Prioritizing love over looks",
+        "text_passage": "Yes, because I think with looks, I think love is on the top and then all the other ones just come naturally when you're in love."
+    },
+    {
+        "open_code": "Assuming love leads to other qualities emerging naturally",
+        "text_passage": "Yes, because I think with looks, I think love is on the top and then all the other ones just come naturally when you're in love."
+    },
+    {
+        "open_code": "Prioritizing actions over words",
+        "text_passage": "actions are more important than words"
+    },
+    {
+        "open_code": "Believing partner would do anything for me",
+        "text_passage": "I do believe he would do anything for me"
+    },
+    {
+        "open_code": "Feeling unsure about explaining love",
+        "text_passage": "I'm not really sure how to explain that"
+    },
+    {
+        "open_code": "Observing selfish actions coming first",
+        "text_passage": "your own selfish actions come first"
+    },
+    {
+        "open_code": "Distinguishing self\u2011love from love for partner",
+        "text_passage": "You love yourself ... more than you love your partner"
+    },
+    {
+        "open_code": "Confirming partner's selfless love claim",
+        "text_passage": "Yes. Yes. Yes."
+    },
+    {
+        "open_code": "Doubting having found selfless love",
+        "text_passage": "I don't think I found somebody who loved them and I think it means anything."
+    },
+    {
+        "open_code": "Prioritizing actions as expression of love",
+        "text_passage": "I think it's actions."
+    },
+    {
+        "open_code": "Encountering partner's selfish acts despite disagreement",
+        "text_passage": "just more of the selfish acts of I don't agree with something but he does that anyway because it's self satisfying to him."
+    },
+    {
+        "open_code": "Observing partner acting for self\u2011satisfaction",
+        "text_passage": "just more of the selfish acts of I don't agree with something but he does that anyway because it's self satisfying to him."
+    },
+    {
+        "open_code": "Identifying selfishness as biggest challenge",
+        "text_passage": "That's really it. I think the biggest one is just more. Is his selfishness."
+    },
+    {
+        "open_code": "Feeling disregarded",
+        "text_passage": "Yes. And everything is always about him and how he feels."
+    },
+    {
+        "open_code": "Sensing partner's self-centeredness",
+        "text_passage": "Yes. And everything is always about him and how he feels."
+    },
+    {
+        "open_code": "Setting timeframe for fighting",
+        "text_passage": "Within the last year."
+    },
+    {
+        "open_code": "Assessing high conflict frequency",
+        "text_passage": "I would say we fight a lot."
+    },
+    {
+        "open_code": "Estimating regular fighting intervals",
+        "text_passage": "Probably every week to two weeks."
+    },
+    {
+        "open_code": "Recalling past low conflict",
+        "text_passage": "Previously? Once."
+    },
+    {
+        "open_code": "Estimating past occasional fighting",
+        "text_passage": "Twice a year, maybe."
+    },
+    {
+        "open_code": "Disconnecting emotionally",
+        "text_passage": "I have now disconnected myself emotionally"
+    },
+    {
+        "open_code": "Feeling unconnected to the relationship",
+        "text_passage": "I'm just not connected into the relationship anymore at all"
+    },
+    {
+        "open_code": "Partner wanting connection",
+        "text_passage": "he, of course, wants me to be connected into the relationship"
+    },
+    {
+        "open_code": "Labeling fights as stupid stuff",
+        "text_passage": "It was just stupid stuff"
+    },
+    {
+        "open_code": "Feeling ignored by partner",
+        "text_passage": "He just doesn't talk to me for days."
+    },
+    {
+        "open_code": "Experiencing unresolved fights",
+        "text_passage": "So they don't really get resolved."
+    },
+    {
+        "open_code": "Observing conflicts becoming entangled",
+        "text_passage": "They get involved."
+    },
+    {
+        "open_code": "trying to restart conversation about business",
+        "text_passage": "Usually it's me just trying to make the conversation again about business or something like that."
+    },
+    {
+        "open_code": "partner eventually deciding to start talking",
+        "text_passage": "And then he eventually decides to start talking to me."
+    },
+    {
+        "open_code": "wondering how to keep relationship going",
+        "text_passage": "Like, how do we keep our relationship going?"
+    },
+    {
+        "open_code": "identifying partner's focus on sex",
+        "text_passage": "His big thing is sex."
+    },
+    {
+        "open_code": "feeling uncertain about engaging in sex",
+        "text_passage": "I'm just not really sure that I do that anymore."
+    },
+    {
+        "open_code": "continuing day-to-day activities and socializing together",
+        "text_passage": "Continue in the day to day life activities if we are to go out socializing with other people"
+    },
+    {
+        "open_code": "experiencing living separate lives",
+        "text_passage": "we kind of live two separate lives right now."
+    },
+    {
+        "open_code": "Going out socially with other people ourselves",
+        "text_passage": "Going out socially with other people ourselves"
+    },
+    {
+        "open_code": "Going to dinner",
+        "text_passage": "going to dinner"
+    },
+    {
+        "open_code": "Doing things together",
+        "text_passage": "just doing things together"
+    },
+    {
+        "open_code": "Watching TV together",
+        "text_passage": "Watching TV together"
+    },
+    {
+        "open_code": "Doing things together",
+        "text_passage": "It's just doing things together."
+    },
+    {
+        "open_code": "Saying relationship is not good",
+        "text_passage": "Currently, I say no, the relationship is not."
+    },
+    {
+        "open_code": "Feeling emotionally detached from relationship",
+        "text_passage": "emotionally I'm not in the relationship anymore."
+    },
+    {
+        "open_code": "Experiencing mental damage compared to before",
+        "text_passage": "So it causes more damage to me mentally than. Before."
+    },
+    {
+        "open_code": "Describing everyday experience of being in a relationship",
+        "text_passage": "No, just the every day now of being in a relationship."
+    },
+    {
+        "open_code": "Reflecting on past events shaping current self",
+        "text_passage": "many things have occurred to get me to this point in life."
+    },
+    {
+        "open_code": "Feeling that the relationship is at a stage of completion",
+        "text_passage": "You're kind of done."
+    },
+    {
+        "open_code": "Recognizing that the situation is not simple",
+        "text_passage": "But it's not that easy."
+    },
+    {
+        "open_code": "Feeling changed by relationship",
+        "text_passage": "it definitely has changed me."
+    },
+    {
+        "open_code": "Growing as a person over many years",
+        "text_passage": "just growing as a person over all those years"
+    },
+    {
+        "open_code": "Growing as a person with another person",
+        "text_passage": "growing as a person with another person."
+    },
+    {
+        "open_code": "Being in a relationship and marriage",
+        "text_passage": "being in a relationship and a marriage"
+    },
+    {
+        "open_code": "Learning how to be a wife",
+        "text_passage": "learning how to be a wife"
+    },
+    {
+        "open_code": "Learning how to be a mother",
+        "text_passage": "learning how to be a mother"
+    },
+    {
+        "open_code": "Doing all those things over a course of years",
+        "text_passage": "doing all those things over a course of years."
+    },
+    {
+        "open_code": "Losing sense of self",
+        "text_passage": "lose who you are as a person."
+    },
+    {
+        "open_code": "Maturing",
+        "text_passage": "I matured."
+    },
+    {
+        "open_code": "Discovering unexpected love",
+        "text_passage": "I found love that I didn't know existed."
+    },
+    {
+        "open_code": "Arguing less after having children",
+        "text_passage": "I don't argue as much anymore."
+    },
+    {
+        "open_code": "Fighting less after having children",
+        "text_passage": "I don't fight as much."
+    },
+    {
+        "open_code": "Letting arguments go",
+        "text_passage": "I kind of let the arguments go instead of."
+    },
+    {
+        "open_code": "Choosing silence over standing up for beliefs",
+        "text_passage": "Standing up for what I believe in and just let it go and don't say anything at all,"
+    },
+    {
+        "open_code": "Avoiding fighting in front of children",
+        "text_passage": "because I'd never wanted to fight in front of my children and they don't need to see all that. All that. Animosity."
+    },
+    {
+        "open_code": "Losing sense of self",
+        "text_passage": "you also lose yourself a little bit."
+    },
+    {
+        "open_code": "Doing unwanted things in relationship",
+        "text_passage": "you kind of end up doing things that you don't want to do, which I think is normal in every relationship."
+    },
+    {
+        "open_code": "Showing love and respect through sacrifice",
+        "text_passage": "which also shows love and respect."
+    },
+    {
+        "open_code": "Adapting to partner's identity",
+        "text_passage": "you kind of become more of the person that they are."
+    },
+    {
+        "open_code": "Reclaiming self after children are grown",
+        "text_passage": "until you are grown up, and then you just start to find yourself again."
+    },
+    {
+        "open_code": "Observing partner becoming less aggressive over time",
+        "text_passage": "over the years, a little bit less aggressive."
+    },
+    {
+        "open_code": "Describing partner calming down",
+        "text_passage": "I kind of calmed down."
+    },
+    {
+        "open_code": "Struggling to label partner's change",
+        "text_passage": "Trying to think of the words would be the right word, but not as."
+    },
+    {
+        "open_code": "Noticing reduced argumentativeness",
+        "text_passage": "Not as argumentative, but also."
+    },
+    {
+        "open_code": "Comparing partner's change to own change",
+        "text_passage": "I don't think he has changed as much as I have."
+    },
+    {
+        "open_code": "Attributing partner's change to aging",
+        "text_passage": "Just I think as he gets older, that changes him."
+    },
+    {
+        "open_code": "Considering possibilities",
+        "text_passage": "Probably, I would think."
+    },
+    {
+        "open_code": "Rejecting suggestion",
+        "text_passage": "No."
+    },
+    {
+        "open_code": "Feeling physically safe",
+        "text_passage": "physically safe"
+    },
+    {
+        "open_code": "Feeling emotionally safe depending on the topic",
+        "text_passage": "emotionally safe sometimes depending on the topic"
+    },
+    {
+        "open_code": "Confiding in partner without being judged",
+        "text_passage": "I can confide in him on a lot of things and not be judged"
+    },
+    {
+        "open_code": "Experiencing judgment when opening up about certain things",
+        "text_passage": "I am judged for opening up about, ah, just doing certain things"
+    },
+    {
+        "open_code": "Going out socially partying",
+        "text_passage": "go out socially partying or something like that"
+    },
+    {
+        "open_code": "Being judged",
+        "text_passage": "I'm judged"
+    },
+    {
+        "open_code": "Drinking",
+        "text_passage": "If I drink, I'm judged."
+    },
+    {
+        "open_code": "Having an encounter with a friend",
+        "text_passage": "if I have an encounter with someone, a friend or something like that"
+    },
+    {
+        "open_code": "Receiving support",
+        "text_passage": "he'd be more supportive in that aspect"
+    },
+    {
+        "open_code": "Having a disagreement with friend",
+        "text_passage": "me and my friend have a disagreement"
+    },
+    {
+        "open_code": "Not agreeing",
+        "text_passage": "I don't agree with something"
+    },
+    {
+        "open_code": "Receiving emotional support",
+        "text_passage": "that type of emotional support, he's there"
+    },
+    {
+        "open_code": "questioning being heard",
+        "text_passage": "Yes, but I'm not sure that they're really heard. Look."
+    },
+    {
+        "open_code": "rating partner listening as somewhat true",
+        "text_passage": "Somewhat. He listens to me."
+    },
+    {
+        "open_code": "seeking clarification about which question",
+        "text_passage": "Was that the first question or the second one?"
+    },
+    {
+        "open_code": "Listening when interested",
+        "text_passage": "If it's a topic of conversation that he is interested in, he will listen."
+    },
+    {
+        "open_code": "Not listening when uninterested",
+        "text_passage": "If it is not, then he doesn't listen."
+    },
+    {
+        "open_code": "Being preoccupied in his own head and not hearing partner",
+        "text_passage": "And I think it's a lot of times he's in his own head, so he doesn't hear anything I say."
+    },
+    {
+        "open_code": "Attempting to book partner's flight and asking about earlier option",
+        "text_passage": "I was trying to book him on a flight and I was asking him if he wanted to take the earlier flight so that he could possibly be upgraded"
+    },
+    {
+        "open_code": "Putting airline agent on hold while consulting partner",
+        "text_passage": "and I put the airline agent on hold and went and asked and he said, no, I don't want to have a longer layover."
+    },
+    {
+        "open_code": "Refraining from changing ticket after partner's refusal",
+        "text_passage": "So then I didn't change his plane ticket."
+    },
+    {
+        "open_code": "Partner requesting earlier flight after delay",
+        "text_passage": "And then he said, No, I want to I'd rather go earlier."
+    },
+    {
+        "open_code": "Explaining prior decision to partner during call",
+        "text_passage": "And I said, Well, I asked you when I was on the phone with the agent if you wanted me to change it."
+    },
+    {
+        "open_code": "Partner reiterating refusal",
+        "text_passage": "And you told me no."
+    },
+    {
+        "open_code": "Repeating explanation three times for partner's understanding",
+        "text_passage": "And I explained it to you three times just so you would be listening."
+    },
+    {
+        "open_code": "Partner not listening despite repeated explanation",
+        "text_passage": "And he still didn't listen."
+    },
+    {
+        "open_code": "Partner wanting ticket change after earlier refusal",
+        "text_passage": "And so he wanted to change his plane ticket."
+    },
+    {
+        "open_code": "Partner failing to understand repeated messages",
+        "text_passage": "But apparently, the first three times I said it, he didn't understand what I was saying."
+    },
+    {
+        "open_code": "expressing needs to partner",
+        "text_passage": "when I tell him my needs or feelings"
+    },
+    {
+        "open_code": "perceiving partner as self-focused despite good intentions",
+        "text_passage": "he has good intentions, but he really doesn't know how to be about anyone but himself."
+    },
+    {
+        "open_code": "experiencing partner not following through on expressed needs",
+        "text_passage": "It doesn't happen."
+    },
+    {
+        "open_code": "feeling partner's feelings overriding my needs",
+        "text_passage": "I think his feelings overtake what my needs are."
+    },
+    {
+        "open_code": "observing partner's need for acceptance overriding my feelings",
+        "text_passage": "his need for acceptance and doing good overrules how I feel."
+    },
+    {
+        "open_code": "Reporting monthly sexual frequency",
+        "text_passage": "Maybe once a month."
+    },
+    {
+        "open_code": "Indicating recent increase",
+        "text_passage": "But that's more in recent."
+    },
+    {
+        "open_code": "Specifying recent months",
+        "text_passage": "The recent months."
+    },
+    {
+        "open_code": "Reporting previous frequency",
+        "text_passage": "Five days a week previously."
+    },
+    {
+        "open_code": "Noticing recent lessening of relationship quality",
+        "text_passage": "It was probably be within the last [1-5] months that it has lessened."
+    },
+    {
+        "open_code": "Expressing dissatisfaction with sex life",
+        "text_passage": "I am not."
+    },
+    {
+        "open_code": "Feeling emotionally disconnected",
+        "text_passage": "I'm not emotionally connected into this relationship."
+    },
+    {
+        "open_code": "Experiencing loss of passion and desire",
+        "text_passage": "And all of the passion and desire is gone."
+    },
+    {
+        "open_code": "Feeling nothing",
+        "text_passage": "Nothing like I feel nothing."
+    },
+    {
+        "open_code": "Feeling sex as part of intimacy",
+        "text_passage": "I feel like it's just it's part of an intimacy."
+    },
+    {
+        "open_code": "Feeling slightly connected during sex",
+        "text_passage": "you feel a little connected when you have sex."
+    },
+    {
+        "open_code": "Having sex without emotional connection",
+        "text_passage": "I can have sex, but I'm not emotionally connected."
+    },
+    {
+        "open_code": "Not feeling in love",
+        "text_passage": "I'm not in love."
+    },
+    {
+        "open_code": "Lacking desire to be present",
+        "text_passage": "You have no desire to be there."
+    },
+    {
+        "open_code": "Experiencing sex as meaningless",
+        "text_passage": "So sex feels nothing."
+    },
+    {
+        "open_code": "Imagining sex as significant when in love",
+        "text_passage": "if I was in love or I had the desire to be there, then sex is like a huge thing"
+    },
+    {
+        "open_code": "Stating complete dissatisfaction",
+        "text_passage": "I am completely dissatisfied. Okay."
+    },
+    {
+        "open_code": "Feeling stuck in an unwanted relationship",
+        "text_passage": "Because I'm in a relationship I don't want to be in and I have no emotional connection anymore."
+    },
+    {
+        "open_code": "Experiencing lack of emotional connection",
+        "text_passage": "Because I'm in a relationship I don't want to be in and I have no emotional connection anymore."
+    },
+    {
+        "open_code": "experiencing a beautiful life",
+        "text_passage": "I do have a beautiful life"
+    },
+    {
+        "open_code": "missing emotional connection to partner",
+        "text_passage": "I'm missing that emotional connection to a partner."
+    },
+    {
+        "open_code": "lacking emotional connection to husband",
+        "text_passage": "I just don't have the emotional connection to my husband."
+    },
+    {
+        "open_code": "viewing emotional connection as important",
+        "text_passage": "Which I think is important."
+    },
+    {
+        "open_code": "Affirming that summary captures experience",
+        "text_passage": "No, I think that all sums it up."
+    },
+    {
+        "open_code": "Reporting marriage duration",
+        "text_passage": "I\u2019m married out, [16-20] years ago. Yeah."
+    },
+    {
+        "open_code": "working together",
+        "text_passage": "Both of us are working, so I think our salary is the main income from us."
+    },
+    {
+        "open_code": "identifying salary as main income",
+        "text_passage": "Both of us are working, so I think our salary is the main income from us."
+    },
+    {
+        "open_code": "Comparing friends' relationships to my own",
+        "text_passage": "My friends compare with my friends. I think."
+    },
+    {
+        "open_code": "Observing friends' divorces",
+        "text_passage": "I have a couple of a friend. They divorced."
+    },
+    {
+        "open_code": "Considering reasons for friends' divorces",
+        "text_passage": "The reason I think, is [redacted]."
+    },
+    {
+        "open_code": "Noticing another friend's divorce",
+        "text_passage": "Another of my friends. They divorced because, [redacted]."
+    },
+    {
+        "open_code": "Identifying divorce as a notable factor",
+        "text_passage": "Yeah, that's that's the thing I can see."
+    },
+    {
+        "open_code": "Situating timeline before marriage",
+        "text_passage": "Before I met my husband."
+    },
+    {
+        "open_code": "Mentioning having a few friends",
+        "text_passage": "I had a couple of friend."
+    },
+    {
+        "open_code": "Speculating numeric range of past partners",
+        "text_passage": "Maybe [1-5]? Yeah."
+    },
+    {
+        "open_code": "Estimating number of ex\u2011boyfriends pre\u2011marriage",
+        "text_passage": "Maybe [1-5] ex-boyfriends, before I met my husband. Yeah."
+    },
+    {
+        "open_code": "valuing trust",
+        "text_passage": "trust is many important things right now."
+    },
+    {
+        "open_code": "experiencing lack of trust",
+        "text_passage": "they are not trust. They don't give a lot of trust to me."
+    },
+    {
+        "open_code": "doing interesting things together",
+        "text_passage": "doing interesting things together"
+    },
+    {
+        "open_code": "having common activities",
+        "text_passage": "have, a lot of common things to do"
+    },
+    {
+        "open_code": "going out a lot while dating",
+        "text_passage": "We going out a lot"
+    },
+    {
+        "open_code": "hanging out with friends",
+        "text_passage": "hanging out with our friends a lot"
+    },
+    {
+        "open_code": "having kids",
+        "text_passage": "Having kids"
+    },
+    {
+        "open_code": "going out less after marriage",
+        "text_passage": "we are not going out as many as when we were dating"
+    },
+    {
+        "open_code": "Discussing differing opinions",
+        "text_passage": "if we have a different opinion, we talked about it. Say it out."
+    },
+    {
+        "open_code": "Keeping quiet to de\u2011escalate",
+        "text_passage": "Sometimes I keep quiet for a while, then think through."
+    },
+    {
+        "open_code": "Avoiding fighting when angry",
+        "text_passage": "Not fight at that moment when both of us, angry."
+    },
+    {
+        "open_code": "Giving partner space when upset",
+        "text_passage": "if my husband was in a bad mood. Say something not really nice to me, then I would just keep quiet. They leave him alone. Don't argue right away. Don't fight back right away."
+    },
+    {
+        "open_code": "Communicating feelings after tension",
+        "text_passage": "after that, I usually let him know. Okay. I don't like the way you treat me like that."
+    },
+    {
+        "open_code": "Apologizing after conflict",
+        "text_passage": "my husband will come back to me, say sorry."
+    },
+    {
+        "open_code": "Encouraging reciprocal empathy",
+        "text_passage": "What if I say something? Same thing back to you. How do you feel?"
+    },
+    {
+        "open_code": "Expressing uncertainty about low quality definition",
+        "text_passage": "I don't know."
+    },
+    {
+        "open_code": "Identifying housework overload as low quality factor",
+        "text_passage": "Maybe housework. Too many housework."
+    },
+    {
+        "open_code": "Recommending outsourcing housework to reduce tension",
+        "text_passage": "If you can hire someone to do the housework for you, well, just hire someone."
+    },
+    {
+        "open_code": "Warning against doing tedious work oneself",
+        "text_passage": "Don't do the tedious work by yourself and make your relationship really tension."
+    },
+    {
+        "open_code": "Arguing with partner",
+        "text_passage": "arguing with your partner"
+    },
+    {
+        "open_code": "Allowing alone time",
+        "text_passage": "allow some, like, alone time"
+    },
+    {
+        "open_code": "Avoiding talking during anger",
+        "text_passage": "Not at the angry moment to talk"
+    },
+    {
+        "open_code": "Prioritizing calm discussion to preserve communication purpose",
+        "text_passage": "Talk out something otherwise it will mess up the purpose of your communication"
+    },
+    {
+        "open_code": "Refraining from clear expression when angry",
+        "text_passage": "Don't try to say something clearly"
+    },
+    {
+        "open_code": "Recognizing inability to communicate effectively when angry",
+        "text_passage": "It won't be able to do that"
+    },
+    {
+        "open_code": "Prioritizing trust",
+        "text_passage": "Most important thing I think I trust is the one thing."
+    },
+    {
+        "open_code": "Emphasizing communication",
+        "text_passage": "communication is important as well."
+    },
+    {
+        "open_code": "Describing cohabiting household",
+        "text_passage": "my husband and I and my for, four of us living here."
+    },
+    {
+        "open_code": "Including parents in household",
+        "text_passage": "Now that my parents living with us."
+    },
+    {
+        "open_code": "Simplifying family structure",
+        "text_passage": "This make the family structure very simple."
+    },
+    {
+        "open_code": "Observing in\u2011law pressure causing fights",
+        "text_passage": "some people fighting because, they think, the husband's mom has, a lot of, pressure to the wife or the wife's parents."
+    },
+    {
+        "open_code": "Feeling pressure from spouse",
+        "text_passage": "I have a lot of pressure to the husband."
+    },
+    {
+        "open_code": "Experiencing occasional conflict",
+        "text_passage": "conflict is sometimes."
+    },
+    {
+        "open_code": "Linking simplicity to ease",
+        "text_passage": "The simple structure of the family might be easier for the\u2013"
+    },
+    {
+        "open_code": "Defining love as feeling comfortable with partner",
+        "text_passage": "Love is. Comfort to stay with the person."
+    },
+    {
+        "open_code": "Linking lack of comfort to absence of love",
+        "text_passage": "So if you don't feel comfortable, then there's no love at all."
+    },
+    {
+        "open_code": "Emphasizing love's importance",
+        "text_passage": "I think it's pretty important because, if you don't think that there's a love, then why you staying in the relationship."
+    },
+    {
+        "open_code": "Questioning staying in relationship without love",
+        "text_passage": "I think it's pretty important because, if you don't think that there's a love, then why you staying in the relationship."
+    },
+    {
+        "open_code": "remembering important dates",
+        "text_passage": "He remembers, our, important days. My birthday, the anniversary and, many things."
+    },
+    {
+        "open_code": "hugging immediately after work",
+        "text_passage": "So usually when he came back, he was, hug me right away."
+    },
+    {
+        "open_code": "listening to partner's details",
+        "text_passage": "I know he he also, hears a lot of things about me."
+    },
+    {
+        "open_code": "expressing curiosity about partner's life",
+        "text_passage": "and is also curious a lot of things about me."
+    },
+    {
+        "open_code": "asking about partner's day",
+        "text_passage": "He will ask, how was your day?"
+    },
+    {
+        "open_code": "offering practical support when partner is tired",
+        "text_passage": "He will say, okay, if you are too tired, don't make the being there a weekend. Just, buy some to go."
+    },
+    {
+        "open_code": "offering to help with cooking",
+        "text_passage": "sometimes he offered to help to cook."
+    },
+    {
+        "open_code": "Noticing differing opinions on kids' education",
+        "text_passage": "a lot of time we have a different opinion for education for the kids' education."
+    },
+    {
+        "open_code": "Perceiving husband as disengaged from kids' education",
+        "text_passage": "my husband is like, he doesn't want to involve a lot of, kids."
+    },
+    {
+        "open_code": "Paying close attention to children's grades and school performance",
+        "text_passage": "I will see a lot of things, and I will pay a lot of attention to their grade and, their, how they were doing in the school."
+    },
+    {
+        "open_code": "Thinking husband is not putting effort into kids' education",
+        "text_passage": "Think my husband is not putting a lot of effort in there"
+    },
+    {
+        "open_code": "Fighting over educational decisions",
+        "text_passage": "A lot of the time we're fighting for this."
+    },
+    {
+        "open_code": "Viewing husband as a good dad despite conflicts",
+        "text_passage": "he's a pretty good dad."
+    },
+    {
+        "open_code": "Confirming frequent arguments",
+        "text_passage": "Yeah, many, many times. Yeah."
+    },
+    {
+        "open_code": "Avoiding fighting with daughter",
+        "text_passage": "Actually, for my daughter, we don't have a lot of, fighting because she is a very disciplined."
+    },
+    {
+        "open_code": "Observing daughter's knowledge of tasks and timelines",
+        "text_passage": "So she knows what to do. She knows, what needs to be done, by when and by how."
+    },
+    {
+        "open_code": "Perceiving son as opposite to daughter",
+        "text_passage": "But, for my son, he's, he's a younger, he's a totally different, opposite way."
+    },
+    {
+        "open_code": "Feeling need to pay more attention to son",
+        "text_passage": "So a lot of things I think I need pay more attention to him."
+    },
+    {
+        "open_code": "Noting husband's belief in shared responsibility",
+        "text_passage": "But my husband has a different, opinion. He be thinking everybody have to be responsible for their, like, there's a a lot of things."
+    },
+    {
+        "open_code": "Hoping husband will become more involved",
+        "text_passage": "But I, I hope my husband can involve a lot more ex."
+    },
+    {
+        "open_code": "Continuing unresolved conflict",
+        "text_passage": "We never resolved that. We're still struggling because, my my son. Still, live with us."
+    },
+    {
+        "open_code": "Anticipating resolution after son leaves for college",
+        "text_passage": "So I don't think, there\u2019s going to be a result until he go to the college."
+    },
+    {
+        "open_code": "Worrying about son's education",
+        "text_passage": "for Asian parents, I think, we worry many things. Not not owning maybe at this time is education is the most important thing for him, we think."
+    },
+    {
+        "open_code": "Anticipating future worries about career and marriage",
+        "text_passage": "But maybe when he grow up, he can, we can worry about other things. His career, maybe. And, when he get married, then we will worry something else."
+    },
+    {
+        "open_code": "Receiving parental pressure to date and marry",
+        "text_passage": "my mom, she lives very close by us, and, she's always like I said, when I was in college, she always said, don't, don't date anyone, okay? After I graduate, and she, ohyou have to find someone, get married, okay?"
+    },
+    {
+        "open_code": "Feeling expectation to have children immediately",
+        "text_passage": "you have to have a kids right away."
+    },
+    {
+        "open_code": "Recognizing cultural differences in parental worries",
+        "text_passage": "my culture maybe is a little bit different, than the other, other parents. But, we will have a lot of a worry for kids, not only for education."
+    },
+    {
+        "open_code": "Experiencing stage-based worries for children",
+        "text_passage": "Maybe in different stage. We will have a different worries."
+    },
+    {
+        "open_code": "Referencing other maintenance ways",
+        "text_passage": "Other ways maintained."
+    },
+    {
+        "open_code": "Expressing uncertainty",
+        "text_passage": "Well. I'm not really sure."
+    },
+    {
+        "open_code": "Seeking clarification",
+        "text_passage": "So how do you have, like, for example, like. What do you mean?"
+    },
+    {
+        "open_code": "questioning existence of alternative solutions",
+        "text_passage": "I don't think that there's another thing, another way."
+    },
+    {
+        "open_code": "sending son to school",
+        "text_passage": "I sent him to [school] last year."
+    },
+    {
+        "open_code": "agreeing with partner on approach",
+        "text_passage": "So I think both of us I agree with."
+    },
+    {
+        "open_code": "recognizing difficulty of handling issue",
+        "text_passage": "I know it's a bit harder for us to do that."
+    },
+    {
+        "open_code": "identifying single solution",
+        "text_passage": "That\u2019s the one way to solve the problem."
+    },
+    {
+        "open_code": "talking to son appropriately",
+        "text_passage": "Talk. Talk to my son in the right way."
+    },
+    {
+        "open_code": "arranging video calls with grandparents",
+        "text_passage": "they have, like, video conference with video call with their grandparents over the weekend."
+    },
+    {
+        "open_code": "requesting grandparents to intervene in issue",
+        "text_passage": "we will ask them, okay, can you talk to my son or my daughter about the issue they have?"
+    },
+    {
+        "open_code": "viewing grandparents as providing loving support",
+        "text_passage": "they give a lot of a different attention to the grandkids."
+    },
+    {
+        "open_code": "observing children listening more to grandparents",
+        "text_passage": "Kids, more, listening to grandparents than us."
+    },
+    {
+        "open_code": "Questioning if relationship is good",
+        "text_passage": "So if my relationship is good for me?"
+    },
+    {
+        "open_code": "Accepting stability as sufficient",
+        "text_passage": "I of course, I think it's okay with me if you guess is more stable."
+    },
+    {
+        "open_code": "Relying on someone for support",
+        "text_passage": "You always can rely on someone."
+    },
+    {
+        "open_code": "Finding someone to talk when issues arise",
+        "text_passage": "If there's that happen, you always can find someone to talk about it."
+    },
+    {
+        "open_code": "Assuming family values stability",
+        "text_passage": "I think most of the family like that."
+    },
+    {
+        "open_code": "Experiencing personal change",
+        "text_passage": "The relationship changed me."
+    },
+    {
+        "open_code": "Attributing change to responsibility",
+        "text_passage": "It should be the responsibility changed me."
+    },
+    {
+        "open_code": "Becoming a mom or wife",
+        "text_passage": "Because, become a mom or become a wife."
+    },
+    {
+        "open_code": "Recognizing new responsibilities",
+        "text_passage": "you have a different responsibility than you are daughter in the family"
+    },
+    {
+        "open_code": "Learning new skills after marriage",
+        "text_passage": "there's a many things I learned after I get married"
+    },
+    {
+        "open_code": "Realizing lack of cooking skill",
+        "text_passage": "before, I don't know how to cook"
+    },
+    {
+        "open_code": "Cooking daily as new routine",
+        "text_passage": "Now, well, I have to cook every day"
+    },
+    {
+        "open_code": "Experiencing changed temperament",
+        "text_passage": "my temperature's changed."
+    },
+    {
+        "open_code": "Seldom getting angry previously",
+        "text_passage": "My mom always say okay before I seldom get angry."
+    },
+    {
+        "open_code": "Getting easily pissed off",
+        "text_passage": "A lot of times I'm easy to get pissed off."
+    },
+    {
+        "open_code": "Adapting to partner's habits",
+        "text_passage": "starting a new family is like, totally, you have to adapt the other's habit."
+    },
+    {
+        "open_code": "Partner adapting to my habits",
+        "text_passage": "And the the other also need to, get use of your habit."
+    },
+    {
+        "open_code": "Facing early relationship challenges",
+        "text_passage": "that's a one of the challenges being at the beginning."
+    },
+    {
+        "open_code": "Shifting focus to children",
+        "text_passage": "after you have a kids, then that's a totally different thing. You're not thinking about the habit of your husband anymore."
+    },
+    {
+        "open_code": "Noticing partner changing",
+        "text_passage": "He also changed a little bit."
+    },
+    {
+        "open_code": "Describing partner becoming more responsible",
+        "text_passage": "Be more responsible."
+    },
+    {
+        "open_code": "Identifying partner as family supporter",
+        "text_passage": "He\u2019s the person, he's the person who supports the family."
+    },
+    {
+        "open_code": "Recognizing partner bearing more work pressure",
+        "text_passage": "He has more pressure than me because he has to work."
+    },
+    {
+        "open_code": "Feeling unable to see partner\u2019s pressure",
+        "text_passage": "you can't see that."
+    },
+    {
+        "open_code": "Not worrying about losing my job",
+        "text_passage": "I don't have to worry about if I lost my job. That's one of the safety."
+    },
+    {
+        "open_code": "Counting on him for support",
+        "text_passage": "I can I can always count on him, because if there's something happen."
+    },
+    {
+        "open_code": "Relying on him when car breaks down",
+        "text_passage": "my car. Wow. My car broke down in the middle of a highway, I can always."
+    },
+    {
+        "open_code": "Not considering roadside service first",
+        "text_passage": "I won't think of calling the roadside service right away."
+    },
+    {
+        "open_code": "Calling him for help with issue",
+        "text_passage": "The first person I can think is, calling up, calling him about this issue."
+    },
+    {
+        "open_code": "rating partner's listening on scale",
+        "text_passage": "I can see 6 or 7."
+    },
+    {
+        "open_code": "questioning partner's consistent listening",
+        "text_passage": "I don't think he'll always listen to me."
+    },
+    {
+        "open_code": "communicating dissatisfaction about partner's yelling",
+        "text_passage": "But most of the time, if I let him know I don't like the way he's yelling at my kids."
+    },
+    {
+        "open_code": "highlighting specific target of yelling",
+        "text_passage": "Yelling at my son, at least."
+    },
+    {
+        "open_code": "partner responding to expressed concern",
+        "text_passage": "So he will listen to me."
+    },
+    {
+        "open_code": "partner attempting to lower his voice",
+        "text_passage": "He will try to see the lower voice."
+    },
+    {
+        "open_code": "reaffirming rating after discussion",
+        "text_passage": "Yeah. Yeah, I can see 6 or 7."
+    },
+    {
+        "open_code": "Rating partner's responsiveness as high",
+        "text_passage": "All I can say is 8 because, yeah, I think, most of the time,"
+    },
+    {
+        "open_code": "Imagining calling partner during car breakdown on highway",
+        "text_passage": "if, a middle of the highway, if my car breaks down. Right, the first thing I can think of calling him,"
+    },
+    {
+        "open_code": "Describing partner as faster responder than rule servers",
+        "text_passage": "because I think he's more responsive, he's faster response person than the rule servers are."
+    },
+    {
+        "open_code": "Positioning rating as moderate",
+        "text_passage": "Five is like, in middle."
+    },
+    {
+        "open_code": "Expecting husband to listen during serious discussions",
+        "text_passage": "my husband is, he he will listen to me if I say something. If we really seriously talk about it."
+    },
+    {
+        "open_code": "Acknowledging consistent listening in serious talks",
+        "text_passage": "He always listen to me."
+    },
+    {
+        "open_code": "Experiencing casual talks being forgotten",
+        "text_passage": "If I just, talking to him. Casually, not seriously. You just listen and then forget about it."
+    },
+    {
+        "open_code": "Comparing husband's follow\u2011through to kids' inconsistency",
+        "text_passage": "my husband sometimes the he's like, like my kids. Yeah. You said, okay, I'll do it, but the other way, they are not doing it right."
+    },
+    {
+        "open_code": "Feeling husband hears but does not act",
+        "text_passage": "He's not listening. He heard it, but he is not doing it."
+    },
+    {
+        "open_code": "Counting on him",
+        "text_passage": "I can count on him 100%."
+    },
+    {
+        "open_code": "Testing immediate reachability",
+        "text_passage": "if I ask him right away if he can, I can get hold of him."
+    },
+    {
+        "open_code": "Observing prompt response",
+        "text_passage": "He will response right away."
+    },
+    {
+        "open_code": "Limiting rating due to occasional inaccessibility",
+        "text_passage": "I can\u2019t see him a 9 or 10 because, sometimes I could not get hold of him."
+    },
+    {
+        "open_code": "Questioning his ability to meet needs instantly",
+        "text_passage": "How can he response my needs right away."
+    },
+    {
+        "open_code": "Noticing his inability to answer phone quickly",
+        "text_passage": "A lot of the time, he could not answer the phone right away"
+    },
+    {
+        "open_code": "Reporting infrequent sexual activity",
+        "text_passage": "Not many. Not many, but, we still."
+    },
+    {
+        "open_code": "Attributing reduced desire to own age",
+        "text_passage": "I think, maybe it\u2019s from my side, cause I'm [46-50] already."
+    },
+    {
+        "open_code": "Expressing personal lack of sexual need",
+        "text_passage": "So a lot of the time, I don't think I need."
+    },
+    {
+        "open_code": "Prioritizing partner's sexual needs when present",
+        "text_passage": "I have a lot of needs from there, but, but, if he has needs, we will."
+    },
+    {
+        "open_code": "Expressing uncertainty about sexual frequency",
+        "text_passage": "I don't know."
+    },
+    {
+        "open_code": "Thinking about relationship quality",
+        "text_passage": "I think."
+    },
+    {
+        "open_code": "Struggling to articulate feeling",
+        "text_passage": "I don't know how to say it"
+    },
+    {
+        "open_code": "Valuing simple hug and touch as sufficient",
+        "text_passage": "simple, simple hug, simple touch is, it's a pretty good already."
+    },
+    {
+        "open_code": "expressing partial satisfaction",
+        "text_passage": "I can say very satisfied, but not completely satisfied."
+    },
+    {
+        "open_code": "acknowledging existing concerns",
+        "text_passage": "Of course, there are some thing."
+    },
+    {
+        "open_code": "reaffirming satisfaction",
+        "text_passage": "Yeah, I can see. Very satisfied."
+    },
+    {
+        "open_code": "Rating relationship satisfaction",
+        "text_passage": "And so it should be 8 or 9."
+    },
+    {
+        "open_code": "Feeling not completely satisfied",
+        "text_passage": "Because, it's not completely satisfied."
+    },
+    {
+        "open_code": "Experiencing occasional unhappiness with partner",
+        "text_passage": "Sometimes you are not happy to each other."
+    },
+    {
+        "open_code": "Feeling mostly satisfied currently",
+        "text_passage": "But most of the time, I think, in current situation, I\u2019m pretty satisfied."
+    },
+    {
+        "open_code": "Viewing marriage as stable staple reducing worries",
+        "text_passage": "Because, this is like a staple. A lot of the things a staple, you don't have to worry many other things."
+    },
+    {
+        "open_code": "Comparing marriage to dating stage",
+        "text_passage": "Not like at dating with, okay. The stage. Totally different."
+    },
+    {
+        "open_code": "Emphasizing bonding family aspect",
+        "text_passage": "Get married, have kids. This is a very, I think, a very bonding family right here."
+    },
+    {
+        "open_code": "Feeling limited freedom due to responsibilities",
+        "text_passage": "Because, there are many things, like a fantasies stuff is not like, when you don't have a lot of freedom now because you have very responsibility right here."
+    },
+    {
+        "open_code": "Worrying about childcare logistics when away",
+        "text_passage": "If I won't go out, I will think, okay, if my kids have a date, who can make a dinner for him?"
+    },
+    {
+        "open_code": "Continuing to worry despite husband's involvement",
+        "text_passage": "I know my husband and I take care of it, but I still worry."
+    },
+    {
+        "open_code": "Feeling confidence in husband's self\u2011sufficiency",
+        "text_passage": "From wife's side, I don't worry about my husband. He can take care of himself."
+    },
+    {
+        "open_code": "Dreaming about future partner",
+        "text_passage": "When I was young, I think at that time I have a lot of a dream about my future partners, how he can look like, how he's going to take care of me."
+    },
+    {
+        "open_code": "Contrasting fantasies with reality",
+        "text_passage": "Well, a lot of the fantasies that, in real life. I think. Is that not a thing? Not fantasies. Not not totally the same, but."
+    },
+    {
+        "open_code": "Viewing family as providing stability",
+        "text_passage": "I think that in having a family is more stable."
+    },
+    {
+        "open_code": "Feeling safer in a good relationship",
+        "text_passage": "you feel a little bit more safe in a good relationship."
+    },
+    {
+        "open_code": "Declining to add further comments",
+        "text_passage": "Not really. I think. Yeah. Not not much."
+    },
+    {
+        "open_code": "Thinking about data sharing options",
+        "text_passage": "I think."
+    },
+    {
+        "open_code": "Stating tentative preference for sharing with everyone",
+        "text_passage": "So, for one, sharing with everyone. That's what you say?"
+    },
+    {
+        "open_code": "Stating option is okay",
+        "text_passage": "I should say one should be okay."
+    },
+    {
+        "open_code": "expressing uncertainty",
+        "text_passage": "I'm not sure"
+    },
+    {
+        "open_code": "considering asking her about participation",
+        "text_passage": "I can ask her if they are interesting about to participate in this survey or not"
+    },
+    {
+        "open_code": "waiting for permission before speaking",
+        "text_passage": "But, before I get their permission, them"
+    },
+    {
+        "open_code": "feeling unable to say anything without consent",
+        "text_passage": "I can't say anything"
+    },
+    {
+        "open_code": "Seeking clarification about study criteria",
+        "text_passage": "Okay, first of all, I need to find it out."
+    },
+    {
+        "open_code": "Checking location requirement for participants",
+        "text_passage": "Do they have to be, in [Country} or not?"
+    },
+    {
+        "open_code": "Questioning eligibility criteria for survey participation",
+        "text_passage": "Okay. Okay. And do they need. Do they need, like. If. Well, if if they their worst. Can they be participate in this survey or not?"
+    },
+    {
+        "open_code": "questioning survey eligibility",
+        "text_passage": "Could you if if if they the worst, can they, can they be in this survey or not?"
+    },
+    {
+        "open_code": "seeking clarification about worst scenario",
+        "text_passage": "Could you if if if they the worst, can they, can they be in this survey or not?"
+    },
+    {
+        "open_code": "Expressing uncertainty about knowing low\u2011income couples",
+        "text_passage": "Then maybe I don't know any or below the median."
+    },
+    {
+        "open_code": "Asking about the median income",
+        "text_passage": "How much is the median?"
+    },
+    {
+        "open_code": "Assuming friends have stable jobs",
+        "text_passage": "Yeah, I, I think most of my, my. The people I know they are either [Job] or well, yeah, most of them."
+    },
+    {
+        "open_code": "Discounting income as a problem",
+        "text_passage": "Most of my friends are [Job], so I don't think they, their income has a issue."
+    },
+    {
+        "open_code": "Rejecting income as the issue",
+        "text_passage": "Yeah, I don't think that's the issue for them."
+    },
+    {
+        "open_code": "Excluding friends from study eligibility",
+        "text_passage": "So in that, in that way, they are not qualified in your research."
+    },
+    {
+        "open_code": "Offering to ask about unhappy long-term couple",
+        "text_passage": "Oh, I can ask in that case, like, I."
+    },
+    {
+        "open_code": "Listing household members",
+        "text_passage": "Me, my wife, and my [1-5] kids."
+    },
+    {
+        "open_code": "Assessing relationship quality as good",
+        "text_passage": "I think it\u2019s pretty good."
+    },
+    {
+        "open_code": "Attributing relationship quality to lack of negative events",
+        "text_passage": "Because nothing bad happened so far, I mean."
+    },
+    {
+        "open_code": "Downplaying potential issues",
+        "text_passage": "Because nothing bad happened so far, I mean."
+    },
+    {
+        "open_code": "Finding comparison difficult because of school context",
+        "text_passage": "It's hard to compare because that's when I was in school, so, you know."
+    },
+    {
+        "open_code": "Not worrying about other stuff while in school",
+        "text_passage": "And you don't have to worry about the other stuff in school."
+    },
+    {
+        "open_code": "Facing job\u2011search and adult responsibilities after graduation",
+        "text_passage": "And then once you graduate, you need to find a job. You need to do any other stuff."
+    },
+    {
+        "open_code": "Reiterating difficulty comparing relationships",
+        "text_passage": "So. It's hard to compare."
+    },
+    {
+        "open_code": "cultivating mutual understanding",
+        "text_passage": "mutual understanding"
+    },
+    {
+        "open_code": "avoiding frequent fighting",
+        "text_passage": "do not fight"
+    },
+    {
+        "open_code": "accepting occasional conflict",
+        "text_passage": "there's always fight, but you don't fight a lot"
+    },
+    {
+        "open_code": "Not agreeing on many things",
+        "text_passage": "you don't agree on a lot of things"
+    },
+    {
+        "open_code": "Fighting all the time",
+        "text_passage": "you fight all the time"
+    },
+    {
+        "open_code": "Instructing child about expectations",
+        "text_passage": "you tell the kid, you need to do this, you know, you need to not to do other stuff."
+    },
+    {
+        "open_code": "Being on the same page",
+        "text_passage": "we, most of the time, are all in the same page."
+    },
+    {
+        "open_code": "Providing kids with consistent information",
+        "text_passage": "got the, you know, got the same information"
+    },
+    {
+        "open_code": "Asking for clarification",
+        "text_passage": "You mean for me or just general speaking?"
+    },
+    {
+        "open_code": "Having few disagreements",
+        "text_passage": "Don't have too many of those, but."
+    },
+    {
+        "open_code": "Recognizing individual differences",
+        "text_passage": "I guess, you know, we're just two different people, so we cannot agree on everything all the time."
+    },
+    {
+        "open_code": "Encountering differing opinions when issues arise",
+        "text_passage": "There were sometimes, you know, if something comes up and, you know, we have different opinions, you know."
+    },
+    {
+        "open_code": "Talking it out",
+        "text_passage": "talk it out"
+    },
+    {
+        "open_code": "Avoiding fighting",
+        "text_passage": "disagree and keep fighting"
+    },
+    {
+        "open_code": "Understanding",
+        "text_passage": "Obviously understanding."
+    },
+    {
+        "open_code": "Having consistent feelings towards the same thing",
+        "text_passage": "sometimes I have the same feeling towards the same thing."
+    },
+    {
+        "open_code": "Preferring more",
+        "text_passage": "the more the better."
+    },
+    {
+        "open_code": "Disagreeing on stuff",
+        "text_passage": "If you don't agree on stuff, then you just keep."
+    },
+    {
+        "open_code": "Fighting with each other all the time",
+        "text_passage": "Fighting\nwith each other all the time"
+    },
+    {
+        "open_code": "Worrying about kids",
+        "text_passage": "and then it's not good for any relationship is not good for the\nkids you know?"
+    },
+    {
+        "open_code": "Seeking comfort with preferred partner during bad mood",
+        "text_passage": "when you are in a bad situation, when you have a bad mood and that's the person you want to be with the most"
+    },
+    {
+        "open_code": "Wanting to talk to partner for emotional support",
+        "text_passage": "And you want to talk to that person."
+    },
+    {
+        "open_code": "Wanting to call partner to connect",
+        "text_passage": "And. You want to call that person."
+    },
+    {
+        "open_code": "Emphasizing love's importance",
+        "text_passage": "Yes. Very important I think."
+    },
+    {
+        "open_code": "Feeling cared for by partner",
+        "text_passage": "Because you care about me, I mean."
+    },
+    {
+        "open_code": "Appreciating partner's attention to little things",
+        "text_passage": "Like, like the little things, you know?"
+    },
+    {
+        "open_code": "Observing partner knows my food preferences",
+        "text_passage": "You know what kind of food I like, and then, you know."
+    },
+    {
+        "open_code": "Seeing partner remember important dates and locations",
+        "text_passage": "She remembers the date of certain locations, you know."
+    },
+    {
+        "open_code": "Anticipating upcoming difficulties",
+        "text_passage": "How we handle the next. Maybe next. Like a bad thing that might come, you know, like, like the teenage kids or, you know."
+    },
+    {
+        "open_code": "Identifying teenage children as potential challenge",
+        "text_passage": "like the teenage kids"
+    },
+    {
+        "open_code": "Labeling situation as a big challenge",
+        "text_passage": "Yeah, it's a big challenge, I think."
+    },
+    {
+        "open_code": "Arguing about stuff",
+        "text_passage": "You mean, you mean keep arguing stuff."
+    },
+    {
+        "open_code": "Describing infrequency",
+        "text_passage": "Not that often."
+    },
+    {
+        "open_code": "Estimating annual occurrence",
+        "text_passage": "Maybe once a year."
+    },
+    {
+        "open_code": "Limiting maximum frequency",
+        "text_passage": "Maybe once or twice a year at most."
+    },
+    {
+        "open_code": "Noticing teenage resistance",
+        "text_passage": "when they get to teenage age, they don't listen to you"
+    },
+    {
+        "open_code": "Describing teen stubbornness",
+        "text_passage": "they be stubborn"
+    },
+    {
+        "open_code": "Observing refusal to do homework",
+        "text_passage": "They don't wanna do homework"
+    },
+    {
+        "open_code": "letting conflict linger",
+        "text_passage": "Oh, I will just let it. Just let it."
+    },
+    {
+        "open_code": "waiting for emotions to cool down",
+        "text_passage": "After normally after about a day or two is going to cool down"
+    },
+    {
+        "open_code": "talking it out with partner",
+        "text_passage": "and then we can talk it out in the."
+    },
+    {
+        "open_code": "discussing issue with child",
+        "text_passage": "And then we'll have to talk to the kid."
+    },
+    {
+        "open_code": "Affirming continuation",
+        "text_passage": "And then. Yeah All right. Yeah."
+    },
+    {
+        "open_code": "Showing her care",
+        "text_passage": "show her the."
+    },
+    {
+        "open_code": "Caring for her constantly",
+        "text_passage": "I care about her all the time."
+    },
+    {
+        "open_code": "Caring for the kids",
+        "text_passage": "I care about the kids, you know."
+    },
+    {
+        "open_code": "affirming relationship as beneficial",
+        "text_passage": "It's good for me what it was."
+    },
+    {
+        "open_code": "requesting clarification",
+        "text_passage": "Can you say that again?"
+    },
+    {
+        "open_code": "Clarifying interviewer's question about comparative relationship quality",
+        "text_passage": "Is your question. About. Being good compared to other people or."
+    },
+    {
+        "open_code": "Imagining being alone and expecting differences",
+        "text_passage": "If I, if I'm by myself right now, there's a lot of things will be different."
+    },
+    {
+        "open_code": "Rejecting return to past days",
+        "text_passage": "I don't think I want to go back to those, those days."
+    },
+    {
+        "open_code": "Learning more stuff",
+        "text_passage": "It made me learn more stuff, that's for sure."
+    },
+    {
+        "open_code": "Connecting relationship to childcare",
+        "text_passage": "Like childcare you know?"
+    },
+    {
+        "open_code": "Feeling taught by relationship",
+        "text_passage": "And, in some called teach me."
+    },
+    {
+        "open_code": "Questioning how to care for others",
+        "text_passage": "How do you. You know to care about other people?"
+    },
+    {
+        "open_code": "Assuming relationship influences caring",
+        "text_passage": "I would think so."
+    },
+    {
+        "open_code": "maintaining perception of partner's sameness",
+        "text_passage": "I don't think so. I think she's still the same, at least to me."
+    },
+    {
+        "open_code": "Noticing unchanged personality",
+        "text_passage": "You know, personality wise, I think. She's still like that."
+    },
+    {
+        "open_code": "Struggling to answer the question",
+        "text_passage": "Why? I mean, that's a hard question. Why not? I mean."
+    },
+    {
+        "open_code": "Seeking clarification",
+        "text_passage": "You mean?"
+    },
+    {
+        "open_code": "Confirming definition of stable relationship",
+        "text_passage": "You mean for the stable relationship is what you mean?"
+    },
+    {
+        "open_code": "Affirming",
+        "text_passage": "Yeah."
+    },
+    {
+        "open_code": "Seeking clarification about examples",
+        "text_passage": "What kind of example you-"
+    },
+    {
+        "open_code": "Talking about work after coming home",
+        "text_passage": "We, we we talk about work after, you know, come back home"
+    },
+    {
+        "open_code": "Talking about daily stuff",
+        "text_passage": "and then we'll talk about stuff every day and, you know."
+    },
+    {
+        "open_code": "Feeling dismissed when partner listens but disagrees",
+        "text_passage": "Because she sometimes, she has her way, you know, maybe she'll listen, but she doesn't want to agree with me."
+    },
+    {
+        "open_code": "Observing partner asserting her way despite listening",
+        "text_passage": "Because she sometimes, she has her way, you know, maybe she'll listen, but she doesn't want to agree with me."
+    },
+    {
+        "open_code": "Telling kids to finish homework",
+        "text_passage": "tell the kids to finish their homework"
+    },
+    {
+        "open_code": "Checking on kids' homework",
+        "text_passage": "check on their homework"
+    },
+    {
+        "open_code": "Delegating homework to kid",
+        "text_passage": "I told the kid to do it"
+    },
+    {
+        "open_code": "Avoiding being blamed",
+        "text_passage": "I'm not supposed to be the guy who got blamed"
+    },
+    {
+        "open_code": "Questioning being blamed for others' actions",
+        "text_passage": "how can I be blamed for something that I don't do"
+    },
+    {
+        "open_code": "Citing few differences",
+        "text_passage": "Because a few."
+    },
+    {
+        "open_code": "Agreeing on most things",
+        "text_passage": "We agree on most of the things you know."
+    },
+    {
+        "open_code": "Noticing contrasting viewpoints",
+        "text_passage": "She\u2019s not like. You know, I say A, She says B you know."
+    },
+    {
+        "open_code": "Labeling partner as different type",
+        "text_passage": "She\u2019s not that type."
+    },
+    {
+        "open_code": "Clarifying needs",
+        "text_passage": "What kind of needs are we talking about here?"
+    },
+    {
+        "open_code": "Perceiving partner as supportive",
+        "text_passage": "I think she's really supportive, so I wouldn't really give her anything lower than, you know, the max score."
+    },
+    {
+        "open_code": "Maintaining maximal quality rating",
+        "text_passage": "I think she's really supportive, so I wouldn't really give her anything lower than, you know, the max score."
+    },
+    {
+        "open_code": "Finding out a relative passed from COVID",
+        "text_passage": "I find, one of my relatives passed because of the COVID."
+    },
+    {
+        "open_code": "Going home after hearing the news",
+        "text_passage": "And then I went home."
+    },
+    {
+        "open_code": "Being looked at by partner",
+        "text_passage": "She looked at me."
+    },
+    {
+        "open_code": "Partner commenting I look different",
+        "text_passage": "She said, you look a little different."
+    },
+    {
+        "open_code": "Remaining silent",
+        "text_passage": "And I didn't say anything."
+    },
+    {
+        "open_code": "Receiving a hug from partner",
+        "text_passage": "She just hugged me and said, oh, oh, something going on?."
+    },
+    {
+        "open_code": "Telling partner I looked different",
+        "text_passage": "So I told her, I mean. You can tell I looked different that moment when I came home."
+    },
+    {
+        "open_code": "Reporting sexual frequency",
+        "text_passage": "Okay, a minimum, maybe once a month."
+    },
+    {
+        "open_code": "Feeling satisfied with sex life",
+        "text_passage": "Oh, I'm really satisfied. Yeah."
+    },
+    {
+        "open_code": "Noticing partner responding the same way",
+        "text_passage": "Because she responds the same way, like we did, like [16-20] years ago. So I don't feel any change."
+    },
+    {
+        "open_code": "Comparing current interaction to how it was 16-20 years ago",
+        "text_passage": "Because she responds the same way, like we did, like [16-20] years ago. So I don't feel any change."
+    },
+    {
+        "open_code": "Feeling that there is no change",
+        "text_passage": "Because she responds the same way, like we did, like [16-20] years ago. So I don't feel any change."
+    },
+    {
+        "open_code": "Stating intention to answer",
+        "text_passage": "I will say. Also between the last two."
+    },
+    {
+        "open_code": "Choosing a middle rating between options",
+        "text_passage": "I will say. Also between the last two."
+    },
+    {
+        "open_code": "Rating satisfaction as nine and a half",
+        "text_passage": "I would say nine and half."
+    },
+    {
+        "open_code": "Recognizing impossibility of perfection",
+        "text_passage": "If I say ten, then you know nothing is perfect."
+    },
+    {
+        "open_code": "Feeling that relationship is pretty good",
+        "text_passage": "But it's pretty."
+    },
+    {
+        "open_code": "Feeling that nothing more is needed",
+        "text_passage": "I mean, there's nothing else I can ask for, so."
+    },
+    {
+        "open_code": "Acknowledging imperfection",
+        "text_passage": "Because nobody's perfect, and. There's always going to be some bumps there, here and there, but."
+    },
+    {
+        "open_code": "Accepting occasional bumps",
+        "text_passage": "Because nobody's perfect, and. There's always going to be some bumps there, here and there, but."
+    },
+    {
+        "open_code": "Feeling happy currently",
+        "text_passage": "Besides those bumps. I'm pretty happy now."
+    },
+    {
+        "open_code": "Receiving joking hypothetical question",
+        "text_passage": "She asked me one question the other day. She's like kind of joking with me. She's like, oh, what if I'm not, you know, in this world anymore?"
+    },
+    {
+        "open_code": "Imagining partner's remarriage scenario",
+        "text_passage": "You're going to. Remarried to some other people."
+    },
+    {
+        "open_code": "Expressing inability to find similar partner",
+        "text_passage": "You know I won't be able to find someone like you."
+    },
+    {
+        "open_code": "Rejecting partner's departure",
+        "text_passage": "I'll just say straight. No!"
+    },
+    {
+        "open_code": "Observing friends marrying and divorcing",
+        "text_passage": "some of them get married and got divorced"
+    },
+    {
+        "open_code": "Feeling lucky compared to friends' couples",
+        "text_passage": "compared to those, those couples, I feel I'm pretty lucky enough, you know, to to be with her for all the years"
+    },
+    {
+        "open_code": "Avoiding criticism of partner",
+        "text_passage": "I don't want to pick on anything"
+    },
+    {
+        "open_code": "Noting mutual friendships",
+        "text_passage": "she has friends. I have friends"
+    },
+    {
+        "open_code": "Requesting repetition of first option",
+        "text_passage": "Can you- Repeat the first one. Again?"
+    },
+    {
+        "open_code": "Apologizing for misunderstanding",
+        "text_passage": "I'm sorry."
+    },
+    {
+        "open_code": "Acknowledging request",
+        "text_passage": "Okay."
+    },
+    {
+        "open_code": "Hoping to find nominators",
+        "text_passage": "Sure. But I hope I can find."
+    },
+    {
+        "open_code": "Lacking immediate examples",
+        "text_passage": "I don't have those person on top of my head."
+    },
+    {
+        "open_code": "Offering tentative attempt to locate examples",
+        "text_passage": "I can try, but I cannot promise you I can find two people for you."
+    },
+    {
+        "open_code": "Affirming having children",
+        "text_passage": "Yeah."
+    },
+    {
+        "open_code": "Stating number of children",
+        "text_passage": "I got [1-5] children."
+    },
+    {
+        "open_code": "Specifying gender distribution",
+        "text_passage": "[1-5] boys and [1-5] girls."
+    },
+    {
+        "open_code": "Living together with household members",
+        "text_passage": "All of us together still."
+    },
+    {
+        "open_code": "",
+        "text_passage": ""
+    },
+    {
+        "open_code": "Seeing relationship quality as similar to friends' relationships",
+        "text_passage": "it's not that much different."
+    },
+    {
+        "open_code": "Noticing variety in relationships",
+        "text_passage": "It might have some variety"
+    },
+    {
+        "open_code": "Comparing relationship to cooking a dish",
+        "text_passage": "just like a recipe really, of making a dish, being in the kitchen for years and years and and you making dinner"
+    },
+    {
+        "open_code": "Using a recipe metaphor to illustrate relationship dynamics",
+        "text_passage": "Using a recipe with a variety of different spices, different issues, different tools, different serving, different kind of meat."
+    },
+    {
+        "open_code": "Seeking clarification on comparison target",
+        "text_passage": "Personally. Me with my friends or other marriages?"
+    },
+    {
+        "open_code": "Distinguishing wife as life partner",
+        "text_passage": "wife is is more of your life partner."
+    },
+    {
+        "open_code": "Describing wife as romantic relationship",
+        "text_passage": "it's a romantic relationship."
+    },
+    {
+        "open_code": "Labeling wife as mother of kids",
+        "text_passage": "it's it's a mother of your kids"
+    },
+    {
+        "open_code": "Viewing wife as far more personal",
+        "text_passage": "it's far more personal."
+    },
+    {
+        "open_code": "Comparing friends as friend friendship",
+        "text_passage": "Friends is more of a, you know, a friend friendship."
+    },
+    {
+        "open_code": "Sharing many things with friends",
+        "text_passage": "you share a lot of things with them"
+    },
+    {
+        "open_code": "Doing things for friends",
+        "text_passage": "you do things for them"
+    },
+    {
+        "open_code": "Limiting depth of sharing with friends compared to wife",
+        "text_passage": "but not to the same depth as you would do with your own wife."
+    },
+    {
+        "open_code": "Attributing relationship quality to personal character",
+        "text_passage": "I think quality because if this is coming out of the same person, so probably it's fairly same quality."
+    },
+    {
+        "open_code": "Predicting loyalty across relationships",
+        "text_passage": "if you're loyal to wife, most likely going to be loyal to your friends."
+    },
+    {
+        "open_code": "Transferring courtesy and generosity between partners and friends",
+        "text_passage": "If you\u2019re if you\u2019re courteous or generous with your wife, you can then be courteous and generous with your friends."
+    },
+    {
+        "open_code": "Denying dullness as an inherent trait",
+        "text_passage": "It cannot be, you know, a dull person, you know,"
+    },
+    {
+        "open_code": "Defining quality as part of self\u2011identity",
+        "text_passage": "it's who you are."
+    },
+    {
+        "open_code": "Estimating number of past partners",
+        "text_passage": "I need a calculator."
+    },
+    {
+        "open_code": "Identifying current age range",
+        "text_passage": "I'm [60-65] now"
+    },
+    {
+        "open_code": "Reflecting on early romantic onset",
+        "text_passage": "I think I was a romantic since I was [6-10] years old as as far as I can remember."
+    },
+    {
+        "open_code": "Being reminded by family of early romance",
+        "text_passage": "And that's been I've been reminded by my family for many years."
+    },
+    {
+        "open_code": "Falling in love with teacher",
+        "text_passage": "And the first thing female that I fell in love with was my teacher"
+    },
+    {
+        "open_code": "Recalling age at first love",
+        "text_passage": "I was only [6-10] inches her previous that I remember her name."
+    },
+    {
+        "open_code": "Continuing relationship experiences across life stages",
+        "text_passage": "But then from that time on and I kept going, you know, [6-10], [6-10], [11-15], [11-15]."
+    },
+    {
+        "open_code": "Recalling previous marriage",
+        "text_passage": "I was actually I was married before, before in my life."
+    },
+    {
+        "open_code": "Describing ex-wife's passing",
+        "text_passage": "So I had an ex-wife who unfortunately passed away"
+    },
+    {
+        "open_code": "Expressing doubt about ever finding similar love",
+        "text_passage": "And I must I must say and to be honest, I've never."
+    },
+    {
+        "open_code": "Predicting never finding comparable love",
+        "text_passage": "Most likely, I will never find anybody who loves me like she did."
+    },
+    {
+        "open_code": "Highlighting ex-wife's honest and candid love",
+        "text_passage": "And she was very honest and very candid of her love to me."
+    },
+    {
+        "open_code": "being younger",
+        "text_passage": "being younger"
+    },
+    {
+        "open_code": "having less responsibility",
+        "text_passage": "a lot less responsibility"
+    },
+    {
+        "open_code": "focusing more on fun",
+        "text_passage": "focusing more on fun"
+    },
+    {
+        "open_code": "vacationing",
+        "text_passage": "vacationing"
+    },
+    {
+        "open_code": "going out",
+        "text_passage": "going out"
+    },
+    {
+        "open_code": "doing things",
+        "text_passage": "doing things"
+    },
+    {
+        "open_code": "experiencing low stress",
+        "text_passage": "there was not a lot of stress involved"
+    },
+    {
+        "open_code": "experiencing cultural differences",
+        "text_passage": "different cultures and background of both wives"
+    },
+    {
+        "open_code": "feeling happy then",
+        "text_passage": "I was happy then"
+    },
+    {
+        "open_code": "feeling less happy now",
+        "text_passage": "maybe less happy now"
+    },
+    {
+        "open_code": "looking at the past as better",
+        "text_passage": "we always look at the past as better than the the present"
+    },
+    {
+        "open_code": "wanting to have children",
+        "text_passage": "wanted to have children"
+    },
+    {
+        "open_code": "being unable to achieve that goal",
+        "text_passage": "previous relationship was not able to, you know, achieve that goal"
+    },
+    {
+        "open_code": "remarrying",
+        "text_passage": "I got remarried"
+    },
+    {
+        "open_code": "Valuing honesty",
+        "text_passage": "Honesty."
+    },
+    {
+        "open_code": "Emphasizing sincerity",
+        "text_passage": "Sincerity."
+    },
+    {
+        "open_code": "Making sacrifices",
+        "text_passage": "Sacrifices."
+    },
+    {
+        "open_code": "Combining sacrifice with giving",
+        "text_passage": "Sacrifice and giving."
+    },
+    {
+        "open_code": "Giving a lot",
+        "text_passage": "Giving a lot."
+    },
+    {
+        "open_code": "Rejecting expectation of reciprocation",
+        "text_passage": "And don't expect to take back this give and give and take care and love."
+    },
+    {
+        "open_code": "Applying these principles across relationships",
+        "text_passage": "And that applies to the romantic life with the wife and also in the most difficult time and also with my my own kids as well, yeah."
+    },
+    {
+        "open_code": "Feeling right",
+        "text_passage": "you feel right"
+    },
+    {
+        "open_code": "Sensing things",
+        "text_passage": "you can actually sense things"
+    },
+    {
+        "open_code": "Seeing occasions and events",
+        "text_passage": "you see some certain [pause] Occasions and events"
+    },
+    {
+        "open_code": "Getting to know a person",
+        "text_passage": "you get to know a person"
+    },
+    {
+        "open_code": "Being with someone for a lengthy period",
+        "text_passage": "have to be with for a lengthy period of time"
+    },
+    {
+        "open_code": "Building a good idea of his personality",
+        "text_passage": "to build a good idea of his of his personality"
+    },
+    {
+        "open_code": "Describing honesty as consistent",
+        "text_passage": "I think, like I said, this is who I am, so. Yes, it is pretty much the same."
+    },
+    {
+        "open_code": "Attributing differences to environmental context",
+        "text_passage": "You know what with obviously with the only difference would be the environment that causes the cultures."
+    },
+    {
+        "open_code": "Emphasizing core principle remains",
+        "text_passage": "But the principle is there for you."
+    },
+    {
+        "open_code": "Seeking clarity on what matters",
+        "text_passage": "What is the most important? Is that what you said? Clarity."
+    },
+    {
+        "open_code": "Emphasizing commitment",
+        "text_passage": "Commitment."
+    },
+    {
+        "open_code": "Framing commitment as black and white",
+        "text_passage": "Black and white."
+    },
+    {
+        "open_code": "Feeling certainty about commitment",
+        "text_passage": "That's how I feel."
+    },
+    {
+        "open_code": "Describing dedication to the relationship",
+        "text_passage": "And the dedication to make it."
+    },
+    {
+        "open_code": "Referencing various partner types",
+        "text_passage": "we're still talking about a relationship with a partner, with a wife, with or without."
+    },
+    {
+        "open_code": "Highlighting sacrifice and dedication",
+        "text_passage": "Sacrifice and dedication."
+    },
+    {
+        "open_code": "Describing mutual love and warmth",
+        "text_passage": "mutual love and warmth"
+    },
+    {
+        "open_code": "Linking these qualities to relationship success",
+        "text_passage": "That's extremely important. That's what makes it successful."
+    },
+    {
+        "open_code": "Rejecting material symbols as love",
+        "text_passage": "Love for me is not is not a dozen of roses or or or candy in the heart shape or anything like that."
+    },
+    {
+        "open_code": "Equating love with hugging",
+        "text_passage": "To me, love is it could be a hug."
+    },
+    {
+        "open_code": "Equating love with making sacrifices",
+        "text_passage": "It could be a nice or the sacrifices."
+    },
+    {
+        "open_code": "Framing love as unconditional giving",
+        "text_passage": "Giving That's love and giving."
+    },
+    {
+        "open_code": "Emphasizing giving as love",
+        "text_passage": "Unconditional. Giving it is love."
+    },
+    {
+        "open_code": "Affirming love's importance",
+        "text_passage": "Absolutely. Otherwise it will be."
+    },
+    {
+        "open_code": "Focusing on self",
+        "text_passage": "And everyone would be selfish and and and just focus on himself."
+    },
+    {
+        "open_code": "Predicting relationship becoming unhealthy",
+        "text_passage": "Then it's not going to be is not going to be a healthy relationship."
+    },
+    {
+        "open_code": "Giving care and support to partner",
+        "text_passage": "giving and communicating and and taking care of each other and supporting each other."
+    },
+    {
+        "open_code": "Distinguishing early romantic spark from lasting love",
+        "text_passage": "Love is not just at the at the peak of a relationship of the first [1-5] months of having this passionate thing and and missing each other and exchanging gifts and going out to dinners and then having that romantic and going on vacations. This is just the spark at the beginning."
+    },
+    {
+        "open_code": "Rejecting early romance as real love",
+        "text_passage": "But that's not real love. Love is what it comes afterwards. For years and years."
+    },
+    {
+        "open_code": "Framing love as non\u2011romantic, action\u2011based",
+        "text_passage": "The word love, it's more of. It's expressed not only, like I said, is not really a romantic thing as much as it is."
+    },
+    {
+        "open_code": "Viewing love as enduring over years",
+        "text_passage": "Love is what it comes afterwards. For years and years."
+    },
+    {
+        "open_code": "Being patient",
+        "text_passage": "you have to be patient"
+    },
+    {
+        "open_code": "Practicing compassion",
+        "text_passage": "you have to be compassionate"
+    },
+    {
+        "open_code": "Being giving",
+        "text_passage": "you have to be giving"
+    },
+    {
+        "open_code": "Being firm to balance",
+        "text_passage": "you have to be firm in certain things in life to balance it"
+    },
+    {
+        "open_code": "Finding it hard to give up",
+        "text_passage": "it's not easy to give up on it"
+    },
+    {
+        "open_code": "Anticipating destructive consequences of giving up",
+        "text_passage": "when you do give up on this on this relationship, it could the consequences can be far more destructive than anybody else"
+    },
+    {
+        "open_code": "Observing short-term relief from separation",
+        "text_passage": "either they separate or divorce and it makes them feel comfortable or or or maybe relieved for a short period of time"
+    },
+    {
+        "open_code": "Regretting not giving the relationship a chance to recover",
+        "text_passage": "the regret not giving it the best chance to recover"
+    },
+    {
+        "open_code": "working on relationship",
+        "text_passage": "Keep working on it."
+    },
+    {
+        "open_code": "maintaining relationship continuously",
+        "text_passage": "You have to maintain it all the time."
+    },
+    {
+        "open_code": "tuning relationship regularly",
+        "text_passage": "You have to tune it all the time."
+    },
+    {
+        "open_code": "keeping relationship on fire",
+        "text_passage": "You have to keep it on fire, though."
+    },
+    {
+        "open_code": "allowing relationship to rest",
+        "text_passage": "Let it go to sleep."
+    },
+    {
+        "open_code": "preventing relationship from needing revival",
+        "text_passage": "Don't let it be called revive it."
+    },
+    {
+        "open_code": "reminding partner of principles and goals",
+        "text_passage": "always remind your partner with the principles, the goals in life, with love, care"
+    },
+    {
+        "open_code": "engaging in shared activities",
+        "text_passage": "doing activities, going on, vacations, exchanging things."
+    },
+    {
+        "open_code": "keeping relationship active",
+        "text_passage": "You always have to keep it, you know, active."
+    },
+    {
+        "open_code": "Attributing relationship quality to upbringing",
+        "text_passage": "Yeah, I think for me it is because I."
+    },
+    {
+        "open_code": "Recalling being raised in a big family",
+        "text_passage": "I always this is how I was raised with a big family."
+    },
+    {
+        "open_code": "Desiring to replicate family-like support",
+        "text_passage": "And I have I have siblings and cousins and and, you know, being in a big family, I was raised in a way that you want to replicate this when you get older and have the same, you know, same same family and and and friends around you and gathering that support and."
+    },
+    {
+        "open_code": "Acknowledging personal view may differ from others",
+        "text_passage": "Yeah it's yeah this is this is my for for other people maybe it's different."
+    },
+    {
+        "open_code": "Noting preference for solitude",
+        "text_passage": "Some people like to be solo."
+    },
+    {
+        "open_code": "Noting avoidance of having children",
+        "text_passage": "Some people don't like to have kids."
+    },
+    {
+        "open_code": "Noting valuing marriage",
+        "text_passage": "Some people do like to get married."
+    },
+    {
+        "open_code": "Linking preferences to cultural background",
+        "text_passage": "So it's really it varies but this is again has has a lot to do with backgrounds and cultures."
+    },
+    {
+        "open_code": "maintaining longstanding personal principles",
+        "text_passage": "I wouldn't say they didn't change very much because I always the way I liked to live and the way I perceived I predicted my life years and years ago, as is having the same exact principles, basically with what they were."
+    },
+    {
+        "open_code": "navigating varying life factors and environments",
+        "text_passage": "The only difference is the different factors in life, different environments, different behavior that I have to deal with,"
+    },
+    {
+        "open_code": "experiencing minimal change in self-identity",
+        "text_passage": "but who I am haven't changed much."
+    },
+    {
+        "open_code": "Being more solid and stable",
+        "text_passage": "I've been more solid, more stable"
+    },
+    {
+        "open_code": "Realizing wife needed help more than criticism",
+        "text_passage": "I did realize that my wife needed help more than criticism"
+    },
+    {
+        "open_code": "Gaining compassion and patience",
+        "text_passage": "that gave me some more compassion and patience"
+    },
+    {
+        "open_code": "Dealing with it and figuring out a way of treating and supporting her",
+        "text_passage": "to deal with it and figure out a way of treating her and supporting her"
+    },
+    {
+        "open_code": "Turning things around",
+        "text_passage": "And that did turn things around. 180 degrees."
+    },
+    {
+        "open_code": "Recognizing imperfection in both partners",
+        "text_passage": "She's not perfect. I'm not perfect either"
+    },
+    {
+        "open_code": "Being better off than divorce and raising kids apart",
+        "text_passage": "but I think we're better off than. You know, being divorced and and not raising the kids together."
+    },
+    {
+        "open_code": "Paying a price that is less costly than divorce",
+        "text_passage": "there is a big price you pay, but it's definitely it's a price that is not less costly to our life than than being divorced and and having kids without parents."
+    },
+    {
+        "open_code": "Affirming feeling safe",
+        "text_passage": "Relatively, I would say, yeah."
+    },
+    {
+        "open_code": "Not seeing signs of danger",
+        "text_passage": "Because there's no there's no signs of danger."
+    },
+    {
+        "open_code": "Being honest and clear",
+        "text_passage": "when you're honest and clear all the time."
+    },
+    {
+        "open_code": "Getting ideas from outside environment",
+        "text_passage": "Sometime you get some ideas and and, you know, from, from outside environment"
+    },
+    {
+        "open_code": "Being influenced by social media or friends",
+        "text_passage": "you get influenced by things like social media or friends or whatever."
+    },
+    {
+        "open_code": "Looking more in depth into relationship",
+        "text_passage": "when you look more in depth into your relationship"
+    },
+    {
+        "open_code": "Feeling safe",
+        "text_passage": "I think I would say 90% feeling safe."
+    },
+    {
+        "open_code": "Rating partner's listening as moderately true",
+        "text_passage": "Five.. so five is moderately true."
+    },
+    {
+        "open_code": "Attributing partner's listening variability to mental status or personality",
+        "text_passage": "It could be because of her mental status or. Or her. Her or her personality."
+    },
+    {
+        "open_code": "Labeling partner's attention issue",
+        "text_passage": "I think she has an attention issue."
+    },
+    {
+        "open_code": "Observing partner's black-and-white listening style",
+        "text_passage": "Sometimes she, she, she's, she's black and white."
+    },
+    {
+        "open_code": "Describing partner as listening fully to some things and not to others",
+        "text_passage": "So either she fully listens to certain things or she doesn't listen to other things."
+    },
+    {
+        "open_code": "Assessing partner's listening as 50/50",
+        "text_passage": "I would see a 5050 for her."
+    },
+    {
+        "open_code": "Assessing partner's capabilities",
+        "text_passage": "she can do and she's capable of doing"
+    },
+    {
+        "open_code": "Noticing partner's limitations",
+        "text_passage": "other stuff she's not"
+    },
+    {
+        "open_code": "Expressing uncertainty about sexual frequency",
+        "text_passage": "I don't know."
+    },
+    {
+        "open_code": "Highlighting dependence on circumstances",
+        "text_passage": "It really depends."
+    },
+    {
+        "open_code": "Describing potential weeks without sex",
+        "text_passage": "It could be sometime we can go for a couple of weeks without."
+    },
+    {
+        "open_code": "Suggesting occasional weekly encounters",
+        "text_passage": "Or maybe once or twice a week or maybe once a week."
+    },
+    {
+        "open_code": "Reiterating dependence on circumstances",
+        "text_passage": "And it depends."
+    },
+    {
+        "open_code": "Enduring unresolved issues for months",
+        "text_passage": "And when we have issues, obviously we can go for months without it. Yeah."
+    },
+    {
+        "open_code": "Learning that not everything can be perfect",
+        "text_passage": "I had to learn that."
+    },
+    {
+        "open_code": "Letting go of certain desires and hopes",
+        "text_passage": "You have to let go of certain things and certain desires and hopes and life with you, with with your partner."
+    },
+    {
+        "open_code": "Recognizing that you cannot have everything",
+        "text_passage": "You cannot have everything."
+    },
+    {
+        "open_code": "Seeing that the partner also faces the same limits",
+        "text_passage": "And it's also always the same way on the other side."
+    },
+    {
+        "open_code": "Acknowledging that life must move on",
+        "text_passage": "Life has to move on."
+    },
+    {
+        "open_code": "Feeling fine with this acceptance",
+        "text_passage": "And I'm fine with it."
+    },
+    {
+        "open_code": "Rating relationship satisfaction",
+        "text_passage": "Relatively I would say 70%."
+    },
+    {
+        "open_code": "Sharing at least half of interests with partner",
+        "text_passage": "if you have 50% or more in common with your partner"
+    },
+    {
+        "open_code": "Having children together",
+        "text_passage": "especially if you have kids"
+    },
+    {
+        "open_code": "Trying to give it your best shot",
+        "text_passage": "Give it your best shot."
+    },
+    {
+        "open_code": "Sacrificing for partner",
+        "text_passage": "I give a B, I give her and I take her throughout this sacrifice."
+    },
+    {
+        "open_code": "Being open\u2011minded",
+        "text_passage": "Tried to be open minded because."
+    },
+    {
+        "open_code": "Questioning life challenges for future generations",
+        "text_passage": "quitting that kind of a challenge of life it it's not very hopeful for next generations"
+    },
+    {
+        "open_code": "Worrying about how children are raised affecting humanity",
+        "text_passage": "when kids are raised with families and parents is really is bad for for our humanity in general and our next generation to build a healthy society."
+    },
+    {
+        "open_code": "Believing happiness and strength stem from home",
+        "text_passage": "happiness and success and strength always comes from the home"
+    },
+    {
+        "open_code": "Prioritizing home over external influences",
+        "text_passage": "Not from the street. Not from friends. Not from governments."
+    },
+    {
+        "open_code": "Viewing home as primary source of wellbeing",
+        "text_passage": "It comes from the home first."
+    },
+    {
+        "open_code": "Choosing option one",
+        "text_passage": "Probably. I go with option one."
+    },
+    {
+        "open_code": "Expressing comfort with limited data sharing",
+        "text_passage": "Probably. I go with option one."
+    },
+    {
+        "open_code": "Stating relationship is different",
+        "text_passage": "It's different. Of course it's different. It's totally different."
+    },
+    {
+        "open_code": "Emphasizing love and mutual understanding",
+        "text_passage": "And my relationship with my partner is full of love and understanding each other and respect for each other."
+    },
+    {
+        "open_code": "Highlighting honesty",
+        "text_passage": "And very honest."
+    },
+    {
+        "open_code": "Prioritizing respect",
+        "text_passage": "The most important thing is respect."
+    },
+    {
+        "open_code": "Linking respect to love",
+        "text_passage": "Respect each other because respect brings love after that."
+    },
+    {
+        "open_code": "Prioritizing respect over love",
+        "text_passage": "Respect is more than love is more important."
+    },
+    {
+        "open_code": "Respecting each other",
+        "text_passage": "when you respect each other,"
+    },
+    {
+        "open_code": "Loving each other",
+        "text_passage": "we will love each other."
+    },
+    {
+        "open_code": "Comparing friendships with romantic partnership",
+        "text_passage": "My relationship with my friends is."
+    },
+    {
+        "open_code": "Identifying love, respect, and understanding as common elements",
+        "text_passage": "There is some common with relationship, is love, respect, understanding each other."
+    },
+    {
+        "open_code": "Distinguishing partner from friend",
+        "text_passage": "But the partner is different than the than the friend."
+    },
+    {
+        "open_code": "Spending most of the day with partner",
+        "text_passage": "Your partner that you spend most of the day with him, all of the day with him."
+    },
+    {
+        "open_code": "Meeting friend for only a few hours",
+        "text_passage": "And the friend, you meet friend [1-5] hours."
+    },
+    {
+        "open_code": "Seeking numeric count of past partners",
+        "text_passage": "How many"
+    },
+    {
+        "open_code": "Exploring meaning of partner count",
+        "text_passage": "what it means"
+    },
+    {
+        "open_code": "Inquiring about interpreting the count",
+        "text_passage": "how"
+    },
+    {
+        "open_code": "Resisting answering",
+        "text_passage": "But no, no, no, no."
+    },
+    {
+        "open_code": "Referencing past experiences",
+        "text_passage": "In the past."
+    },
+    {
+        "open_code": "Expressing doubt",
+        "text_passage": "No, really?"
+    },
+    {
+        "open_code": "Recalling love and respect as relationship elements",
+        "text_passage": "this love and respect"
+    },
+    {
+        "open_code": "Emphasizing understanding each other",
+        "text_passage": "understanding each other"
+    },
+    {
+        "open_code": "Stating respect as fundamental",
+        "text_passage": "Respect is to be."
+    },
+    {
+        "open_code": "Identifying respect as most important",
+        "text_passage": "Respect is most important thing in the relationship."
+    },
+    {
+        "open_code": "Equating respect with love",
+        "text_passage": "when you respect your partner, you mean you love him."
+    },
+    {
+        "open_code": "Appreciating partner",
+        "text_passage": "You appreciate him."
+    },
+    {
+        "open_code": "Making partner central to life",
+        "text_passage": "Become everything in your life."
+    },
+    {
+        "open_code": "Prioritizing partner above all",
+        "text_passage": "The most important thing in your life."
+    },
+    {
+        "open_code": "Rejecting early emergence of respect",
+        "text_passage": "No, not early. Not early."
+    },
+    {
+        "open_code": "Locating respect after many years of marriage",
+        "text_passage": "After many years of marriage."
+    },
+    {
+        "open_code": "Seeking mutual understanding",
+        "text_passage": "Understanding each other"
+    },
+    {
+        "open_code": "Seeking mutual appreciation",
+        "text_passage": "appreciate each other"
+    },
+    {
+        "open_code": "Equating communication with friendship",
+        "text_passage": "Communication. Your partner has to be your friend."
+    },
+    {
+        "open_code": "Linking friendship to good relationship",
+        "text_passage": "When he becomes your friend, it will be a good relationship, it will be a good relationship."
+    },
+    {
+        "open_code": "Defining love",
+        "text_passage": "Definition of love."
+    },
+    {
+        "open_code": "Describing love as the most beautiful thing",
+        "text_passage": "Love is. The most beautiful thing in the world."
+    },
+    {
+        "open_code": "Repeating love as the most beautiful thing",
+        "text_passage": "The most beautiful thing in the world."
+    },
+    {
+        "open_code": "Stating love arrives suddenly without arrangement",
+        "text_passage": "And always love comes suddenly without any arrangement."
+    },
+    {
+        "open_code": "Rejecting planning love",
+        "text_passage": "You don't arrange to be loved or to love. You don't arrange it. You don't. You don't have a plan to love."
+    },
+    {
+        "open_code": "Experiencing love arriving suddenly",
+        "text_passage": "The love comes suddenly."
+    },
+    {
+        "open_code": "Defining love as feeling",
+        "text_passage": "Definition is a lovely feeling."
+    },
+    {
+        "open_code": "Labeling experience as feeling",
+        "text_passage": "It's a feeling."
+    },
+    {
+        "open_code": "Describing feeling as lovely",
+        "text_passage": "It's a lovely feeling."
+    },
+    {
+        "open_code": "Loving partner",
+        "text_passage": "I love my partner."
+    },
+    {
+        "open_code": "Feeling afraid",
+        "text_passage": "Afraid."
+    },
+    {
+        "open_code": "Feeling not afraid of partner",
+        "text_passage": "Not afraid of him."
+    },
+    {
+        "open_code": "Feeling afraid of partner",
+        "text_passage": "Afraid to him."
+    },
+    {
+        "open_code": "Worrying about partner's health",
+        "text_passage": "I always worried he would be good and be in good health."
+    },
+    {
+        "open_code": "Claiming love as essential for a good relationship",
+        "text_passage": "If a relationship with out of it will be not a good relationship, It's."
+    },
+    {
+        "open_code": "Describing marriage without love as not good",
+        "text_passage": "It's not good in marriage."
+    },
+    {
+        "open_code": "Stating that a marriage lacking love is a bad marriage",
+        "text_passage": "If marriage without love, it's not good marriage."
+    },
+    {
+        "open_code": "Feeling loved by partner",
+        "text_passage": "I feel he loves me."
+    },
+    {
+        "open_code": "Feeling love reflected in partner's behavior",
+        "text_passage": "I feel that in his behavior."
+    },
+    {
+        "open_code": "Observing love through partner's manners",
+        "text_passage": "In his manners."
+    },
+    {
+        "open_code": "Sensing love when partner talks and takes care",
+        "text_passage": "When he is when he talk to me, when he takes care of me."
+    },
+    {
+        "open_code": "Encountering many problems",
+        "text_passage": "Of course, we faced many problems."
+    },
+    {
+        "open_code": "Facing marital problems",
+        "text_passage": "we faced many problems"
+    },
+    {
+        "open_code": "Attempting to solve marital issues",
+        "text_passage": "we tried to solve it"
+    },
+    {
+        "open_code": "Listing relationship stressors",
+        "text_passage": "Work, home, time, Money."
+    },
+    {
+        "open_code": "Describing challenges as numerous",
+        "text_passage": "Many things"
+    },
+    {
+        "open_code": "Raising kids",
+        "text_passage": "Kids. Raising kids. Raising kids. Yeah."
+    },
+    {
+        "open_code": "Identifying family issues",
+        "text_passage": "The family issues. Family issues."
+    },
+    {
+        "open_code": "Fighting in the beginning",
+        "text_passage": "We were fighting in the beginning"
+    },
+    {
+        "open_code": "Growing up",
+        "text_passage": "when we grow up"
+    },
+    {
+        "open_code": "Growing up",
+        "text_passage": "When we grow up"
+    },
+    {
+        "open_code": "Becoming wiser",
+        "text_passage": "we become more wisdom and more wise"
+    },
+    {
+        "open_code": "Becoming calmer",
+        "text_passage": "We become more wise and more calm"
+    },
+    {
+        "open_code": "Recalling frequent early\u2011marriage fighting",
+        "text_passage": "Before we fight too much. Many times in the past, in the beginning of marriage, in the beginning of marriage."
+    },
+    {
+        "open_code": "Understanding each other after years",
+        "text_passage": "And but after many years of marriage, we understand each other."
+    },
+    {
+        "open_code": "Appreciating each other",
+        "text_passage": "We appreciate each other."
+    },
+    {
+        "open_code": "Experiencing rare fighting now",
+        "text_passage": "So the fighting would be very rare."
+    },
+    {
+        "open_code": "Feeling angry and upset",
+        "text_passage": "I was very angry and very upset."
+    },
+    {
+        "open_code": "Calming down over days",
+        "text_passage": "And after day after day after day, become calm and become good."
+    },
+    {
+        "open_code": "Acknowledging time needed",
+        "text_passage": "Yes, it takes time."
+    },
+    {
+        "open_code": "Acknowledging time needed",
+        "text_passage": "Of course it takes time."
+    },
+    {
+        "open_code": "Emphasizing need for patience",
+        "text_passage": "You need patience."
+    },
+    {
+        "open_code": "Linking patience to problem solving",
+        "text_passage": "You need patience to solve your problems."
+    },
+    {
+        "open_code": "Promoting calmness and wisdom",
+        "text_passage": "You have to be patient and wise and patient and calm."
+    },
+    {
+        "open_code": "Discouraging nervousness",
+        "text_passage": "Don't be nervous."
+    },
+    {
+        "open_code": "Discouraging anger",
+        "text_passage": "Don't be.. very angry."
+    },
+    {
+        "open_code": "Understanding the situation",
+        "text_passage": "Understanding this rather."
+    },
+    {
+        "open_code": "Understanding each other",
+        "text_passage": "Understanding each other and appreciate"
+    },
+    {
+        "open_code": "Appreciating his perception",
+        "text_passage": "his perception."
+    },
+    {
+        "open_code": "Clarifying his perception",
+        "text_passage": "Perception? I understand his"
+    },
+    {
+        "open_code": "Feeling loved and cared for by partner",
+        "text_passage": "Because my partner loves me and always takes care of me."
+    },
+    {
+        "open_code": "Experiencing partner's over\u2011involvement and constant supporting",
+        "text_passage": "And always stand with me and stand with me too much in everything."
+    },
+    {
+        "open_code": "Feeling sick",
+        "text_passage": "When I was sick."
+    },
+    {
+        "open_code": "Feeling worried",
+        "text_passage": "When I was worried."
+    },
+    {
+        "open_code": "Feeling tired",
+        "text_passage": "When I was tired."
+    },
+    {
+        "open_code": "Emphasizing frequent support",
+        "text_passage": "Very often."
+    },
+    {
+        "open_code": "Describing support as excessive",
+        "text_passage": "Too much."
+    },
+    {
+        "open_code": "Repeating support is constant",
+        "text_passage": "Always, Always, always."
+    },
+    {
+        "open_code": "Affirming partner's support",
+        "text_passage": "Support me."
+    },
+    {
+        "open_code": "Affirming relationship change",
+        "text_passage": "Of course. Of course."
+    },
+    {
+        "open_code": "Describing strengthening over years",
+        "text_passage": "Because when you when you marry. Many years. Year after year after year the relationship became very strong."
+    },
+    {
+        "open_code": "Mentioning early marriage stage",
+        "text_passage": "In the beginning of marriage."
+    },
+    {
+        "open_code": "Stating relationship weakness during childrearing and challenges",
+        "text_passage": "The relationship is not strong when you have kids and when you're raising kids together, when you face problems together, when you live together."
+    },
+    {
+        "open_code": "Predicting eventual relationship strength",
+        "text_passage": "But the relationship will be strong."
+    },
+    {
+        "open_code": "Feeling changed drastically",
+        "text_passage": "Change me too much and become."
+    },
+    {
+        "open_code": "Becoming more mature",
+        "text_passage": "Become more mature."
+    },
+    {
+        "open_code": "Noticing increased maturity",
+        "text_passage": "More mature."
+    },
+    {
+        "open_code": "Gaining more wisdom",
+        "text_passage": "More wise.."
+    },
+    {
+        "open_code": "Gaining more patience",
+        "text_passage": "More patient."
+    },
+    {
+        "open_code": "Recalling previous lack of perspective",
+        "text_passage": "Before I. I didn't."
+    },
+    {
+        "open_code": "Acknowledging missing perspective",
+        "text_passage": "I don't have this perspective."
+    },
+    {
+        "open_code": "Repeating acknowledgement of missing perspective",
+        "text_passage": "I don't have this perspective."
+    },
+    {
+        "open_code": "Reflecting on youthful self",
+        "text_passage": "When I was young."
+    },
+    {
+        "open_code": "Describing early moments",
+        "text_passage": "In the first moments."
+    },
+    {
+        "open_code": "Contrasting past and present maturity",
+        "text_passage": "Before marriage I was mature but now I, I more mature than before."
+    },
+    {
+        "open_code": "Acknowledging growth in maturity after marriage",
+        "text_passage": "Before marriage I was mature but now I, I more mature than before."
+    },
+    {
+        "open_code": "Confirming increase",
+        "text_passage": "More, Of course."
+    },
+    {
+        "open_code": "Comparing present to past",
+        "text_passage": "More than before."
+    },
+    {
+        "open_code": "Attributing change to aging",
+        "text_passage": "Because I am getting old."
+    },
+    {
+        "open_code": "Identifying self as old",
+        "text_passage": "I get old."
+    },
+    {
+        "open_code": "Emphasizing ongoing aging",
+        "text_passage": "I'm getting older."
+    },
+    {
+        "open_code": "Feeling overwhelmed by partner's change",
+        "text_passage": "Too much."
+    },
+    {
+        "open_code": "Feeling overwhelmed by partner's change",
+        "text_passage": "Too much."
+    },
+    {
+        "open_code": "Observing partner changing excessively",
+        "text_passage": "Changed too much."
+    },
+    {
+        "open_code": "Affirming partner's change as evident",
+        "text_passage": "Yeah, of course."
+    },
+    {
+        "open_code": "Observing partner improving",
+        "text_passage": "He changed better."
+    },
+    {
+        "open_code": "Labeling change as better",
+        "text_passage": "Better way."
+    },
+    {
+        "open_code": "Describing partner's improvement",
+        "text_passage": "Became better."
+    },
+    {
+        "open_code": "Noticing partner's behavior",
+        "text_passage": "Everything in his behavior"
+    },
+    {
+        "open_code": "Listening to partner's speech",
+        "text_passage": "Speech"
+    },
+    {
+        "open_code": "Interpreting partner's language",
+        "text_passage": "in his language"
+    },
+    {
+        "open_code": "Observing partner's behaviors",
+        "text_passage": "in his behaviors"
+    },
+    {
+        "open_code": "Recognizing many ways of expression",
+        "text_passage": "Many ways"
+    },
+    {
+        "open_code": "Receiving constant communication",
+        "text_passage": "He always talks to me."
+    },
+    {
+        "open_code": "Receiving constant communication",
+        "text_passage": "He always talked to me."
+    },
+    {
+        "open_code": "Receiving calm speech",
+        "text_passage": "He talks to me. Very calm"
+    },
+    {
+        "open_code": "Receiving respectful speech",
+        "text_passage": "Very respectful, respectful"
+    },
+    {
+        "open_code": "Sensing love in partner's words",
+        "text_passage": "speak with love"
+    },
+    {
+        "open_code": "Sensing mercy in partner's words",
+        "text_passage": "Will speak with mercy"
+    },
+    {
+        "open_code": "Feeling relationship is better now",
+        "text_passage": "Now is better than before."
+    },
+    {
+        "open_code": "Experiencing partner's impatience",
+        "text_passage": "He was not patient."
+    },
+    {
+        "open_code": "Observing partner's rushiness and nervousness",
+        "text_passage": "He always rushy he always nervous."
+    },
+    {
+        "open_code": "Seeing partner becoming calmer",
+        "text_passage": "But now he became more calm, more mature, more wise than before."
+    },
+    {
+        "open_code": "Seeing partner becoming more mature",
+        "text_passage": "But now he became more calm, more mature, more wise than before."
+    },
+    {
+        "open_code": "Seeing partner becoming wiser",
+        "text_passage": "But now he became more calm, more mature, more wise than before."
+    },
+    {
+        "open_code": "Attributing partner's change to aging",
+        "text_passage": "He changed because he, he, he is getting old."
+    },
+    {
+        "open_code": "Noticing partner getting older",
+        "text_passage": "He is getting older."
+    },
+    {
+        "open_code": "Recognizing partner's overall change",
+        "text_passage": "So he changed."
+    },
+    {
+        "open_code": "Feeling protected by husband",
+        "text_passage": "my husband always protects me"
+    },
+    {
+        "open_code": "Describing husband as protective",
+        "text_passage": "he's protective for me"
+    },
+    {
+        "open_code": "Relying on husband to protect from everything",
+        "text_passage": "He protects me from everything"
+    },
+    {
+        "open_code": "Feeling afraid",
+        "text_passage": "when I'm afraid"
+    },
+    {
+        "open_code": "Feeling worried",
+        "text_passage": "when I'm worried"
+    },
+    {
+        "open_code": "Receiving care from husband",
+        "text_passage": "He always takes care of me"
+    },
+    {
+        "open_code": "Talking with husband for reassurance",
+        "text_passage": "talks to me"
+    },
+    {
+        "open_code": "Becoming calm through husband's actions",
+        "text_passage": "makes me calm"
+    },
+    {
+        "open_code": "Affirming truth of partner's behavior",
+        "text_passage": "Very, very true. Very true. Completely true. Yeah."
+    },
+    {
+        "open_code": "Emphasizing partner's constant attentiveness",
+        "text_passage": "He always. He always. Listen to me. Always. Yeah."
+    },
+    {
+        "open_code": "Confirming partner's consistent communication",
+        "text_passage": "He always talks to me. Yeah."
+    },
+    {
+        "open_code": "Relying on partner's consistent responsiveness",
+        "text_passage": "Because he always responds."
+    },
+    {
+        "open_code": "Having my questions, needs, and requirements met",
+        "text_passage": "All my questions, my needs, my requirements."
+    },
+    {
+        "open_code": "Feeling listened to while exhausted or ill",
+        "text_passage": "When I was tired. When I was sick, he always listened to me."
+    },
+    {
+        "open_code": "Receiving partner's probing about experiences and feelings",
+        "text_passage": "And he he always told me, Tell me what? You, what? What happened? What do you? What do you feel?"
+    },
+    {
+        "open_code": "Experiencing partner taking care",
+        "text_passage": "And he always takes care of me."
+    },
+    {
+        "open_code": "Perceiving partner's constant worry",
+        "text_passage": "He\u2019s always worried about me when I was tired."
+    },
+    {
+        "open_code": "Sensing partner's overcaring",
+        "text_passage": "When I was sick, when I was.Takes care of me takes care of me too much."
+    },
+    {
+        "open_code": "Reporting sexual frequency",
+        "text_passage": "[laughs] Once a week. Twice a week."
+    },
+    {
+        "open_code": "Encountering problems",
+        "text_passage": "Because sometimes they have problems and you have negotiation."
+    },
+    {
+        "open_code": "Negotiating",
+        "text_passage": "Because sometime they have problems and you have negotiation."
+    },
+    {
+        "open_code": "Experiencing simple struggles",
+        "text_passage": "We have ..."
+    },
+    {
+        "open_code": "Emphasizing imperfection",
+        "text_passage": "Nobody's perfect. Nobody's perfect."
+    },
+    {
+        "open_code": "Admitting personal imperfection",
+        "text_passage": "I'm not perfect."
+    },
+    {
+        "open_code": "Recognizing partner's imperfection",
+        "text_passage": "He's not perfect."
+    },
+    {
+        "open_code": "Loving my partner",
+        "text_passage": "Because I love my partner."
+    },
+    {
+        "open_code": "Respecting him",
+        "text_passage": "I respect him and he or he is the same."
+    },
+    {
+        "open_code": "Feeling loved by him",
+        "text_passage": "He's he loves me."
+    },
+    {
+        "open_code": "Being respected by him",
+        "text_passage": "He respects me."
+    },
+    {
+        "open_code": "Receiving care from him",
+        "text_passage": "He takes care of me."
+    },
+    {
+        "open_code": "Observing his responsibility",
+        "text_passage": "He's he's very responsible."
+    },
+    {
+        "open_code": "Noticing his responsibility",
+        "text_passage": "He's very responsible."
+    },
+    {
+        "open_code": "Valuing his character",
+        "text_passage": "This is the most, the most beautiful thing in his character."
+    },
+    {
+        "open_code": "Seeing his responsibility and caregiving to family",
+        "text_passage": "And he's very responsible and he always takes care of everybody in the family."
+    },
+    {
+        "open_code": "Loving him",
+        "text_passage": "So I love him."
+    },
+    {
+        "open_code": "Appreciating him",
+        "text_passage": "I appreciate him."
+    },
+    {
+        "open_code": "Stating family as most important",
+        "text_passage": "I want to say the family is the most important thing in our life."
+    },
+    {
+        "open_code": "Comparing family importance to work and friends",
+        "text_passage": "If you have a good family, if you have a good partner, this is the most important thing in life because work and friends and all this you can."
+    },
+    {
+        "open_code": "Reaffirming family importance",
+        "text_passage": "But family, this this is the most important thing in life."
+    },
+    {
+        "open_code": "Linking family happiness to life beauty",
+        "text_passage": "If you have if you have happiness in your family, this is the most beautiful thing in life."
+    },
+    {
+        "open_code": "Estimating relationship duration",
+        "text_passage": "We've been together for like, [1-5 years and 1-5 months]. I guess. Yeah."
+    },
+    {
+        "open_code": "Counting household members",
+        "text_passage": "[1-5] of my cousins."
+    },
+    {
+        "open_code": "Identifying family roles",
+        "text_passage": "And they're my siblings and my parents."
+    },
+    {
+        "open_code": "Estimating total household size",
+        "text_passage": "So [6-10] people."
+    },
+    {
+        "open_code": "Accepting flexible partner reference",
+        "text_passage": "whichever, girlfriend or just [Partner\u2019s Name]?"
+    },
+    {
+        "open_code": "Feeling lacking community friends",
+        "text_passage": "I feel like I don't have very like... Well, I don't have friends in the community."
+    },
+    {
+        "open_code": "Identifying friends as straight cisgender",
+        "text_passage": "Most of my friends are just, like, straight cisgender."
+    },
+    {
+        "open_code": "Avoiding comparison due to different gender experiences",
+        "text_passage": "I can't really like. I don't really like comparing just because they've dated guys and guys are extremely different."
+    },
+    {
+        "open_code": "Ranting about difficulty of answering question",
+        "text_passage": "There's a few things like comments. Like just because I feel like, We pose the question, sorry, I'm probably going on a rant."
+    },
+    {
+        "open_code": "maintaining a multi-year relationship",
+        "text_passage": "Me and [Partner's Name], we've lasted for like [6-10 years] already."
+    },
+    {
+        "open_code": "observing friends lacking long-term relationships",
+        "text_passage": "Most of my friends, they. They don't have really long term relationships."
+    },
+    {
+        "open_code": "identifying friends' cis-hetero identities",
+        "text_passage": "And because they're also like sis and white, I mean, oh my, cis and hetero rather."
+    },
+    {
+        "open_code": "struggling to compare relationships",
+        "text_passage": "Then I really, I don't know, really like comparing so much our relationships, too."
+    },
+    {
+        "open_code": "viewing own relationship as longest",
+        "text_passage": "I'm on the longest relationship."
+    },
+    {
+        "open_code": "evaluating relationship quality as good",
+        "text_passage": "So I think the quality. I think it's good\u2026"
+    },
+    {
+        "open_code": "Stating having no past partners",
+        "text_passage": "None."
+    },
+    {
+        "open_code": "Stating having no exes",
+        "text_passage": "I haven't had any exes."
+    },
+    {
+        "open_code": "Mentioning having a single crush",
+        "text_passage": "I have had only one crush but besides."
+    },
+    {
+        "open_code": "Linking relationship quality to communication and trust",
+        "text_passage": "I feel like quality relationship depends on communication and trust."
+    },
+    {
+        "open_code": "Feeling doubt in self and partner",
+        "text_passage": "Honestly, just because like you can have a lot of doubt in yourself and a lot of doubt in your partner."
+    },
+    {
+        "open_code": "Lacking partner-provided reasons for doubt",
+        "text_passage": "Even though they don't give you a reason to doubt."
+    },
+    {
+        "open_code": "Emphasizing trust as primary factor",
+        "text_passage": "But it's mostly just trust."
+    },
+    {
+        "open_code": "Predicting relationship decline when trust is lost",
+        "text_passage": "I feel like if you lose trust, then the relationship will slowly downhill."
+    },
+    {
+        "open_code": "Feeling that arguing can be unhealthy",
+        "text_passage": "I feel like healthy relationships can argue, but, like, it makes."
+    },
+    {
+        "open_code": "Not being able to forgive each other",
+        "text_passage": "but not being able to, like, forgive each other or\u2026 Understand the other person's point of view."
+    },
+    {
+        "open_code": "Unable to understand the other person's point of view",
+        "text_passage": "but not being able to, like, forgive each other or\u2026 Understand the other person's point of view."
+    },
+    {
+        "open_code": "Thinking that inability to forgive makes relationship low quality",
+        "text_passage": "I think that would probably make it low quality."
+    },
+    {
+        "open_code": "Bonding with each other's family",
+        "text_passage": "being able to bond with each other's family."
+    },
+    {
+        "open_code": "Talking about insecurities",
+        "text_passage": "being able to talk about your insecurities, obviously."
+    },
+    {
+        "open_code": "Being best friends",
+        "text_passage": "being your number one best friend."
+    },
+    {
+        "open_code": "Trying to bond with partner's siblings",
+        "text_passage": "she tries to bond with my siblings"
+    },
+    {
+        "open_code": "Going on sibling outings",
+        "text_passage": "we go on like sibling outings"
+    },
+    {
+        "open_code": "Doing the same with partner's siblings",
+        "text_passage": "I do the same with her siblings, her little brother and her, you know, her, both of her brothers"
+    },
+    {
+        "open_code": "Feeling glad that parents now like partner despite initial difficulty",
+        "text_passage": "I feel like just because my parents were kind of difficult about it at first, obviously, I'm glad that they like her now"
+    },
+    {
+        "open_code": "Bonding with anyone close",
+        "text_passage": "Being able to just bond with anybody that's close"
+    },
+    {
+        "open_code": "Having a close relationship with my siblings",
+        "text_passage": "me and my siblings have a really close relationship"
+    },
+    {
+        "open_code": "Wanting my siblings to like partner",
+        "text_passage": "I want them to like her"
+    },
+    {
+        "open_code": "Wanting partner's siblings to like me",
+        "text_passage": "I want them to like me to try to bond as much as we can"
+    },
+    {
+        "open_code": "Trying to bond as much as possible",
+        "text_passage": "try to bond as much as we can"
+    },
+    {
+        "open_code": "Seeking support when feeling down",
+        "text_passage": "if I want her to be someone I can go to, like when I'm feeling down or anything like that."
+    },
+    {
+        "open_code": "Avoiding putting pressure on partner",
+        "text_passage": "I don't want to put pressure on that"
+    },
+    {
+        "open_code": "Granting friend-like access to partner",
+        "text_passage": "just being able to grant to her as if she was just a friend."
+    },
+    {
+        "open_code": "Enjoying comfortable communication",
+        "text_passage": "having that comfort level of just being able to rap."
+    },
+    {
+        "open_code": "Dropping by spontaneously for chores",
+        "text_passage": "Being able to just, like, drop by whenever, like being like, Oh, hey, let's go do some chores or something."
+    },
+    {
+        "open_code": "Hanging out casually and watching TV",
+        "text_passage": "We just start like we just like hang out, watch TV and all that."
+    },
+    {
+        "open_code": "Receiving reassurance about appearance",
+        "text_passage": "being able to think I look ugly, but then having her be like, Oh, you. Like, you look good."
+    },
+    {
+        "open_code": "Not needing to dress up for each other",
+        "text_passage": "not having to dress up for each other all the time"
+    },
+    {
+        "open_code": "Defining love as unconditional",
+        "text_passage": "I think love would be like no matter what."
+    },
+    {
+        "open_code": "Hearing each other's views",
+        "text_passage": "Their views are obviously being heard."
+    },
+    {
+        "open_code": "Experiencing occasional disagreement",
+        "text_passage": "I mean, sometimes we kind of disagree on things."
+    },
+    {
+        "open_code": "Loving her",
+        "text_passage": "But I love her."
+    },
+    {
+        "open_code": "Respecting her opinion",
+        "text_passage": "I respect her opinion."
+    },
+    {
+        "open_code": "Refraining from judging her",
+        "text_passage": "I'm not going to be judging her."
+    },
+    {
+        "open_code": "Constantly thinking of her in everyday moments",
+        "text_passage": "For me, it's like constantly thinking like, Oh, this reminds you of her."
+    },
+    {
+        "open_code": "Getting things for her",
+        "text_passage": "I'll probably get it for her, you know?"
+    },
+    {
+        "open_code": "Anticipating sharing big news with her first",
+        "text_passage": "I'm always thinking about like, you know, whenever we have some big news to tell, it's like she's going to be the first person I'm going to tell like, Oh, I just."
+    },
+    {
+        "open_code": "Planning to tell her",
+        "text_passage": "Come in the car. Okay. I'm going to tell her."
+    },
+    {
+        "open_code": "Maintaining healthy constant thoughts about her",
+        "text_passage": "Just know what's called always healthily, healthily, thinking about her."
+    },
+    {
+        "open_code": "Resisting obsessiveness",
+        "text_passage": "not being too obsessive"
+    },
+    {
+        "open_code": "Claiming ownership over partner",
+        "text_passage": "she's mine"
+    },
+    {
+        "open_code": "Questioning relationship expectations",
+        "text_passage": "what about all that?"
+    },
+    {
+        "open_code": "Expressing uncertainty",
+        "text_passage": "I don't know. I don't know."
+    },
+    {
+        "open_code": "Feeling shy",
+        "text_passage": "I feel kind of shy"
+    },
+    {
+        "open_code": "Considering love as most important",
+        "text_passage": "Love. It is important, I think\u2026 And be like\u2026 The most important thing."
+    },
+    {
+        "open_code": "Feeling tired of partner",
+        "text_passage": "at some points you can like really not like your partner and you're like, Oh my God. I'm kind of like tired."
+    },
+    {
+        "open_code": "Questioning love versus trust",
+        "text_passage": "But at other point of view, like for the love of my life. We'll see about like, trust."
+    },
+    {
+        "open_code": "Ranking love among top three factors",
+        "text_passage": "Love can be like one of the top three things\u2026 Exactly\u2026 But it is there."
+    },
+    {
+        "open_code": "Stating love must be present for togetherness",
+        "text_passage": "It has to be there for you guys to be together."
+    },
+    {
+        "open_code": "Experiencing disagreements",
+        "text_passage": "disagreements, things like that."
+    },
+    {
+        "open_code": "Liking partner despite current dislike",
+        "text_passage": "I still like them, even though I don't like them right now."
+    },
+    {
+        "open_code": "Anticipating future liking of partner",
+        "text_passage": "I will later on."
+    },
+    {
+        "open_code": "Recognizing own harshness and anger",
+        "text_passage": "I'm not ugly, but maybe I'm too harsh or sometimes I get angry"
+    },
+    {
+        "open_code": "Not expecting partner's acceptance during negative moments",
+        "text_passage": "I don't expect her to like me in those moments"
+    },
+    {
+        "open_code": "Feeling glad partner still loves me",
+        "text_passage": "I'm glad that she still loves me."
+    },
+    {
+        "open_code": "Feeling glad I still love partner",
+        "text_passage": "I'm also glad that I still love her."
+    },
+    {
+        "open_code": "Needing to step back and reflect",
+        "text_passage": "we need to take a step back and, like, reflect."
+    },
+    {
+        "open_code": "Receiving little gifts",
+        "text_passage": "she always gives me, like, little things."
+    },
+    {
+        "open_code": "Receiving chocolates during period",
+        "text_passage": "on my period, she'll give me chocolates, things like that, just because I really like chocolate."
+    },
+    {
+        "open_code": "Feeding into my obsessions",
+        "text_passage": "She feeds into my little obsessions, like notebooks or tiny things like comics."
+    },
+    {
+        "open_code": "Not buying myself things",
+        "text_passage": "I don't really buy myself things."
+    },
+    {
+        "open_code": "Spending money on others",
+        "text_passage": "I tend to like spend money on other people."
+    },
+    {
+        "open_code": "Partner buying things I want",
+        "text_passage": "she's like, you know, I'm gonna just get it for you and then she gets like some of those."
+    },
+    {
+        "open_code": "Partner buying stuffed animals for me",
+        "text_passage": "she'll get them. Like, how she's obsessed with, like, squishmallows."
+    },
+    {
+        "open_code": "Buying squishmallows for her",
+        "text_passage": "So I'll get them for her. Whenever I see em, especially at Costco."
+    },
+    {
+        "open_code": "Requesting staff assistance",
+        "text_passage": "I'll tell the people in the back. And get those down for me please."
+    },
+    {
+        "open_code": "Forgiving each other after disagreement",
+        "text_passage": "We forgive each other"
+    },
+    {
+        "open_code": "Asking each other about feelings",
+        "text_passage": "ask each other that"
+    },
+    {
+        "open_code": "Understanding each other's feelings through empathy",
+        "text_passage": "understand how the other person felt like having empathy"
+    },
+    {
+        "open_code": "Thinking about each other's emotions",
+        "text_passage": "think about each other's emotions"
+    },
+    {
+        "open_code": "Encouraging partner to express feelings",
+        "text_passage": "letting things out"
+    },
+    {
+        "open_code": "Sharing personal emotions to know partner's perspective",
+        "text_passage": "I'm not going to know how she feels if she doesn't tell me how she feels"
+    },
+    {
+        "open_code": "Attempting to see partner's point of view during disagreement",
+        "text_passage": "you won't see the other person's point of view in a disagreement"
+    },
+    {
+        "open_code": "Trying to understand each other",
+        "text_passage": "But we try to understand each other"
+    },
+    {
+        "open_code": "Getting upset during moments",
+        "text_passage": "moments where, you know, we get upset"
+    },
+    {
+        "open_code": "Exaggerating reactions",
+        "text_passage": "We do exaggerate"
+    },
+    {
+        "open_code": "Getting angry over a thumb flick",
+        "text_passage": "she'll flick my thumb and I'll be like, What the fuck? ... Then I'll get angry about it"
+    },
+    {
+        "open_code": "Feeling misunderstood after a bad day",
+        "text_passage": "all exaggerated just because I've already had a bad day. ... She didn't know that I already had a bad day"
+    },
+    {
+        "open_code": "Expressing frustration about not being heard",
+        "text_passage": "I have to tell it like, you know, and don't really like that"
+    },
+    {
+        "open_code": "Feeling hurt that partner is unaware of personal loss",
+        "text_passage": "my dog just died, you know? And she won't know that my dog just died"
+    },
+    {
+        "open_code": "Navigating small arguments while living apart",
+        "text_passage": "there are just small arguments here and there, but it's mostly on how we feel because both of us ... we live apart"
+    },
+    {
+        "open_code": "Trying to be understanding of each other's situations",
+        "text_passage": "we just try to be a lot understanding of our situations"
+    },
+    {
+        "open_code": "Feeling annoyed by siblings but not expressing to partner",
+        "text_passage": "I'm just\u2026 Annoyed, but not to her, just my siblings"
+    },
+    {
+        "open_code": "Talking to therapist to process feelings",
+        "text_passage": "like talking to my therapist or something"
+    },
+    {
+        "open_code": "Reporting low frequency of conflicts",
+        "text_passage": "Not very often. Maybe, like. Couple of times less than a week"
+    },
+    {
+        "open_code": "Experiencing brief conflict episodes",
+        "text_passage": "Little tiny moments like it all happen in like a span of 30 minutes"
+    },
+    {
+        "open_code": "Feeling irritated",
+        "text_passage": "you'll get irritated."
+    },
+    {
+        "open_code": "Labeling partner as dramatic",
+        "text_passage": "damn you're so dramatic about that"
+    },
+    {
+        "open_code": "Transitioning to eating together and feeling fine",
+        "text_passage": "we'll just be getting food and we'll be fine"
+    },
+    {
+        "open_code": "Minimizing conflict significance",
+        "text_passage": "it's just a tiny tiny thing"
+    },
+    {
+        "open_code": "Planning distinct outing days",
+        "text_passage": "having like, distinct days where we'll go out."
+    },
+    {
+        "open_code": "Designating days to see each other",
+        "text_passage": "we try to have like designated days just so we could see each other."
+    },
+    {
+        "open_code": "Trying to see her frequently around work",
+        "text_passage": "I try to see her as often as I can after work, before work."
+    },
+    {
+        "open_code": "Calling Korean barbecue together",
+        "text_passage": "we call likeKorean barbecue."
+    },
+    {
+        "open_code": "Going to get food together",
+        "text_passage": "we go get food and then we just eat together."
+    },
+    {
+        "open_code": "Eating together regularly",
+        "text_passage": "Most of the time we just eat together."
+    },
+    {
+        "open_code": "Prioritizing frequent shared meals",
+        "text_passage": "We like getting together a lot, so we try to eat as many meals together throughout the days."
+    },
+    {
+        "open_code": "Evaluating relationship as good",
+        "text_passage": "I do think the relationship overall is good."
+    },
+    {
+        "open_code": "Viewing relationship as distraction",
+        "text_passage": "It's like a really good distraction."
+    },
+    {
+        "open_code": "Seeking partner when stressed",
+        "text_passage": "any time I'm stressed. I'll go to her and be like all right, I just want to be happy."
+    },
+    {
+        "open_code": "Planning activities together",
+        "text_passage": "Let's go do something."
+    },
+    {
+        "open_code": "Changing self through relationship",
+        "text_passage": "It changed me a lot."
+    },
+    {
+        "open_code": "Avoiding physical touch with others",
+        "text_passage": "I used to not like really being touchy with anybody, even my friends."
+    },
+    {
+        "open_code": "Accepting partner's clinginess",
+        "text_passage": "she was like, super clingy and like, when she was super clingy, even as my friend, I wouldn't mind it at all."
+    },
+    {
+        "open_code": "Getting used to hugging",
+        "text_passage": "I got really used to being able to like hug."
+    },
+    {
+        "open_code": "Increasing physical affection",
+        "text_passage": "be a lot more physically affectionate"
+    },
+    {
+        "open_code": "Feeling gross about self",
+        "text_passage": "I'm sort of feeling kind of like gross towards you."
+    },
+    {
+        "open_code": "Enjoying being hugged",
+        "text_passage": "I kind of like being hugged"
+    },
+    {
+        "open_code": "Perceiving change in partner",
+        "text_passage": "I think so."
+    },
+    {
+        "open_code": "Noticing her previous lack of confidence",
+        "text_passage": "She used to be a lot more. Well, as I saw it, like, less confident in herself."
+    },
+    {
+        "open_code": "Labeling her as pretty and smart",
+        "text_passage": "She's pretty. She's smart."
+    },
+    {
+        "open_code": "Identifying her as super funny",
+        "text_passage": "She's super funny."
+    },
+    {
+        "open_code": "Seeing her being herself with others",
+        "text_passage": "I see her being herself with other people a lot more"
+    },
+    {
+        "open_code": "Recalling her switching personalities with me",
+        "text_passage": "back when we were friends, she would really switch personalities, like, with me, and she'll be like, super funny and all that."
+    },
+    {
+        "open_code": "Observing her being quiet with others",
+        "text_passage": "But with other people she'll be like super quiet."
+    },
+    {
+        "open_code": "Noticing her growing out of her shell",
+        "text_passage": "now she's like. Growing out of her shell and a lot more confident."
+    },
+    {
+        "open_code": "Seeing her increased confidence",
+        "text_passage": "and a lot more confident."
+    },
+    {
+        "open_code": "Carrying old self",
+        "text_passage": "I feel like in some cases I do carry. My old self with me still."
+    },
+    {
+        "open_code": "Feeling completely different",
+        "text_passage": "But I feel like I'm completely different now."
+    },
+    {
+        "open_code": "Maturing personally",
+        "text_passage": "Obviously I started maturing a lot more."
+    },
+    {
+        "open_code": "Maturing the relationship",
+        "text_passage": "our relationship is also maturing and I'm maturing."
+    },
+    {
+        "open_code": "Taking on responsibilities",
+        "text_passage": "I have more responsibilities and all that."
+    },
+    {
+        "open_code": "Developing healthier thought process",
+        "text_passage": "My thought process on a lot of things are a lot more like it's a lot more healthier instead of just like, you know, making myself feel dumb or anything like that."
+    },
+    {
+        "open_code": "Changing a lot",
+        "text_passage": "I feel like I've changed a lot and I'm not really the same as I was before."
+    },
+    {
+        "open_code": "Feeling glad partner still likes me",
+        "text_passage": "I'm glad she still likes me because, you know, it's difficult to be like transitioning with someone throughout your life."
+    },
+    {
+        "open_code": "Perceiving girlfriend as changed",
+        "text_passage": "she's not the same."
+    },
+    {
+        "open_code": "Continuing to like her",
+        "text_passage": "I do still like her,"
+    },
+    {
+        "open_code": "Carrying old selves together",
+        "text_passage": "We do carry our old selves with us."
+    },
+    {
+        "open_code": "Noticing old traits resurfacing",
+        "text_passage": "Sometimes they might pick through."
+    },
+    {
+        "open_code": "Observing increased difference now",
+        "text_passage": "she's a lot more different now."
+    },
+    {
+        "open_code": "Seeing increased confidence",
+        "text_passage": "Looks a lot more confident."
+    },
+    {
+        "open_code": "Noting loss of unhealthy friendships",
+        "text_passage": "Just a lot of the unhealthy friendships she had before us. Not anymore."
+    },
+    {
+        "open_code": "Recognizing new uplifting friendships",
+        "text_passage": "she has a lot of her better friends now that, like, you know, uplift and all that."
+    },
+    {
+        "open_code": "Feeling she is markedly different now",
+        "text_passage": "I feel like she's a lot different\u2026 Now than before."
+    },
+    {
+        "open_code": "Feeling safe",
+        "text_passage": "I do feel safe"
+    },
+    {
+        "open_code": "Going to partner to cry and being allowed to express emotions",
+        "text_passage": "I could go to her and cry, and she'd still asked me why, but she'll let me, like, cry it all out."
+    },
+    {
+        "open_code": "Showing a lot of emotions without being judged",
+        "text_passage": "I can just really show a lot of my emotions without having her judge me for it."
+    },
+    {
+        "open_code": "Feeling accepted even when acting annoying",
+        "text_passage": "She'll still like me, even though I'm acting like really annoying"
+    },
+    {
+        "open_code": "Feeling physically and mentally safe",
+        "text_passage": "I just feel safe, like in general, Like\u2026 I don't know\u2026 Physically safe, mentally safe."
+    },
+    {
+        "open_code": "Hesitating to say no",
+        "text_passage": "I was going to say no in line, but."
+    },
+    {
+        "open_code": "rating partner's listening",
+        "text_passage": "It's going to be like 7 or 8."
+    },
+    {
+        "open_code": "Choosing a rating around this number",
+        "text_passage": "I just chose around this number."
+    },
+    {
+        "open_code": "Feeling that partner listens",
+        "text_passage": "I do feel like she listens to me. Most of the time."
+    },
+    {
+        "open_code": "Noticing lack of mutual listening",
+        "text_passage": "We aren't very\u2026 Listening to each other and all that."
+    },
+    {
+        "open_code": "Expecting partner's understanding",
+        "text_passage": "She'll be very understanding."
+    },
+    {
+        "open_code": "Being selfish about own feelings after drama",
+        "text_passage": "we're just going to be a little selfish and think about our own feelings after those kind of things pass through."
+    },
+    {
+        "open_code": "Getting distracted while speaking",
+        "text_passage": "I got distracted."
+    },
+    {
+        "open_code": "Rating partner's responsiveness",
+        "text_passage": "Yeah, I think that would be like an eight."
+    },
+    {
+        "open_code": "Feeling emotional and receiving support",
+        "text_passage": "if I am feeling a little more emotional, then she'll definitely be there for me."
+    },
+    {
+        "open_code": "Feeling angry and being calmed",
+        "text_passage": "If I'm feeling angry, she'll, like, try to calm me down."
+    },
+    {
+        "open_code": "Offering help",
+        "text_passage": "She'll really be like, Oh, what I do to help all that, you know?"
+    },
+    {
+        "open_code": "Experiencing insecurities",
+        "text_passage": "Just insecurities too most of the time."
+    },
+    {
+        "open_code": "Needing personal space",
+        "text_passage": "There are moments where, you know, she's going to need her space."
+    },
+    {
+        "open_code": "Sharing trouble simultaneously",
+        "text_passage": "in the moment that I'm having trouble, she may also have some trouble with her family or any situation."
+    },
+    {
+        "open_code": "Perceiving constant presence",
+        "text_passage": "so it's always there, but, It's definitely, definitely there."
+    },
+    {
+        "open_code": "Imagining partner's response",
+        "text_passage": "I'll have like a little her in my head and be like, okay, what would she say if I'm saying this to myself?"
+    },
+    {
+        "open_code": "Self\u2011criticizing about appearance",
+        "text_passage": "I'm beating myself up because I think I'm ugly."
+    },
+    {
+        "open_code": "Anticipating reassurance",
+        "text_passage": "She'll probably be like, Oh, you're so pretty, but I'm probably going to still be feeling that way."
+    },
+    {
+        "open_code": "Thinking through emotions",
+        "text_passage": "I just have to think through my emotions a lot more and try not to really like depend on her in those moments"
+    },
+    {
+        "open_code": "Avoiding burdening partner",
+        "text_passage": "just because I also don't want to trouble her."
+    },
+    {
+        "open_code": "Making self feel better",
+        "text_passage": "So I just try to make myself feel better, like I give more effort towards myself."
+    },
+    {
+        "open_code": "Feeling very satisfied",
+        "text_passage": "I think. I think very satisfied."
+    },
+    {
+        "open_code": "Projecting complete satisfaction until marriage",
+        "text_passage": "Until we're married, I'll probably be completely satisfied. But very satisfied."
+    },
+    {
+        "open_code": "Lacking privacy for intimacy",
+        "text_passage": "We don't really have our own privacy."
+    },
+    {
+        "open_code": "Living with parents limiting privacy",
+        "text_passage": "Because we live with our parents."
+    },
+    {
+        "open_code": "Experiencing infrequent sex",
+        "text_passage": "Not often."
+    },
+    {
+        "open_code": "Estimating recent timeframe",
+        "text_passage": "Like within this past like three months."
+    },
+    {
+        "open_code": "Hesitating before responding",
+        "text_passage": "Mhm. I mean."
+    },
+    {
+        "open_code": "Saving self from disclosure",
+        "text_passage": "I'm saving myself somewhere."
+    },
+    {
+        "open_code": "Expressing uncertainty",
+        "text_passage": "Oh, no, no, no."
+    },
+    {
+        "open_code": "Pausing to think",
+        "text_passage": "Um..."
+    },
+    {
+        "open_code": "Recognizing universal sexual urges",
+        "text_passage": "obviously we're all going to get like, you know, urges and all that or horny whatever."
+    },
+    {
+        "open_code": "Feeling okay with not doing anything sexual",
+        "text_passage": "I'm okay with not doing anything like that."
+    },
+    {
+        "open_code": "Focusing on emotional connection instead of sex",
+        "text_passage": "Focus on the girl and that'll be enough for me"
+    },
+    {
+        "open_code": "Waiting for privacy before engaging sexually",
+        "text_passage": "until we do have our own privacy."
+    },
+    {
+        "open_code": "Accepting personal space as sufficient for satisfaction",
+        "text_passage": "So we get like space, so I\u2019m okay with it?"
+    },
+    {
+        "open_code": "Judging relationship as meeting expectations",
+        "text_passage": "Mm, I think so..."
+    },
+    {
+        "open_code": "Recalling having past expectations",
+        "text_passage": "I didn't honestly, when I was younger, I did have, like, some kind of expectation for it."
+    },
+    {
+        "open_code": "Anticipating continuing the relationship",
+        "text_passage": "But now it's like, you know, we'll keep going."
+    },
+    {
+        "open_code": "Questioning duration of relationship",
+        "text_passage": "Until we can I guess, you know,"
+    },
+    {
+        "open_code": "Viewing relationship as present while together",
+        "text_passage": "I'm just thinking about it like, now it's prevalent as long as we're together now."
+    },
+    {
+        "open_code": "Feeling aligned with family expectations",
+        "text_passage": "I felt like I was partially, like, with my family, too."
+    },
+    {
+        "open_code": "Anticipating marriage by age 20",
+        "text_passage": "I thought that we'd be probably, like, married by [16-20] or something."
+    },
+    {
+        "open_code": "Accepting being unmarried",
+        "text_passage": "I'm still not married."
+    },
+    {
+        "open_code": "Perceiving family preferences for marriage",
+        "text_passage": "my family would really like or look like, you know\u2026"
+    },
+    {
+        "open_code": "Feeling okay with current single status",
+        "text_passage": "I'm fine with that."
+    },
+    {
+        "open_code": "Desiring mutual openness in relationship",
+        "text_passage": "I want a relationship that both of us are out."
+    },
+    {
+        "open_code": "Wanting to share entire world with partner",
+        "text_passage": "I wanted to, like, you know, show everything, like my world\u2026 everything like that."
+    },
+    {
+        "open_code": "Preferring more privacy now",
+        "text_passage": "I like a little more privacy now."
+    },
+    {
+        "open_code": "Affirming wording",
+        "text_passage": "That was a good wording."
+    },
+    {
+        "open_code": "Stating personal reaction",
+        "text_passage": "I'm being like."
+    },
+    {
+        "open_code": "Considering that it sounds pretty cool",
+        "text_passage": "Um. Now think that sounds pretty cool."
+    },
+    {
+        "open_code": "Choosing the first data sharing option",
+        "text_passage": "I think the first one is okay."
+    },
+    {
+        "open_code": "Expressing inability to suggest nominators",
+        "text_passage": "I don't. I don't think so."
+    },
+    {
+        "open_code": "Stating relationship duration",
+        "text_passage": "[0-5] years and [5-10] months."
+    },
+    {
+        "open_code": "Describing household composition",
+        "text_passage": "Me, my boyfriend, and then we live with four other roommates."
+    },
+    {
+        "open_code": "Co-habiting with boyfriend and roommates",
+        "text_passage": "Me, my boyfriend, and then we live with four other roommates."
+    },
+    {
+        "open_code": "",
+        "text_passage": ""
+    },
+    {
+        "open_code": "Providing pronoun preferences",
+        "text_passage": "You could use a He/They pronoun."
+    },
+    {
+        "open_code": "Affirming acceptable partner label",
+        "text_passage": "Yeah."
+    },
+    {
+        "open_code": "Accepting boyfriend or partner label",
+        "text_passage": "Boyfriend, partner is fine."
+    },
+    {
+        "open_code": "Providing partner's name",
+        "text_passage": "If you want his name, his name is [partner\u2019s name]."
+    },
+    {
+        "open_code": "Spelling partner's name",
+        "text_passage": "[Spells partner\u2019s name]."
+    },
+    {
+        "open_code": "Noticing friends' communication difficulties",
+        "text_passage": "I know a lot of my friends have difficulty in communicating with their partners."
+    },
+    {
+        "open_code": "Evaluating my communication skills as above average",
+        "text_passage": "my communication skills with my partner are way above average."
+    },
+    {
+        "open_code": "Scheduling weekly toe talks",
+        "text_passage": "every Sunday, we have these talks called toe talks."
+    },
+    {
+        "open_code": "Sitting on the floor with toes touching",
+        "text_passage": "we sit down on the floor, our toes are touching."
+    },
+    {
+        "open_code": "Maintaining physical touch while communicating daily updates",
+        "text_passage": "we still have this physical touch and we just communicate any problems we have or, you know, doesn't really have to be a problem, just like what you're up to, how you feel."
+    },
+    {
+        "open_code": "Communicating continuously without waiting for scheduled talks",
+        "text_passage": "we don't really wait for these talks to communicate with each other."
+    },
+    {
+        "open_code": "Solidifying openness through scheduled talks",
+        "text_passage": "these talks just solidify something we have in place."
+    },
+    {
+        "open_code": "Sharing personal stress and receiving help offers",
+        "text_passage": "I just want to like mention that I'm stressed this week, and he asks like how he can help"
+    },
+    {
+        "open_code": "Grounding ourselves and staying aware of each other's lives despite busyness",
+        "text_passage": "it's just a way to ground ourselves and knowing what we're up to and each other's lives since we're so busy."
+    },
+    {
+        "open_code": "Reporting having zero official partners",
+        "text_passage": "Uhm, zero."
+    },
+    {
+        "open_code": "Describing dating people without official status",
+        "text_passage": "It was not necessarily partners, but it was just people I would date but nothing was ever official."
+    },
+    {
+        "open_code": "Assessing current dates as higher quality",
+        "text_passage": "the dates with my boyfriend now are higher in quality."
+    },
+    {
+        "open_code": "Engaging in activities typical of real couples",
+        "text_passage": "We do things that, you know, like real couples do."
+    },
+    {
+        "open_code": "Having simple Boba dates in the past",
+        "text_passage": "me in the past dates would just go get Boba, something super simple."
+    },
+    {
+        "open_code": "Going to museums now",
+        "text_passage": "now, we go to like museums"
+    },
+    {
+        "open_code": "Going on day trips",
+        "text_passage": "we go on day trips"
+    },
+    {
+        "open_code": "Going on actual trips",
+        "text_passage": "we go on actual trips."
+    },
+    {
+        "open_code": "Seeing families get along with each other",
+        "text_passage": "our families get along with each other"
+    },
+    {
+        "open_code": "Noticing parents share political beliefs",
+        "text_passage": "our parents have the same political beliefs"
+    },
+    {
+        "open_code": "Recognizing parents were raised in the same generation",
+        "text_passage": "they were raised pretty much in the same generation"
+    },
+    {
+        "open_code": "Observing similar music tastes and interests",
+        "text_passage": "they have like similar music tastes, similar interests"
+    },
+    {
+        "open_code": "Viewing family harmony as important for relationship quality",
+        "text_passage": "that's really important in, I guess like a romantic relationship because any sort of conflict can be really rough"
+    },
+    {
+        "open_code": "Comparing friends' families conflict causing tension",
+        "text_passage": "they don't get along, and it's like really tough, especially during big gatherings like Thanksgiving and Christmas"
+    },
+    {
+        "open_code": "Experiencing everyone gets along as positive",
+        "text_passage": "everyone gets along"
+    },
+    {
+        "open_code": "Identifying lack of communication as low-quality indicator",
+        "text_passage": "lack of communication."
+    },
+    {
+        "open_code": "Describing arguments without resolution",
+        "text_passage": "a lot of arguments without resolution."
+    },
+    {
+        "open_code": "Emphasizing constant conflict",
+        "text_passage": "just constant conflict and just lack of communication."
+    },
+    {
+        "open_code": "Linking communication to earlier point",
+        "text_passage": "Uhm, I guess it's going to tie back to what I said before, just communication."
+    },
+    {
+        "open_code": "Stating communication as important across all relationships",
+        "text_passage": "I think it's important for not just romantic relationships, but all relationships."
+    },
+    {
+        "open_code": "Knowing mutual support",
+        "text_passage": "Love is knowing that they have your back and I have theirs."
+    },
+    {
+        "open_code": "Relying on partner in crisis",
+        "text_passage": "if I'm, like, stuck in the middle of the road at 3 a.m., I can always rely on my partner."
+    },
+    {
+        "open_code": "Experiencing partner's constant presence",
+        "text_passage": "he is just always there for me"
+    },
+    {
+        "open_code": "Feeling good through love",
+        "text_passage": "I think love is important because it makes people feel good."
+    },
+    {
+        "open_code": "Acknowledging others' negative views of love",
+        "text_passage": "And I know that some people have like a very negative view of love"
+    },
+    {
+        "open_code": "Extending love to non-romantic relationships",
+        "text_passage": "but love can be between you and your dog, you and your brother."
+    },
+    {
+        "open_code": "Emphasizing love's overall importance",
+        "text_passage": "Not necessarily like romantic love, but I think love is very, very important."
+    },
+    {
+        "open_code": "Reflecting on our long journey",
+        "text_passage": "we've came a long way."
+    },
+    {
+        "open_code": "Enduring lows and highs together",
+        "text_passage": "We've stuck with each other at our lows and highs"
+    },
+    {
+        "open_code": "Co\u2011living as evidence of love",
+        "text_passage": "now we currently live together"
+    },
+    {
+        "open_code": "Receiving coffee in the morning",
+        "text_passage": "he'll make me coffee in the morning"
+    },
+    {
+        "open_code": "Receiving help with dinner at night",
+        "text_passage": "he'll help me make dinner at night"
+    },
+    {
+        "open_code": "Experiencing schedule conflict",
+        "text_passage": "work and then me being in grad school does conflict with our time"
+    },
+    {
+        "open_code": "Desiring more quality time",
+        "text_passage": "I feel like we could get way more quality time besides just the weekends."
+    },
+    {
+        "open_code": "Having only one full day together",
+        "text_passage": "we only have pretty much just one full day to ourselves, which is Saturday."
+    },
+    {
+        "open_code": "Living with roommates",
+        "text_passage": "living with roommates."
+    },
+    {
+        "open_code": "Valuing privacy",
+        "text_passage": "I value privacy a lot."
+    },
+    {
+        "open_code": "Expressing strong need for privacy",
+        "text_passage": "we like our privacy."
+    },
+    {
+        "open_code": "Characterizing conflict as disagreements",
+        "text_passage": "Uhm, no. It's more like disagreements, but no."
+    },
+    {
+        "open_code": "Requesting clarification",
+        "text_passage": "Uhm, can you repeat the question?"
+    },
+    {
+        "open_code": "Spending quality time together",
+        "text_passage": "spend that quality time together since we are so busy."
+    },
+    {
+        "open_code": "Going on dates while living together",
+        "text_passage": "still go on dates, even though we live with each other, and see each other every day."
+    },
+    {
+        "open_code": "Seeing each other daily",
+        "text_passage": "still go on dates, even though we live with each other, and see each other every day."
+    },
+    {
+        "open_code": "Valuing quality time more",
+        "text_passage": "helps me value our quality time together and value it a lot more."
+    },
+    {
+        "open_code": "Planning monthly big outings",
+        "text_passage": "plan something once a month, something really big, like go to museum, go out to dinner"
+    },
+    {
+        "open_code": "Going to museum and dinner as special activity",
+        "text_passage": "plan something once a month, something really big, like go to museum, go out to dinner"
+    },
+    {
+        "open_code": "Strengthening our relationship",
+        "text_passage": "helps us stay strong."
+    },
+    {
+        "open_code": "Balancing yin and yang",
+        "text_passage": "we're yin and yang."
+    },
+    {
+        "open_code": "Contrasting outgoingness with reserve",
+        "text_passage": "He's very outgoing. I'm more on the reserve side and I think it goes really well."
+    },
+    {
+        "open_code": "Becoming more outgoing by being around him",
+        "text_passage": "it helped me become more outgoing being around him"
+    },
+    {
+        "open_code": "Centering self with people through partner",
+        "text_passage": "it helps me also center myself with people, like with great people"
+    },
+    {
+        "open_code": "Lacking strong friendships before meeting partner",
+        "text_passage": "prior to meeting him, I didn't have the best friends, I didn't have the best circle of friends."
+    },
+    {
+        "open_code": "Staying positive by being around him",
+        "text_passage": "being around him is just helped me stay positive"
+    },
+    {
+        "open_code": "Being surrounded by better people through partner",
+        "text_passage": "be surrounded by better people."
+    },
+    {
+        "open_code": "Attending frequent weekend parties",
+        "text_passage": "he would constantly throw, like, parties every weekend"
+    },
+    {
+        "open_code": "Feeling unaccustomed to socializing",
+        "text_passage": "I wasn't really used to that. I wasn't really used to, you know, socializing in that type of setting"
+    },
+    {
+        "open_code": "Being introduced to new people",
+        "text_passage": "he would always introduce me to people that are over"
+    },
+    {
+        "open_code": "Being shy and reserved",
+        "text_passage": "I was very shy when I first met him, and reserved"
+    },
+    {
+        "open_code": "Starting to initiate conversations",
+        "text_passage": "that really helped me start initiating, initiating conversations with people"
+    },
+    {
+        "open_code": "Developing higher self-esteem",
+        "text_passage": "our relationship has made me have a higher level of self-esteem."
+    },
+    {
+        "open_code": "Becoming more confident",
+        "text_passage": "made me a lot more confident"
+    },
+    {
+        "open_code": "Wanting to express self more",
+        "text_passage": "seeing someone love me for the way I am makes me want to express myself more."
+    },
+    {
+        "open_code": "Expressing self through dress and social media",
+        "text_passage": "The way I dress, the way I, I guess, yeah, express myself through Social media, outside of social media."
+    },
+    {
+        "open_code": "Saying yes to partner's change",
+        "text_passage": "I'd like to say yes."
+    },
+    {
+        "open_code": "Thinking partner's style has changed",
+        "text_passage": "I think, his style has definitely changed."
+    },
+    {
+        "open_code": "Observing partner's increased comfort",
+        "text_passage": "I think he's a lot more comfortable in the way he is."
+    },
+    {
+        "open_code": "Seeing partner enjoying his style",
+        "text_passage": "I can see that he enjoys the way he styles himself."
+    },
+    {
+        "open_code": "Rejecting past\u2011present sameness",
+        "text_passage": "Uhm, no."
+    },
+    {
+        "open_code": "Offering to give an example",
+        "text_passage": "Did you want me to provide an example?"
+    },
+    {
+        "open_code": "Feeling careless before meeting him",
+        "text_passage": "before meeting him I was careless."
+    },
+    {
+        "open_code": "Neglecting self and others",
+        "text_passage": "I didn't really care much about myself, let alone other people."
+    },
+    {
+        "open_code": "Becoming more aware of emotional surroundings",
+        "text_passage": "being with him made me more aware of my emotional surroundings"
+    },
+    {
+        "open_code": "Putting myself in others' shoes",
+        "text_passage": "it made me more aware of, or just made me put myself in other shoes, allowed me to see different perspectives."
+    },
+    {
+        "open_code": "Seeing different perspectives",
+        "text_passage": "it made me more aware of, or just made me put myself in other shoes, allowed me to see different perspectives."
+    },
+    {
+        "open_code": "Shifting from cold, reserved, shy to opposite",
+        "text_passage": "before I was a lot more cold, reserved, and shy, and now I'm the complete opposite."
+    },
+    {
+        "open_code": "Comparing partner's personality to sameness",
+        "text_passage": "Uhm, I'd like to say he is about the same."
+    },
+    {
+        "open_code": "Observing lack of personality changes in partner",
+        "text_passage": "He doesn't have any changes in personality."
+    },
+    {
+        "open_code": "Recognizing partner's shifting interests",
+        "text_passage": "I know that his interests have changed"
+    },
+    {
+        "open_code": "Noticing partner attending more social events",
+        "text_passage": "he's been going to like a lot more social events, like concerts, bars"
+    },
+    {
+        "open_code": "Feeling shared enjoyment of concerts",
+        "text_passage": "which is nice because I also enjoy going to concerts."
+    },
+    {
+        "open_code": "Evaluating partner's change as different from my own change",
+        "text_passage": "But I think he's changed, but not in the same way I changed."
+    },
+    {
+        "open_code": "Feeling safe because of trust",
+        "text_passage": "I feel safe because there's trust."
+    },
+    {
+        "open_code": "Trusting each other",
+        "text_passage": "We trust each other,"
+    },
+    {
+        "open_code": "Avoiding actions that breach partner's trust",
+        "text_passage": "there's nothing that he's done that's made me lose that trust,"
+    },
+    {
+        "open_code": "Avoiding actions that breach my partner's trust",
+        "text_passage": "There's nothing I've done to make him lose his trust."
+    },
+    {
+        "open_code": "Observing friends' difficulty when partners travel",
+        "text_passage": "I know a lot of my friends have difficulty, uhm, when their partner like goes on a trip, to [Location], [Location]."
+    },
+    {
+        "open_code": "Imagining friends' fear of partner cheating",
+        "text_passage": "I know they're always like, oh, my gosh, like, what if they cheat on me?"
+    },
+    {
+        "open_code": "Reassuring self about partner's fidelity during travel",
+        "text_passage": "But I know if he were to go on a trip like that, I know he wouldn't partake in that."
+    },
+    {
+        "open_code": "Noting friends' practice of location sharing as trust",
+        "text_passage": "And, I know also a lot of my friends have like locations sharing with their partners, we don't, we trust each other in that way."
+    },
+    {
+        "open_code": "Expressing affirmation",
+        "text_passage": "Yeah, I'm good."
+    },
+    {
+        "open_code": "Confirming comprehension",
+        "text_passage": "I can see that."
+    },
+    {
+        "open_code": "Feeling bugged and expressing it",
+        "text_passage": "I feel like if something is bugging me or bothering me and I let him know, like, hey, you know, this thing is really bugging me."
+    },
+    {
+        "open_code": "Talking it out and receiving listening",
+        "text_passage": "We talk it out, he listens, and he doesn't make that mistake again."
+    },
+    {
+        "open_code": "Noticing partner distraction by book or phone",
+        "text_passage": "he usually does listen to me but sometimes he gets distracted with his book, his phone"
+    },
+    {
+        "open_code": "Experiencing partner non-response after speaking",
+        "text_passage": "I'll like, say something and, you know, he just won't respond"
+    },
+    {
+        "open_code": "Assessing distraction as minor issue",
+        "text_passage": "but it's not really a big problem."
+    },
+    {
+        "open_code": "Calling partner for medication pickup",
+        "text_passage": "I would go ahead and give him a call, be like, hey, do you think you can pick this up at this pharmacy? I'll give you my information."
+    },
+    {
+        "open_code": "Relying on partner for essential supplies",
+        "text_passage": "I don't know, shampoo, conditioner, I can always count on him to help me get that for me when I don't have, or like when I'm not able to."
+    },
+    {
+        "open_code": "Counting on partner's assistance when unable",
+        "text_passage": "I can always count on him to help me get that for me when I don't have, or like when I'm not able to."
+    },
+    {
+        "open_code": "Not experiencing refusal from partner",
+        "text_passage": "there hasn't ever really been a moment where I asked him to help me with something, and he would say no"
+    },
+    {
+        "open_code": "Maintaining independence",
+        "text_passage": "we're pretty independent"
+    },
+    {
+        "open_code": "Avoiding constant reliance",
+        "text_passage": "it's not like I constantly need something from him"
+    },
+    {
+        "open_code": "Seeking mutual respect",
+        "text_passage": "All I'm really asking for is, I guess, to just respect each other"
+    },
+    {
+        "open_code": "Hesitating before answering",
+        "text_passage": "Uhm."
+    },
+    {
+        "open_code": "Estimating sexual frequency",
+        "text_passage": "I want to say, every other week. Yeah."
+    },
+    {
+        "open_code": "Feeling satisfied despite busy schedule",
+        "text_passage": "I guess I'm really satisfied because you know, again, like we are so busy, and sometimes, like, we just don't have time like we did before when we were in undergrad."
+    },
+    {
+        "open_code": "Engaging in sexual activities without taking too much time",
+        "text_passage": "but I think I'm pretty satisfied because, you know, we're still engaging in those activities, but it's not like taking too much time, not that it does in general,"
+    },
+    {
+        "open_code": "Doing other intimate activities like picnics and movies",
+        "text_passage": "but, you know, we do other things that are pretty intimate, like go on a picnic, watch a movie together."
+    },
+    {
+        "open_code": "Affirming overall relationship quality",
+        "text_passage": "So, I think it's. Yeah, I think it's good."
+    },
+    {
+        "open_code": "Stating complete satisfaction",
+        "text_passage": "Uhm, I am completely satisfied."
+    },
+    {
+        "open_code": "Rating relationship as ten",
+        "text_passage": "So, I would rank it as ten."
+    },
+    {
+        "open_code": "Rating relationship as ten",
+        "text_passage": "I rated our relationship as ten because I didn't have any expectations before this relationship."
+    },
+    {
+        "open_code": "Having no expectations",
+        "text_passage": "I didn't have any expectations before this relationship."
+    },
+    {
+        "open_code": "Comparing external perceptions of relationship",
+        "text_passage": "a lot of my friends and family say that I think we know what we're doing and we are in a solid relationship, and it seems like we have no problems on the outside, that's not true."
+    },
+    {
+        "open_code": "Hearing idealized descriptions of relationship",
+        "text_passage": "they're saying it's like an ideal relationship"
+    },
+    {
+        "open_code": "Feeling authentic with partner",
+        "text_passage": "I can feel like myself around him"
+    },
+    {
+        "open_code": "Assuming partner shares feelings",
+        "text_passage": "he feels the same with me"
+    },
+    {
+        "open_code": "Resisting rating that signals dissatisfaction",
+        "text_passage": "I guess I didn't rate this relationship a nine because that would mean that I am not completely satisfied"
+    },
+    {
+        "open_code": "Recognizing universal imperfection",
+        "text_passage": "I know not every relationship is perfect"
+    },
+    {
+        "open_code": "Considering relationship as personally perfect",
+        "text_passage": "but I think it's perfect for me"
+    },
+    {
+        "open_code": "Viewing relationship as best current connection",
+        "text_passage": "and I think it's probably like the best connection I have in my life currently"
+    },
+    {
+        "open_code": "Observing partner's consistency",
+        "text_passage": "No, he's remained about the same."
+    },
+    {
+        "open_code": "Indicating completion",
+        "text_passage": "Uhm, I think I'm good for now."
+    },
+    {
+        "open_code": "Declining to de-identify",
+        "text_passage": "Uhm. No, I'm okay with all of it."
+    },
+    {
+        "open_code": "Agreeing to request",
+        "text_passage": "Uhm, yes."
+    },
+    {
+        "open_code": "Struggling to recall potential nominators",
+        "text_passage": "I just can't think of anyone at the top of my head right now, though."
+    }
+]
