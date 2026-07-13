@@ -1,0 +1,8 @@
+**Core Category – “Negotiated, Multidimensional Appraisal of Relational Quality”**
+
+**Grounded Theory Explanation**  
+Across the data, participants do not rely on a single indicator to decide whether their partnership is “high‑quality” or “low‑quality.” Instead, they constantly **negotiate** an overall judgment by **weighing a set of inter‑related domains**—emotional connection and compassion, the presence and definition of love, sexual intimacy and desire, the fairness and balance of role division, the reliability of trust, safety and practical support, and the style and effectiveness of communication.  
+
+When a domain is experienced positively (e.g., feeling emotionally close, receiving reliable support, enjoying passionate sex, sharing open dialogue), it raises the overall appraisal; when the same domain is experienced negatively (e.g., emotional distance, role imbalance that creates parallel lives, unresolved conflict, lack of trust), it pulls the appraisal downward. These evaluations are further **shaped by external reference points** (friends’ marriages, divorce narratives) and **by life‑stage transitions** (teenage dating, early marriage, parenthood) that recalibrate what counts as “good” or “bad” in each domain.  
+
+Thus, relationship quality emerges as a **dynamic, negotiated construct** that is continuously reconstructed through participants’ ongoing assessment of multiple, mutually influencing dimensions rather than a static, single‑factor judgment. Communication and trust function as the central mechanisms that bind the other domains together, while love, sexual intimacy, and role balance serve as critical lenses through which participants interpret their lived experience and arrive at a holistic quality judgment.

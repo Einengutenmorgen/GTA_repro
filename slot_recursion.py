@@ -37,8 +37,8 @@ from prompts_recursion import (
 
 PARADIGM_SLOTS = ("condition", "action_interaction", "consequence")
 
-START_K = 3 # has to be 3 for all steps 
-MAX_K = 5 # maxk - startk is total amount of recurring calls 
+START_K = 3
+MAX_K = 5
 
 
 # ---------------------------------------------------------------------------

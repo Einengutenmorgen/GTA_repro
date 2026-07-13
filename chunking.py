@@ -116,7 +116,7 @@ def _unit_to_text(q: str, a: str) -> str:
 
 
 def iter_qa_units(pdf_path: str,
-                  min_answer_chars: int = 2,
+                  min_answer_chars: int = 25,
                   unit: Optional[str] = None) -> List[Dict]:
     """One dict per Q&A unit (always one question each), for the Q-Q sim index.
 

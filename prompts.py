@@ -1,7 +1,7 @@
 # # prompts.py
 
 #The Strauss & Corbin condition/action/consequence paradigm
-
+#ToDo: Make sure Prompt allows for empty categories (CAC)
 OPEN_CODING_PROMPT = """You are an expert qualitative researcher performing inductive open coding in a Straussian grounded-theory tradition.
  
 STUDY CONTEXT (orienting focus only — do NOT treat as a list of expected findings):
@@ -39,15 +39,19 @@ Let the categories emerge from the codes; do not impose the study topic as a cat
  
 Review the following list of open codes extracted from a set of interviews. Group them into 'axial codes' by identifying relationships.
 CRITICAL: You must track the source of every code.
+
+PARADIGM SLOTS — condition, action_interaction, consequence:
+Fill each slot ONLY if the grouped open codes actually provide evidence for it. If the codes do not speak to a slot, return an empty string "" for that slot rather than inventing or stretching to fill it. An honestly empty slot is a valid, informative outcome — it signals that the paradigm model may not fully fit this category, and a later targeted pass will attempt to fill it from additional interview data. Do NOT confabulate to avoid an empty slot.
+
 Output ONLY a valid JSON array of objects with the following exact structure:
 [
   {
     "reasoning": "Explanation or thought process of grouping",
     "supporting_open_codes": ["list", "of", "exact", "open", "codes", "used"],
     "axial_category": "Name of the overarching category", 
-    "condition": "What conditions give rise to this?", 
-    "action_interaction": "What behaviors or interactions occur?", 
-    "consequence": "What is the outcome?"
+    "condition": "What conditions give rise to this? (\"\" if not evidenced)", 
+    "action_interaction": "What behaviors or interactions occur? (\"\" if not evidenced)", 
+    "consequence": "What is the outcome? (\"\" if not evidenced)"
   }
 ]
 Do not include any markdown formatting (like ```json), just the raw JSON array."""
