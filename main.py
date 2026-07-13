@@ -9,17 +9,33 @@ import time
 
 BASE_DATA_DIR = "data/RelationshipQuality"
 
-def extract_and_chunk_interviews(target_dir, pairs_per_chunk=1):
+def extract_and_chunk_interviews(target_dir, pairs_per_chunk=1, unit=None):
     """Q&A-aware chunking: one interviewer-question + participant-answer per chunk
-    (or `pairs_per_chunk` pairs batched). Nothing dropped."""
+    (or `pairs_per_chunk` pairs batched). Nothing dropped.
+
+    Returns (chunks, chunk_index):
+      chunks       : ordered list of structured chunk dicts (fed to open coding)
+      chunk_index  : {chunk_id: chunk_dict} lookup, the backing store for the
+                     empty-slot escalation ladder (re-pass a participant's
+                     interview; retrieve similar Q&A). Persisted per run so
+                     re-passes are reconstructable and auditable.
+    """
     pdf_files = glob.glob(os.path.join(target_dir, "**", "*.pdf"), recursive=True)
-    text_chunks = []
+    chunks = []
     
     for file_path in sorted(pdf_files):
         print(f"    Reading: {os.path.basename(file_path)}")
-        text_chunks.extend(chunk_transcript(file_path, pairs_per_chunk=pairs_per_chunk))
+        chunks.extend(chunk_transcript(file_path, pairs_per_chunk=pairs_per_chunk, unit=unit))
 
-    return text_chunks
+    chunk_index = {c["chunk_id"]: c for c in chunks}
+    if len(chunk_index) != len(chunks):
+        # chunk_ids collide only if two PDFs share a stem; surface it loudly.
+        raise ValueError(
+            f"Duplicate chunk_id detected in {target_dir}: "
+            f"{len(chunks)} chunks but {len(chunk_index)} unique ids. "
+            "Two source PDFs likely share a filename stem."
+        )
+    return chunks, chunk_index
 
 def main():
     # Set to "proprietary" if you want to use OpenAI directly
@@ -53,13 +69,23 @@ def main():
 
         # 2. Extract Data
         print("=== Phase 0: Data Extraction ===")
-        chunks = extract_and_chunk_interviews(country_dir)
+        # `unit` (country code) tags every chunk for later cross-country work;
+        # derive it from the leaf country folder name.
+        unit = os.path.basename(folder_name.split("/")[0]).replace("Silan-Ciruelas_", "")
+        chunks, chunk_index = extract_and_chunk_interviews(country_dir, unit=unit)
         
         if not chunks:
             print(f"No text extracted for {run_name}. Skipping...\n")
             continue
             
         print(f"Extracted {len(chunks)} text chunks from PDFs.\n")
+
+        # Persist the chunk index: backing store for the empty-slot escalation
+        # ladder and an audit trail of exactly what was fed to open coding.
+        index_out_path = os.path.join(output_dir, "chunk_index.json")
+        with open(index_out_path, "w") as f:
+            json.dump(chunk_index, f, indent=4)
+        print(f"Saved -> {index_out_path}\n")
 
         # 3. Open Coding
         print("=== Phase 1: Open Coding ===")
