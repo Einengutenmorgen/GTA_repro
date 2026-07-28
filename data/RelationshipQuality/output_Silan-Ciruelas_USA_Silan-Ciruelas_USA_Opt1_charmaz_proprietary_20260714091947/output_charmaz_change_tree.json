@@ -1,0 +1,300 @@
+{
+    "saturation_reached": false,
+    "stop_reason": "corpus_exhausted",
+    "n_iterations": 1,
+    "slice_size": 5,
+    "saturation_threshold": 0.8,
+    "max_iterations": 5,
+    "change_tree": [
+        {
+            "iteration_n": 1,
+            "slice_sources": [
+                "Silan-Ciruelas_USA_Opt1_23B_Silky_LGBTAnyLength_Low_Median-High",
+                "Silan-Ciruelas_USA_Opt1_6B_Jon_1-5_High_Low-Median"
+            ],
+            "n_units": 89,
+            "n_fit": 0,
+            "absorbed_fraction": 0.0,
+            "threshold": 0.8,
+            "applicability_raw": "{\n  \"assignments\": []\n}",
+            "decision": "not_saturated",
+            "n_unabsorbed_units": 89,
+            "new_initial_codes": [
+                {
+                    "open_code": "scheduling designated couple days to maintain connection",
+                    "text_passage": "Um, I guess having like, distinct days where we'll go out. ... we try to have like designated days just so we could see each other.",
+                    "in_vivo": true
+                },
+                {
+                    "open_code": "experiencing limited sexual intimacy due to lack of private space",
+                    "text_passage": "We don't really have our own privacy. Because we live with our parents. ... Not very much. ... Not often.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "adapting personal touch preferences through partner influence",
+                    "text_passage": "I used to be like, I used to not like really being touchy with anybody... because she was super clingy... I got used to being able to hug.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "feeling emotionally safe to express vulnerability",
+                    "text_passage": "I could go to her and cry, and she'd still ask me why... I can show a lot of my emotions without her judging me... I feel safe.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "practicing empathy questioning to resolve disagreements",
+                    "text_passage": "we ask each other that... we try to think about each other's emotions... letting things out... we try to understand each other's point of view.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "creating ritualized physical\u2011touch communication practice",
+                    "text_passage": "we have these talks called toe talks. ... we sit down on the floor, our toes are touching... we communicate any problems we have.",
+                    "in_vivo": true
+                },
+                {
+                    "open_code": "balancing support needs with partner's own stress",
+                    "text_passage": "I try to make myself feel better... I don't want to trouble her... I try to not depend on her in those moments.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "maintaining trust without location sharing",
+                    "text_passage": "we don't share location... we trust each other in that way.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "accepting low sexual frequency as sufficient",
+                    "text_passage": "I'm okay with not doing anything... focus on the girl and that'll be enough for me until we have privacy.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "fostering increased self\u2011esteem through relationship",
+                    "text_passage": "relationship has made me have a higher level of self\u2011esteem... more confident.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "prioritizing family political alignment to reduce conflict",
+                    "text_passage": "our families get along... parents have the same political beliefs... helps avoid conflict.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "valuing privacy in shared living spaces",
+                    "text_passage": "I value privacy a lot... living with roommates... privacy is an issue.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "managing conflict influenced by external stressors",
+                    "text_passage": "she flick my thumb ... I already had a bad day ... my dog just died ... siblings get annoying ... external stressors cause irritation.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "experiencing personal growth and confidence changes",
+                    "text_passage": "relationship made me more aware... changed from cold, reserved to opposite.",
+                    "in_vivo": false
+                },
+                {
+                    "open_code": "negotiating activity time due to busy schedules",
+                    "text_passage": "schedule is main issue... only one full day Saturday... we only have pretty much just one full day to ourselves.",
+                    "in_vivo": false
+                }
+            ],
+            "changes_made": [
+                {
+                    "type": "added",
+                    "category": "experiencing personal growth and self\u2011esteem",
+                    "rationale": "New codes about self\u2011esteem and personal growth emerged, not captured by existing categories."
+                },
+                {
+                    "type": "added",
+                    "category": "valuing privacy and personal boundaries",
+                    "rationale": "Codes concerning privacy in shared living spaces required a distinct focus beyond existing categories."
+                }
+            ],
+            "focused_raw": "{\n  \"categories\": [\n    {\n      \"reasoning\": \"These codes describe the presence, depth, and quality of emotional bonds, including feelings of safety, vulnerability, and affection, which together shape the emotional connection between partners.\",\n      \"supporting_open_codes\": [\n        \"Feeling emotionally disconnected\",\n        \"Feeling emotionally connected\",\n        \"Feeling the presence of the other\",\n        \"Feeling love for partner\",\n        \"Feeling love for children\",\n        \"Defining love as comfort\",\n        \"Love as essential for staying in the relationship\",\n        \"Love as extreme\",\n        \"Love as compassionate\",\n        \"Love as unconditional giving\",\n        \"adapting personal touch preferences through partner influence\",\n        \"feeling emotionally safe to express vulnerability\"\n      ],\n      \"axial_category\": \"building or losing emotional connection\"\n    },\n    {\n      \"reasoning\": \"Codes focus on how partners exchange information, listen, and use specific practices to convey meaning, highlighting the quality and methods of communication.\",\n      \"supporting_open_codes\": [\n        \"Communicating\",\n        \"Not communicating\",\n        \"You don't communicate\",\n        \"Lacking conversation topics\",\n        \"Partner listening\",\n        \"Partner not listening\",\n        \"Partner's silence\",\n        \"Repeated explanations\",\n        \"Listening rating\",\n        \"Avoiding communication when angry\",\n        \"Timing of communication\",\n        \"Talking it out after cooling (+2 more)\",\n        \"creating ritualized physical\u2011touch communication practice (in-vivo)\"\n      ],\n      \"axial_category\": \"communicating effectively or poorly\"\n    },\n    {\n      \"reasoning\": \"These codes capture joint participation, shared time, and coordinated scheduling of activities, reflecting how couples create shared experiences together.\",\n      \"supporting_open_codes\": [\n        \"Doing things together as a couple\",\n        \"Doing few joint activities\",\n        \"Spending little time together\",\n        \"Going on vacations together\",\n        \"Watching TV together\",\n        \"Doing activities together\",\n        \"Having shared interests\",\n        \"Lacking shared interests\",\n        \"Doing interesting things together\",\n        \"Going out socially\",\n        \"scheduling designated couple days to maintain connection (in-vivo)\",\n        \"negotiating activity time due to busy schedules\"\n      ],\n      \"axial_category\": \"sharing activities and interests\"\n    },\n    {\n      \"reasoning\": \"Codes describe how partners negotiate, divide, and manage practical, financial, and parenting responsibilities, influencing the functional dimension of the relationship.\",\n      \"supporting_open_codes\": [\n        \"Focusing on financial responsibilities\",\n        \"Financial aspects as great\",\n        \"Taking care of children\",\n        \"Raising children\",\n        \"Partner focusing on financial provision\",\n        \"Ensuring financial provision\",\n        \"Viewing relationship as functional\",\n        \"Business partnership\",\n        \"Living separate lives but together\",\n        \"Describing household composition\"\n      ],\n      \"axial_category\": \"manage functional and financial responsibilities\"\n    },\n    {\n      \"reasoning\": \"These codes articulate core values\u2014love, commitment, respect\u2014that participants view as foundational to relationship quality.\",\n      \"supporting_open_codes\": [\n        \"Prioritizing love as most important\",\n        \"Defining love as comfort\",\n        \"Respect is more important than love\",\n        \"Respect brings love\",\n        \"Love as unconditional giving\",\n        \"Love as sacrifice\",\n        \"Love as being in love\",\n        \"Love as extreme\",\n        \"Love as compassionate\",\n        \"Love as essential for staying\"\n      ],\n      \"axial_category\": \"valuing love, commitment, and respect\"\n    },\n    {\n      \"reasoning\": \"Codes refer to the presence, frequency, triggers, and resolution strategies of conflict, showing how couples manage disagreements and external stressors.\",\n      \"supporting_open_codes\": [\n        \"Describing recent fighting frequency\",\n        \"Fighting often\",\n        \"Conflict unresolved\",\n        \"Avoiding fights\",\n        \"Fighting less after children\",\n        \"Fighting early marriage\",\n        \"Fighting becoming rare\",\n        \"Conflict entangled\",\n        \"Silence after fights\",\n        \"Attempting to resolve\",\n        \"Avoiding argument\",\n        \"Suppressing own desires (+1 more)\",\n        \"practicing empathy questioning to resolve disagreements\",\n        \"managing conflict influenced by external stressors\",\n        \"prioritizing family political alignment to reduce conflict\"\n      ],\n      \"axial_category\": \"experiencing and managing conflict\"\n    },\n    {\n      \"reasoning\": \"These codes address sexual desire, frequency, satisfaction, and contextual factors influencing sexual intimacy within the relationship.\",\n      \"supporting_open_codes\": [\n        \"Sexual frequency\",\n        \"Sexual dissatisfaction\",\n        \"Lack of passion\",\n        \"Sex as part of intimacy\",\n        \"Sex without emotional connection\",\n        \"Sex as meaningless\",\n        \"Sex as occasional\",\n        \"Sex as important\",\n        \"Negotiating sex based on partner's needs\",\n        \"experiencing limited sexual intimacy due to lack of private space\",\n        \"accepting low sexual frequency as sufficient\"\n      ],\n      \"axial_category\": \"navigating sexual intimacy\"\n    },\n    {\n      \"reasoning\": \"Codes highlight trust, reliability, and supportive actions, emphasizing how partners depend on each other for emotional and practical support.\",\n      \"supporting_open_codes\": [\n        \"Trust is many important things\",\n        \"Partner emotional support\",\n        \"Partner listening\",\n        \"Partner responsiveness\",\n        \"Partner protective\",\n        \"Partner helping with car breakdown\",\n        \"Partner caring\",\n        \"Partner reliability\",\n        \"Partner being there\",\n        \"Partner support during disagreements\",\n        \"balancing support needs with partner's own stress\",\n        \"maintaining trust without location sharing\"\n      ],\n      \"axial_category\": \"relying on partner for trust and support\"\n    },\n    {\n      \"reasoning\": \"These codes capture participants' sense of increased self\u2011esteem, confidence, and personal growth that arise from the relational experience.\",\n      \"supporting_open_codes\": [\n        \"fostering increased self\u2011esteem through relationship\",\n        \"experiencing personal growth and confidence changes\"\n      ],\n      \"axial_category\": \"experiencing personal growth and self\u2011esteem\"\n    },\n    {\n      \"reasoning\": \"Codes emphasize the importance of privacy and personal boundaries within shared living contexts, reflecting a distinct dimension of relational quality.\",\n      \"supporting_open_codes\": [\n        \"valuing privacy in shared living spaces\"\n      ],\n      \"axial_category\": \"valuing privacy and personal boundaries\"\n    }\n  ],\n  \"changes_made\": [\n    {\n      \"type\": \"added\",\n      \"category\": \"experiencing personal growth and self\u2011esteem\",\n      \"rationale\": \"New codes about self\u2011esteem and personal growth emerged, not captured by existing categories.\"\n    },\n    {\n      \"type\": \"added\",\n      \"category\": \"valuing privacy and personal boundaries\",\n      \"rationale\": \"Codes concerning privacy in shared living spaces required a distinct focus beyond existing categories.\"\n    }\n  ]\n}",
+            "advanced_memo": {
+                "memos": [
+                    {
+                        "category": "building or losing emotional connection",
+                        "properties": [
+                            "presence vs. absence of emotional bond",
+                            "depth/intensity of feeling (e.g., love, affection, safety)",
+                            "perceived reciprocity of emotional investment",
+                            "situational triggers for connection or disconnection (e.g., vulnerability moments, shared experiences)",
+                            "temporal dynamics (building over time vs. sudden loss)"
+                        ],
+                        "reasoning": "The codes under this category range from explicit statements of feeling emotionally connected or disconnected, to nuanced descriptions of love as comfort, extreme, compassionate, or unconditional giving. The data also capture relational practices that shape connection, such as adapting personal touch preferences and feeling safe to be vulnerable. Compared to \"valuing love, commitment, and respect,\" this category is more about the lived, felt quality of the bond rather than abstract ideals. Overlap occurs with \"relying on partner for trust and support\" where safety and vulnerability intersect, but the former emphasizes affective tone while the latter focuses on functional reliability. The category assumes that emotional connection is a singular continuum that can be built or lost, potentially overlooking multidirectional or compartmentalized connections (e.g., feeling love for children but not for partner).",
+                        "thin_areas": [
+                            "Limited data on how connection fluctuates across contexts (e.g., work stress vs. leisure) \u2013 need more situational examples.",
+                            "Sparse evidence for the process of \u2018building\u2019 versus \u2018losing\u2019 \u2013 most codes are static descriptors.",
+                            "Unclear whether \u2018presence of the other\u2019 is a cognitive awareness or an affective feeling \u2013 more interview excerpts needed.",
+                            "The role of children in mediating partner emotional connection is hinted but not elaborated."
+                        ]
+                    },
+                    {
+                        "category": "communicating effectively or poorly",
+                        "properties": [
+                            "frequency of communication (regular vs. sporadic)",
+                            "quality of listening (active, empathetic vs. dismissive)",
+                            "content breadth (topic variety, depth)",
+                            "timing and emotional tone (calm vs. angry, after cooling down)",
+                            "communication mediums (verbal, non\u2011verbal, silence)"
+                        ],
+                        "reasoning": "Codes capture both the presence of communication (Communicating, Partner listening) and its breakdown (Not communicating, Partner not listening, Silence, Avoiding communication when angry). The category overlaps with \"experiencing and managing conflict\" where avoidance and timing are also salient, yet communication focuses on the exchange process itself, whereas conflict centers on the relational outcome. It also intersects with \"building or losing emotional connection\" because effective communication can foster connection, but the memo treats them as distinct analytic lenses. The underlying assumption is that communication quality can be dichotomized into effective vs. poor, potentially obscuring mixed or context\u2011specific performances (e.g., good listening about logistics but poor emotional attunement).",
+                        "thin_areas": [
+                            "Insufficient detail on specific communication strategies that participants deem 'effective' (e.g., reflective listening, humor).",
+                            "Lack of data on non\u2011verbal cues and their impact \u2013 most codes are verbal.",
+                            "Ambiguity around the role of external stressors (e.g., work) on timing and tone \u2013 need more contextual probes.",
+                            "Few examples of how communication patterns evolve over the relationship lifespan."
+                        ]
+                    },
+                    {
+                        "category": "sharing activities and interests",
+                        "properties": [
+                            "joint participation frequency (daily, weekly, occasional)",
+                            "type of activity (leisure, domestic, social, child\u2011focused)",
+                            "perceived enjoyment/satisfaction of shared time",
+                            "coordination mechanisms (scheduling, designated couple days)",
+                            "balance between shared and individual pursuits"
+                        ],
+                        "reasoning": "The codes range from concrete joint actions (doing things together, vacations, watching TV) to the absence of shared interests and limited time together. This category is distinct from \"communicating\" because it concerns behavior rather than discourse, yet both can reinforce each other (e.g., planning activities requires communication). Overlap with \"manage functional and financial responsibilities\" appears when scheduling is constrained by work or childcare duties, suggesting a functional\u2011leisure intersection. The analysis assumes that shared activities are inherently positive for relationship quality, which may not hold if activities are performed out of obligation rather than desire.",
+                        "thin_areas": [
+                            "Sparse data on how couples negotiate conflicting interests \u2013 only a few codes about lacking shared interests.",
+                            "Limited insight into the emotional meaning attached to specific activities (e.g., why a vacation matters).",
+                            "Unclear whether \u2018designated couple days\u2019 are a formal ritual or ad\u2011hoc solution \u2013 need richer description.",
+                            "Missing perspective on solitary activities that still contribute to relational health (e.g., personal hobbies that reduce stress)."
+                        ]
+                    },
+                    {
+                        "category": "manage functional and financial responsibilities",
+                        "properties": [
+                            "division of labor (traditional vs. egalitarian)",
+                            "financial role clarity (provider, co\u2011manager, dependent)",
+                            "parenting responsibilities (care, decision\u2011making)",
+                            "perceived fairness and satisfaction with the arrangement",
+                            "integration of functional roles with relational identity (e.g., business partnership, living separate lives but together)"
+                        ],
+                        "reasoning": "Codes describe both the practical side of partnership (financial focus, child\u2011care, household composition) and the relational framing of those tasks (viewing relationship as functional, business partnership). This category overlaps with \"experiencing and managing conflict\" when disagreements arise over division of labor, and with \"sharing activities\" when time constraints affect joint leisure. It is differentiated from \"valuing love, commitment, and respect\" because it deals with concrete tasks rather than abstract values. The underlying assumption is that functional management is a single dimension, potentially overlooking how emotional meanings are attached to tasks (e.g., cooking as love expression).",
+                        "thin_areas": [
+                            "Limited evidence on how couples renegotiate responsibilities over time (e.g., after a child is born).",
+                            "Few codes address power dynamics or feelings of resentment linked to financial provision.",
+                            "Ambiguity about the meaning of \"living separate lives but together\" \u2013 need clarification of boundaries.",
+                            "Missing data on how external economic stressors (e.g., job loss) reshape functional arrangements."
+                        ]
+                    },
+                    {
+                        "category": "valuing love, commitment, and respect",
+                        "properties": [
+                            "hierarchy of values (love vs. respect vs. commitment)",
+                            "conceptualizations of love (comfort, extreme, compassionate, unconditional)",
+                            "perceived necessity of each value for relationship durability",
+                            "moral or cultural framing of respect and commitment",
+                            "interplay between affective (love) and normative (commitment, respect) dimensions"
+                        ],
+                        "reasoning": "The codes articulate participants\u2019 explicit value statements, often in abstract terms (e.g., love as essential for staying, respect is more important than love). This category is conceptually adjacent to \"building or losing emotional connection\" but differs in that it captures the ideological stance rather than the felt experience. Overlap with \"relying on partner for trust and support\" occurs when respect is linked to trust, yet the former is a value system, the latter a functional expectation. The analysis assumes that participants hold stable, coherent value hierarchies, which may mask situational shifts (e.g., respect taking precedence during conflict).",
+                        "thin_areas": [
+                            "Insufficient data on how participants prioritize these values when they conflict (e.g., love vs. respect).",
+                            "Limited examples of how cultural or religious backgrounds shape these value definitions.",
+                            "Few narratives showing change in value hierarchy over the course of the relationship.",
+                            "Ambiguity about whether \u2018commitment\u2019 is understood as legal, emotional, or behavioral commitment."
+                        ]
+                    },
+                    {
+                        "category": "experiencing and managing conflict",
+                        "properties": [
+                            "frequency and intensity of fights (often, rare, escalating)",
+                            "triggers (children, early marriage, external stress)",
+                            "resolution strategies (talking it out, avoidance, suppression, silence)",
+                            "emotional aftermath (silence, lingering resentment, relief)",
+                            "perceived effectiveness of conflict management"
+                        ],
+                        "reasoning": "Codes span descriptive frequency (fighting often, fighting less after children) to processual aspects (avoiding fights, attempting to resolve, suppressing desires). This category overlaps with \"communicating effectively or poorly\" because many conflict strategies hinge on communication quality, yet conflict adds the dimension of relational tension and power. It also intersects with \"valuing love, commitment, and respect\" when participants invoke respect as a conflict\u2011resolution principle. The underlying assumption is that conflict is a discrete episode that can be categorized as managed or unmanaged, potentially overlooking chronic low\u2011level tension that is not labeled as a 'fight.'",
+                        "thin_areas": [
+                            "Limited insight into how couples negotiate conflict when values (e.g., respect vs. love) clash.",
+                            "Sparse data on long\u2011term outcomes of different resolution strategies (e.g., does avoidance lead to disengagement?).",
+                            "Few examples of conflict related to functional/financial responsibilities versus emotional issues.",
+                            "Ambiguity about the role of external stressors (e.g., work) versus internal relational triggers."
+                        ]
+                    },
+                    {
+                        "category": "navigating sexual intimacy",
+                        "properties": [
+                            "frequency of sexual activity (high, low, occasional)",
+                            "satisfaction and passion levels (dissatisfaction, lack of passion, meaningful)",
+                            "emotional coupling (sex with/without emotional connection)",
+                            "contextual constraints (privacy, space, partner needs)",
+                            "negotiation processes (partner\u2011driven, acceptance of low frequency)"
+                        ],
+                        "reasoning": "The codes capture both quantitative (sexual frequency) and qualitative (meaning, passion) aspects, as well as structural constraints (lack of private space). This category is distinct from \"building or losing emotional connection\" but overlaps where emotional safety influences sexual desire. It also intersects with \"communicating effectively\" because negotiation of sexual needs requires dialogue. The analysis assumes a linear link between frequency and satisfaction, which may not hold for couples who prioritize other intimacy forms. Moreover, the category treats sexual intimacy as a single domain, potentially missing dimensions such as non\u2011penetrative intimacy or erotic play.",
+                        "thin_areas": [
+                            "Insufficient data on how couples renegotiate sexual expectations over time (e.g., after children).",
+                            "Limited exploration of non\u2011sexual forms of intimacy that may compensate for low sexual frequency.",
+                            "Few narratives about how cultural or religious norms shape sexual expectations.",
+                            "Ambiguity about the role of power dynamics in sexual negotiation (e.g., who initiates)."
+                        ]
+                    },
+                    {
+                        "category": "relying on partner for trust and support",
+                        "properties": [
+                            "trust dimensions (reliability, predictability, safety)",
+                            "emotional support (listening, caring, protective behaviors)",
+                            "practical support (help with car, childcare, crisis assistance)",
+                            "balance of support needs vs. partner stress levels",
+                            "boundary considerations (e.g., maintaining trust without location sharing)"
+                        ],
+                        "reasoning": "Codes emphasize both affective trust (trust is many important things) and instrumental support (partner helping with car breakdown). This category overlaps with \"building or losing emotional connection\" where safety to be vulnerable is a component, yet it foregrounds the partner\u2019s role as a resource. It also intersects with \"manage functional and financial responsibilities\" when practical support relates to household tasks, but the focus here is on the relational meaning of support rather than division of labor. The assumption is that trust and support are co\u2011constitutive and largely positive, potentially overlooking ambivalent or conditional trust.",
+                        "thin_areas": [
+                            "Limited data on how trust is rebuilt after breaches \u2013 most codes assume stable trust.",
+                            "Sparse examples of support that is perceived as burdensome or unwanted.",
+                            "Ambiguity around how partners negotiate support when both are under high stress.",
+                            "Few insights into how digital boundaries (e.g., location sharing) affect trust dynamics."
+                        ]
+                    },
+                    {
+                        "category": "experiencing personal growth and self\u2011esteem",
+                        "properties": [
+                            "self\u2011esteem changes attributed to the relationship",
+                            "personal development (confidence, new skills, identity shifts)",
+                            "directionality (growth as result of partner influence vs. independent)",
+                            "perceived reciprocity (both partners grow or only one)",
+                            "temporal aspect (growth early vs. later in relationship)"
+                        ],
+                        "reasoning": "Only two codes populate this category, indicating participants notice increased self\u2011esteem and personal growth linked to the partnership. This category is distinct from \"valuing love, commitment, and respect\" because it focuses on intrapersonal outcomes rather than relational values. Overlap exists with \"relying on partner for trust and support\" where supportive actions may foster growth, yet the growth category treats the outcome as a separate analytic focus. The analysis currently assumes growth is uniformly positive and partner\u2011driven, which may mask cases where growth stems from conflict or independence.",
+                        "thin_areas": [
+                            "Very limited data \u2013 only two codes; need richer narratives about specific growth experiences.",
+                            "Unclear whether growth is perceived as mutual or unilateral.",
+                            "Missing information on potential negative or stunted growth linked to relationship strain.",
+                            "Ambiguity about mechanisms (e.g., encouragement, role modeling) that produce growth."
+                        ]
+                    },
+                    {
+                        "category": "valuing privacy and personal boundaries",
+                        "properties": [
+                            "importance placed on personal space within shared living",
+                            "boundary negotiation strategies (explicit requests, silent withdrawal)",
+                            "impact of privacy on relational satisfaction",
+                            "interplay with other dimensions (e.g., sharing activities, functional responsibilities)",
+                            "cultural or personality factors influencing privacy preferences"
+                        ],
+                        "reasoning": "The sole code highlights a desire for privacy in shared spaces, suggesting a distinct dimension of relational quality. This category intersects with \"sharing activities and interests\" (time together vs. alone) and \"manage functional and financial responsibilities\" (division of household space). It also touches on \"building or losing emotional connection\" when privacy is needed for self\u2011regulation. The current construction assumes privacy is a universal need, potentially overlooking couples who thrive on constant proximity. The thin evidence base limits understanding of how boundaries are negotiated or breached.",
+                        "thin_areas": [
+                            "Only one code \u2013 need more data on how privacy is enacted, negotiated, and contested.",
+                            "Lack of examples showing boundary violations and their consequences.",
+                            "Unclear how privacy preferences vary across life stages (e.g., with children).",
+                            "Missing exploration of cultural or gendered expectations around privacy."
+                        ]
+                    }
+                ]
+            },
+            "resulting_categories": [
+                "building or losing emotional connection",
+                "communicating effectively or poorly",
+                "sharing activities and interests",
+                "manage functional and financial responsibilities",
+                "valuing love, commitment, and respect",
+                "experiencing and managing conflict",
+                "navigating sexual intimacy",
+                "relying on partner for trust and support",
+                "experiencing personal growth and self\u2011esteem",
+                "valuing privacy and personal boundaries"
+            ]
+        }
+    ]
+}

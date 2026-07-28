@@ -1,0 +1,140 @@
+{
+    "memos": [
+        {
+            "category": "building or losing emotional connection",
+            "properties": [
+                "Intensity of felt affection (e.g., love, compassion, unconditional giving)",
+                "Perceived presence or absence of the partner\u2019s emotional availability",
+                "Temporal stability (consistent connection vs. episodic disconnection)",
+                "Subjective appraisal of love as functional (comfort, sacrifice) versus idealized (extreme, passionate)",
+                "Bidirectional perception (self\u2011reported feeling vs. perceived partner feeling)"
+            ],
+            "reasoning": "The codes cluster around participants\u2019 descriptions of how emotionally close or distant they feel to their partner, ranging from explicit statements of love for the partner or children to more abstract definitions of love as comfort or sacrifice. This category overlaps with the \"valuing love, commitment, and respect\" category in that both invoke love, yet the former is about lived emotional resonance whereas the latter is about abstract value hierarchies. It also touches the \"relying on partner for trust and support\" category where emotional support is mentioned, but here the focus is on the felt bond rather than instrumental support. An underlying assumption is that emotional connection can be measured through self\u2011report of feeling, ignoring possible performative or cultural scripts that shape how participants articulate love. The data currently lean heavily on positive descriptors; negative or ambivalent accounts (e.g., feeling numb, ambivalence) are sparse, suggesting a possible positivity bias in the sample.",
+            "thin_areas": [
+                "Limited data on how participants negotiate fluctuating connection over time (e.g., after major life events)",
+                "Sparse examples of neutral or ambivalent emotional states that do not fit the love\u2011vs\u2011disconnection binary",
+                "Unclear distinction between love for partner versus love for children within the same relational context",
+                "Insufficient evidence on how cultural or gender norms shape the language of emotional connection"
+            ]
+        },
+        {
+            "category": "communicating effectively or poorly",
+            "properties": [
+                "Frequency and regularity of communication (daily, occasional, absent)",
+                "Quality of listening versus speaking (partner listening, repeated explanations)",
+                "Temporal timing (communication during calm vs. angry moments, cooling\u2011off periods)",
+                "Clarity and content (topic breadth, expressing needs, dissatisfaction)",
+                "Perceived reciprocity (both partners engage vs. one\u2011sided effort)"
+            ],
+            "reasoning": "The supporting codes capture both the presence of communication practices (e.g., \"Communicating\", \"Partner listening\") and their breakdown (e.g., \"Not communicating\", \"Partner not listening\"). This category is distinct from \"experiencing and managing conflict\" because it focuses on the process of exchange rather than the content of disagreement, though timing of communication overlaps with conflict avoidance strategies. It also intersects with \"building or losing emotional connection\" insofar as communication is a conduit for emotional closeness, but the analytic focus here is on procedural aspects rather than affective outcomes. The analysis assumes that more frequent, clear, and reciprocal communication equates to higher relationship quality, which may overlook contexts where limited communication is a conscious, mutually agreed boundary.",
+            "thin_areas": [
+                "Few data on how digital/mediated communication (texts, emails) fits into the quality assessment",
+                "Limited insight into how partners negotiate communication preferences (e.g., need for space vs. need for connection)",
+                "Unclear how cultural expectations about gendered communication styles influence the codes",
+                "Sparse examples of successful communication repair after breakdowns"
+            ]
+        },
+        {
+            "category": "sharing activities and interests",
+            "properties": [
+                "Quantity of joint time (hours per week, regularity of shared outings)",
+                "Variety of activities (leisure, domestic, social, travel)",
+                "Perceived enjoyment or interest alignment (shared interests vs. lack thereof)",
+                "Symbolic meaning of joint activities (e.g., \"going on vacations together\" as relationship milestone)",
+                "Impact on other relational domains (e.g., conflict, emotional connection)"
+            ],
+            "reasoning": "Codes range from concrete joint actions (\"Watching TV together\", \"Going on vacations together\") to evaluative statements about scarcity (\"Doing few joint activities\", \"Spending little time together\"). This category is differentiated from \"managing functional and financial responsibilities\" because the latter concerns task\u2011oriented coordination rather than leisure or discretionary time. Overlap exists with \"building or losing emotional connection\" as shared activities can foster closeness, but the analytic lens here is the structural pattern of joint engagement. The underlying assumption is that more shared activities signal higher quality, potentially neglecting couples who prioritize independence yet report satisfaction.",
+            "thin_areas": [
+                "Lack of data on how couples negotiate differences in activity preferences",
+                "Insufficient detail on the quality of shared experiences (e.g., meaningful vs. perfunctory)",
+                "No information on how life stage (e.g., with/without children) reshapes activity sharing",
+                "Limited accounts of solitary activities that are individually fulfilling yet supportive of the relationship"
+            ]
+        },
+        {
+            "category": "managing functional and financial responsibilities",
+            "properties": [
+                "Division of labor (financial provision, childcare, household tasks)",
+                "Perceived fairness or equity in role allocation",
+                "Integration of functional roles into relational identity (e.g., \"business partnership\")",
+                "Temporal dynamics (changes after children, career shifts)",
+                "Emotional tone attached to functional tasks (e.g., viewing relationship as \"functional\" vs. \"romantic\")"
+            ],
+            "reasoning": "The codes describe concrete responsibilities (\"Focusing on financial responsibilities\", \"Taking care of children\") and the relational framing of those responsibilities (\"Living separate lives but together\", \"Business partnership\"). This category is distinct from \"sharing activities and interests\" because it centers on obligatory, often non\u2011leisure tasks. It overlaps with \"relying on partner for trust and support\" where reliability in fulfilling duties is a form of support, yet the focus here is on the structural negotiation of roles. An assumption embedded in the current coding is that functional coordination is primarily a source of tension or satisfaction, without exploring how couples may derive identity or meaning from these roles.",
+            "thin_areas": [
+                "Few narratives about how couples renegotiate roles after major transitions (e.g., job loss, retirement)",
+                "Limited insight into power dynamics or gendered expectations influencing role division",
+                "Sparse data on how financial stress specifically impacts perceived relationship quality beyond role description",
+                "Unclear how partners' personal values about work\u2011life balance intersect with functional management"
+            ]
+        },
+        {
+            "category": "valuing love, commitment, and respect",
+            "properties": [
+                "Hierarchical importance placed on love, respect, and commitment (e.g., \"Respect is more important than love\")",
+                "Conceptual definitions of love (comfort, sacrifice, unconditional giving, extreme)",
+                "Moral or ethical framing (respect as prerequisite for love)",
+                "Temporal durability (love as essential for staying vs. transient feelings)",
+                "Cultural or personal narratives that justify these values"
+            ],
+            "reasoning": "These codes articulate abstract value systems rather than lived practices. They intersect with \"building or losing emotional connection\" where love is felt, but here love is positioned as a principle or goal. Overlap with \"relying on partner for trust and support\" occurs where respect is linked to trust, yet the analytic focus differs: this category is about normative judgments, not behavioral enactments. The analysis assumes participants hold a relatively stable hierarchy of values, which may mask fluid or context\u2011dependent shifts (e.g., prioritizing safety over love during crises).",
+            "thin_areas": [
+                "Limited examples of how participants operationalize these values in day\u2011to\u2011day interactions",
+                "Sparse data on conflicts between values (e.g., love vs. respect) and how they are resolved",
+                "No clear evidence of cultural variability in the hierarchy of love, respect, and commitment",
+                "Under\u2011explored how these values evolve over the lifespan of the relationship"
+            ]
+        },
+        {
+            "category": "experiencing and managing conflict",
+            "properties": [
+                "Frequency of fights (often, rare, after children)",
+                "Conflict style (avoidance, suppression, direct argument, resolution attempts)",
+                "Emotional aftermath (silence, lingering tension, relief)",
+                "Temporal sequencing (conflict early in marriage vs. later)",
+                "Perceived effectiveness of conflict management (successful resolution vs. entanglement)"
+            ],
+            "reasoning": "The codes capture both the occurrence of conflict and the strategies used to handle it. This category is distinct from \"communicating effectively or poorly\" because it focuses on disagreement content and its management rather than general communication patterns, though timing of communication (e.g., cooling\u2011off) bridges the two. It also overlaps with \"building or losing emotional connection\" as unresolved conflict can erode connection, yet the analytic lens here is the conflict process itself. An assumption is that more frequent or unresolved conflict signals lower quality, which may overlook couples who view occasional intense conflict as a sign of passion.",
+            "thin_areas": [
+                "Few detailed narratives of successful conflict resolution processes",
+                "Limited insight into the role of external stressors (e.g., work, health) in precipitating conflict",
+                "Sparse data on how power dynamics influence conflict styles",
+                "Unclear how conflict frequency interacts with other categories (e.g., does high conflict always diminish emotional connection?)"
+            ]
+        },
+        {
+            "category": "navigating sexual intimacy",
+            "properties": [
+                "Frequency of sexual activity (regular, occasional, rare)",
+                "Emotional meaning attached to sex (intimacy, meaningless, duty)",
+                "Desire and satisfaction levels (passion, dissatisfaction, lack of desire)",
+                "Negotiation processes (partner\u2019s needs, consent, compromise)",
+                "Integration with broader relational domains (emotional connection, conflict, trust)"
+            ],
+            "reasoning": "The codes span descriptive aspects (frequency, dissatisfaction) and interpretive meanings (sex as part of intimacy vs. meaningless). This category is separate from \"building or losing emotional connection\" though the two intersect when participants link sexual satisfaction to emotional closeness. It also overlaps with \"communicating effectively or poorly\" insofar as sexual needs are expressed through communication, yet the focus here is on the embodied, bodily dimension. The analysis presumes that sexual satisfaction is a linear contributor to relationship quality, potentially ignoring couples who prioritize other domains over sexual intimacy.",
+            "thin_areas": [
+                "Limited accounts of how couples renegotiate sexual expectations over time (e.g., after children, aging)",
+                "Sparse data on non\u2011heteronormative sexual scripts or alternative intimacy practices",
+                "No clear evidence on how sexual dissatisfaction interacts with trust or conflict categories",
+                "Under\u2011explored cultural or religious influences on sexual meaning"
+            ]
+        },
+        {
+            "category": "relying on partner for trust and support",
+            "properties": [
+                "Perceived reliability (help in emergencies, consistency)",
+                "Emotional support (listening, caring, protective behaviors)",
+                "Trust dimensions (confidence in partner\u2019s intentions, safety, vulnerability)",
+                "Contextual triggers for support (disagreements, crises, everyday tasks)",
+                "Reciprocity of support (mutual vs. one\u2011sided provision)"
+            ],
+            "reasoning": "The codes emphasize instrumental and emotional dependability, ranging from concrete help (car breakdown) to broader trust statements. This category overlaps with \"communicating effectively or poorly\" where listening is a support behavior, yet here the emphasis is on the outcome (feeling supported) rather than the process. It also intersects with \"building or losing emotional connection\" because trust is a foundation for emotional closeness, but the analytic focus is on functional dependability. An assumption embedded is that trust and support are universally valued and directly translate into perceived quality, which may not hold for partners who value autonomy highly.",
+            "thin_areas": [
+                "Few narratives describing breaches of trust and subsequent repair mechanisms",
+                "Limited differentiation between emotional vs. instrumental support in participants\u2019 accounts",
+                "Sparse data on how expectations of support shift across relationship stages",
+                "Unclear how cultural norms about interdependence vs. independence shape the valuation of support"
+            ]
+        }
+    ]
+}

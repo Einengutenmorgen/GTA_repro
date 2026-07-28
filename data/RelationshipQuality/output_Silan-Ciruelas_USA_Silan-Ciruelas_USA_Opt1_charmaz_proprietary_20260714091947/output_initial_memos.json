@@ -1,0 +1,29 @@
+{
+    "memos": [
+        {
+            "focus_code": "Feeling emotionally disconnected",
+            "reasoning": "The participant repeatedly signals a state of emotional distance from the partner, describing the marriage as \"like a business,\" noting \"we are not very emotionally connected,\" and stating \"I have now disconnected myself emotionally\" and \"I'm not emotionally connected into this relationship.\" This code captures an internal process of withdrawal or disengagement, where affective intimacy has eroded and the participant no longer experiences the relational bond that once existed. Across incidents, the feeling is linked to other themes\u2014lack of shared interests, reduced passion, and the functional, child\u2011focused nature of the partnership\u2014suggesting that emotional disconnection is both a cause and a consequence of the relationship becoming more transactional. The recurrence across multiple statements indicates a central process that may evolve into a broader category of \"Emotional Disengagement in Long\u2011Term Marriage.\"",
+            "tentative_category": "Emotional Disengagement"
+        },
+        {
+            "focus_code": "Partner not listening",
+            "reasoning": "Multiple excerpts illustrate the participant's perception that the partner hears but does not act: \"He just doesn't talk to me for days,\" \"He heard it, but he is not doing it,\" \"He listens when interested, otherwise silent,\" and repeated attempts to explain a flight change that were ignored. The participant also rates listening inconsistently (e.g., 5, 6\u20117, 8) and notes that listening is contingent on the partner's interest or mood. This code reflects a process of perceived communicative neglect, where the participant's attempts to convey needs are met with selective attention, leading to feelings of being unheard. The variation in listening ratings and the specific contexts (logistical decisions, emotional disclosures) suggest that the issue is not uniform but tied to the partner's engagement level. This pattern points toward an emerging category of \"Selective Listening and Communicative Disconnection.\"",
+            "tentative_category": "Selective Listening"
+        },
+        {
+            "focus_code": "Prioritizing love",
+            "reasoning": "The participant repeatedly emphasizes love as the foundational element of the relationship, stating \"love is the number one,\" \"once you're romantically in love, then all the things that should come with a relationship will automatically happen,\" and linking love to other qualities like respect, trust, and sacrifice. The code captures an active stance of placing love at the top of relational priorities, which the participant believes should trigger other positive processes. It appears across different contexts\u2014discussions of sexual intimacy, conflict resolution, and overall satisfaction\u2014indicating that love is used as a theoretical lens to interpret other relational dynamics. This suggests a potential category of \"Love as Central Organizing Principle\" that may shape how participants evaluate and navigate other aspects of their marriage.",
+            "tentative_category": "Love as Central Organizing Principle"
+        },
+        {
+            "focus_code": "Children as primary focus",
+            "reasoning": "The participant frequently mentions raising children, prioritizing their well\u2011being, and framing many decisions around the kids: \"We're here to raise our children,\" \"focused on raising my children,\" \"my husband\u2019s huge focus is financial, also making money\" (to support kids), and later \"when you have kids, you\u2019re not thinking about the habit of your husband anymore.\" This code reflects a process of shifting relational attention from the spousal dyad to the parental unit, where parenting responsibilities dominate time, emotional energy, and conflict topics. The code recurs in contexts of conflict over education, reduced joint activities, and the sense that the marriage functions more as a partnership for child\u2011rearing than a romantic bond. This pattern points toward a tentative category of \"Parenting\u2011Centric Relational Reorientation.\"",
+            "tentative_category": "Parenting\u2011Centric Reorientation"
+        },
+        {
+            "focus_code": "Conflict frequency and resolution",
+            "reasoning": "The participant describes the temporal pattern of fights: \"Within the last year we fight a lot,\" \"Probably every week to two weeks,\" contrasted with earlier periods of \"once or twice a year\" and mentions that conflicts often remain unresolved: \"So they don't really get resolved,\" and that they try to avoid arguing in the moment, delaying discussions until calm. This code captures the process of escalating conflict frequency coupled with avoidance of immediate resolution, leading to a cycle of lingering tension. The variation over time (increase after children, decrease after maturity) suggests that conflict dynamics are responsive to life stage and stressors. This may develop into a broader category of \"Evolving Conflict Management Strategies in Long\u2011Term Marriage.\"",
+            "tentative_category": "Evolving Conflict Management"
+        }
+    ]
+}

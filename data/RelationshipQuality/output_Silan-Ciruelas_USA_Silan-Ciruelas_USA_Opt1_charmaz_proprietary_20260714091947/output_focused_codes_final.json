@@ -1,0 +1,160 @@
+[
+    {
+        "reasoning": "These codes describe the presence, depth, and quality of emotional bonds, including feelings of safety, vulnerability, and affection, which together shape the emotional connection between partners.",
+        "supporting_open_codes": [
+            "Feeling emotionally disconnected",
+            "Feeling emotionally connected",
+            "Feeling the presence of the other",
+            "Feeling love for partner",
+            "Feeling love for children",
+            "Defining love as comfort",
+            "Love as essential for staying in the relationship",
+            "Love as extreme",
+            "Love as compassionate",
+            "Love as unconditional giving",
+            "adapting personal touch preferences through partner influence",
+            "feeling emotionally safe to express vulnerability"
+        ],
+        "axial_category": "building or losing emotional connection"
+    },
+    {
+        "reasoning": "Codes focus on how partners exchange information, listen, and use specific practices to convey meaning, highlighting the quality and methods of communication.",
+        "supporting_open_codes": [
+            "Communicating",
+            "Not communicating",
+            "You don't communicate",
+            "Lacking conversation topics",
+            "Partner listening",
+            "Partner not listening",
+            "Partner's silence",
+            "Repeated explanations",
+            "Listening rating",
+            "Avoiding communication when angry",
+            "Timing of communication",
+            "Talking it out after cooling (+2 more)",
+            "creating ritualized physical\u2011touch communication practice (in-vivo)"
+        ],
+        "axial_category": "communicating effectively or poorly"
+    },
+    {
+        "reasoning": "These codes capture joint participation, shared time, and coordinated scheduling of activities, reflecting how couples create shared experiences together.",
+        "supporting_open_codes": [
+            "Doing things together as a couple",
+            "Doing few joint activities",
+            "Spending little time together",
+            "Going on vacations together",
+            "Watching TV together",
+            "Doing activities together",
+            "Having shared interests",
+            "Lacking shared interests",
+            "Doing interesting things together",
+            "Going out socially",
+            "scheduling designated couple days to maintain connection (in-vivo)",
+            "negotiating activity time due to busy schedules"
+        ],
+        "axial_category": "sharing activities and interests"
+    },
+    {
+        "reasoning": "Codes describe how partners negotiate, divide, and manage practical, financial, and parenting responsibilities, influencing the functional dimension of the relationship.",
+        "supporting_open_codes": [
+            "Focusing on financial responsibilities",
+            "Financial aspects as great",
+            "Taking care of children",
+            "Raising children",
+            "Partner focusing on financial provision",
+            "Ensuring financial provision",
+            "Viewing relationship as functional",
+            "Business partnership",
+            "Living separate lives but together",
+            "Describing household composition"
+        ],
+        "axial_category": "manage functional and financial responsibilities"
+    },
+    {
+        "reasoning": "These codes articulate core values\u2014love, commitment, respect\u2014that participants view as foundational to relationship quality.",
+        "supporting_open_codes": [
+            "Prioritizing love as most important",
+            "Defining love as comfort",
+            "Respect is more important than love",
+            "Respect brings love",
+            "Love as unconditional giving",
+            "Love as sacrifice",
+            "Love as being in love",
+            "Love as extreme",
+            "Love as compassionate",
+            "Love as essential for staying"
+        ],
+        "axial_category": "valuing love, commitment, and respect"
+    },
+    {
+        "reasoning": "Codes refer to the presence, frequency, triggers, and resolution strategies of conflict, showing how couples manage disagreements and external stressors.",
+        "supporting_open_codes": [
+            "Describing recent fighting frequency",
+            "Fighting often",
+            "Conflict unresolved",
+            "Avoiding fights",
+            "Fighting less after children",
+            "Fighting early marriage",
+            "Fighting becoming rare",
+            "Conflict entangled",
+            "Silence after fights",
+            "Attempting to resolve",
+            "Avoiding argument",
+            "Suppressing own desires (+1 more)",
+            "practicing empathy questioning to resolve disagreements",
+            "managing conflict influenced by external stressors",
+            "prioritizing family political alignment to reduce conflict"
+        ],
+        "axial_category": "experiencing and managing conflict"
+    },
+    {
+        "reasoning": "These codes address sexual desire, frequency, satisfaction, and contextual factors influencing sexual intimacy within the relationship.",
+        "supporting_open_codes": [
+            "Sexual frequency",
+            "Sexual dissatisfaction",
+            "Lack of passion",
+            "Sex as part of intimacy",
+            "Sex without emotional connection",
+            "Sex as meaningless",
+            "Sex as occasional",
+            "Sex as important",
+            "Negotiating sex based on partner's needs",
+            "experiencing limited sexual intimacy due to lack of private space",
+            "accepting low sexual frequency as sufficient"
+        ],
+        "axial_category": "navigating sexual intimacy"
+    },
+    {
+        "reasoning": "Codes highlight trust, reliability, and supportive actions, emphasizing how partners depend on each other for emotional and practical support.",
+        "supporting_open_codes": [
+            "Trust is many important things",
+            "Partner emotional support",
+            "Partner listening",
+            "Partner responsiveness",
+            "Partner protective",
+            "Partner helping with car breakdown",
+            "Partner caring",
+            "Partner reliability",
+            "Partner being there",
+            "Partner support during disagreements",
+            "balancing support needs with partner's own stress",
+            "maintaining trust without location sharing"
+        ],
+        "axial_category": "relying on partner for trust and support"
+    },
+    {
+        "reasoning": "These codes capture participants' sense of increased self\u2011esteem, confidence, and personal growth that arise from the relational experience.",
+        "supporting_open_codes": [
+            "fostering increased self\u2011esteem through relationship",
+            "experiencing personal growth and confidence changes"
+        ],
+        "axial_category": "experiencing personal growth and self\u2011esteem"
+    },
+    {
+        "reasoning": "Codes emphasize the importance of privacy and personal boundaries within shared living contexts, reflecting a distinct dimension of relational quality.",
+        "supporting_open_codes": [
+            "valuing privacy in shared living spaces"
+        ],
+        "axial_category": "valuing privacy and personal boundaries"
+    }
+]

@@ -1,0 +1,4167 @@
+[
+    {
+        "open_code": "Stating relationship duration",
+        "text_passage": "Almost [11-15] years. So maybe [11-15] years.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0000"
+    },
+    {
+        "open_code": "Describing household composition",
+        "text_passage": "My mother, my husband, my daughter and my son and myself.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0001"
+    },
+    {
+        "open_code": "Assessing own relationship as not great",
+        "text_passage": "I would say that my relationship now is not so great.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Observing friends' relationships as not great and noting marital ups and downs",
+        "text_passage": "some of my friends also don't have great relationships after being married so long, but I feel like all marriages have ups and downs.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Mentioning relationship quality",
+        "text_passage": "The quality of relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Identifying many different aspects of quality",
+        "text_passage": "I mean, there's many different aspects to that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Noting financial aspects as great",
+        "text_passage": "financially, things are great.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Noting emotional aspects as lacking",
+        "text_passage": "Emotionally, not so much.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Recognizing friends' other issues",
+        "text_passage": "But my friends have other issues.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Stating that quality depends on multiple factors",
+        "text_passage": "So I think it just all depends.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Emphasizing unknown private dynamics in others' relationships",
+        "text_passage": "And you never really know what happens behind closed doors in other people's relationships.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0002"
+    },
+    {
+        "open_code": "Finding it hard to compare relationships",
+        "text_passage": "It's kind of hard to compare them because my previous relationships was when I was a teenager and I got married very young.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0003"
+    },
+    {
+        "open_code": "Feeling more emotional connection in past relationships",
+        "text_passage": "because I was so young, I feel like in my past relationships there is more of an emotional connection than my married relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0003"
+    },
+    {
+        "open_code": "Describing married relationship as feeling like a business",
+        "text_passage": "My married relationship almost sometimes feels like it's a business.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0003"
+    },
+    {
+        "open_code": "Raising children and prioritizing their well\u2011being",
+        "text_passage": "We're here to raise our children and do what's best for them.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0004"
+    },
+    {
+        "open_code": "Feeling emotionally disconnected",
+        "text_passage": "So we are not very emotionally connected.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0004"
+    },
+    {
+        "open_code": "Focusing on financial responsibilities",
+        "text_passage": "For the majority of the years we've been together and it's more financial and taking care of our children.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0004"
+    },
+    {
+        "open_code": "Taking care of children",
+        "text_passage": "For the majority of the years we've been together and it's more financial and taking care of our children.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0004"
+    },
+    {
+        "open_code": "Viewing relationship as functional",
+        "text_passage": "Well for me it is.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0004"
+    },
+    {
+        "open_code": "Linking business partnership with relationship",
+        "text_passage": "And we have businesses together, so.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0005"
+    },
+    {
+        "open_code": "Feeling sameness across domains",
+        "text_passage": "It just all kind of seems the same.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0005"
+    },
+    {
+        "open_code": "Clarifying scope of relationship quality",
+        "text_passage": "In a relationship in general or this relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0007"
+    },
+    {
+        "open_code": "Doing things together as a couple",
+        "text_passage": "doing things together as a couple",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0008"
+    },
+    {
+        "open_code": "Communicating",
+        "text_passage": "communication",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0008"
+    },
+    {
+        "open_code": "Feeling passion",
+        "text_passage": "Passion",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0008"
+    },
+    {
+        "open_code": "Prioritizing passion",
+        "text_passage": "Holly Passion really is the number one",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0008"
+    },
+    {
+        "open_code": "Spending little time together",
+        "text_passage": "Not spending time together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0009"
+    },
+    {
+        "open_code": "Doing few joint activities",
+        "text_passage": "not doing things together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0009"
+    },
+    {
+        "open_code": "Lacking shared interests",
+        "text_passage": "not having things in common",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0009"
+    },
+    {
+        "open_code": "Not communicating",
+        "text_passage": "You don't communicate",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0009"
+    },
+    {
+        "open_code": "Lacking conversation topics",
+        "text_passage": "you don't have things to communicate about",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0009"
+    },
+    {
+        "open_code": "Feeling the presence of the other",
+        "text_passage": "the feeling you have when you see that person.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0010"
+    },
+    {
+        "open_code": "Waking up together in the morning",
+        "text_passage": "you talk to that person, you wake up with that person the next in the morning.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0010"
+    },
+    {
+        "open_code": "Desiring to be with them",
+        "text_passage": "you want to be with them",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0010"
+    },
+    {
+        "open_code": "Feeling their pain on a bad day",
+        "text_passage": "you feel their pain when they're having a bad day.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0010"
+    },
+    {
+        "open_code": "Trying to prevent their bad day and cheering them up",
+        "text_passage": "you want to try to make them not have a bad day and cheer them up no matter how your day is.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0010"
+    },
+    {
+        "open_code": "Prioritizing the other person over self",
+        "text_passage": "you just look towards that other person more than yourself.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0010"
+    },
+    {
+        "open_code": "recalling period of low compassion",
+        "text_passage": "The least compassionate would probably be. Most of the [26-30] years.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0011"
+    },
+    {
+        "open_code": "describing early stage as compassionate",
+        "text_passage": "But there was about [1-5] years in our relationship. I guess maybe now in the beginning, maybe the [1st-5th] year or so. It was because it was new. It was compassionate.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0011"
+    },
+    {
+        "open_code": "living separate lives",
+        "text_passage": "And then we went on to really just living our own lives for the most part.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0011"
+    },
+    {
+        "open_code": "observing shift toward greater compassion",
+        "text_passage": "But there was about [1-5 years, about [6-10] years ago, that things turned around and was more compassionate.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0011"
+    },
+    {
+        "open_code": "Becoming more",
+        "text_passage": "it became more",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0012"
+    },
+    {
+        "open_code": "Doing our own thing",
+        "text_passage": "always doing our own thing",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0012"
+    },
+    {
+        "open_code": "Not being together",
+        "text_passage": "never really together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0012"
+    },
+    {
+        "open_code": "Focusing on raising children",
+        "text_passage": "focused on raising my children",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0013"
+    },
+    {
+        "open_code": "Choosing not to work",
+        "text_passage": "I didn't work",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0013"
+    },
+    {
+        "open_code": "Viewing children as primary focus",
+        "text_passage": "they were my huge focus",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0013"
+    },
+    {
+        "open_code": "Partner focusing on financial provision",
+        "text_passage": "his huge focus is financial, also making money",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0013"
+    },
+    {
+        "open_code": "Living separate yet shared lives",
+        "text_passage": "live separate lives, but together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0013"
+    },
+    {
+        "open_code": "Raising our family",
+        "text_passage": "I raised our family",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0013"
+    },
+    {
+        "open_code": "Ensuring financial provision",
+        "text_passage": "he made sure we were financially provided for",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0013"
+    },
+    {
+        "open_code": "Prioritizing love as most important",
+        "text_passage": "Most important. Is really just love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0014"
+    },
+    {
+        "open_code": "Defining love as being in love",
+        "text_passage": "And when I say love, I mean being in love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0014"
+    },
+    {
+        "open_code": "Wanting the other person to be happy",
+        "text_passage": "you just want you want that person to be happy",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0015"
+    },
+    {
+        "open_code": "Being willing to sacrifice oneself",
+        "text_passage": "you're willing to give up yourself for that person",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0015"
+    },
+    {
+        "open_code": "Avoiding adding stress to partner",
+        "text_passage": "you're not trying to make that person's day harder",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0015"
+    },
+    {
+        "open_code": "Trying to improve partner's mood",
+        "text_passage": "If they're having a hard day, you're trying to make it a little bit a little bit better",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0015"
+    },
+    {
+        "open_code": "Choosing not to argue with partner during stress",
+        "text_passage": "you're not going to sit here and fight with them when they come home, sad or angry or stressed out",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0015"
+    },
+    {
+        "open_code": "Helping alleviate partner's stress",
+        "text_passage": "You're going to help alleviate some of that stress",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0015"
+    },
+    {
+        "open_code": "Recognizing limits to love",
+        "text_passage": "You can love a lot of people. And it there's limits, though, when it comes to loving someone",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0015"
+    },
+    {
+        "open_code": "Feeling compelled to do anything for loved one",
+        "text_passage": "just loving someone but being in love with someone, you'd almost do anything for them",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0015"
+    },
+    {
+        "open_code": "questioning absolute sacrifice in love",
+        "text_passage": "you can love someone. That doesn't mean you're going to do absolutely, absolutely anything for them.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0016"
+    },
+    {
+        "open_code": "rejecting hyperbolic kill\u2011for\u2011love notion",
+        "text_passage": "you would kill for someone, but that's not really reality.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0016"
+    },
+    {
+        "open_code": "acknowledging willingness to do anything",
+        "text_passage": "you would just do anything for them.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0016"
+    },
+    {
+        "open_code": "limiting endless self\u2011sacrifice",
+        "text_passage": "you\u2019re not going to always bend over backwards.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0016"
+    },
+    {
+        "open_code": "valuing partner for contributions to life",
+        "text_passage": "you love them because they bring many things to your life.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0016"
+    },
+    {
+        "open_code": "describing love as distinct feeling",
+        "text_passage": "love is a whole different feeling.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0016"
+    },
+    {
+        "open_code": "remembering the first year of being together",
+        "text_passage": "the first year of being together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0017"
+    },
+    {
+        "open_code": "falling in love again",
+        "text_passage": "when I fell in love again",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0017"
+    },
+    {
+        "open_code": "enjoying shared time together",
+        "text_passage": "I enjoyed my time. Our time together.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0017"
+    },
+    {
+        "open_code": "going on vacations together",
+        "text_passage": "We would go on vacations together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0017"
+    },
+    {
+        "open_code": "experiencing a more fun relationship",
+        "text_passage": "our relationship was more fun",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0017"
+    },
+    {
+        "open_code": "seeing the partnership as a couple rather than roommates",
+        "text_passage": "we were a couple opposed to just roommates, business partners, Partners.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0017"
+    },
+    {
+        "open_code": "Defining love",
+        "text_passage": "As in being in love or being just loving someone.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0018"
+    },
+    {
+        "open_code": "Comparing being-in-love with loving",
+        "text_passage": "As in being in love or being just loving someone.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0018"
+    },
+    {
+        "open_code": "Loving many people",
+        "text_passage": "I love lots of people. I love all my family.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0019"
+    },
+    {
+        "open_code": "Questioning willingness to go out of way for loved ones",
+        "text_passage": "I wouldn't always go out of my way for them, which I do love them, but that's a hard one.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0019"
+    },
+    {
+        "open_code": "Feeling extreme devotion to children",
+        "text_passage": "I would jump off a bridge for them.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0019"
+    },
+    {
+        "open_code": "Labeling love as extreme",
+        "text_passage": "that's like extreme love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0019"
+    },
+    {
+        "open_code": "Distinguishing love intensity across people",
+        "text_passage": "the different forms of love are how extreme things are and there's only certain people that I really do love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0019"
+    },
+    {
+        "open_code": "Prioritizing being in love in relationship",
+        "text_passage": "being in love is, I think, the most important.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0019"
+    },
+    {
+        "open_code": "Considering varying degrees of love",
+        "text_passage": "Um, I think the different degrees of love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0020"
+    },
+    {
+        "open_code": "Checking if listener understands",
+        "text_passage": "Yes. If that makes sense.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0020"
+    },
+    {
+        "open_code": "Not being in love with children",
+        "text_passage": "I'm not in love with my children like that",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0021"
+    },
+    {
+        "open_code": "Doing more for children than anyone",
+        "text_passage": "I would do more for them than anybody in my entire life",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0021"
+    },
+    {
+        "open_code": "Being in love with a partner",
+        "text_passage": "the person you are in love with in a relationship",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0021"
+    },
+    {
+        "open_code": "Doing almost anything for partner",
+        "text_passage": "I would probably do almost anything for them, too",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0021"
+    },
+    {
+        "open_code": "Feeling love for extended family",
+        "text_passage": "your love for your aunt. So your uncles or your cousins and stuff like that",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0021"
+    },
+    {
+        "open_code": "Not jumping off a bridge for extended family",
+        "text_passage": "I'm not jumping off a bridge for them",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0021"
+    },
+    {
+        "open_code": "Affirming interviewer's description",
+        "text_passage": "Yes. Okay. Good way to put it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0022"
+    },
+    {
+        "open_code": "Prioritizing romantic love",
+        "text_passage": "I think romantic love is the most important thing in a relationship",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0023"
+    },
+    {
+        "open_code": "Assuming love triggers other relationship qualities",
+        "text_passage": "once you're romantically in love, then all the things that should come with a relationship will automatically happen",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0023"
+    },
+    {
+        "open_code": "Expecting faithfulness and loyalty",
+        "text_passage": "Being faithful, being loyal",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0023"
+    },
+    {
+        "open_code": "Viewing love as being the other half",
+        "text_passage": "their companion or their other half that's being in love",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0023"
+    },
+    {
+        "open_code": "Suggesting lack of love diminishes other relationship priorities",
+        "text_passage": "if you don't have that, then you kind of lose some of those other priorities",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0023"
+    },
+    {
+        "open_code": "Prioritizing love over looks",
+        "text_passage": "Yes, because I think with looks, I think love is on the top and then all the other ones just come naturally when you're in love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0024"
+    },
+    {
+        "open_code": "Expecting other qualities to emerge naturally when in love",
+        "text_passage": "Yes, because I think with looks, I think love is on the top and then all the other ones just come naturally when you're in love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0024"
+    },
+    {
+        "open_code": "Prioritizing actions over words",
+        "text_passage": "actions are more important than words when it comes to.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0025"
+    },
+    {
+        "open_code": "Believing partner would do anything",
+        "text_passage": "I do believe he would do anything for me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0025"
+    },
+    {
+        "open_code": "Feeling uncertain about explaining love",
+        "text_passage": "I'm not really sure how to explain that",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0025"
+    },
+    {
+        "open_code": "Observing selfish actions coming first",
+        "text_passage": "your own selfish actions come first",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0025"
+    },
+    {
+        "open_code": "Distinguishing self\u2011love from partner love",
+        "text_passage": "that's not love. You love yourself in the way you feel more than you love your partner.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0025"
+    },
+    {
+        "open_code": "Affirming partner's description of love",
+        "text_passage": "Yes. Yes. Yes.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0026"
+    },
+    {
+        "open_code": "Questioning existence of selfless love",
+        "text_passage": "I don't think I found somebody who loved them",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0026"
+    },
+    {
+        "open_code": "Questioning meaning of love",
+        "text_passage": "I think it means anything.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0026"
+    },
+    {
+        "open_code": "Emphasizing actions as proof of love",
+        "text_passage": "I think it's actions.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0026"
+    },
+    {
+        "open_code": "Encountering partner's selfish actions despite my disagreement",
+        "text_passage": "just more of the selfish acts of I don't agree with something but he does that anyway because it's self satisfying to him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0027"
+    },
+    {
+        "open_code": "Labeling selfishness as the biggest challenge",
+        "text_passage": "I think the biggest one is just more. Is his selfishness.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0027"
+    },
+    {
+        "open_code": "Feeling sidelined by partner's self\u2011focus",
+        "text_passage": "Yes. And everything is always about him and how he feels.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0028"
+    },
+    {
+        "open_code": "Describing recent fighting frequency",
+        "text_passage": "Within the last year. I would say we fight a lot.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0029"
+    },
+    {
+        "open_code": "Estimating conflict interval",
+        "text_passage": "Probably every week to two weeks.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0029"
+    },
+    {
+        "open_code": "Contrasting past conflict frequency",
+        "text_passage": "Previously? Once. Twice a year, maybe.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0029"
+    },
+    {
+        "open_code": "Disconnecting emotionally",
+        "text_passage": "I have now disconnected myself emotionally",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0030"
+    },
+    {
+        "open_code": "Feeling unconnected to the relationship",
+        "text_passage": "I'm just not connected into the relationship anymore at all",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0030"
+    },
+    {
+        "open_code": "Partner wanting emotional connection",
+        "text_passage": "He, of course, wants me to be connected into the relationship",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0030"
+    },
+    {
+        "open_code": "Labeling fights as stupid",
+        "text_passage": "It was just stupid stuff",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0030"
+    },
+    {
+        "open_code": "Experiencing partner's silence",
+        "text_passage": "He just doesn't talk to me for days.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0031"
+    },
+    {
+        "open_code": "Feeling conflicts remaining unresolved",
+        "text_passage": "So they don't really get resolved.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0031"
+    },
+    {
+        "open_code": "Observing fights becoming entangled",
+        "text_passage": "They get involved.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0031"
+    },
+    {
+        "open_code": "Trying to steer conversation toward business",
+        "text_passage": "Usually it's me just trying to make the conversation again about business or something like that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0032"
+    },
+    {
+        "open_code": "Partner deciding to start talking",
+        "text_passage": "And then he eventually decides to start talking to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0032"
+    },
+    {
+        "open_code": "questioning how to keep relationship going",
+        "text_passage": "Like, how do we keep our relationship going?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0033"
+    },
+    {
+        "open_code": "identifying sex as partner's priority",
+        "text_passage": "His big thing is sex.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0033"
+    },
+    {
+        "open_code": "feeling uncertain about continuing sexual activity",
+        "text_passage": "I'm just not really sure that I do that anymore.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0033"
+    },
+    {
+        "open_code": "attempting to keep relationship going",
+        "text_passage": "Keep our relationship going.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0033"
+    },
+    {
+        "open_code": "being present in relationship",
+        "text_passage": "I'm here.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0033"
+    },
+    {
+        "open_code": "continuing day-to-day activities and socializing together",
+        "text_passage": "Continue in the day to day life activities if we are to go out socializing with other people",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0033"
+    },
+    {
+        "open_code": "experiencing living separate lives",
+        "text_passage": "not really sure, because we kind of live two separate lives right now.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0033"
+    },
+    {
+        "open_code": "Going out socially with others",
+        "text_passage": "Going out socially with other people ourselves",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0034"
+    },
+    {
+        "open_code": "Going to dinner together",
+        "text_passage": "going to dinner",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0034"
+    },
+    {
+        "open_code": "Doing activities together",
+        "text_passage": "just doing things together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0034"
+    },
+    {
+        "open_code": "Watching TV together",
+        "text_passage": "Watching TV together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0034"
+    },
+    {
+        "open_code": "Doing things together",
+        "text_passage": "It's just doing things together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0034"
+    },
+    {
+        "open_code": "Assessing relationship as unsatisfactory",
+        "text_passage": "Currently, I say no, the relationship is not.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0035"
+    },
+    {
+        "open_code": "Feeling emotionally detached from relationship",
+        "text_passage": "And it's just because emotionally I'm not in the relationship anymore.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0035"
+    },
+    {
+        "open_code": "Experiencing mental damage from relationship",
+        "text_passage": "So it causes more damage to me mentally than. Before.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0035"
+    },
+    {
+        "open_code": "Emphasizing everyday aspects of being in a relationship",
+        "text_passage": "No, just the every day now of being in a relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0036"
+    },
+    {
+        "open_code": "Reflecting on past experiences",
+        "text_passage": "many things have occurred to get me to this point in life",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0037"
+    },
+    {
+        "open_code": "Acknowledging accumulation of events",
+        "text_passage": "many things have occurred to get me to this point in life",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0037"
+    },
+    {
+        "open_code": "Feeling stuck at a point",
+        "text_passage": "that's where it becomes more just. You're kind of done",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0037"
+    },
+    {
+        "open_code": "Growing as a person over all those years",
+        "text_passage": "growing as a person over all those years",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0038"
+    },
+    {
+        "open_code": "Growing as a person with another person",
+        "text_passage": "growing as a person with another person",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0038"
+    },
+    {
+        "open_code": "Being in a relationship and a marriage",
+        "text_passage": "being in a relationship and a marriage",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0038"
+    },
+    {
+        "open_code": "Learning how to be a wife",
+        "text_passage": "learning how to be a wife",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0038"
+    },
+    {
+        "open_code": "Learning how to be a mother",
+        "text_passage": "learning how to be a mother",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0038"
+    },
+    {
+        "open_code": "Doing all those things over a course of years",
+        "text_passage": "doing all those things over a course of years",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0038"
+    },
+    {
+        "open_code": "Losing who you are as a person",
+        "text_passage": "lose who you are as a person",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0038"
+    },
+    {
+        "open_code": "Maturing",
+        "text_passage": "I matured.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Finding unexpected love",
+        "text_passage": "I found love that I didn't know existed.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Prioritizing children over relationship",
+        "text_passage": "Namely for my children, more than my relationship",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Arguing less",
+        "text_passage": "when you have children, like I don't argue as much anymore. I don't fight as much.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Letting arguments go",
+        "text_passage": "I kind of let the arguments go instead of... standing up for what I believe in and just let it go",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Avoiding fighting in front of children",
+        "text_passage": "I'd never wanted to fight in front of my children and they don't need to see all that. All that. Animosity.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Suppressing own desires",
+        "text_passage": "you also lose yourself a little bit. And you kind of end up doing things that you don't want to do",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Showing love and respect",
+        "text_passage": "which I think is normal in every relationship. Which also shows love and respect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Becoming like partner",
+        "text_passage": "you kind of become more of the person that they are.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Rediscovering self after children grown",
+        "text_passage": "Until you are grown up, and then you just start to find yourself again.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0039"
+    },
+    {
+        "open_code": "Noticing partner being less aggressive",
+        "text_passage": "a little bit less aggressive.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0040"
+    },
+    {
+        "open_code": "Observing partner calming down",
+        "text_passage": "I kind of calmed down.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0040"
+    },
+    {
+        "open_code": "Trying to label partner's change",
+        "text_passage": "Trying to think of the words would be the right word,",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0040"
+    },
+    {
+        "open_code": "Comparing partner's change to own change",
+        "text_passage": "I don't think he has changed as much as I have.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0040"
+    },
+    {
+        "open_code": "Attributing partner's change to aging",
+        "text_passage": "as he gets older, that changes him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0040"
+    },
+    {
+        "open_code": "Rejecting the interviewer's implication",
+        "text_passage": "Probably, I would think. No.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0041"
+    },
+    {
+        "open_code": "Feeling physically safe",
+        "text_passage": "It feels emotionally I mean, physically safe, emotionally safe sometimes depending on the topic.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0042"
+    },
+    {
+        "open_code": "Confiding without judgment",
+        "text_passage": "I can confide in him on a lot of things and not be judged.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0042"
+    },
+    {
+        "open_code": "Experiencing judgment when opening up",
+        "text_passage": "I am judged for opening up about, ah, just doing certain things.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0042"
+    },
+    {
+        "open_code": "Feeling judged for going out socially partying",
+        "text_passage": "if I like to go out socially partying or something like that, then I'm judged.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0043"
+    },
+    {
+        "open_code": "Feeling judged for drinking",
+        "text_passage": "If I drink, I'm judged.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0043"
+    },
+    {
+        "open_code": "Receiving support after encountering a friend",
+        "text_passage": "if I have an encounter with someone, a friend or something like that, then he'd be more supportive in that aspect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0043"
+    },
+    {
+        "open_code": "Experiencing partner's support during disagreement",
+        "text_passage": "if me and my friend have a disagreement or something or I don't agree with something.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0043"
+    },
+    {
+        "open_code": "Relying on partner's emotional support",
+        "text_passage": "And that type of emotional support, he's there.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0043"
+    },
+    {
+        "open_code": "Feeling uncertain about being heard",
+        "text_passage": "Yes, but I'm not sure that they're really heard. Look.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0044"
+    },
+    {
+        "open_code": "Rating partner's listening as somewhat true",
+        "text_passage": "Somewhat.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0045"
+    },
+    {
+        "open_code": "Perceiving partner listening",
+        "text_passage": "He listens to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0045"
+    },
+    {
+        "open_code": "Assessing partner's listening when interested",
+        "text_passage": "If it's a topic of conversation that he is interested in, he will listen.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0046"
+    },
+    {
+        "open_code": "Observing partner's silence when uninterested",
+        "text_passage": "If it is not, then he doesn't listen.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0046"
+    },
+    {
+        "open_code": "Perceiving partner's preoccupation leading to feeling unheard",
+        "text_passage": "he's in his own head, so he doesn't hear anything I say.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0046"
+    },
+    {
+        "open_code": "Attempting to book partner's flight",
+        "text_passage": "I was trying to book him on a flight and I was asking him if he wanted to take the earlier flight so that he could possibly be upgraded",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Putting airline agent on hold",
+        "text_passage": "and I put the airline agent on hold and went and asked",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Communicating partner's refusal of longer layover",
+        "text_passage": "he said, no, I don't want to have a longer layover.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Choosing not to change ticket after refusal",
+        "text_passage": "So then I didn't change his plane ticket.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Being asked again about the situation",
+        "text_passage": "About 30 minutes later, he asked me again about that situation.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Partner expressing desire for earlier flight",
+        "text_passage": "he said, No, I want to I'd rather go earlier.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Clarifying previous offer to change ticket",
+        "text_passage": "And I said, Well, I asked you when I was on the phone with the agent if you wanted me to change it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Repeating explanation three times",
+        "text_passage": "And I explained it to you three times just so you would be listening.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Experiencing partner's non\u2011listening",
+        "text_passage": "And he still didn't listen.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Partner wanting ticket change after earlier refusal",
+        "text_passage": "And so he wanted to change his plane ticket.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Partner not understanding repeated explanations",
+        "text_passage": "the first three times I said it, he didn't understand what I was saying.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0047"
+    },
+    {
+        "open_code": "Expressing my needs or feelings",
+        "text_passage": "when I tell him my needs or feelings",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0048"
+    },
+    {
+        "open_code": "Perceiving him as self\u2011focused",
+        "text_passage": "he really doesn't know how to be about anyone but himself",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0048"
+    },
+    {
+        "open_code": "Experiencing lack of response",
+        "text_passage": "It doesn't happen.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0048"
+    },
+    {
+        "open_code": "Stating my preferences",
+        "text_passage": "if I say I don't want this",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0048"
+    },
+    {
+        "open_code": "Feeling his feelings overriding my needs",
+        "text_passage": "his feelings overtake what my needs are",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0048"
+    },
+    {
+        "open_code": "Feeling his need for acceptance overriding my feelings",
+        "text_passage": "his need for acceptance and doing good overrules how I feel",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0048"
+    },
+    {
+        "open_code": "Reporting sexual frequency as once a month",
+        "text_passage": "Maybe once a month.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0049"
+    },
+    {
+        "open_code": "Noting recent change in sexual activity",
+        "text_passage": "But that's more in recent. The recent months.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0049"
+    },
+    {
+        "open_code": "Describing previous routine",
+        "text_passage": "Five days a week previously.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0050"
+    },
+    {
+        "open_code": "Noticing recent lessening",
+        "text_passage": "It was probably be within the last [1-5] months that it has lessened.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0051"
+    },
+    {
+        "open_code": "Reporting sexual dissatisfaction",
+        "text_passage": "I am not.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0052"
+    },
+    {
+        "open_code": "Feeling emotionally disconnected",
+        "text_passage": "I'm not emotionally connected into this relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0052"
+    },
+    {
+        "open_code": "Noticing loss of passion and desire",
+        "text_passage": "And all of the passion and desire is gone.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0052"
+    },
+    {
+        "open_code": "Feeling nothing",
+        "text_passage": "Nothing like I feel nothing.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0052"
+    },
+    {
+        "open_code": "Viewing sex as part of intimacy",
+        "text_passage": "But I feel like it's just it's part of an intimacy.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Feeling a little connection during sex",
+        "text_passage": "you feel a little connected when you have sex.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Needing other things before reaching intimacy",
+        "text_passage": "you also need the other things that were above that to get to that point, right?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Having sex without emotional connection",
+        "text_passage": "I can have sex, but I'm not emotionally connected.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Not being in love",
+        "text_passage": "I'm not in love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Lacking desire to be present",
+        "text_passage": "You have no desire to be there.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Experiencing sex as meaningless",
+        "text_passage": "So sex feels nothing.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Missing intimacy component",
+        "text_passage": "the intimacy part isn't there.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Imagining sex as huge when love and desire present",
+        "text_passage": "if I was in love or I had the desire to be there, then sex is like a huge thing, I think.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0053"
+    },
+    {
+        "open_code": "Stating complete dissatisfaction",
+        "text_passage": "I am completely dissatisfied. Okay.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0054"
+    },
+    {
+        "open_code": "Feeling stuck in an unwanted relationship",
+        "text_passage": "Because I'm in a relationship I don't want to be in",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0055"
+    },
+    {
+        "open_code": "Lacking emotional connection",
+        "text_passage": "and I have no emotional connection anymore.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0055"
+    },
+    {
+        "open_code": "Comparing relationship to expectations",
+        "text_passage": "My relationship, still my expectations.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0056"
+    },
+    {
+        "open_code": "Acknowledging having a beautiful life",
+        "text_passage": "I do have a beautiful life",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0056"
+    },
+    {
+        "open_code": "Missing emotional connection to partner",
+        "text_passage": "I'm missing that emotional connection to a partner.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0056"
+    },
+    {
+        "open_code": "Lacking emotional connection to husband",
+        "text_passage": "I just don't have the emotional connection to my husband.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0056"
+    },
+    {
+        "open_code": "Viewing emotional connection as important",
+        "text_passage": "Which I think is important.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0056"
+    },
+    {
+        "open_code": "Confirming interviewer's summary",
+        "text_passage": "No, I think that all sums it up.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_15A_Haley_10-20_Low_Median-High_c0057"
+    },
+    {
+        "open_code": "Reporting marriage length",
+        "text_passage": "I\u2019m married out, [16-20] years ago. Yeah.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0000"
+    },
+    {
+        "open_code": "Working together",
+        "text_passage": "Both of us are working, so I think our salary is the main income from us.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0001"
+    },
+    {
+        "open_code": "Identifying salary as main income",
+        "text_passage": "Both of us are working, so I think our salary is the main income from us.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0001"
+    },
+    {
+        "open_code": "Comparing my relationship with friends' relationships",
+        "text_passage": "My friends compare with my friends. I think.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0002"
+    },
+    {
+        "open_code": "Observing friends' divorces",
+        "text_passage": "I have a couple of a friend. They divorced.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0002"
+    },
+    {
+        "open_code": "Speculating about reasons for friends' divorces",
+        "text_passage": "The reason I think, is [redacted]. Another of my friends. They divorced because, [redacted].",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0002"
+    },
+    {
+        "open_code": "Identifying pattern of relationship breakdown",
+        "text_passage": "Yeah, that's that's the thing I can see.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0002"
+    },
+    {
+        "open_code": "Estimating number of past partners",
+        "text_passage": "Maybe [1-5]? Yeah. Maybe [1-5] ex-boyfriends, before I met my husband.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0003"
+    },
+    {
+        "open_code": "Recalling pre\u2011marriage relationships",
+        "text_passage": "Before I met my husband. I had a couple of friend.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0003"
+    },
+    {
+        "open_code": "trusting my husband",
+        "text_passage": "I think, for my husband, I, trust is many important things right now.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0004"
+    },
+    {
+        "open_code": "comparing trust with ex\u2011boyfriends",
+        "text_passage": "some of my ex\u2011boyfriend, they are not trust. They don't give a lot of trust to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0004"
+    },
+    {
+        "open_code": "doing interesting things together",
+        "text_passage": "doing interesting things together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0004"
+    },
+    {
+        "open_code": "sharing common activities",
+        "text_passage": "have, a lot of common things to do",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0004"
+    },
+    {
+        "open_code": "going out with friends while dating",
+        "text_passage": "We like, hanging out with our friends a lot",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0004"
+    },
+    {
+        "open_code": "having kids reducing outings",
+        "text_passage": "Having kids, so we are not going out as many as when we were dating",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0004"
+    },
+    {
+        "open_code": "expressing differing opinions",
+        "text_passage": "if we have a different opinion, we talked about it. Say it out.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "communicating openly",
+        "text_passage": "Good way to communicate.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "engaging in frequent fights",
+        "text_passage": "you have to fight a lot, fighting.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "keeping quiet and reflecting",
+        "text_passage": "Sometimes I keep quiet for a while, then think through.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "delaying discussion until calm",
+        "text_passage": "Then you can talk about it. Not fight at that moment when both of us, angry.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "remaining silent when partner is in bad mood",
+        "text_passage": "if my husband were, like my husband was in a bad mood. Say something not really nice to me, then I would just keep quiet.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "avoiding immediate argument",
+        "text_passage": "Don't argue right away. Don't fight back right away.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "expressing dissatisfaction after incident",
+        "text_passage": "I usually let him know. Okay. I don't like the way you treat me like that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "communicating personal feelings about partner's behavior",
+        "text_passage": "Sometimes I will say, okay, this is how I feel if you say something to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "seeking partner's perspective and receiving apology",
+        "text_passage": "How do you feel? So he will, well, I think, most of the time my husband will come back to me, say sorry.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "Questioning what defines low quality",
+        "text_passage": "Low quality, I think is. Actually, I don't know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0006"
+    },
+    {
+        "open_code": "Considering housework as a source of tension",
+        "text_passage": "Maybe housework. Too many housework.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0006"
+    },
+    {
+        "open_code": "Suggesting hiring help to reduce tension",
+        "text_passage": "If you can hire someone to do the housework for you, well, just hire someone.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0006"
+    },
+    {
+        "open_code": "Warning against doing tedious work yourself",
+        "text_passage": "Don't. Don't do. Don't do the tedious work by yourself and make your relationship really tension.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0006"
+    },
+    {
+        "open_code": "Allowing alone time",
+        "text_passage": "you should allow some, like, alone time",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0007"
+    },
+    {
+        "open_code": "Avoiding discussion during anger",
+        "text_passage": "Not at the angry moment to talk",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0007"
+    },
+    {
+        "open_code": "Suggesting postponing communication",
+        "text_passage": "Don't try to say something clearly",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0007"
+    },
+    {
+        "open_code": "Emphasizing timing of communication",
+        "text_passage": "Talk out something otherwise it will mess up the purpose of your communication",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0007"
+    },
+    {
+        "open_code": "Warning against speaking while angry",
+        "text_passage": "So at the moment, you were angry. Don't try to, don't try to say something",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0007"
+    },
+    {
+        "open_code": "Prioritizing trust as fundamental",
+        "text_passage": "Most important thing I think I trust is the one thing.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Emphasizing communication as important",
+        "text_passage": "Well, communication is important as well.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Describing a simple household structure by living together",
+        "text_passage": "Just like a like, like my family, my husband and I and my for, four of us living here.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Including parents in the home to keep structure simple",
+        "text_passage": "So now that my parents living with us.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Labeling the family structure as very simple",
+        "text_passage": "This make the family structure very simple.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Observing that some couples fight due to in\u2011law pressure",
+        "text_passage": "Well, some people fighting because, they think, the husband's mom has, a lot of, pressure to the wife or the wife's parents.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Feeling personal pressure from spouse\u2019s family",
+        "text_passage": "I have a lot of pressure to the husband.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Experiencing occasional conflict",
+        "text_passage": "conflict is sometimes.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Suggesting that a simple family structure may reduce conflict",
+        "text_passage": "The simple structure of the family might be easier for the\u2014",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Defining love as comfort",
+        "text_passage": "Love is. Comfort to stay with the person.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0009"
+    },
+    {
+        "open_code": "Equating lack of comfort with absence of love",
+        "text_passage": "So if you don't feel comfortable, then there's no love at all.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0009"
+    },
+    {
+        "open_code": "Emphasizing love as essential for staying in the relationship",
+        "text_passage": "I think it's pretty important because, if you don't think that there's a love, then why you staying in the relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0010"
+    },
+    {
+        "open_code": "remembering important days",
+        "text_passage": "He remembers, our, important days. My birthday, the anniversary",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "hugging me right away",
+        "text_passage": "when he came back, he was, hug me right away",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "listening to a lot of things about me",
+        "text_passage": "he also, hears a lot of things about me",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "being curious about me",
+        "text_passage": "is also curious a lot of things about me",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "asking how was your day",
+        "text_passage": "he will ask, how was your day?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "offering takeout when I am tired",
+        "text_passage": "if you are too tired, ... Just, buy some to go",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "offering to help cook",
+        "text_passage": "sometimes he offered to help to cook",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "Differing opinions about kids' education",
+        "text_passage": "a lot of time we have a different opinion for education for the kids' education.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Resisting husband's limited involvement in kids' schooling",
+        "text_passage": "my husband is like, he doesn't want to involve a lot of, kids. Like, how they what they need to study, what they want to do.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Paying close attention to children's grades and school performance",
+        "text_passage": "I will see a lot of things, and I will pay a lot of attention to their grade and, their, how they were doing in the school.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Feeling husband is not putting effort into kids' education",
+        "text_passage": "I think my husband is not putting a lot of effort in there",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Fighting over educational decisions",
+        "text_passage": "A lot of the time we're fighting for this. This is our argument.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Describing husband as a good dad despite disagreements",
+        "text_passage": "Other than that, I think he's a pretty good dad.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Confirming frequent fighting",
+        "text_passage": "Yeah, many, many times. Yeah.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0013"
+    },
+    {
+        "open_code": "Avoiding fighting with daughter",
+        "text_passage": "we don't have a lot of, fighting because she is a very disciplined",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Observing daughter's discipline",
+        "text_passage": "she is a very disciplined. So she knows what to do. She knows, what needs to be done, by when and by how.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Recognizing son's opposite behavior",
+        "text_passage": "for my son, he's, he's a younger, he's a totally different, opposite way",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Feeling need to pay more attention to son",
+        "text_passage": "a lot of things I think I need pay more attention to him",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Noting husband's differing opinion",
+        "text_passage": "my husband has a different, opinion. He be thinking everybody have to be responsible for their",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Hoping husband will become more involved",
+        "text_passage": "I hope my husband can involve a lot more",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Continuing unresolved conflict",
+        "text_passage": "We never resolved that. We're still struggling because, my my son. Still, live with us.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Anticipating resolution after son leaves for college",
+        "text_passage": "So I don't think, there\u2019s going to be a result until he go to the college.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Avoiding contact with son",
+        "text_passage": "Then we don't have to. We don't have to see him or.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Worrying about many things as Asian parents",
+        "text_passage": "we worry many things.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Prioritizing son's education",
+        "text_passage": "education is the most important thing for him, we think.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Projecting future worries about career",
+        "text_passage": "when he grow up, he can, we can worry about other things. His career, maybe.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Projecting future worries about marriage",
+        "text_passage": "when he get married, then we will worry something else.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Recalling mother's prohibition on dating",
+        "text_passage": "she's always like I said, when I was in college, she always said, don't, don't date anyone",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Feeling pressure to find a partner after graduation",
+        "text_passage": "After I graduate, and she, ohyou have to find someone, get married, okay?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Feeling pressure to have children immediately",
+        "text_passage": "you have to have a kids right away.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Perceiving cultural differences from other parents",
+        "text_passage": "my culture maybe is a little bit different, than the other, other parents.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Experiencing stage\u2011specific parental worries beyond education",
+        "text_passage": "we will have a lot of a worry for kids, not only for education.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "expressing uncertainty",
+        "text_passage": "Other ways maintained. Well. I'm not really sure.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0016"
+    },
+    {
+        "open_code": "asking for clarification",
+        "text_passage": "So how do you have, like, for example, like. What do you mean?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0016"
+    },
+    {
+        "open_code": "Relying on talking as the only solution",
+        "text_passage": "I don't think that there's another thing, another way... That's the one way to solve the problem.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0017"
+    },
+    {
+        "open_code": "Finding it harder to handle issues directly",
+        "text_passage": "I know it's a bit harder for us to do that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0017"
+    },
+    {
+        "open_code": "Enlisting grandparents to mediate via video call",
+        "text_passage": "my son and my daughter... have video conference with video call with their grandparents over the weekend... we will ask them, okay, can you talk to my son or my daughter about the issue they have?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0017"
+    },
+    {
+        "open_code": "Viewing grandparents as offering more love than pressure",
+        "text_passage": "grandparents give a lot of a different attention to the grandkids... it's not like a parent's more direct to the kids, give more pressure... maybe they have a more love side instead of a pressure side.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0017"
+    },
+    {
+        "open_code": "Using grandparents as an alternative communication channel",
+        "text_passage": "some we would talk to the grandparents to ask them, okay, can you talk about the issue? ... kids will listen to the grandparents.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0017"
+    },
+    {
+        "open_code": "Seeking definition of relationship being good for me",
+        "text_passage": "So if my relationship is good for me?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0018"
+    },
+    {
+        "open_code": "Feeling okay with stability",
+        "text_passage": "I of course, I think it's okay with me if you guess is more stable.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0019"
+    },
+    {
+        "open_code": "Relying on someone",
+        "text_passage": "You always can rely on someone.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0019"
+    },
+    {
+        "open_code": "Finding someone to talk to",
+        "text_passage": "If there's that happen, you always can find someone to talk about it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0019"
+    },
+    {
+        "open_code": "Assuming family prefers stability",
+        "text_passage": "I think most of the family like that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0019"
+    },
+    {
+        "open_code": "Experiencing responsibility reshaping self",
+        "text_passage": "It should be the responsibility changed me. Because, become a mom or become a wife.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0020"
+    },
+    {
+        "open_code": "Becoming a wife and mother",
+        "text_passage": "Because, become a mom or become a wife.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0020"
+    },
+    {
+        "open_code": "Learning to cook",
+        "text_passage": "So before, I don't know how to cook. Now, well, I have to cook every day.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0020"
+    },
+    {
+        "open_code": "Having to cook daily",
+        "text_passage": "I have to cook every day.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0020"
+    },
+    {
+        "open_code": "Adjusting to new role after marriage",
+        "text_passage": "When I get married, there's a many things I learned after I get married.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0020"
+    },
+    {
+        "open_code": "Noticing increased irritability",
+        "text_passage": "my temperature's changed.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Recalling low anger before marriage",
+        "text_passage": "before I seldom get angry.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Feeling easily pissed off",
+        "text_passage": "I'm easy to get pissed off.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Attributing anger to factors beyond relationship",
+        "text_passage": "that's not because of the relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Comparing cohabitation with partner to previous family living",
+        "text_passage": "a relationship is another thing because you are living with, the other person, not your family who lived with you for like, 20 or 30 years",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Adapting to spouse's habits",
+        "text_passage": "starting a new family is like, totally, you have to adapt the other's habit.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Expecting partner to adjust to one's habits",
+        "text_passage": "the other also need to, get use of your habit.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Encountering early marital adjustment challenges",
+        "text_passage": "that's a one of the challenges being at the beginning.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Experiencing shift after having children",
+        "text_passage": "after you have a kids, then that's a totally different thing.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Prioritizing children's needs over spouse's habits",
+        "text_passage": "You're not thinking about the habit of your husband anymore.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Focusing attention on kids",
+        "text_passage": "more attention to your kids",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Noticing husband changing",
+        "text_passage": "I think he also changed a little bit.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0022"
+    },
+    {
+        "open_code": "Describing husband becoming more responsible",
+        "text_passage": "Be more responsible.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0022"
+    },
+    {
+        "open_code": "Labeling husband as family supporter",
+        "text_passage": "He\u2019s the person, he's the person who supports the family.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0022"
+    },
+    {
+        "open_code": "Perceiving husband having more pressure",
+        "text_passage": "he has more pressure than me because he has to he has to work.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0022"
+    },
+    {
+        "open_code": "Stating own recent graduation and low income",
+        "text_passage": "I just graduate from school. Not for long. So my job, my income, work at that time is not really high.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0022"
+    },
+    {
+        "open_code": "Feeling relieved about job security",
+        "text_passage": "I don't have to worry about if I lost my job.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0023"
+    },
+    {
+        "open_code": "Counting on him for support",
+        "text_passage": "I can always count on him",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0023"
+    },
+    {
+        "open_code": "Relying on partner during a car breakdown",
+        "text_passage": "my car broke down in the middle of a highway, I can always.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0023"
+    },
+    {
+        "open_code": "Prioritizing partner over roadside service",
+        "text_passage": "I won't think of calling the roadside service right away. The first person I can think is, calling him about this issue.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0023"
+    },
+    {
+        "open_code": "Rating listening level",
+        "text_passage": "I can see 6 or 7.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Questioning listening consistency",
+        "text_passage": "I don't think he'll always listen to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Communicating disapproval of yelling",
+        "text_passage": "But most of the time, if I let him know I don't like the way he's yelling at my kids.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Specifying target of yelling",
+        "text_passage": "Yelling at my son, at least.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Observing partner listening",
+        "text_passage": "So he will listen to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Partner trying to lower voice",
+        "text_passage": "He will try to see the lower voice.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Repeating listening rating",
+        "text_passage": "Yeah. Yeah, I can see 6 or 7.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Rating partner responsiveness as high",
+        "text_passage": "All I can say is 8 because, yeah, I think, most of the time",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0025"
+    },
+    {
+        "open_code": "Imagining calling partner in a car breakdown",
+        "text_passage": "if my car breaks down. Right, the first thing I can think of calling him",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0025"
+    },
+    {
+        "open_code": "Comparing partner's response speed to emergency services",
+        "text_passage": "because I think he's more responsive, he's faster response person than the rule servers are.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0025"
+    },
+    {
+        "open_code": "Positioning listening rating as middle",
+        "text_passage": "Five is like, in middle.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0026"
+    },
+    {
+        "open_code": "Expecting serious conversation for true listening",
+        "text_passage": "He will listen to me if I say something. If we really seriously talk about it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0026"
+    },
+    {
+        "open_code": "Experiencing casual talk being heard but forgotten",
+        "text_passage": "If I just, talking to him. Casually, not seriously. You just listen and then forget about it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0026"
+    },
+    {
+        "open_code": "Comparing husband's listening to children's compliance",
+        "text_passage": "So my husband sometimes the he's like, like my kids. You said, okay, I'll do it. But the other way he's not doing that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0026"
+    },
+    {
+        "open_code": "Feeling husband hears but does not act",
+        "text_passage": "He's not listening. He heard it, but he is not doing it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0026"
+    },
+    {
+        "open_code": "Generalizing men\u2019s listening behavior",
+        "text_passage": "I think most of the men are doing that well in that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0026"
+    },
+    {
+        "open_code": "Counting on partner",
+        "text_passage": "I can say I can count on him 100%.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0027"
+    },
+    {
+        "open_code": "Getting hold of him quickly",
+        "text_passage": "if I ask him right away if he can, I can get hold of him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0027"
+    },
+    {
+        "open_code": "Expecting immediate response",
+        "text_passage": "He will response right away.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0027"
+    },
+    {
+        "open_code": "Rating quality based on responsiveness",
+        "text_passage": "I can see him 8. I can\u2019t see him a 9 or 10 because, sometimes I could not get hold of him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0027"
+    },
+    {
+        "open_code": "Feeling limited by partner's job",
+        "text_passage": "he\u2019s at a job. A lot of the time, he could not answer the phone right away",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0027"
+    },
+    {
+        "open_code": "Reporting infrequent sexual activity",
+        "text_passage": "Not many. Not many, but, we still.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0028"
+    },
+    {
+        "open_code": "Attributing reduced desire to age",
+        "text_passage": "I think, maybe it\u2019s from my side, cause I'm [46-50] already.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0028"
+    },
+    {
+        "open_code": "Stating personal low sexual need",
+        "text_passage": "So a lot of the time, I don't think I need.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0028"
+    },
+    {
+        "open_code": "Negotiating sex based on partner's needs",
+        "text_passage": "I have a lot of needs from there, but, but, if he he has needs, we will.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0028"
+    },
+    {
+        "open_code": "Expressing uncertainty about sexual frequency",
+        "text_passage": "I don't know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0028"
+    },
+    {
+        "open_code": "Repeating \"I think\" to signal tentative reasoning",
+        "text_passage": "I think. I think, other than. Yeah, I think. I think, for me from my side because, I think",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0029"
+    },
+    {
+        "open_code": "Expressing uncertainty about how to describe the feeling",
+        "text_passage": "Well, I don't know how to say it, but it's kind of.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0029"
+    },
+    {
+        "open_code": "Emphasizing simple hug and touch as sufficient evidence of quality",
+        "text_passage": "simple, simple hug, simple touch is, it's a pretty good already",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0029"
+    },
+    {
+        "open_code": "Expressing partial satisfaction",
+        "text_passage": "I can say very satisfied, but not completely satisfied.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0030"
+    },
+    {
+        "open_code": "Acknowledging unmet aspects",
+        "text_passage": "Of course, there are some thing.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0030"
+    },
+    {
+        "open_code": "Reaffirming satisfaction level",
+        "text_passage": "Very satisfied.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0030"
+    },
+    {
+        "open_code": "Assigning a high satisfaction rating",
+        "text_passage": "And so it should be 8 or 9.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0031"
+    },
+    {
+        "open_code": "Feeling partially satisfied",
+        "text_passage": "I\u2019m pretty satisfied.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Feeling not completely satisfied",
+        "text_passage": "it's not completely satisfied.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Experiencing occasional unhappiness with partner",
+        "text_passage": "Sometimes you are not happy to each other.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Viewing relationship as a staple",
+        "text_passage": "this is like a staple.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Not worrying about many other things",
+        "text_passage": "you don't have to worry many other things.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Comparing current stage to dating stage",
+        "text_passage": "Not like at dating with, okay. The stage. Totally different.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Being married with kids",
+        "text_passage": "Get married, have kids.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Feeling family is bonding",
+        "text_passage": "This is a very, I think, a very bonding family right here.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Experiencing limited freedom due to responsibilities",
+        "text_passage": "there are many things, like a fantasies stuff is not like, when you don't have a lot of freedom now because you have very responsibility right here.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Thinking about childcare logistics",
+        "text_passage": "I will think, okay, if my kids have a date, who can make a dinner for him?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Worrying about dinner preparation for kids",
+        "text_passage": "I know my husband and I take care of it, but I still worry.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Trusting husband's self\u2011sufficiency",
+        "text_passage": "I don't worry about my husband. He. He can take care of himself.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Dreaming about future partners",
+        "text_passage": "I have a lot of a dream about my future partners",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Imagining partner's appearance and care",
+        "text_passage": "how he can look like, how he's going to take care of me",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Contrasting fantasies with reality",
+        "text_passage": "a lot of the fantasies that, in real life",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Viewing family as stability",
+        "text_passage": "having a family is more stable",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Feeling safer in a good relationship",
+        "text_passage": "you feel a little bit more safe in a good relationship",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Indicating no further comments",
+        "text_passage": "Not really. I think. Yeah. Not not much.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0034"
+    },
+    {
+        "open_code": "Thinking about sharing options",
+        "text_passage": "I think.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0035"
+    },
+    {
+        "open_code": "Suggesting sharing with everyone",
+        "text_passage": "So, for one, sharing with everyone.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0035"
+    },
+    {
+        "open_code": "Seeking confirmation of understanding",
+        "text_passage": "That's what you say?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0035"
+    },
+    {
+        "open_code": "Agreeing that option one is okay",
+        "text_passage": "I should say one should be okay.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0036"
+    },
+    {
+        "open_code": "Expressing uncertainty",
+        "text_passage": "I'm not sure",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0037"
+    },
+    {
+        "open_code": "Offering to ask potential participant about joining",
+        "text_passage": "but I can ask her if they are interesting about to participate in this survey or not.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0037"
+    },
+    {
+        "open_code": "Acknowledging need for permission before speaking",
+        "text_passage": "But, before I get their permission, them. I can't say anything.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0037"
+    },
+    {
+        "open_code": "Seeking clarification about eligibility criteria",
+        "text_passage": "Okay, first of all, I need to find it out.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0038"
+    },
+    {
+        "open_code": "Verifying location requirement for participants",
+        "text_passage": "Do they have to be, in [Country} or not?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0038"
+    },
+    {
+        "open_code": "questioning eligibility requirements",
+        "text_passage": "Okay. Okay. And do they need. Do they need, like. If. Well, if if they their worst. Can they be participate in this survey or not?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0039"
+    },
+    {
+        "open_code": "questioning eligibility for survey",
+        "text_passage": "Could you if if if they the worst, can they, can they be in this survey or not?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0040"
+    },
+    {
+        "open_code": "expressing lack of knowledge about low\u2011income couples",
+        "text_passage": "Then maybe I don't know any or below the median.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0041"
+    },
+    {
+        "open_code": "asking for clarification about median income",
+        "text_passage": "How much is the median?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0041"
+    },
+    {
+        "open_code": "Assuming friends have similar occupations",
+        "text_passage": "I think most of my, my. The people I know they are either [Job] or well, yeah, most of them.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "Discounting income as a problem",
+        "text_passage": "Most of my friends are [Job], so I don't think they, their income has an issue.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "Rejecting income as a factor for relationship quality",
+        "text_passage": "I don't think that's the issue for them.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "Labeling them as ineligible for the study",
+        "text_passage": "So in that, in that way, they are not qualified in your research.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "Asking about unhappy couples",
+        "text_passage": "Oh, I can ask in that case, like, I.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16A_Jon_10-20_High_Median-High_c0043"
+    },
+    {
+        "open_code": "Describing household composition",
+        "text_passage": "Me, my wife, and my [1-5] kids.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0000"
+    },
+    {
+        "open_code": "Assessing relationship quality positively",
+        "text_passage": "I think it\u2019s pretty good.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0001"
+    },
+    {
+        "open_code": "Assessing relationship quality by noting lack of negative events",
+        "text_passage": "Because nothing bad happened so far, I mean.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0002"
+    },
+    {
+        "open_code": "Struggling to compare relationships across life stages",
+        "text_passage": "It's hard to compare because that's when I was in school, so, you know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0003"
+    },
+    {
+        "open_code": "Noting shift from school concerns to adult responsibilities",
+        "text_passage": "And you don't have to worry about the other stuff in school. And then once you graduate, you need to find a job. You need to do any other stuff.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0003"
+    },
+    {
+        "open_code": "Seeking mutual understanding",
+        "text_passage": "mutual understanding",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0004"
+    },
+    {
+        "open_code": "Minimizing fighting",
+        "text_passage": "do not fight a lot",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0004"
+    },
+    {
+        "open_code": "Disagreeing on many issues",
+        "text_passage": "you don't agree on a lot of things",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "Fighting constantly",
+        "text_passage": "you fight all the time",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0005"
+    },
+    {
+        "open_code": "Giving clear instructions to child",
+        "text_passage": "when you have kids, you know, you tell the kid, you need to do this, you know, you need to not to do other stuff.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0006"
+    },
+    {
+        "open_code": "Maintaining shared understanding within family",
+        "text_passage": "And I think we, most of the time, are all in the same page. So the kids, well, got the, you know, got the same information and not, you know, different things from different people.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0006"
+    },
+    {
+        "open_code": "Identifying themselves as distinct individuals",
+        "text_passage": "we're just two different people",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Accepting inability to agree constantly",
+        "text_passage": "we cannot agree on everything all the time",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Encountering differing opinions when issues arise",
+        "text_passage": "if something comes up and ... we have different opinions",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0008"
+    },
+    {
+        "open_code": "Talking it out",
+        "text_passage": "talk it out",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0009"
+    },
+    {
+        "open_code": "Avoiding fighting",
+        "text_passage": "disagree and keep fighting",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0009"
+    },
+    {
+        "open_code": "Prioritizing understanding",
+        "text_passage": "Obviously understanding.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0010"
+    },
+    {
+        "open_code": "Having the same feeling",
+        "text_passage": "sometimes I have the same feeling towards the same thing.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0010"
+    },
+    {
+        "open_code": "Desiring more",
+        "text_passage": "the more the better.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0010"
+    },
+    {
+        "open_code": "Disagreeing on issues",
+        "text_passage": "If you don't agree on stuff, then you just keep.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "Fighting with each other all the time",
+        "text_passage": "Fighting with each other all the time",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "Worrying about impact on kids",
+        "text_passage": "it's not good for any relationship is not good for the kids you know?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0011"
+    },
+    {
+        "open_code": "Experiencing a bad mood",
+        "text_passage": "when you are in a bad situation, when you have a bad mood",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Wanting to be with the person you want to be with the most",
+        "text_passage": "that's the person you want to be with the most.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Wanting to talk to that person",
+        "text_passage": "you want to talk to that person.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Wanting to call that person",
+        "text_passage": "you want to call that person.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0012"
+    },
+    {
+        "open_code": "Affirming love's importance",
+        "text_passage": "Yes. Very important I think.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0013"
+    },
+    {
+        "open_code": "Feeling cared for",
+        "text_passage": "Because you care about me, I mean.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Noticing little things",
+        "text_passage": "Like, like the little things, you know?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Being known for food preferences",
+        "text_passage": "You know what kind of food I like, and then, you know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Remembering important dates and locations",
+        "text_passage": "She remembers the date of certain locations, you know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0014"
+    },
+    {
+        "open_code": "Identifying challenges",
+        "text_passage": "Challenges, I'll be like.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Anticipating handling future problems",
+        "text_passage": "How we handle the next.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Considering teenage kids as potential stressor",
+        "text_passage": "Like a bad thing that might come, you know, like, like the teenage kids or, you know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Labeling challenge as big",
+        "text_passage": "Yeah, it's a big challenge, I think.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0015"
+    },
+    {
+        "open_code": "Describing persistent arguing",
+        "text_passage": "You mean, you mean keep arguing stuff.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0016"
+    },
+    {
+        "open_code": "Stating infrequent occurrence",
+        "text_passage": "Not that often.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0017"
+    },
+    {
+        "open_code": "Estimating annual frequency",
+        "text_passage": "Maybe once a year.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0017"
+    },
+    {
+        "open_code": "Limiting frequency to once or twice per year",
+        "text_passage": "Maybe once or twice a year at most.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0017"
+    },
+    {
+        "open_code": "Noticing teenage kids not listening",
+        "text_passage": "when they get to teenage age, they don't listen to you.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0018"
+    },
+    {
+        "open_code": "Experiencing stubborn behavior",
+        "text_passage": "they be stubborn.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0018"
+    },
+    {
+        "open_code": "Seeing refusal to do homework",
+        "text_passage": "They don't wanna do homework",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0018"
+    },
+    {
+        "open_code": "Letting the fight be",
+        "text_passage": "I will just let it. Just let it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0019"
+    },
+    {
+        "open_code": "Waiting for emotions to cool down",
+        "text_passage": "After normally after about a day or two is going to cool down",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0019"
+    },
+    {
+        "open_code": "Talking it out after cooling",
+        "text_passage": "then we can talk it out in the.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0019"
+    },
+    {
+        "open_code": "Talking to the kid about the fight",
+        "text_passage": "And then we'll have to talk to the kid.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0019"
+    },
+    {
+        "open_code": "Showing care to partner",
+        "text_passage": "I have to, you know, show her the.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Caring for partner continuously",
+        "text_passage": "I care about her all the time.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Caring for children continuously",
+        "text_passage": "And I care about the kids, you know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0021"
+    },
+    {
+        "open_code": "Stating relationship is good for me",
+        "text_passage": "It's good for me what it was.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0022"
+    },
+    {
+        "open_code": "Requesting clarification by asking to repeat the question",
+        "text_passage": "Can you say that again?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0022"
+    },
+    {
+        "open_code": "Clarifying comparison basis",
+        "text_passage": "Is your question. About. Being good compared to other people or.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0023"
+    },
+    {
+        "open_code": "Imagining being alone",
+        "text_passage": "If I, if I'm by myself right now, there's a lot of things will be different.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Resisting returning to past days",
+        "text_passage": "And I don't think I want to go back to those, those days.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0024"
+    },
+    {
+        "open_code": "Learning more stuff",
+        "text_passage": "It made me learn more stuff, that's for sure.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0025"
+    },
+    {
+        "open_code": "Learning about childcare",
+        "text_passage": "Like childcare you know?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0025"
+    },
+    {
+        "open_code": "Being taught by partner",
+        "text_passage": "And, in some called teach me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0025"
+    },
+    {
+        "open_code": "Learning to care about other people",
+        "text_passage": "How do you. You know to care about other people?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0025"
+    },
+    {
+        "open_code": "Assessing change in partner",
+        "text_passage": "I don't think so.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0026"
+    },
+    {
+        "open_code": "Perceiving partner as unchanged",
+        "text_passage": "I think she's still the same, at least to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0026"
+    },
+    {
+        "open_code": "perceiving unchanged personality",
+        "text_passage": "She's still like that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0027"
+    },
+    {
+        "open_code": "Seeking clarification about safety concept",
+        "text_passage": "You mean?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0029"
+    },
+    {
+        "open_code": "Questioning definition of stable relationship",
+        "text_passage": "You mean for the stable relationship is what you mean?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0029"
+    },
+    {
+        "open_code": "Affirming understanding",
+        "text_passage": "Yeah.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0029"
+    },
+    {
+        "open_code": "Seeking clarification about examples",
+        "text_passage": "What kind of example you-",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0030"
+    },
+    {
+        "open_code": "Talking about work after coming home",
+        "text_passage": "talk about work after, you know, come back home",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0031"
+    },
+    {
+        "open_code": "Talking about stuff every day",
+        "text_passage": "talk about stuff every day",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0031"
+    },
+    {
+        "open_code": "Observing partner asserting her own way",
+        "text_passage": "she sometimes, she has her way",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Feeling that partner listens but refuses to agree",
+        "text_passage": "maybe she'll listen, but she doesn't want to agree with me",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0032"
+    },
+    {
+        "open_code": "Receiving instruction to tell kids to finish homework",
+        "text_passage": "She tell me, you know, you have to, tell the kids to finish their homework.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Being tasked with checking homework",
+        "text_passage": "You have to check on their homework.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Telling kid to do homework",
+        "text_passage": "I said, yeah, I do that, but I told the kid to do it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Resisting being blamed for kid's non\u2011completion",
+        "text_passage": "If the kid doesn't do it, and then, I'm not supposed to be the guy who got blamed, you know, it's the kid.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Feeling unfairly blamed when kid doesn't listen",
+        "text_passage": "I feel, you know, if the kid doesn't listen to me, then how can I be blamed for something that I don't do.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0033"
+    },
+    {
+        "open_code": "Agreeing on most things",
+        "text_passage": "We agree on most of the things you know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0034"
+    },
+    {
+        "open_code": "Noticing differences in opinions",
+        "text_passage": "I say A, She says B you know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0034"
+    },
+    {
+        "open_code": "Identifying partner as a different type",
+        "text_passage": "She\u2019s not that type.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0034"
+    },
+    {
+        "open_code": "Seeking clarification about needs",
+        "text_passage": "What kind of needs are we talking about here?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0035"
+    },
+    {
+        "__status__": "failed",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0036",
+        "reason": "empty_response"
+    },
+    {
+        "open_code": "Observing participant's changed appearance",
+        "text_passage": "She looked at me. She said, you look a little different.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0037"
+    },
+    {
+        "open_code": "Receiving a comforting hug",
+        "text_passage": "She just hugged me and said, oh, oh, something going on?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0037"
+    },
+    {
+        "open_code": "Communicating feeling of being different",
+        "text_passage": "I told her, you can tell I looked different that moment when I came home.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0037"
+    },
+    {
+        "open_code": "Experiencing loss of a relative",
+        "text_passage": "One of my relatives passed because of the COVID.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0037"
+    },
+    {
+        "open_code": "Reporting monthly sexual frequency",
+        "text_passage": "Okay, a minimum, maybe once a month.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0038"
+    },
+    {
+        "open_code": "Feeling satisfied with sex life",
+        "text_passage": "Oh, I'm really satisfied. Yeah.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0039"
+    },
+    {
+        "open_code": "Observing partner responding consistently",
+        "text_passage": "Because she responds the same way, like we did, like [16-20] years ago. So I don't feel any change.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0040"
+    },
+    {
+        "open_code": "Comparing current interaction to 16-20 years ago",
+        "text_passage": "Because she responds the same way, like we did, like [16-20] years ago. So I don't feel any change.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0040"
+    },
+    {
+        "open_code": "Feeling no change in relationship",
+        "text_passage": "Because she responds the same way, like we did, like [16-20] years ago. So I don't feel any change.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0040"
+    },
+    {
+        "open_code": "Offering a response",
+        "text_passage": "I will say.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0041"
+    },
+    {
+        "open_code": "Positioning satisfaction between the last two options",
+        "text_passage": "Also between the last two.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0041"
+    },
+    {
+        "open_code": "Rating satisfaction as nine and a half",
+        "text_passage": "Mmm I would say nine and half.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "Acknowledging imperfection despite high rating",
+        "text_passage": "If I say ten, then you know nothing is perfect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "Describing relationship as pretty",
+        "text_passage": "But it's pretty.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "Stating no further desires or needs",
+        "text_passage": "I mean, there's nothing else I can ask for, so.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "Concluding with acceptance",
+        "text_passage": "I'll just.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0042"
+    },
+    {
+        "open_code": "recognizing imperfection and inevitable bumps",
+        "text_passage": "Because nobody's perfect, and. There's always going to be some bumps there, here and there, but.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0043"
+    },
+    {
+        "open_code": "feeling happy despite bumps",
+        "text_passage": "Besides those bumps. I'm pretty happy now.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0043"
+    },
+    {
+        "open_code": "recalling partner's joking question",
+        "text_passage": "She asked me one question the other day. She's like kind of joking with me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0043"
+    },
+    {
+        "open_code": "imagining partner's possible death",
+        "text_passage": "She's like, oh, what if I'm not, you know, in this world anymore?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0043"
+    },
+    {
+        "open_code": "rejecting partner's remarriage scenario",
+        "text_passage": "You're going to. Remarried to some other people. I'll just say straight. No!",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0043"
+    },
+    {
+        "open_code": "expressing belief that I couldn't find someone like you",
+        "text_passage": "You know I won't be able to find someone like you.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0043"
+    },
+    {
+        "open_code": "Comparing own relationship to friends' marriages and divorces",
+        "text_passage": "some of them get married and got divorced",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0044"
+    },
+    {
+        "open_code": "Feeling lucky about long\u2011term partnership",
+        "text_passage": "I feel I'm pretty lucky enough, you know, to to be with her for all the years",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0044"
+    },
+    {
+        "open_code": "Avoiding criticism of partner",
+        "text_passage": "I don't want to pick on anything",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0044"
+    },
+    {
+        "open_code": "Acknowledging mutual friendships",
+        "text_passage": "she has friends. I have friends",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0044"
+    },
+    {
+        "open_code": "Requesting repetition of explanation",
+        "text_passage": "Can you- Repeat the first one. Again?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0045"
+    },
+    {
+        "open_code": "Apologizing for confusion",
+        "text_passage": "I'm sorry.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0045"
+    },
+    {
+        "open_code": "Hoping to find nominators",
+        "text_passage": "Sure. But I hope I can find.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0046"
+    },
+    {
+        "open_code": "Admitting lack of immediate examples",
+        "text_passage": "I don't have those person on top of my head. I can try, but I cannot promise you I can find two people for you.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0047"
+    },
+    {
+        "open_code": "Offering to attempt locating examples",
+        "text_passage": "I don't have those person on top of my head. I can try, but I cannot promise you I can find two people for you.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0047"
+    },
+    {
+        "open_code": "Stating inability to guarantee finding examples",
+        "text_passage": "I don't have those person on top of my head. I can try, but I cannot promise you I can find two people for you.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_16B_Jon_10-20_High_Median-High_c0047"
+    },
+    {
+        "open_code": "Having children",
+        "text_passage": "Yeah. I got [1-5] children.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Describing family composition",
+        "text_passage": "[1-5] boys and [1-5] girls.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Living together with household members",
+        "text_passage": "All of us together still.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0001"
+    },
+    {
+        "open_code": "Identifying occupation",
+        "text_passage": "I have [occupation]. I am [occupation]",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0002"
+    },
+    {
+        "open_code": "Describing business activities",
+        "text_passage": "and I got some business to for [field] and [field]. In terms of [field] business for, you know, [field] and so forth.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0002"
+    },
+    {
+        "open_code": "Stating similarity with friends' relationships",
+        "text_passage": "it's not that much different.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0003"
+    },
+    {
+        "open_code": "Using cooking metaphor to describe marriage",
+        "text_passage": "just like a recipe really, of making a dish, being in the kitchen for years and years and and you making dinner, you know you know making.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0003"
+    },
+    {
+        "open_code": "Comparing relationship issues to recipe ingredients",
+        "text_passage": "Using a recipe with a variety of different spices, different issues, different tools, different serving, different kind of meat.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0003"
+    },
+    {
+        "open_code": "Acknowledging each relationship has unique issues",
+        "text_passage": "They all have their own issues, their own.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0003"
+    },
+    {
+        "open_code": "Clarifying perspective",
+        "text_passage": "Personally. Me with my friends or other marriages?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0004"
+    },
+    {
+        "open_code": "Posing a question about scope",
+        "text_passage": "Personally. Me with my friends or other marriages?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0004"
+    },
+    {
+        "open_code": "Viewing wife as life partner",
+        "text_passage": "wife is more of your life partner.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Labeling wife as romantic relationship",
+        "text_passage": "it's a romantic relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Identifying wife as mother of kids",
+        "text_passage": "it's a mother of your kids, and it's far more personal.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Seeing wife as far more personal",
+        "text_passage": "it's a mother of your kids, and it's far more personal.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Viewing friends as friendship",
+        "text_passage": "Friends is more of a, you know, a friend friendship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Sharing many things with friends",
+        "text_passage": "you share a lot of things with them",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Doing things for friends",
+        "text_passage": "you do things for them",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Limiting depth of sharing with friends compared to wife",
+        "text_passage": "but not to the same depth as you would do with your own wife.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Linking overall quality to the same person",
+        "text_passage": "I think quality because if this is coming out of the same person, so probably it's it's fairly same quality.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0006"
+    },
+    {
+        "open_code": "Assuming loyalty transfers from spouse to friends",
+        "text_passage": "if you're loyal to wife, most likely going to be loyal to your friends.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0006"
+    },
+    {
+        "open_code": "Extending courtesy and generosity from partner to friends",
+        "text_passage": "If you\u2019re courteous or generous with your wife, you can then be courteous and generous with your friends.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0006"
+    },
+    {
+        "open_code": "Rejecting dullness as a personal trait",
+        "text_passage": "It cannot be, you know, a dull person, you know, And it's it's who you are.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0006"
+    },
+    {
+        "open_code": "Needing a calculator to estimate partner count",
+        "text_passage": "I need a calculator.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Identifying early onset of romantic feelings",
+        "text_passage": "I think I was a romantic since I was [6-10] years old as as far as I can remember.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Being reminded by family of early romance",
+        "text_passage": "And that's been I've been reminded by my family for many years.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Falling in love with a teacher",
+        "text_passage": "And the first thing female that I fell in love with was my teacher",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Remembering only fragment of teacher's name",
+        "text_passage": "I was only [6-10] inches her previous that I remember her name.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Continuing to have relationships through adolescence",
+        "text_passage": "But then from that time on and I kept going, you know, [6-10], [6-10], [11-15], [11-15].",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Recalling previous marriage",
+        "text_passage": "I was actually I was married before, before in my life.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0008"
+    },
+    {
+        "open_code": "Mourning ex\u2011wife's passing",
+        "text_passage": "So I had an ex\u2011wife who unfortunately passed away",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0008"
+    },
+    {
+        "open_code": "Admitting unmatched love",
+        "text_passage": "Most likely, I will never find anybody who loves me like she did.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0008"
+    },
+    {
+        "open_code": "Recognizing ex\u2011wife's honesty",
+        "text_passage": "And she was very honest and very candid of her love to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0008"
+    },
+    {
+        "open_code": "Being younger",
+        "text_passage": "being younger",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Having less responsibility",
+        "text_passage": "with a lot less responsibility",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Focusing on fun",
+        "text_passage": "focusing more on fun",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Vacationing",
+        "text_passage": "vacationing",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Going out",
+        "text_passage": "going out",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Doing things",
+        "text_passage": "doing things",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Experiencing less stress",
+        "text_passage": "there was not a lot stress involved",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Noticing cultural differences",
+        "text_passage": "different cultures and background of both wives",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Feeling happy then",
+        "text_passage": "I was happy then",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Claiming happiness now",
+        "text_passage": "maybe I can claim that I'm happy now",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Looking at the past as better",
+        "text_passage": "we always look at the past as better than the the present",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Wanting children",
+        "text_passage": "wanted to have children",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Realizing previous relationship couldn't achieve goal",
+        "text_passage": "previous relationship was not able to achieve that goal with me",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Getting remarried",
+        "text_passage": "I got remarried",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Emphasizing honesty",
+        "text_passage": "Honesty.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Emphasizing sincerity",
+        "text_passage": "Sincerity.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Valuing sacrifice",
+        "text_passage": "Sacrifices.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Linking sacrifice with giving",
+        "text_passage": "Sacrifice and giving.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Giving generously",
+        "text_passage": "Giving a lot.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Rejecting expectation of reciprocity",
+        "text_passage": "And don't expect to take back this give and give and take care and love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Extending principles to spouse and children",
+        "text_passage": "And that applies to the romantic life with the wife and also in the most difficult time and also with my my own kids as well, yeah.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Feeling something right",
+        "text_passage": "Obviously it's something you feel right.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Sensing things",
+        "text_passage": "you can actually sense things",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Seeing occasions and events",
+        "text_passage": "you see some certain [pause] Occasions and events and and circumstances",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Getting to know a person",
+        "text_passage": "you get to know a person.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Building a good idea of his personality",
+        "text_passage": "to build a good idea of his of his personality.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Realizing honesty doesn't come overnight",
+        "text_passage": "It doesn't come overnight.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Stating consistent honesty",
+        "text_passage": "Yes, it is pretty much the same.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0012"
+    },
+    {
+        "open_code": "Attributing variation to environment",
+        "text_passage": "the only difference would be the environment that causes the cultures",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0012"
+    },
+    {
+        "open_code": "Emphasizing personal principle",
+        "text_passage": "this is who I am, so... the principle is there for you",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0012"
+    },
+    {
+        "open_code": "Seeking clarity",
+        "text_passage": "Clarity.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0013"
+    },
+    {
+        "open_code": "Valuing commitment",
+        "text_passage": "Commitment.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0013"
+    },
+    {
+        "open_code": "Framing relationship as black-and-white",
+        "text_passage": "Black and white.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0013"
+    },
+    {
+        "open_code": "Expressing feeling of certainty",
+        "text_passage": "That's how I feel.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0013"
+    },
+    {
+        "open_code": "Emphasizing dedication",
+        "text_passage": "And the dedication to make it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0013"
+    },
+    {
+        "open_code": "Highlighting sacrifice",
+        "text_passage": "Sacrifice and dedication.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0013"
+    },
+    {
+        "open_code": "Describing mutual love and warmth",
+        "text_passage": "mutual love and warmth",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0013"
+    },
+    {
+        "open_code": "rejecting roses and candy as love",
+        "text_passage": "Love for me is not is not a dozen of roses or or or candy in the heart shape or anything like that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0014"
+    },
+    {
+        "open_code": "defining love as hugging",
+        "text_passage": "To me, love is it could be a hug.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0014"
+    },
+    {
+        "open_code": "defining love as sacrificing",
+        "text_passage": "It could be a nice or the sacrifices.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0014"
+    },
+    {
+        "open_code": "equating love with giving",
+        "text_passage": "Giving That's love and giving.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0014"
+    },
+    {
+        "open_code": "emphasizing unconditional giving",
+        "text_passage": "Unconditional. Giving it is love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0014"
+    },
+    {
+        "open_code": "Affirming love's importance",
+        "text_passage": "Absolutely.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "Predicting negative outcome without love",
+        "text_passage": "Otherwise it will be.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "Warning that without love people become selfish",
+        "text_passage": "And everyone would be selfish and and and just focus on himself.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "Describing lack of love as resulting in unhealthy relationship",
+        "text_passage": "Then it's not going to be is not going to be a healthy relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "Considering love as lasting over years",
+        "text_passage": "when it gets to to become a a long relationship for years and years and years?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0016"
+    },
+    {
+        "open_code": "Distinguishing love from romance",
+        "text_passage": "is not really a romantic thing as much as it is",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0016"
+    },
+    {
+        "open_code": "Giving care to each other",
+        "text_passage": "giving and communicating and and taking care of each other",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0016"
+    },
+    {
+        "open_code": "Supporting each other",
+        "text_passage": "supporting each other",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0016"
+    },
+    {
+        "open_code": "Describing early romance as spark",
+        "text_passage": "the first months of having this passionate thing and and missing each other and exchanging gifts and going out to dinners and then having that romantic and going on vacations",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0016"
+    },
+    {
+        "open_code": "Defining real love as enduring over years",
+        "text_passage": "Love is what it comes afterwards. For years and years.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0016"
+    },
+    {
+        "open_code": "recognizing need for patience",
+        "text_passage": "Challenges is you have to be patient in some cases",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "emphasizing compassion",
+        "text_passage": "you have to be compassionate",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "emphasizing giving",
+        "text_passage": "you have to be giving",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "balancing firmness and flexibility",
+        "text_passage": "sometimes you have to be firm in certain things in life to balance it",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "resisting giving up",
+        "text_passage": "it\u2019s not easy to give up on it",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "anticipating destructive consequences of quitting",
+        "text_passage": "when you do give up on this relationship, the consequences can be far more destructive",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "observing others choosing separation for short\u2011term relief",
+        "text_passage": "the easiest thing, either they separate or divorce and it makes them feel comfortable or maybe relieved for a short period of time",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "regretting not giving the relationship a chance to recover",
+        "text_passage": "the regret not giving it the best chance to recover",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "Working on it",
+        "text_passage": "Keep working on it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Maintaining it",
+        "text_passage": "You have to maintain it all the time.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Tuning it",
+        "text_passage": "You have to tune it all the time.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Keeping it on fire",
+        "text_passage": "You have to keep it on fire, though.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Letting it go to sleep",
+        "text_passage": "Let it go to sleep.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Reviving it",
+        "text_passage": "Don't let it be called revive it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Reminding partner of principles and goals",
+        "text_passage": "always remind your partner with the principles, the goals in life",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Showing love and care",
+        "text_passage": "with love, care",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Doing activities",
+        "text_passage": "doing activities",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Going on vacations",
+        "text_passage": "going on, vacations",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Exchanging things",
+        "text_passage": "exchanging things",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Keeping it active",
+        "text_passage": "You always have to keep it, you know, active.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Replicating family dynamics in own relationship",
+        "text_passage": "you want to replicate this when you get older and have the same, you know, same same family and and and friends around you",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0019"
+    },
+    {
+        "open_code": "Gathering support from extended family",
+        "text_passage": "being in a big family, I was raised in a way that you want to replicate this when you get older and have the same... gathering that support",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0019"
+    },
+    {
+        "open_code": "Linking relationship quality to upbringing",
+        "text_passage": "I always this is how I was raised with a big family",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0019"
+    },
+    {
+        "open_code": "Acknowledging varied personal preferences",
+        "text_passage": "Some people like to be solo. Some people don't like to have kids. Some people do like to get married.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0019"
+    },
+    {
+        "open_code": "Attributing differences to background and culture",
+        "text_passage": "it varies but this is again has has a lot to do with backgrounds and cultures",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0019"
+    },
+    {
+        "open_code": "stating limited personal change",
+        "text_passage": "I wouldn't say they didn't change very much because I always the way I liked to live",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0020"
+    },
+    {
+        "open_code": "emphasizing continuity of self-identity",
+        "text_passage": "who I am haven't changed much",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0020"
+    },
+    {
+        "open_code": "attributing differences to external factors",
+        "text_passage": "different factors in life, different environments",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0020"
+    },
+    {
+        "open_code": "dealing with new behaviors and circumstances",
+        "text_passage": "different behavior that I have to deal with",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0020"
+    },
+    {
+        "open_code": "Feeling more solid and stable",
+        "text_passage": "I've been more solid, more stable",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Recognizing wife's need for help over criticism",
+        "text_passage": "my wife needed help more than criticism",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Gaining compassion and patience to deal with situation",
+        "text_passage": "that gave me some more compassion and and patience to deal with it",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Figuring out how to treat and support her",
+        "text_passage": "figure out a way of treating her and supporting her",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Turning the relationship around dramatically",
+        "text_passage": "that did turn things around. 180 degrees.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Acknowledging imperfection in both partners",
+        "text_passage": "She\u2019s not perfect. I'm not perfect either",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Seeing themselves as better off than divorce and single parenting",
+        "text_passage": "we're better off than. You know, being divorced and and not raising the kids together.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Evaluating the cost of staying together versus divorce",
+        "text_passage": "there is a big price you pay, but it's definitely it's a price that is not less costly to our life than than being divorced and and having kids without parents.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Feeling safe",
+        "text_passage": "Relatively, I would say, yeah.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0022"
+    },
+    {
+        "open_code": "Experiencing lack of danger",
+        "text_passage": "there's no signs of danger",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Being honest and clear",
+        "text_passage": "when you're honest and clear all the time",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Receiving ideas from outside environment",
+        "text_passage": "you get some ideas ... from, from outside environment",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Being influenced by social media and friends",
+        "text_passage": "you hear things and you get influenced by things like social media or friends",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Looking in depth into relationship",
+        "text_passage": "when you look more in depth into your relationship",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Feeling safe",
+        "text_passage": "feeling safe",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Assessing partner's listening as moderately true",
+        "text_passage": "Five.. so five is moderately true.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0024"
+    },
+    {
+        "open_code": "Attributing listening variability to partner's mental status or personality",
+        "text_passage": "Because she has an issue. It could be because of her mental status or. Or her. Her or her personality.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0025"
+    },
+    {
+        "open_code": "Identifying partner's attention issue",
+        "text_passage": "I think she has an attention issue.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0025"
+    },
+    {
+        "open_code": "Describing partner's binary listening pattern",
+        "text_passage": "Sometimes she, she, she's, she's black and white. So either she fully listens to certain things or she doesn't listen to other things.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0025"
+    },
+    {
+        "open_code": "Assessing partner's listening as 50/50",
+        "text_passage": "I would see a 5050 for her.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0025"
+    },
+    {
+        "open_code": "Evaluating partner's capabilities and limitations",
+        "text_passage": "Also same same thing is this things that she can do and she's capable of doing and other stuff she's not. And that's pretty much what it is.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0026"
+    },
+    {
+        "open_code": "expressing uncertainty about sexual frequency",
+        "text_passage": "I don't know.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0027"
+    },
+    {
+        "open_code": "stating that frequency depends on circumstances",
+        "text_passage": "It really depends.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0027"
+    },
+    {
+        "open_code": "describing possible long gaps without sex",
+        "text_passage": "It could be sometime we can go for a couple of weeks without.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0027"
+    },
+    {
+        "open_code": "describing occasional weekly sexual activity",
+        "text_passage": "Or maybe once or twice a week or maybe once a week.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0027"
+    },
+    {
+        "open_code": "reiterating dependence on circumstances",
+        "text_passage": "And it depends.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0027"
+    },
+    {
+        "open_code": "Going months without addressing issues",
+        "text_passage": "And when we have issues, obviously we can go for months without it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0028"
+    },
+    {
+        "open_code": "Learning that everything is perfect",
+        "text_passage": "I had to learn that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Letting go of certain things, desires, and hopes",
+        "text_passage": "You have to let go of certain things and certain desires and hopes and life with you, with with your partner.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Accepting that you cannot have everything",
+        "text_passage": "You cannot have everything.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Noticing that the other side is the same",
+        "text_passage": "And it's also always the same way on the other side.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Allowing life to move on",
+        "text_passage": "Life has to move on.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Feeling fine with it",
+        "text_passage": "I'm fine with it.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Estimating relationship fulfillment",
+        "text_passage": "Relatively I would say 70%.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0030"
+    },
+    {
+        "open_code": "Prioritizing shared interests and parenting",
+        "text_passage": "if you have 50% or more in common with your partner and especially if you have kids.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Encouraging effort in the relationship",
+        "text_passage": "Give it your best shot.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Balancing giving and receiving through sacrifice",
+        "text_passage": "I give a B, I give her and I take her throughout this sacrifice.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Trying to stay open\u2011minded",
+        "text_passage": "Tried to be open minded because.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Worrying about future generations' wellbeing",
+        "text_passage": "quitting that kind of a challenge of life it it's not very hopeful for next generations because when kids are raised with families and parents is really is bad for for our humanity in general and our next generation to build a healthy society.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Viewing home as source of happiness and strength",
+        "text_passage": "happiness and success and strength always comes from the home.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Affirming personal belief about relationship foundations",
+        "text_passage": "And that's what I believe in.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Choosing option one for data sharing",
+        "text_passage": "Probably. I go with option one.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17A_Engy_20_years_Low_Low-Median_c0032"
+    },
+    {
+        "open_code": "Feeling that the partnership differs from friendships",
+        "text_passage": "It's different. Of course it's different. It's totally different.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Describing the relationship as full of love",
+        "text_passage": "my relationship with my partner is full of love",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Experiencing mutual understanding",
+        "text_passage": "understanding each other",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Emphasizing mutual respect",
+        "text_passage": "respect for each other",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Valuing honesty",
+        "text_passage": "very honest.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Stating that honesty equals honesty",
+        "text_passage": "honesty means honesty",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Linking respect to love",
+        "text_passage": "respect brings love after that",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0000"
+    },
+    {
+        "open_code": "Prioritizing respect over love",
+        "text_passage": "Respect is more than love is more important. Because when you respect each other, we will love each other.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0001"
+    },
+    {
+        "open_code": "Linking respect to love",
+        "text_passage": "Respect is more than love is more important. Because when you respect each other, we will love each other.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0001"
+    },
+    {
+        "open_code": "Comparing friendships to romantic partnership",
+        "text_passage": "My relationship with my friends is. There is some common with relationship, is love, respect, understanding each other.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0002"
+    },
+    {
+        "open_code": "Differentiating partner from friend",
+        "text_passage": "But the partner is different than the than the friend.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0002"
+    },
+    {
+        "open_code": "Spending most of the day with partner",
+        "text_passage": "Your partner that you spend most of the day with him, all of the day with him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0003"
+    },
+    {
+        "open_code": "Meeting friend only a few hours",
+        "text_passage": "And the friend, you meet friend [1-5] hours.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0003"
+    },
+    {
+        "open_code": "Questioning significance of number of past partners",
+        "text_passage": "How many, what it means, how.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0004"
+    },
+    {
+        "open_code": "Rejecting the question",
+        "text_passage": "But no, no, no, no.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Referencing past experiences",
+        "text_passage": "In the past.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Seeking clarification",
+        "text_passage": "No, really?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0005"
+    },
+    {
+        "open_code": "Referencing earlier explanation",
+        "text_passage": "Um. As I told you before, this love and respect, understanding each other and hmm",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0006"
+    },
+    {
+        "open_code": "Emphasizing love and respect",
+        "text_passage": "Um. As I told you before, this love and respect, understanding each other and hmm",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0006"
+    },
+    {
+        "open_code": "Describing mutual understanding",
+        "text_passage": "Um. As I told you before, this love and respect, understanding each other and hmm",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0006"
+    },
+    {
+        "open_code": "Prioritizing respect as most important in relationship",
+        "text_passage": "Respect is most important thing in the relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Equating respect with love for partner",
+        "text_passage": "Because when you respect your partner, you mean you love him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Appreciating partner",
+        "text_passage": "You appreciate him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Making partner everything in life",
+        "text_passage": "Become everything in your life.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Viewing partner as most important thing in life",
+        "text_passage": "The most important thing in your life.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0007"
+    },
+    {
+        "open_code": "Situating respect after many years of marriage",
+        "text_passage": "No, not early. Not early. After many years of marriage.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0008"
+    },
+    {
+        "open_code": "Understanding each other",
+        "text_passage": "Understanding each other",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Appreciating each other",
+        "text_passage": "appreciate each other",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0009"
+    },
+    {
+        "open_code": "Highlighting communication",
+        "text_passage": "Communication.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Expecting partner to be friend",
+        "text_passage": "Your partner has to be your friend.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Connecting partner's friendship with relationship quality",
+        "text_passage": "When he becomes your friend, it will be a good relationship, it will be a good relationship.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0010"
+    },
+    {
+        "open_code": "Stating definition of love",
+        "text_passage": "Definition of love.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Describing love as most beautiful",
+        "text_passage": "Love is. The most beautiful thing in the world.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Repeating description of love's beauty",
+        "text_passage": "The most beautiful thing in the world.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Highlighting love's sudden emergence",
+        "text_passage": "And always love comes suddenly without any arrangement.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0011"
+    },
+    {
+        "open_code": "Describing love as unplanned",
+        "text_passage": "You don't arrange to be loved or to love. You don't arrange it. You don't.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0012"
+    },
+    {
+        "open_code": "Experiencing love arriving suddenly",
+        "text_passage": "The love comes suddenly.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0012"
+    },
+    {
+        "open_code": "Defining love as feeling",
+        "text_passage": "Definition is a lovely feeling.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0013"
+    },
+    {
+        "open_code": "Describing feeling as lovely",
+        "text_passage": "It's a lovely feeling.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0014"
+    },
+    {
+        "open_code": "Affirming feeling as central",
+        "text_passage": "It's a feeling.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0014"
+    },
+    {
+        "open_code": "Loving partner",
+        "text_passage": "I love my partner.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "Feeling afraid",
+        "text_passage": "Afraid.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "Feeling not afraid of partner",
+        "text_passage": "Not afraid of him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "Feeling afraid towards partner",
+        "text_passage": "Afraid to him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "Worrying about partner's health",
+        "text_passage": "I always worried he would be good and be in good health.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0015"
+    },
+    {
+        "open_code": "asserting love as essential for a good relationship",
+        "text_passage": "If a relationship with out of it will be not a good relationship, It's. It's.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0016"
+    },
+    {
+        "open_code": "labeling marriage without love as not good",
+        "text_passage": "It's not good in marriage. If marriage without love, it's not good marriage.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0016"
+    },
+    {
+        "open_code": "Feeling loved by partner",
+        "text_passage": "I feel he loves me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "Feeling love intuitively",
+        "text_passage": "I feel that.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "Interpreting love in his behavior",
+        "text_passage": "I feel that in his behavior.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "Reading love in his manners",
+        "text_passage": "In his manners.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "Noticing caring communication",
+        "text_passage": "When he talk to me, when he takes care of me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0017"
+    },
+    {
+        "open_code": "Facing many problems",
+        "text_passage": "Of course, we faced many problems.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0018"
+    },
+    {
+        "open_code": "Facing many problems",
+        "text_passage": "we faced many problems",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0019"
+    },
+    {
+        "open_code": "Trying to solve problems",
+        "text_passage": "we tried to solve it",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0019"
+    },
+    {
+        "open_code": "Listing sources of strain",
+        "text_passage": "Work, home, time, Money. Many things",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0020"
+    },
+    {
+        "open_code": "Raising kids",
+        "text_passage": "Kids. Raising kids. Raising kids. Yeah.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0021"
+    },
+    {
+        "open_code": "Encountering family issues",
+        "text_passage": "The family issues. Family issues.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0022"
+    },
+    {
+        "open_code": "Fighting in the beginning",
+        "text_passage": "We were fighting in the beginning",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Growing up",
+        "text_passage": "When we grow up",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Becoming wiser",
+        "text_passage": "we become more wisdom and more wise",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Becoming calmer",
+        "text_passage": "We become more wise and more calm",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0023"
+    },
+    {
+        "open_code": "Fighting frequently early in marriage",
+        "text_passage": "Many times in the past, in the beginning of marriage, in the beginning of marriage.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0024"
+    },
+    {
+        "open_code": "Understanding each other over time",
+        "text_passage": "after many years of marriage, we understand each other.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0024"
+    },
+    {
+        "open_code": "Appreciating each other over time",
+        "text_passage": "we appreciate each other.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0024"
+    },
+    {
+        "open_code": "Fighting becoming rare",
+        "text_passage": "So the fighting would be very rare.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0024"
+    },
+    {
+        "open_code": "Feeling angry and upset",
+        "text_passage": "I was very angry and very upset.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0025"
+    },
+    {
+        "open_code": "Calming down over time",
+        "text_passage": "And after day after day after day, become calm and become good.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0025"
+    },
+    {
+        "open_code": "Acknowledging that resolution takes time",
+        "text_passage": "Yes, it takes time. Of course it takes time.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0026"
+    },
+    {
+        "open_code": "Stating need for patience",
+        "text_passage": "You need patience.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0026"
+    },
+    {
+        "open_code": "Linking patience to problem solving",
+        "text_passage": "You need patience to solve your problems.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0026"
+    },
+    {
+        "open_code": "Advocating patience, wisdom, and calmness",
+        "text_passage": "You have to be patient and wise and patient and calm.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0026"
+    },
+    {
+        "open_code": "Discouraging nervousness",
+        "text_passage": "Don't be nervous.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0026"
+    },
+    {
+        "open_code": "Discouraging anger",
+        "text_passage": "Don't be.. very angry.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0026"
+    },
+    {
+        "open_code": "Understanding each other",
+        "text_passage": "Understanding each other and appreciate his perception.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0027"
+    },
+    {
+        "open_code": "Appreciating his perception",
+        "text_passage": "Understanding each other and appreciate his perception.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0027"
+    },
+    {
+        "open_code": "Questioning perception",
+        "text_passage": "Perception? I understand his",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0027"
+    },
+    {
+        "open_code": "Feeling loved and cared for by partner",
+        "text_passage": "Because my partner loves me and always takes care of me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0028"
+    },
+    {
+        "open_code": "Perceiving partner's over\u2011involvement in everything",
+        "text_passage": "And always stand with me and stand with me too much in everything.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0028"
+    },
+    {
+        "open_code": "Feeling sick",
+        "text_passage": "When I was sick.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Feeling worried",
+        "text_passage": "When I was worried.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Feeling tired",
+        "text_passage": "When I was tired.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0029"
+    },
+    {
+        "open_code": "Receiving frequent support",
+        "text_passage": "Very often.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0030"
+    },
+    {
+        "open_code": "Experiencing excessive support",
+        "text_passage": "Too much.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0030"
+    },
+    {
+        "open_code": "Perceiving constant support",
+        "text_passage": "Always, Always, always.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0030"
+    },
+    {
+        "open_code": "Being supported",
+        "text_passage": "Support me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0030"
+    },
+    {
+        "open_code": "Affirming relationship changes",
+        "text_passage": "Of course. Of course.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Linking marriage to change",
+        "text_passage": "Because when you when you marry.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Observing relationship strengthening over years",
+        "text_passage": "Many years. Year after year after year the relationship became very strong.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Noting early marriage weakness",
+        "text_passage": "In the beginning of marriage. The relationship is not strong",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Describing parenting as stressor",
+        "text_passage": "when you have kids and when you're raising kids together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Describing joint problem solving",
+        "text_passage": "when you face problems together",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Describing cohabitation impact",
+        "text_passage": "when you live together.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "Predicting eventual strength",
+        "text_passage": "But the relationship will be strong.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0031"
+    },
+    {
+        "open_code": "becoming more mature",
+        "text_passage": "Become more mature. More mature.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0032"
+    },
+    {
+        "open_code": "becoming more wise",
+        "text_passage": "More wise..",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0032"
+    },
+    {
+        "open_code": "becoming more patient",
+        "text_passage": "More patient.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0032"
+    },
+    {
+        "open_code": "lacking perspective previously",
+        "text_passage": "I didn't. I. I don't have this perspective. I don't have this perspective.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0032"
+    },
+    {
+        "open_code": "gaining new perspective",
+        "text_passage": "Change me too much and become.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0032"
+    },
+    {
+        "open_code": "Reflecting on past maturity",
+        "text_passage": "Before marriage I was mature but now I, I more mature than before.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0033"
+    },
+    {
+        "open_code": "Recognizing increased maturity after marriage",
+        "text_passage": "Before marriage I was mature but now I, I more mature than before.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0033"
+    },
+    {
+        "open_code": "Acknowledging aging",
+        "text_passage": "Because I am getting old. I get old. I'm getting older.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0034"
+    },
+    {
+        "open_code": "Comparing current relationship to past",
+        "text_passage": "More than before.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0034"
+    },
+    {
+        "open_code": "Observing partner changing excessively",
+        "text_passage": "Too much. Too much. Changed too much. Yeah, of course.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0035"
+    },
+    {
+        "open_code": "Changing for the better",
+        "text_passage": "He changed better.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0036"
+    },
+    {
+        "open_code": "Framing improvement as a better way",
+        "text_passage": "Better way.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0036"
+    },
+    {
+        "open_code": "Becoming better",
+        "text_passage": "Became better.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0036"
+    },
+    {
+        "open_code": "Observing partner's behavior",
+        "text_passage": "Everything in his behavior",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0037"
+    },
+    {
+        "open_code": "Listening to partner's speech",
+        "text_passage": "Speech",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0037"
+    },
+    {
+        "open_code": "Interpreting partner's language",
+        "text_passage": "in his language",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0037"
+    },
+    {
+        "open_code": "Noticing partner's behaviors",
+        "text_passage": "in his behaviors",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0037"
+    },
+    {
+        "open_code": "Identifying many ways",
+        "text_passage": "Many ways",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0037"
+    },
+    {
+        "open_code": "Receiving constant communication",
+        "text_passage": "He always talks to me. He always talked to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0038"
+    },
+    {
+        "open_code": "Experiencing calm communication",
+        "text_passage": "He talks to me. Very calm",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0039"
+    },
+    {
+        "open_code": "Feeling respected",
+        "text_passage": "very respectful, respectful",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0039"
+    },
+    {
+        "open_code": "Receiving loving speech",
+        "text_passage": "speak with love",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0039"
+    },
+    {
+        "open_code": "Perceiving merciful tone",
+        "text_passage": "Will speak with mercy",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0039"
+    },
+    {
+        "open_code": "Evaluating current relationship quality as improved",
+        "text_passage": "Now is better than before.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0040"
+    },
+    {
+        "open_code": "Recalling partner's past impatience",
+        "text_passage": "He was not patient.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0040"
+    },
+    {
+        "open_code": "Recalling partner's past nervousness",
+        "text_passage": "He always nervous.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0040"
+    },
+    {
+        "open_code": "Observing partner becoming calmer",
+        "text_passage": "But now he became more calm",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0040"
+    },
+    {
+        "open_code": "Observing partner becoming more mature",
+        "text_passage": "more mature",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0040"
+    },
+    {
+        "open_code": "Observing partner becoming wiser",
+        "text_passage": "more wise than before",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0040"
+    },
+    {
+        "open_code": "Linking partner's change to aging",
+        "text_passage": "He changed because he ... is getting old. He is getting older.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0040"
+    },
+    {
+        "open_code": "Feeling protected by husband",
+        "text_passage": "my husband always protects me, he, he he he's protective for me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0041"
+    },
+    {
+        "open_code": "Experiencing husband shielding me from everything",
+        "text_passage": "He protects me from everything.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0041"
+    },
+    {
+        "open_code": "Feeling afraid and relying on husband",
+        "text_passage": "And when I'm afraid.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0041"
+    },
+    {
+        "open_code": "Feeling worried and relying on husband",
+        "text_passage": "When I'm worried, when I'm.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0041"
+    },
+    {
+        "open_code": "Receiving care, talk, and calmness from husband",
+        "text_passage": "He always takes care of me and talks to me and makes me calm.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0041"
+    },
+    {
+        "open_code": "Confirming partner's consistency",
+        "text_passage": "Very, very true. Very true. Completely true.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0042"
+    },
+    {
+        "open_code": "Feeling heard by partner",
+        "text_passage": "Listen to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0042"
+    },
+    {
+        "open_code": "Experiencing partner always talking to me",
+        "text_passage": "He always talks to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0042"
+    },
+    {
+        "open_code": "Receiving consistent responses",
+        "text_passage": "Because he always responds.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0043"
+    },
+    {
+        "open_code": "Having needs and requirements addressed",
+        "text_passage": "All my questions, my needs, my requirements.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0043"
+    },
+    {
+        "open_code": "Listening to me",
+        "text_passage": "he always listened to me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0044"
+    },
+    {
+        "open_code": "Asking about my feelings",
+        "text_passage": "he always told me, Tell me what? You, what? What happened? What do you? What do you feel?",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0044"
+    },
+    {
+        "open_code": "Taking care of me",
+        "text_passage": "he always takes care of me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0044"
+    },
+    {
+        "open_code": "Worrying about me",
+        "text_passage": "He\u2019s always worried about me when I was tired.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0044"
+    },
+    {
+        "open_code": "Laughing while describing sexual frequency",
+        "text_passage": "[laughs]",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0045"
+    },
+    {
+        "open_code": "Reporting sexual frequency as once or twice weekly",
+        "text_passage": "Once a week. Twice a week.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0045"
+    },
+    {
+        "open_code": "Negotiating problems",
+        "text_passage": "Because sometimes they have problems and you have negotiation.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0046"
+    },
+    {
+        "open_code": "Experiencing struggles",
+        "text_passage": "We have some struggle, some simple struggles.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0046"
+    },
+    {
+        "open_code": "Acknowledging imperfection",
+        "text_passage": "Not everything would be good.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0046"
+    },
+    {
+        "open_code": "Rejecting notion of perfection",
+        "text_passage": "Perfect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0047"
+    },
+    {
+        "open_code": "Repeating 'nobody's perfect' to stress universality",
+        "text_passage": "Nobody's perfect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0047"
+    },
+    {
+        "open_code": "Repeating 'nobody's perfect' to stress universality",
+        "text_passage": "Nobody's perfect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0047"
+    },
+    {
+        "open_code": "Admitting own imperfection",
+        "text_passage": "I'm not perfect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0047"
+    },
+    {
+        "open_code": "Admitting partner's imperfection",
+        "text_passage": "He's not perfect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0047"
+    },
+    {
+        "open_code": "Repeating 'nobody's perfect' to stress universality",
+        "text_passage": "Nobody's perfect.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0047"
+    },
+    {
+        "open_code": "Loving my partner",
+        "text_passage": "Because I love my partner.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Respecting him",
+        "text_passage": "I respect him and he or he is the same.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Feeling loved by him",
+        "text_passage": "He's he loves me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Feeling respected by him",
+        "text_passage": "He respects me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Receiving care from him",
+        "text_passage": "He takes care of me.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Observing his responsibility",
+        "text_passage": "He's very responsible.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Seeing his responsibility toward family",
+        "text_passage": "he always takes care of everybody in the family.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Valuing his beautiful character",
+        "text_passage": "This is the most, the most beautiful thing in his character.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Appreciating him",
+        "text_passage": "I appreciate him.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0048"
+    },
+    {
+        "open_code": "Emphasizing family as the most important thing",
+        "text_passage": "No, but I want to say the family is the most important thing in our life.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0049"
+    },
+    {
+        "open_code": "Linking good family and partner to overall importance",
+        "text_passage": "If you have a good family, if you have a good partner, this is the most important thing in life because work and friends and all this you can compensate your.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0049"
+    },
+    {
+        "open_code": "Contrasting family with work and friends as compensable",
+        "text_passage": "Compensate, you can compensate it. But family, this this is the most important thing in life.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0049"
+    },
+    {
+        "open_code": "Associating family happiness with beautiful life",
+        "text_passage": "If you have happiness in your family, this is the most beautiful thing in life.",
+        "chunk_id": "Silan-Ciruelas_USA_Opt1_17B_Engy_20_years_Low_Low-Median_c0049"
+    }
+]
