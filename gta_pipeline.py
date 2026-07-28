@@ -74,3 +74,70 @@ def run_selective_coding(axial_relations, model_type="local", tradition=DEFAULT_
     relations_text = json.dumps(axial_relations, indent=2)
     
     return call_llm(P.selective, relations_text, model_type)
+
+
+# ===========================================================================
+# Charmaz constructivist-GT steps (memo-writing + integration).
+#
+# These are ADDITIVE and only invoked on the Charmaz arm; the Straussian path
+# above is untouched. Memos are real artifacts (they feed the reflection loop
+# and the final integration), so they get their own pipeline functions rather
+# than being folded into coding. See prompts_charmaz_recursion.py.
+# ===========================================================================
+
+def run_initial_memo(open_codes, model_type="local"):
+    """Charmaz Step 4 — initial memo-writing over the initial codes.
+
+    Reason-then-write: the prompt asks the model to reason about meaning and
+    cross-incident comparison before emitting each memo. Returns a parsed dict
+    ({"memos": [...]}) or a fallback envelope on parse failure.
+    """
+    from prompts_charmaz_recursion import INITIAL_MEMO_PROMPT
+    coded_data = "\n".join(
+        f"- {oc.get('open_code', '')}  ::  {oc.get('text_passage', '')}"
+        for oc in open_codes
+        if isinstance(oc, dict) and "__status__" not in oc
+    )
+    print("  -> Writing initial memos...")
+    raw = call_llm(INITIAL_MEMO_PROMPT, coded_data, model_type)
+    return _safe_parse(raw, fallback={"memos": [], "__raw__": raw})
+
+
+def run_advanced_memo(focused_categories, model_type="local"):
+    """Charmaz Step 6 — advanced memo-writing over the focused categories.
+
+    Must name thin/ambiguous areas: those feed gap-focused re-sampling in the
+    reflection loop. Returns a parsed dict ({"memos": [...]}).
+    """
+    from prompts_charmaz_recursion import ADVANCED_MEMO_PROMPT
+    cats_text = json.dumps(focused_categories, indent=2)
+    print("  -> Writing advanced memos...")
+    raw = call_llm(ADVANCED_MEMO_PROMPT, cats_text, model_type)
+    return _safe_parse(raw, fallback={"memos": [], "__raw__": raw})
+
+
+def run_memo_sorting(focused_categories, memos, model_type="local"):
+    """Charmaz Step 9 — sort & integrate memos into the theoretical account.
+
+    This is the Charmaz arm's terminal step (replaces the selective-coding call
+    for this tradition). Returns the integrated account as text (Markdown).
+    """
+    from prompts_charmaz_recursion import MEMO_SORTING_PROMPT
+    prompt = MEMO_SORTING_PROMPT.format(
+        focused_categories=json.dumps(focused_categories, indent=2),
+        memos=json.dumps(memos, indent=2),
+    )
+    print("  -> Sorting memos into integrated theoretical account...")
+    return call_llm(prompt, "", model_type)
+
+
+def _safe_parse(raw, fallback):
+    """Shared parse-and-clean for the Charmaz memo calls (same contract as the
+    coding functions above)."""
+    if not raw or not raw.strip():
+        return fallback
+    try:
+        clean = raw.strip().strip("```json").strip("```")
+        return json.loads(clean)
+    except json.JSONDecodeError:
+        return fallback

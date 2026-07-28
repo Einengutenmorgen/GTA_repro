@@ -4,11 +4,25 @@ import glob
 import json
 from PyPDF2 import PdfReader
 from gta_pipeline import run_open_coding, run_axial_coding, run_selective_coding
+from gta_pipeline import run_initial_memo, run_advanced_memo, run_memo_sorting
 from chunking import chunk_transcript, iter_qa_units
 from question_sim import build_question_sim_cache
 from slot_recursion import resolve_category, empty_slots
+from charmaz_loop import (
+    slice_sources, run_charmaz_loop,
+    DEFAULT_SATURATION_THRESHOLD, DEFAULT_MAX_ITERATIONS,
+)
 from llm_client import call_llm
 import time
+
+# --- Charmaz loop parameters (control-relevant; disclosed) ------------------
+# slice_size    : interviews per slice; slice 1 seeds the forward pass, the
+#                 rest feed the reflection loop.
+# SATURATION_*  : absorbed-fraction stop threshold (tuned like alignment thr).
+# MAX_ITER      : hard cap on loop passes.
+CHARMAZ_SLICE_SIZE = 5
+CHARMAZ_SATURATION_THRESHOLD = DEFAULT_SATURATION_THRESHOLD
+CHARMAZ_MAX_ITERATIONS = DEFAULT_MAX_ITERATIONS
 
 BASE_DATA_DIR = "data/RelationshipQuality"
 
@@ -111,7 +125,8 @@ def main():
     # Which GT tradition drives the prompts + whether slot recursion runs.
     # "straussian" -> open/axial/selective + paradigm-slot escalation ladder
     # "charmaz"    -> initial/focused/theoretical, NO slot recursion (no paradigm)
-    TRADITION = "straussian"
+    #TRADITION = "straussian"
+    TRADITION = "charmaz"
     
     target_countries = [
         #"Silan-Ciruelas_BRA",
@@ -169,56 +184,170 @@ def main():
             qsim.save(os.path.join(output_dir, "question_sim_cache.pkl"))
             print(f"  {qsim.summary()}\n")
 
-        # 3. Open Coding
-        print("=== Phase 1: Open Coding ===")
-        open_codes = run_open_coding(chunks, MODEL_TO_USE, tradition=TRADITION)
-        open_out_path = os.path.join(output_dir, "output_open_codes.json")
-        
-        with open(open_out_path, "w") as f:
-            json.dump(open_codes, f, indent=4)
-        print(f"Saved -> {open_out_path}\n")
-
-        #contuinue from step 2 
-        # with open('/Users/christophhau/Desktop/GTA/data/RelationshipQuality/output_Silan-Ciruelas_USA_Silan-Ciruelas_USA_Opt1/output_open_codes.json', "r") as f:
-        #     open_codes=json.load(f)
-        
-        # for oc in open_codes:
-        #     print(oc)
-        #     continue
+        # The coding phases branch by tradition. The Straussian block is
+        # unchanged from prior versions (open→axial→slot-escalation→selective).
+        # The Charmaz block runs its own slice-driven constructivist flow
+        # (initial+memo on slice 1 → focused+memo → reflection loop over the
+        # remaining slices → memo-sorting integration).
+        if TRADITION == "straussian":
+            run_straussian_arm(chunks, chunk_index=chunk_index,
+                               qsim=qsim, output_dir=output_dir, model=MODEL_TO_USE)
+        elif TRADITION == "charmaz":
+            run_charmaz_arm(chunks, chunk_index=chunk_index, output_dir=output_dir,
+                            model=MODEL_TO_USE)
+        else:
+            raise ValueError(f"unknown TRADITION {TRADITION!r}")
 
 
-        # 4. Axial Coding (Now correctly saving as JSON)
-        print("=== Phase 2: Axial Coding ===")
-        axial_relations = run_axial_coding(open_codes, MODEL_TO_USE, tradition=TRADITION)
-        axial_out_path = os.path.join(output_dir, "output_axial_codes.json")
-        
-        with open(axial_out_path, "w") as f:
+def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model):
+    """Straussian open→axial→slot-escalation→selective. Behavior preserved
+    verbatim from the single-tradition version; only lifted into a function so
+    the Charmaz arm can sit beside it without touching this path."""
+    TRADITION = "straussian"
+    MODEL_TO_USE = model
+
+    # 3. Open Coding
+    print("=== Phase 1: Open Coding ===")
+    open_codes = run_open_coding(chunks, MODEL_TO_USE, tradition=TRADITION)
+    open_out_path = os.path.join(output_dir, "output_open_codes.json")
+
+    with open(open_out_path, "w") as f:
+        json.dump(open_codes, f, indent=4)
+    print(f"Saved -> {open_out_path}\n")
+
+    # 4. Axial Coding (Now correctly saving as JSON)
+    print("=== Phase 2: Axial Coding ===")
+    axial_relations = run_axial_coding(open_codes, MODEL_TO_USE, tradition=TRADITION)
+    axial_out_path = os.path.join(output_dir, "output_axial_codes.json")
+
+    with open(axial_out_path, "w") as f:
+        json.dump(axial_relations, f, indent=4)
+    print(f"Saved -> {axial_out_path}\n")
+
+    # 4b. Empty-slot escalation (Straussian paradigm recall only)
+    if qsim is not None:
+        print("=== Phase 2b: Empty-Slot Escalation (paradigm recall) ===")
+        axial_relations, slot_traces = run_slot_recursion(
+            axial_relations, open_codes, chunk_index, qsim, MODEL_TO_USE
+        )
+        resolved_out_path = os.path.join(output_dir, "output_axial_codes_resolved.json")
+        with open(resolved_out_path, "w") as f:
             json.dump(axial_relations, f, indent=4)
-        print(f"Saved -> {axial_out_path}\n")
+        trace_out_path = os.path.join(output_dir, "output_slot_traces.json")
+        with open(trace_out_path, "w") as f:
+            json.dump(slot_traces, f, indent=4)
+        print(f"Saved -> {resolved_out_path}")
+        print(f"Saved -> {trace_out_path}\n")
 
-        # 4b. Empty-slot escalation (Straussian paradigm recall only)
-        if TRADITION == "straussian" and qsim is not None:
-            print("=== Phase 2b: Empty-Slot Escalation (paradigm recall) ===")
-            axial_relations, slot_traces = run_slot_recursion(
-                axial_relations, open_codes, chunk_index, qsim, MODEL_TO_USE
-            )
-            resolved_out_path = os.path.join(output_dir, "output_axial_codes_resolved.json")
-            with open(resolved_out_path, "w") as f:
-                json.dump(axial_relations, f, indent=4)
-            trace_out_path = os.path.join(output_dir, "output_slot_traces.json")
-            with open(trace_out_path, "w") as f:
-                json.dump(slot_traces, f, indent=4)
-            print(f"Saved -> {resolved_out_path}")
-            print(f"Saved -> {trace_out_path}\n")
+    # 5. Selective Coding (Still saves as Markdown)
+    print("=== Phase 3: Selective Coding ===")
+    final_theory = run_selective_coding(axial_relations, MODEL_TO_USE, tradition=TRADITION)
+    theory_out_path = os.path.join(output_dir, "output_final_theory.md")
 
-        # 5. Selective Coding (Still saves as Markdown)
-        print("=== Phase 3: Selective Coding ===")
-        final_theory = run_selective_coding(axial_relations, MODEL_TO_USE, tradition=TRADITION)
-        theory_out_path = os.path.join(output_dir, "output_final_theory.md")
-        
-        with open(theory_out_path, "w") as f:
-            f.write(final_theory)
-        print(f"Saved -> {theory_out_path}\n")
+    with open(theory_out_path, "w") as f:
+        f.write(final_theory)
+    print(f"Saved -> {theory_out_path}\n")
+
+
+def run_charmaz_arm(chunks, chunk_index, output_dir, model):
+    """Charmaz constructivist-GT arm: slice-driven initial→focused→loop→integrate.
+
+    Slice 1 seeds the forward pass (initial coding + initial memo → focused
+    coding + advanced memo). The reflection loop then processes the remaining
+    slices, testing whether existing focused categories absorb each fresh slice
+    and re-sampling (re-coding) where they do not, until saturation / max-iter /
+    corpus exhaustion. The final integrated account comes from memo-sorting.
+    """
+    MODEL_TO_USE = model
+    llm = lambda sp, ut: call_llm(sp, ut, MODEL_TO_USE)
+
+    # Partition participants into slices; slice 1 seeds the forward pass.
+    all_sources = [c["source_id"] for c in chunks]
+    slices = slice_sources(all_sources, CHARMAZ_SLICE_SIZE)
+    if not slices:
+        print("No participants to code for Charmaz arm. Skipping.\n")
+        return
+    seed_sources = set(slices[0])
+    remaining_slices = slices[1:]
+    seed_chunks = [c for c in chunks if c["source_id"] in seed_sources]
+    print(f"Charmaz slices: {len(slices)} (slice_size={CHARMAZ_SLICE_SIZE}); "
+          f"seed slice has {len(seed_sources)} participant(s), "
+          f"{len(remaining_slices)} slice(s) feed the reflection loop.\n")
+
+    # --- Phase 1: Initial Coding (slice 1) ----------------------------------
+    print("=== Phase 1: Initial Coding (seed slice) ===")
+    initial_codes = run_open_coding(seed_chunks, MODEL_TO_USE, tradition="charmaz")
+    with open(os.path.join(output_dir, "output_initial_codes.json"), "w") as f:
+        json.dump(initial_codes, f, indent=4)
+    print(f"Saved -> output_initial_codes.json\n")
+
+    # --- Phase 1b: Initial Memo-Writing -------------------------------------
+    print("=== Phase 1b: Initial Memo-Writing ===")
+    initial_memo = run_initial_memo(initial_codes, MODEL_TO_USE)
+    with open(os.path.join(output_dir, "output_initial_memos.json"), "w") as f:
+        json.dump(initial_memo, f, indent=4)
+    print(f"Saved -> output_initial_memos.json\n")
+
+    # --- Phase 2: Focused Coding (slice 1) ----------------------------------
+    print("=== Phase 2: Focused Coding (seed slice) ===")
+    focused = run_axial_coding(initial_codes, MODEL_TO_USE, tradition="charmaz")
+    with open(os.path.join(output_dir, "output_focused_codes.json"), "w") as f:
+        json.dump(focused, f, indent=4)
+    print(f"Saved -> output_focused_codes.json\n")
+
+    # Focused output may be a parse-failure dict; normalize to a list.
+    focused_categories = focused if isinstance(focused, list) else []
+
+    # --- Phase 2b: Advanced Memo-Writing (names thin areas) -----------------
+    print("=== Phase 2b: Advanced Memo-Writing ===")
+    advanced_memo = run_advanced_memo(focused_categories, MODEL_TO_USE)
+    with open(os.path.join(output_dir, "output_advanced_memos_seed.json"), "w") as f:
+        json.dump(advanced_memo, f, indent=4)
+    print(f"Saved -> output_advanced_memos_seed.json\n")
+
+    # --- Phase 3: Reflection Loop (theoretical re-sampling over slices) -----
+    print("=== Phase 3: Reflection Loop (slice-driven saturation) ===")
+    loop = run_charmaz_loop(
+        initial_categories=focused_categories,
+        initial_advanced_memo=advanced_memo,
+        remaining_slices=remaining_slices,
+        chunk_index=chunk_index,
+        call_llm=llm,
+        saturation_threshold=CHARMAZ_SATURATION_THRESHOLD,
+        max_iterations=CHARMAZ_MAX_ITERATIONS,
+    )
+    print(f"  -> stop_reason={loop['stop_reason']!r}, "
+          f"saturation_reached={loop['saturation_reached']}, "
+          f"iterations={loop['n_iterations']}")
+
+    focused_categories = loop["final_categories"]
+    final_advanced_memo = loop["final_advanced_memo"]
+
+    with open(os.path.join(output_dir, "output_focused_codes_final.json"), "w") as f:
+        json.dump(focused_categories, f, indent=4)
+    with open(os.path.join(output_dir, "output_advanced_memos_final.json"), "w") as f:
+        json.dump(final_advanced_memo, f, indent=4)
+    # The change-tree is the publishable artifact of the loop.
+    with open(os.path.join(output_dir, "output_charmaz_change_tree.json"), "w") as f:
+        json.dump({
+            "saturation_reached": loop["saturation_reached"],
+            "stop_reason": loop["stop_reason"],
+            "n_iterations": loop["n_iterations"],
+            "slice_size": CHARMAZ_SLICE_SIZE,
+            "saturation_threshold": CHARMAZ_SATURATION_THRESHOLD,
+            "max_iterations": CHARMAZ_MAX_ITERATIONS,
+            "change_tree": loop["change_tree"],
+        }, f, indent=4)
+    print(f"Saved -> output_focused_codes_final.json")
+    print(f"Saved -> output_advanced_memos_final.json")
+    print(f"Saved -> output_charmaz_change_tree.json\n")
+
+    # --- Phase 4: Memo Sorting & Integration (theoretical account) ----------
+    print("=== Phase 4: Sorting & Integration ===")
+    final_theory = run_memo_sorting(focused_categories, final_advanced_memo, MODEL_TO_USE)
+    with open(os.path.join(output_dir, "output_final_theory.md"), "w") as f:
+        f.write(final_theory or "")
+    print(f"Saved -> output_final_theory.md\n")
 
 if __name__ == "__main__":
     main()
