@@ -9,3 +9,4 @@ data/.DS_Store
 data/RelationshipQuality/.DS_Store
 verify_semeval_prompts.py
 data/dataset
+data/.DS_Store
