@@ -29,22 +29,48 @@ the 22 fine-grained roles (Guardian, Deceiver, Tyrant, Scapegoat, ...),
 nor even that a fixed taxonomy exists. The study measures whether
 inductive coding recovers that human scheme; leaking it here would
 turn recovery into classification and destroy the comparison. This
-block describes only the task shape (how the article portrays each
-named entity) and the analytic aim -- never the categories.
+block describes only the task shape and the analytic aim -- never the
+categories.
+
+Revision note (grounded in Piskorski et al., "SemEval-2025 Task 10:
+Multilingual Characterization and Extraction of Narratives from Online
+News"): the task's own framing and annotation guidelines describe
+entity framing as assigning each entity a "role" that is "central to
+the article's story," chosen from a "taxonomy of roles." The first
+draft of this block used near-synonyms of that exact vocabulary --
+"portrays," "stance," "characterization," "framing the text assigns"
+-- which sits closer to restating the task than to a neutral orienting
+block; a model with parametric knowledge of the paper could plausibly
+connect "portrayal/characterization of named entities" straight back
+to the protagonist/antagonist/innocent role scheme without a single
+banned term appearing. The revision below instead anchors on concrete,
+behavior-level description (what the text attributes to / claims about
+/ associates with an entity) rather than the abstraction level ("role,"
+"portrayal," "characterization") the task itself operates at, and
+explicitly disclaims any predetermined scheme -- without naming or
+even gesturing at what that scheme might look like (e.g. it does NOT
+say anything like "not hero/villain roles," since naming a plausible
+answer shape as a negative example is itself a leak).
 """
 from __future__ import annotations
 
 # --- SemEval-2025 Task 10 (entity framing in news/opinion articles) --------
 # Kept deliberately parallel in register to the Silan STUDY CONTEXT blocks:
 # an "orienting focus only" disclaimer, then bullets for genre, analytic
-# aim, and unit of analysis. Reused verbatim across both traditions and
-# across all three coding stages (open/axial/selective, initial/focused/
-# theoretical) -- the tradition-specific instructions below it already
-# exist unchanged and are what varies instead.
+# aim, entity focus, and unit of analysis. Reused verbatim across both
+# traditions and across all three coding stages (open/axial/selective,
+# initial/focused/theoretical) -- the tradition-specific instructions
+# below it already exist unchanged and are what varies instead.
+#
+# Deliberately avoids "portray(al)," "stance," "characterization," and
+# "framing" -- the task's own vocabulary for what an entity role IS --
+# in favor of concrete, behavior-level description (attributed actions,
+# judgments, associated effects). See the revision note above for why.
 SEMEVAL_STUDY_CONTEXT = """STUDY CONTEXT (orienting focus only — do NOT treat as a list of expected findings or as an allowed set of categories):
-- Text genre: news and opinion articles. Each article names one or more specific entities (people, organizations, states, or groups) and takes a stance toward at least one of them.
-- Analytic aim: to surface how the article itself portrays each named entity — the stance, characterization, or framing the text assigns to that entity — described in the article's own terms.
-- Unit of analysis: treat the whole article as a single unit; several entities may be named within it, but you are coding the article's overall portrayal of them, not scoring entities against a checklist."""
+- Text genre: news and opinion articles on contested current-affairs topics (e.g. the war in Ukraine, or debates over climate-change policy). Each article names specific entities — people, organizations, or groups — and says things about them over the course of the piece.
+- Analytic aim: to notice, in the article's own words, what the text actually attributes to or claims about each named entity — actions it says the entity took, judgments it makes about the entity, effects it ties the entity to. Build codes from those specific words and claims; do not assume any predetermined scheme of how entities function in the story, and do not sort entities into fixed types before the data itself shows you why.
+- Entity focus: only entities that are central to the article's own story are worth coding; a name mentioned once in passing, with nothing said about it, is not.
+- Unit of analysis: treat the whole article as a single unit; several entities may be named within it, but you are coding the article as a whole, not producing a separate profile per entity."""
 
 # Registry of swappable dataset contexts, keyed by the `dataset` argument
 # accepted by prompt_registry.get_prompts(). "silan" is intentionally NOT

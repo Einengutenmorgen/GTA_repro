@@ -2,10 +2,11 @@
 import os 
 import glob
 import json
-from PyPDF2 import PdfReader
+#from PyPDF2 import PdfReader
 from gta_pipeline import run_open_coding, run_axial_coding, run_selective_coding
 from gta_pipeline import run_initial_memo, run_advanced_memo, run_memo_sorting
 from chunking import chunk_transcript, iter_qa_units
+from article_chunking import extract_and_chunk_articles
 from question_sim import build_question_sim_cache
 from slot_recursion import resolve_category, empty_slots
 from charmaz_loop import (
@@ -13,6 +14,7 @@ from charmaz_loop import (
     DEFAULT_SATURATION_THRESHOLD, DEFAULT_MAX_ITERATIONS,
 )
 from llm_client import call_llm
+from prompt_registry import DEFAULT_DATASET
 import time
 
 # --- Charmaz loop parameters (control-relevant; disclosed) ------------------
@@ -24,7 +26,32 @@ CHARMAZ_SLICE_SIZE = 5
 CHARMAZ_SATURATION_THRESHOLD = DEFAULT_SATURATION_THRESHOLD
 CHARMAZ_MAX_ITERATIONS = DEFAULT_MAX_ITERATIONS
 
+# --- Dataset selection (independent of TRADITION, set in main()) -----------
+# "silan"   -> (default) Silan-Ciruelas relationship-quality interviews.
+#              PDF transcripts under BASE_DATA_DIR, Q&A-aware chunking
+#              (chunking.py), question-similarity index + Straussian
+#              slot-escalation. Unchanged from before `dataset` existed.
+# "semeval" -> SemEval-2025 Task 10 entity-framing articles. Plain-text
+#              files under SEMEVAL_BASE_DATA_DIR, whole-article chunking
+#              (article_chunking.py). No question-similarity index / slot
+#              escalation -- those are Q&A-interview-specific retrieval
+#              mechanisms that don't apply to standalone articles; they are
+#              skipped for this dataset rather than adapted.
+# Only the STUDY CONTEXT the model sees changes between datasets (see
+# study_contexts.py / prompt_registry.get_prompts); tradition-specific
+# coding logic below is untouched either way.
 BASE_DATA_DIR = "data/RelationshipQuality"
+
+# Point this at the root of your SemEval-2025 Task 10 download -- the
+# official release layout is:
+#   <SEMEVAL_BASE_DATA_DIR>/{train,dev}/labels/<LANG>/subtask-{1,2,3}-annotations.txt  (GOLD LABELS -- never read)
+#   <SEMEVAL_BASE_DATA_DIR>/{train,dev,test}/raw-documents/<LANG>/<article_id>.txt     (articles -- what we chunk)
+# `target_folders` below must therefore point at a raw-documents/<LANG>
+# subtree, NOT a split root, so the labels/ sibling directory is never even
+# globbed. article_chunking.py additionally hard-excludes any "labels"
+# directory component or "annotation"-like filename as defense in depth, in
+# case target_folders is ever pointed too high up the tree by mistake.
+SEMEVAL_BASE_DATA_DIR = "data/dataset"
 
 def extract_and_chunk_interviews(target_dir, pairs_per_chunk=1, unit=None):
     """Q&A-aware chunking: one interviewer-question + participant-answer per chunk
@@ -121,51 +148,100 @@ def run_slot_recursion(axial_relations, open_codes, chunk_index, qsim, model_typ
 
 def main():
     # Set to "proprietary" if you want to use OpenAI directly
-    MODEL_TO_USE = "proprietary" 
+    MODEL_TO_USE = "proprietary"
     # Which GT tradition drives the prompts + whether slot recursion runs.
     # "straussian" -> open/axial/selective + paradigm-slot escalation ladder
     # "charmaz"    -> initial/focused/theoretical, NO slot recursion (no paradigm)
     #TRADITION = "straussian"
     TRADITION = "charmaz"
-    
-    target_countries = [
-        #"Silan-Ciruelas_BRA",
-        #"Silan-Ciruelas_FRA",
-        #"Silan-Ciruelas_PHL",
-        #"Silan-Ciruelas_TUR",
-        #"Silan-Ciruelas_USA"
-        "Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1"
-        #"Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1and2"
-    ]
 
-    for folder_name in target_countries:
+    # Which STUDY CONTEXT the prompts are focused on. Defaults to "silan" --
+    # unchanged behavior from before this existed. Set to "semeval" to run
+    # the same TRADITION over the SemEval-2025 Task 10 article corpus instead.
+    # DATASET = DEFAULT_DATASET  # "silan"
+    DATASET = "semeval"
+
+    if DATASET == "silan":
+        print('Select silian as data')
+        base_dir = BASE_DATA_DIR
+        target_folders = [
+            #"Silan-Ciruelas_BRA",
+            #"Silan-Ciruelas_FRA",
+            #"Silan-Ciruelas_PHL",
+            #"Silan-Ciruelas_TUR",
+            #"Silan-Ciruelas_USA"
+            "Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1"
+            #"Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1and2"
+        ]
+    elif DATASET == "semeval":
+        print('Select Semeval as data')
+        base_dir = SEMEVAL_BASE_DATA_DIR
+        # Official release layout: <split>/raw-documents/<LANG>. Pick the
+        # split (train/dev/test) and language(s) to run. NEVER point this at
+        # a split root (e.g. "train") -- that would sit "labels/" and
+        # "raw-documents/" side by side and, combined with the recursive
+        # glob, risk sweeping gold annotation files in as if they were
+        # articles (article_chunking.py excludes them defensively too, but
+        # don't rely on that as the only safeguard).
+        target_folders = [
+            "train/raw-documents/EN",
+            #"train/raw-documents/BG",
+            #"train/raw-documents/HI",
+            #"train/raw-documents/PT",
+            #"train/raw-documents/RU",
+            #"dev/raw-documents/EN",
+            #"test/raw-documents/EN",   # test has no labels/ at all
+        ]
+    else:
+        raise ValueError(f"unknown DATASET {DATASET!r}; expected 'silan' or 'semeval'")
+
+    for folder_name in target_folders:
         # 1. Setup paths
-        country_dir = os.path.join(BASE_DATA_DIR, folder_name)
-        
+        country_dir = os.path.join(base_dir, folder_name)
+
         # Create a safe name for folders (e.g., replaces slashes)
         run_name = folder_name.replace("/", "_")
-        
-        # Create a dedicated output directory for this specific run
+
+        # Create a dedicated output directory for this specific run. Naming
+        # is unchanged from before `dataset` existed when DATASET is the
+        # default ("silan"); the dataset tag is only added to the folder
+        # name for non-default datasets, so existing output-path conventions
+        # for Silan runs are preserved exactly.
         timecode = time.strftime("%Y%m%d%H%M%S")
-        output_dir = os.path.join(BASE_DATA_DIR, f"output_{run_name}_{TRADITION}_{MODEL_TO_USE}_{timecode}")
+        print(f'starting at {timecode}')
+        if DATASET == DEFAULT_DATASET:
+            output_dir = os.path.join(base_dir, f"output_{run_name}_{TRADITION}_{MODEL_TO_USE}_{timecode}")
+        else:
+            output_dir = os.path.join(base_dir, f"output_{run_name}_{TRADITION}_{DATASET}_{MODEL_TO_USE}_{timecode}")
         os.makedirs(output_dir, exist_ok=True)
-        
+
         print(f"\n=======================================================")
-        print(f"🚀 STARTING EXPERIMENT FOR: {run_name}")
+        if DATASET == DEFAULT_DATASET:
+            print(f"🚀 STARTING EXPERIMENT FOR: {run_name}")
+        else:
+            print(f"🚀 STARTING EXPERIMENT FOR: {run_name} (dataset={DATASET})")
         print(f"=======================================================")
 
         # 2. Extract Data
         print("=== Phase 0: Data Extraction ===")
-        # `unit` (country code) tags every chunk for later cross-country work;
-        # derive it from the leaf country folder name.
-        unit = os.path.basename(folder_name.split("/")[0]).replace("Silan-Ciruelas_", "")
-        chunks, chunk_index = extract_and_chunk_interviews(country_dir, unit=unit)
-        
+        if DATASET == "silan":
+            # `unit` (country code) tags every chunk for later cross-country
+            # work; derive it from the leaf country folder name.
+            unit = os.path.basename(folder_name.split("/")[0]).replace("Silan-Ciruelas_", "")
+            chunks, chunk_index = extract_and_chunk_interviews(country_dir, unit=unit)
+            print(f"Extracted {len(chunks)} text chunks from PDFs.\n")
+        else:  # semeval
+            # `unit` (language code) tags every chunk, mirroring the Silan
+            # country-code convention; derive it from the leaf language
+            # folder name (target_folders entries look like
+            # "train/raw-documents/EN" -> unit = "EN").
+            unit = os.path.basename(folder_name.rstrip("/"))
+            chunks, chunk_index = extract_and_chunk_articles(country_dir, unit=unit)
+            print(f"Extracted {len(chunks)} article chunks.\n")
+
         if not chunks:
             print(f"No text extracted for {run_name}. Skipping...\n")
             continue
-            
-        print(f"Extracted {len(chunks)} text chunks from PDFs.\n")
 
         # Persist the chunk index: backing store for the empty-slot escalation
         # ladder and an audit trail of exactly what was fed to open coding.
@@ -175,9 +251,13 @@ def main():
         print(f"Saved -> {index_out_path}\n")
 
         # Build the question-similarity cache (Straussian rung-2 retrieval).
-        # Grain = qa_units, independent of chunking. Skipped for Charmaz.
+        # Grain = qa_units, independent of chunking. Q&A-interview-specific,
+        # so only built for the "silan" dataset; skipped for Charmaz and for
+        # "semeval" (whole-article chunks have no question/answer structure
+        # to index, so slot escalation is skipped too -- run_straussian_arm
+        # already no-ops the escalation step whenever qsim is None).
         qsim = None
-        if TRADITION == "straussian":
+        if DATASET == "silan" and TRADITION == "straussian":
             print("Building question-similarity index...")
             qa_units = build_qa_index(country_dir, unit=unit)
             qsim = build_question_sim_cache(qa_units)
@@ -191,24 +271,28 @@ def main():
         # remaining slices → memo-sorting integration).
         if TRADITION == "straussian":
             run_straussian_arm(chunks, chunk_index=chunk_index,
-                               qsim=qsim, output_dir=output_dir, model=MODEL_TO_USE)
+                               qsim=qsim, output_dir=output_dir, model=MODEL_TO_USE,
+                               dataset=DATASET)
         elif TRADITION == "charmaz":
             run_charmaz_arm(chunks, chunk_index=chunk_index, output_dir=output_dir,
-                            model=MODEL_TO_USE)
+                            model=MODEL_TO_USE, dataset=DATASET)
         else:
             raise ValueError(f"unknown TRADITION {TRADITION!r}")
 
 
-def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model):
+def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model, dataset=DEFAULT_DATASET):
     """Straussian open→axial→slot-escalation→selective. Behavior preserved
-    verbatim from the single-tradition version; only lifted into a function so
-    the Charmaz arm can sit beside it without touching this path."""
+    verbatim from the single-tradition version for dataset="silan" (the
+    default); only lifted into a function so the Charmaz arm can sit beside
+    it without touching this path. `dataset` is forwarded to every
+    run_*_coding call, selecting which STUDY CONTEXT the prompts use -- the
+    coding logic here (paradigm slots, JSON contract) does not change."""
     TRADITION = "straussian"
     MODEL_TO_USE = model
 
     # 3. Open Coding
     print("=== Phase 1: Open Coding ===")
-    open_codes = run_open_coding(chunks, MODEL_TO_USE, tradition=TRADITION)
+    open_codes = run_open_coding(chunks, MODEL_TO_USE, tradition=TRADITION, dataset=dataset)
     open_out_path = os.path.join(output_dir, "output_open_codes.json")
 
     with open(open_out_path, "w") as f:
@@ -217,7 +301,7 @@ def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model):
 
     # 4. Axial Coding (Now correctly saving as JSON)
     print("=== Phase 2: Axial Coding ===")
-    axial_relations = run_axial_coding(open_codes, MODEL_TO_USE, tradition=TRADITION)
+    axial_relations = run_axial_coding(open_codes, MODEL_TO_USE, tradition=TRADITION, dataset=dataset)
     axial_out_path = os.path.join(output_dir, "output_axial_codes.json")
 
     with open(axial_out_path, "w") as f:
@@ -241,7 +325,7 @@ def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model):
 
     # 5. Selective Coding (Still saves as Markdown)
     print("=== Phase 3: Selective Coding ===")
-    final_theory = run_selective_coding(axial_relations, MODEL_TO_USE, tradition=TRADITION)
+    final_theory = run_selective_coding(axial_relations, MODEL_TO_USE, tradition=TRADITION, dataset=dataset)
     theory_out_path = os.path.join(output_dir, "output_final_theory.md")
 
     with open(theory_out_path, "w") as f:
@@ -249,7 +333,7 @@ def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model):
     print(f"Saved -> {theory_out_path}\n")
 
 
-def run_charmaz_arm(chunks, chunk_index, output_dir, model):
+def run_charmaz_arm(chunks, chunk_index, output_dir, model, dataset=DEFAULT_DATASET):
     """Charmaz constructivist-GT arm: slice-driven initial→focused→loop→integrate.
 
     Slice 1 seeds the forward pass (initial coding + initial memo → focused
@@ -257,6 +341,17 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model):
     slices, testing whether existing focused categories absorb each fresh slice
     and re-sampling (re-coding) where they do not, until saturation / max-iter /
     corpus exhaustion. The final integrated account comes from memo-sorting.
+
+    `dataset` is forwarded to the initial/focused coding calls (registry-backed,
+    STUDY-CONTEXT-swappable). NOTE: the memo-writing and memo-sorting steps
+    below (run_initial_memo / run_advanced_memo / run_memo_sorting) call
+    prompts_charmaz_recursion.py directly, NOT through prompt_registry, and
+    that module's prompts still hardcode Silan relationship-quality framing
+    (e.g. "...participants' lived sense of relationship quality" in the final
+    theoretical-account prompt). That's out of scope for this change -- if you
+    run the Charmaz arm to completion on dataset="semeval", expect that
+    mismatch in the memo/integration steps specifically; only initial/focused
+    coding are dataset-aware so far.
     """
     MODEL_TO_USE = model
     llm = lambda sp, ut: call_llm(sp, ut, MODEL_TO_USE)
@@ -276,7 +371,7 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model):
 
     # --- Phase 1: Initial Coding (slice 1) ----------------------------------
     print("=== Phase 1: Initial Coding (seed slice) ===")
-    initial_codes = run_open_coding(seed_chunks, MODEL_TO_USE, tradition="charmaz")
+    initial_codes = run_open_coding(seed_chunks, MODEL_TO_USE, tradition="charmaz", dataset=dataset)
     with open(os.path.join(output_dir, "output_initial_codes.json"), "w") as f:
         json.dump(initial_codes, f, indent=4)
     print(f"Saved -> output_initial_codes.json\n")
@@ -290,7 +385,7 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model):
 
     # --- Phase 2: Focused Coding (slice 1) ----------------------------------
     print("=== Phase 2: Focused Coding (seed slice) ===")
-    focused = run_axial_coding(initial_codes, MODEL_TO_USE, tradition="charmaz")
+    focused = run_axial_coding(initial_codes, MODEL_TO_USE, tradition="charmaz", dataset=dataset)
     with open(os.path.join(output_dir, "output_focused_codes.json"), "w") as f:
         json.dump(focused, f, indent=4)
     print(f"Saved -> output_focused_codes.json\n")

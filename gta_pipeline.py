@@ -1,9 +1,9 @@
 # gta_pipeline.py
 from llm_client import call_llm
-from prompt_registry import get_prompts, DEFAULT_TRADITION
+from prompt_registry import get_prompts, DEFAULT_TRADITION, DEFAULT_DATASET
 import json
 
-def run_open_coding(chunks, model_type="local", tradition=DEFAULT_TRADITION):
+def run_open_coding(chunks, model_type="local", tradition=DEFAULT_TRADITION, dataset=DEFAULT_DATASET):
     """Extracts base concepts from each chunk as structured JSON.
 
     `chunks` is a list of chunk dicts from chunk_transcript (each carries
@@ -14,8 +14,13 @@ def run_open_coding(chunks, model_type="local", tradition=DEFAULT_TRADITION):
 
     `tradition` selects the prompt set ("straussian" | "charmaz") via the
     registry, replacing the old manual comment-toggle of imports.
+
+    `dataset` selects which STUDY CONTEXT is spliced into that prompt set
+    ("silan" default | "semeval"); see prompt_registry.get_prompts and
+    study_contexts.py. Defaults to "silan", so existing callers that only
+    pass `tradition` are unaffected.
     """
-    P = get_prompts(tradition)
+    P = get_prompts(tradition, dataset=dataset)
     open_codes = []
     total = len(chunks)
     
@@ -45,9 +50,13 @@ def run_open_coding(chunks, model_type="local", tradition=DEFAULT_TRADITION):
             
     return open_codes
 
-def run_axial_coding(open_codes, model_type="local", tradition=DEFAULT_TRADITION):
-    """Groups open codes into relational categories with traceability."""
-    P = get_prompts(tradition)
+def run_axial_coding(open_codes, model_type="local", tradition=DEFAULT_TRADITION, dataset=DEFAULT_DATASET):
+    """Groups open codes into relational categories with traceability.
+
+    `dataset` behaves as in run_open_coding (default "silan" preserves prior
+    behavior for callers that only pass `tradition`).
+    """
+    P = get_prompts(tradition, dataset=dataset)
     # Combine the code and the raw text passage for maximum context
     combined_codes = "\n".join([
         f"Code: {item.get('open_code', '')} | Context: {item.get('text_passage', '')}" 
@@ -65,9 +74,13 @@ def run_axial_coding(open_codes, model_type="local", tradition=DEFAULT_TRADITION
         print("  -> Warning: LLM failed to return valid JSON. Returning raw text.")
         return {"error": "JSON parse failed", "raw_output": raw_response}
 
-def run_selective_coding(axial_relations, model_type="local", tradition=DEFAULT_TRADITION):
-    """Synthesizes relations into a final core theory."""
-    P = get_prompts(tradition)
+def run_selective_coding(axial_relations, model_type="local", tradition=DEFAULT_TRADITION, dataset=DEFAULT_DATASET):
+    """Synthesizes relations into a final core theory.
+
+    `dataset` behaves as in run_open_coding (default "silan" preserves prior
+    behavior for callers that only pass `tradition`).
+    """
+    P = get_prompts(tradition, dataset=dataset)
     print("  -> Running Selective Coding synthesis...")
     
     # Convert the parsed JSON object back to a formatted string for the LLM prompt
