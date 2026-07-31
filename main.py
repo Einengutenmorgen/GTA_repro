@@ -7,7 +7,7 @@ from gta_pipeline import run_open_coding, run_axial_coding, run_selective_coding
 from gta_pipeline import run_initial_memo, run_advanced_memo, run_memo_sorting
 from chunking import chunk_transcript, iter_qa_units
 from article_chunking import extract_and_chunk_articles
-from question_sim import build_question_sim_cache
+from question_sim import build_question_sim_cache, build_sentence_sim_index
 from slot_recursion import resolve_category, empty_slots
 from charmaz_loop import (
     slice_sources, run_charmaz_loop,
@@ -26,6 +26,13 @@ CHARMAZ_SLICE_SIZE = 5
 CHARMAZ_SATURATION_THRESHOLD = DEFAULT_SATURATION_THRESHOLD
 CHARMAZ_MAX_ITERATIONS = DEFAULT_MAX_ITERATIONS
 
+# --- Straussian escalation-ladder parameters (control-relevant, disclosed) --
+# STRAUSSIAN_SKIP_RUNG1: None -> dataset-conditioned default (skipped for
+# semeval, run for silan -- see slot_recursion.resolve_category). Set
+# True/False explicitly to override for BOTH datasets uniformly (e.g. for a
+# rung-1-forced-on SemEval ablation run).
+STRAUSSIAN_SKIP_RUNG1 = None
+
 # --- Dataset selection (independent of TRADITION, set in main()) -----------
 # "silan"   -> (default) Silan-Ciruelas relationship-quality interviews.
 #              PDF transcripts under BASE_DATA_DIR, Q&A-aware chunking
@@ -33,10 +40,12 @@ CHARMAZ_MAX_ITERATIONS = DEFAULT_MAX_ITERATIONS
 #              slot-escalation. Unchanged from before `dataset` existed.
 # "semeval" -> SemEval-2025 Task 10 entity-framing articles. Plain-text
 #              files under SEMEVAL_BASE_DATA_DIR, whole-article chunking
-#              (article_chunking.py). No question-similarity index / slot
-#              escalation -- those are Q&A-interview-specific retrieval
-#              mechanisms that don't apply to standalone articles; they are
-#              skipped for this dataset rather than adapted.
+#              (article_chunking.py). Straussian slot escalation now DOES run
+#              for this dataset: rung 1 (full-source re-feed) is skipped by
+#              default (a chunk already IS the whole article), rung 2 uses a
+#              sentence-grain similarity index (build_sentence_sim_index)
+#              queried by open-code text_passages and deduped to article
+#              grain -- see question_sim.py / slot_recursion.py.
 # Only the STUDY CONTEXT the model sees changes between datasets (see
 # study_contexts.py / prompt_registry.get_prompts); tradition-specific
 # coding logic below is untouched either way.
@@ -94,16 +103,19 @@ def build_qa_index(country_dir, unit=None):
     return qa_units
 
 
-def run_slot_recursion(axial_relations, open_codes, chunk_index, qsim, model_type, dataset=DEFAULT_DATASET):
+def run_slot_recursion(axial_relations, open_codes, chunk_index, qsim, model_type,
+                        dataset=DEFAULT_DATASET, skip_rung1=None):
     """Straussian empty-slot escalation over every axial category.
 
     Returns (resolved_categories, traces). Categories with no empty slots pass
     through untouched (their trace notes 'no empty slots'). Only meaningful for
     the Straussian paradigm model; Charmaz focused coding has no slots.
 
-    `dataset` is forwarded to resolve_category (see slot_recursion.py) for
-    interface symmetry with the rest of the pipeline; currently a no-op since
-    this function is only ever called with qsim built for dataset=="silan".
+    `dataset` is forwarded to resolve_category (see slot_recursion.py) and
+    branches both the rung-1 default (skipped for semeval) and the rung-2
+    retrieval mechanism (cross-participant Q&A for silan, cross-article
+    sentence-grain retrieval for semeval). `skip_rung1` is forwarded as-is
+    (None -> dataset-conditioned default; see resolve_category).
     """
     if not isinstance(axial_relations, list):
         print("  -> Axial output is not a list (parse failure upstream); skipping recursion.")
@@ -143,7 +155,7 @@ def run_slot_recursion(axial_relations, open_codes, chunk_index, qsim, model_typ
                   f"'{cat.get('axial_category','?')}' empty: {empties}")
         out = resolve_category(
             cat, open_code_lookup, chunk_index, qsim, llm, interview_text_for_source,
-            dataset=dataset,
+            dataset=dataset, skip_rung1=skip_rung1,
         )
         trace = out.pop("__slot_trace__", None)
         resolved.append(out)
@@ -255,17 +267,26 @@ def main():
             json.dump(chunk_index, f, indent=4)
         print(f"Saved -> {index_out_path}\n")
 
-        # Build the question-similarity cache (Straussian rung-2 retrieval).
-        # Grain = qa_units, independent of chunking. Q&A-interview-specific,
-        # so only built for the "silan" dataset; skipped for Charmaz and for
-        # "semeval" (whole-article chunks have no question/answer structure
-        # to index, so slot escalation is skipped too -- run_straussian_arm
-        # already no-ops the escalation step whenever qsim is None).
+        # Build the question/sentence-similarity cache (Straussian rung-2
+        # retrieval). Only built for TRADITION=="straussian" (Charmaz has no
+        # paradigm slots to escalate). Grain differs by dataset:
+        #   "silan"   -> qa_units grain (one row per interviewer question),
+        #                independent of chunking; retrieval is cross-
+        #                participant Q&A (top_k_other_participant).
+        #   "semeval" -> sentence grain (article chunks have no Q&A structure
+        #                to index), built directly from `chunks`; retrieval
+        #                is cross-article via text_passage queries
+        #                (top_k_other_source_by_text), deduped to article
+        #                grain. See question_sim.build_sentence_sim_index and
+        #                slot_recursion.resolve_category.
         qsim = None
-        if DATASET == "silan" and TRADITION == "straussian":
-            print("Building question-similarity index...")
-            qa_units = build_qa_index(country_dir, unit=unit)
-            qsim = build_question_sim_cache(qa_units)
+        if TRADITION == "straussian":
+            print("Building question/sentence-similarity index...")
+            if DATASET == "silan":
+                qa_units = build_qa_index(country_dir, unit=unit)
+                qsim = build_question_sim_cache(qa_units)
+            elif DATASET == "semeval":
+                qsim = build_sentence_sim_index(chunks)
             qsim.save(os.path.join(output_dir, "question_sim_cache.pkl"))
             print(f"  {qsim.summary()}\n")
 
@@ -277,7 +298,7 @@ def main():
         if TRADITION == "straussian":
             run_straussian_arm(chunks, chunk_index=chunk_index,
                                qsim=qsim, output_dir=output_dir, model=MODEL_TO_USE,
-                               dataset=DATASET)
+                               dataset=DATASET, skip_rung1=STRAUSSIAN_SKIP_RUNG1)
         elif TRADITION == "charmaz":
             run_charmaz_arm(chunks, chunk_index=chunk_index, output_dir=output_dir,
                             model=MODEL_TO_USE, dataset=DATASET)
@@ -285,13 +306,21 @@ def main():
             raise ValueError(f"unknown TRADITION {TRADITION!r}")
 
 
-def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model, dataset=DEFAULT_DATASET):
+def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model,
+                        dataset=DEFAULT_DATASET, skip_rung1=None):
     """Straussian open→axial→slot-escalation→selective. Behavior preserved
     verbatim from the single-tradition version for dataset="silan" (the
     default); only lifted into a function so the Charmaz arm can sit beside
     it without touching this path. `dataset` is forwarded to every
     run_*_coding call, selecting which STUDY CONTEXT the prompts use -- the
-    coding logic here (paradigm slots, JSON contract) does not change."""
+    coding logic here (paradigm slots, JSON contract) does not change.
+
+    Empty-slot escalation (Phase 2b) now runs for BOTH datasets when qsim is
+    not None: silan via cross-participant Q&A retrieval (unchanged), semeval
+    via cross-article sentence-grain retrieval, with rung 1 (full-source
+    re-feed) skipped by default for semeval -- see slot_recursion.py.
+    `skip_rung1` (None -> dataset-conditioned default) is forwarded to
+    run_slot_recursion -> resolve_category."""
     TRADITION = "straussian"
     MODEL_TO_USE = model
 
@@ -317,7 +346,8 @@ def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model, dataset=DEF
     if qsim is not None:
         print("=== Phase 2b: Empty-Slot Escalation (paradigm recall) ===")
         axial_relations, slot_traces = run_slot_recursion(
-            axial_relations, open_codes, chunk_index, qsim, MODEL_TO_USE, dataset=dataset
+            axial_relations, open_codes, chunk_index, qsim, MODEL_TO_USE,
+            dataset=dataset, skip_rung1=skip_rung1,
         )
         resolved_out_path = os.path.join(output_dir, "output_axial_codes_resolved.json")
         with open(resolved_out_path, "w") as f:

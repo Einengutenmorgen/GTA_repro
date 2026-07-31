@@ -45,7 +45,8 @@ from __future__ import annotations
 import argparse
 import json
 import pickle
-from dataclasses import dataclass
+import re
+from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Sequence
 
 import numpy as np
@@ -53,15 +54,47 @@ import numpy as np
 from utils import DEFAULT_MODEL, DEFAULT_EMBED_CACHE, embed_texts
 
 
+# ---------------------------------------------------------------------------
+# Deterministic sentence splitting (SemEval rung-2 grain; no new dependency)
+# ---------------------------------------------------------------------------
+
+_SENTENCE_SPLIT_RE = re.compile(r'(?<=[.!?])\s+(?=[A-Z"“])')
+
+
+def split_sentences(text: str) -> List[str]:
+    """Deterministic, dependency-free sentence split for English news prose.
+
+    Not linguistically perfect (won't handle all abbreviations/quotes), but
+    reproducible and sufficient for a retrieval index -- imperfect splits at
+    worst merge/split a sentence boundary, they don't corrupt retrieval.
+    """
+    text = text.strip()
+    if not text:
+        return []
+    parts = _SENTENCE_SPLIT_RE.split(text)
+    return [p.strip() for p in parts if p.strip()]
+
+
 @dataclass
 class QuestionSimCache:
     """Embed-once question index; retrieval is cheap lookups off `matrix` rows.
 
-    matrix     : (N, N) cosine similarity, symmetric, unit-norm embeddings.
-    chunk_ids  : row/col i -> originating qa-unit chunk_id.
-    source_ids : row/col i -> participant id (for same-participant masking).
-    questions  : row/col i -> exact embedded question text.
-    units      : row/col i -> analysis unit (country), if tagged.
+    matrix      : (N, N) cosine similarity, symmetric, unit-norm embeddings.
+    chunk_ids   : row/col i -> originating qa-unit chunk_id. For sentence-grain
+                  indices (build_sentence_sim_index), this is the PARENT
+                  article's chunk_id, repeated across every sentence row from
+                  that article -- non-unique by design (see module docstring
+                  and top_k_other_source_by_text).
+    source_ids  : row/col i -> participant/article id (for same-source masking).
+    questions   : row/col i -> exact embedded text (a question for Silan, a
+                  sentence for the SemEval sentence-grain index).
+    units       : row/col i -> analysis unit (country/language), if tagged.
+    source_vecs : (N, d) unit-norm embedding vectors, retained so live queries
+                  (top_k_other_source_by_text) can be scored against the index
+                  without needing to already be a matrix row. Additive field
+                  with a None default so caches pickled before this field
+                  existed still unpickle cleanly -- top_k_other_participant
+                  never touches it, only top_k_other_source_by_text does.
     """
     matrix: np.ndarray
     chunk_ids: List[str]
@@ -69,10 +102,25 @@ class QuestionSimCache:
     questions: List[str]
     units: List[Optional[str]]
     model_name: str
+    source_vecs: Optional[np.ndarray] = field(default=None)
 
     @property
     def n(self) -> int:
         return len(self.chunk_ids)
+
+    def matrix_query(self, query_vec: np.ndarray) -> np.ndarray:
+        """Cosine similarity of a live (not-yet-indexed) unit-norm query
+        vector against every row in the index. Requires `source_vecs` (absent
+        on caches pickled before this field existed -- rebuild the cache to
+        use this method)."""
+        if self.source_vecs is None:
+            raise ValueError(
+                "QuestionSimCache.source_vecs is None -- this cache predates "
+                "live-query support (e.g. an old pickled Silan cache); "
+                "rebuild it via build_question_sim_cache/build_sentence_sim_index "
+                "to use matrix_query / top_k_other_source_by_text."
+            )
+        return self.source_vecs @ query_vec
 
     def _row(self, chunk_id: str) -> int:
         try:
@@ -168,26 +216,106 @@ class QuestionSimCache:
                       key=lambda d: (d["similarity"], d["chunk_id"]),
                       reverse=True)
 
+    # -- SemEval rung-2 retrieval: live query text, dedup to article grain ---
+
+    def top_k_other_source_by_text(
+        self,
+        query_texts: Sequence[str],
+        k: int = 5,
+        exclude_source_ids: Optional[Sequence[str]] = None,
+        model_name: Optional[str] = None,
+        embed_cache_path: str = DEFAULT_EMBED_CACHE,
+    ) -> List[dict]:
+        """Per-query top-k, merged and deduped to ARTICLE grain, for queries
+        that are not pre-indexed rows (e.g. raw text_passage quotes from open
+        codes). Unlike top_k_other_participant, this embeds query_texts live
+        (cheap: a handful of short quotes per call) rather than requiring the
+        query to already be a matrix row -- necessary because SemEval
+        text_passages won't exactly match a split sentence boundary.
+
+        Dedup is by chunk_id (the PARENT article id, shared by many sentence
+        rows), not by sentence row -- so k is a cap on ARTICLES returned, not
+        sentences, and a query never gets multiple hits from the same article.
+
+        exclude_source_ids : plural, unlike top_k_other_participant's single
+            exclude_source_id -- a category's supporting open codes can span
+            MULTIPLE contributing sources, all of which must be excluded from
+            cross-retrieval; pass the full contributing_sources set explicitly.
+
+        Returns [{chunk_id, source_id, question, similarity, matched_query}, ...]
+        -- same shape as top_k_other_participant's output (the "question"
+        field holds the best-matching SENTENCE text here, for trace/audit
+        purposes; downstream code that resolves full text does so via
+        chunk_index[chunk_id], unchanged).
+        """
+        if self.n == 0 or not query_texts:
+            return []
+        model = model_name or self.model_name
+        query_vecs = embed_texts(list(query_texts), model, embed_cache_path)  # (Q, d)
+        exclude = set(exclude_source_ids or [])
+
+        merged: Dict[str, dict] = {}  # keyed by parent chunk_id
+        for qi, qtext in enumerate(query_texts):
+            sims = self.matrix_query(query_vecs[qi])
+            order = np.argsort(-sims)
+            taken = 0
+            for j in order:
+                if self.source_ids[j] in exclude:
+                    continue
+                sim = float(sims[j])
+                cid = self.chunk_ids[j]  # PARENT chunk_id (article-level, non-unique across rows)
+                prev = merged.get(cid)
+                if prev is None or sim > prev["similarity"]:
+                    merged[cid] = {
+                        "chunk_id": cid,
+                        "source_id": self.source_ids[j],
+                        "question": self.questions[j],   # best-matching sentence text
+                        "similarity": sim,
+                        "matched_query": qtext,
+                    }
+                taken += 1
+                if taken >= k:
+                    break
+
+        return sorted(merged.values(),
+                      key=lambda d: (d["similarity"], d["chunk_id"]),
+                      reverse=True)[:k]
+
 
 def build_question_sim_cache(
     qa_units: Sequence[dict],
     model_name: str = DEFAULT_MODEL,
     embed_cache_path: str = DEFAULT_EMBED_CACHE,
+    dedupe_key: str = "chunk_id",
 ) -> QuestionSimCache:
     """Embed all questions once, build the NxN cosine matrix.
 
     qa_units : dicts with at least {chunk_id, source_id, question} (unit
         optional). Feed iter_qa_units() output concatenated across all PDFs in
         the analysis unit.
+    dedupe_key : key used to de-dupe rows for building the matrix (default
+        "chunk_id", preserving Silan's original behavior exactly -- Silan's
+        qa_units are already one-row-per-chunk, so chunk_id is unique per
+        row and this default is a no-op change). Sentence-grain callers
+        (build_sentence_sim_index) pass a per-row unique key here (e.g.
+        "<chunk_id>__s<i>") while still storing the PARENT chunk_id in the
+        `chunk_id` field of each row -- so de-dup happens per-sentence, but
+        `QuestionSimCache.chunk_ids` still points every sentence row back to
+        its parent article for downstream chunk_index lookups. This means
+        `chunk_ids` is no longer guaranteed unique for sentence-grain caches
+        -- fine, since nothing in QuestionSimCache assumes uniqueness except
+        `_row()` (an index-of lookup used only by Silan's chunk-id-keyed
+        query path, top_k_other_participant), which sentence-grain retrieval
+        (top_k_other_source_by_text) never calls.
     """
-    # de-dupe on chunk_id (stable) while preserving order
+    # de-dupe on dedupe_key (stable) while preserving order
     seen = set()
     rows = []
     for u in qa_units:
-        cid = u["chunk_id"]
-        if cid in seen:
+        key = u[dedupe_key]
+        if key in seen:
             continue
-        seen.add(cid)
+        seen.add(key)
         rows.append(u)
 
     chunk_ids = [u["chunk_id"] for u in rows]
@@ -198,8 +326,10 @@ def build_question_sim_cache(
     vecs = embed_texts(questions, model_name, embed_cache_path)  # (N, d), unit-norm
     if len(questions) == 0:
         matrix = np.zeros((0, 0), dtype=np.float32)
+        source_vecs = np.zeros((0, 0), dtype=np.float32)
     else:
         matrix = (vecs @ vecs.T).astype(np.float32)
+        source_vecs = vecs.astype(np.float32)
 
     return QuestionSimCache(
         matrix=matrix,
@@ -208,7 +338,35 @@ def build_question_sim_cache(
         questions=questions,
         units=units,
         model_name=model_name,
+        source_vecs=source_vecs,
     )
+
+
+def build_sentence_sim_index(
+    chunks: Sequence[dict],
+    model_name: str = DEFAULT_MODEL,
+    embed_cache_path: str = DEFAULT_EMBED_CACHE,
+) -> "QuestionSimCache":
+    """Sentence-grain similarity index for datasets with no Q&A structure
+    (SemEval whole-article chunks). One row per sentence; chunk_id/source_id
+    on every row point back to the PARENT article chunk (not a per-sentence
+    id), so retrieval hits resolve straight back to chunk_index for full-
+    article text. Reuses QuestionSimCache/build_question_sim_cache verbatim --
+    the dataclass and matrix logic don't care what the embedded text means.
+    """
+    rows = []
+    for c in chunks:
+        for sent_idx, sent in enumerate(split_sentences(c["text"])):
+            rows.append({
+                "chunk_id": c["chunk_id"],       # parent article's chunk_id, reused across all its sentence rows
+                "source_id": c["source_id"],
+                "question": sent,                 # embedded field name kept as "question" for drop-in reuse
+                "unit": c.get("unit"),
+                "_dedupe_key": f"{c['chunk_id']}__s{sent_idx}",
+            })
+    return build_question_sim_cache(rows, model_name=model_name,
+                                     embed_cache_path=embed_cache_path,
+                                     dedupe_key="_dedupe_key")
 
 
 if __name__ == "__main__":

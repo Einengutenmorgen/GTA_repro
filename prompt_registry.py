@@ -641,11 +641,22 @@ def get_charmaz_recursion_prompts(dataset: str = DEFAULT_DATASET) -> CharmazRecu
 # ============================================================================
 # STRAUSSIAN-ONLY: empty-slot escalation ladder prompts
 # ============================================================================
-# Used by slot_recursion.py. Only ever exercised today when dataset=="silan"
-# (main.py only builds the Q&A-similarity index this ladder depends on for
-# that dataset) — dataset-parameterized anyway for consistency and so a
-# future dataset that DOES enable slot escalation isn't stuck with hardcoded
-# "interview"/"participant" wording.
+# Used by slot_recursion.py. Exercised for BOTH datasets: "silan" (rung 1 +
+# rung 2 via cross-participant Q&A retrieval) and "semeval" (rung 1 skipped
+# by default; rung 2 via cross-article sentence-grain retrieval). These
+# skeletons render through the dataset-generic tokens below ({source_label},
+# {subject_phrase}, ...) so no dataset-specific wording needed to change to
+# support semeval.
+#
+# JUDGMENT CALL (flagged for review, not resolved here): _CROSS_RESOLVE_SKELETON's
+# framing -- "could not be filled from the sources that originally
+# contributed to it" -- assumes rung 1 already ran and failed. For SemEval
+# with skip_rung1=True (the default), CROSS_RESOLVE is the FIRST attempt at
+# the slot, not a second look after a failed first one, so this line is
+# mildly inaccurate for that path (nothing "already tried and failed").
+# Left as-is (harmless imprecision, doesn't change what the model is asked to
+# do) rather than adding a dataset/skip_rung1-conditioned variant -- revisit
+# if this framing is ever found to measurably affect model behavior.
 
 SLOT_QUESTIONS = {
     "condition": "What conditions, circumstances, or situations give rise to this category?",
