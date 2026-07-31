@@ -44,7 +44,7 @@ from __future__ import annotations
 import importlib
 from dataclasses import dataclass
 
-from study_contexts import DATASET_CONTEXTS, swap_study_context
+from study_contexts import DATASET_CONTEXTS, swap_study_context, swap_integration_closers
 
 TRADITIONS = {
     "straussian": "prompts",
@@ -105,6 +105,16 @@ def get_prompts(
         open_prompt = swap_study_context(open_prompt, new_context)
         axial_prompt = swap_study_context(axial_prompt, new_context)
         selective_prompt = swap_study_context(selective_prompt, new_context)
+
+    # Some tradition prompts also name the Silan phenomenon in a closing
+    # instruction sentence OUTSIDE the STUDY CONTEXT block (currently only
+    # prompts_charmaz.py's THEORETICAL_CODING_PROMPT / .selective) -- swap
+    # those too. No-op for dataset=="silan" and for any prompt that doesn't
+    # contain one of the known fragments (i.e. every Straussian prompt, and
+    # Charmaz's initial/focused prompts).
+    open_prompt = swap_integration_closers(open_prompt, ds_key)
+    axial_prompt = swap_integration_closers(axial_prompt, ds_key)
+    selective_prompt = swap_integration_closers(selective_prompt, ds_key)
 
     return PromptSet(
         tradition=key,

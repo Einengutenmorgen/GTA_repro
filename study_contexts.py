@@ -81,6 +81,70 @@ DATASET_CONTEXTS = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Integration-closer swap (Charmaz theoretical / memo-sorting steps)
+# ---------------------------------------------------------------------------
+# prompts_charmaz.py's THEORETICAL_CODING_PROMPT (tradition="charmaz",
+# accessed as PromptSet.selective) and prompts_charmaz_recursion.py's
+# MEMO_SORTING_PROMPT (the Charmaz arm's actual terminal step -- called
+# directly by gta_pipeline.run_memo_sorting, NOT through get_prompts) each
+# name the Silan phenomenon in their CLOSING INSTRUCTION sentences, outside
+# the swappable STUDY CONTEXT block that swap_study_context() handles.
+# Those sentences were reached unmodified by every non-"silan" run until
+# this was added: a real semeval Charmaz run's output_final_theory.md came
+# back with literal "relationship quality" / "participants construct"
+# language, because MEMO_SORTING_PROMPT's closer was never swapped and
+# run_memo_sorting didn't even accept a `dataset` argument.
+#
+# INTEGRATION_CLOSERS maps each known Silan closer FRAGMENT (a short, exact
+# substring -- deliberately not the whole surrounding sentence, so the same
+# fragment matches its several near-duplicate occurrences across both
+# prompt modules) to its per-dataset replacement. Same swap philosophy as
+# STUDY CONTEXT: only the listed fragment changes; everything else in the
+# prompt -- structure, JSON contract, surrounding instruction wording -- is
+# left byte-identical. A fragment that isn't present in a given prompt is
+# simply skipped, which is the expected, common case: every Straussian
+# prompt and prompts_charmaz.py's initial/focused prompts contain none of
+# these fragments at all.
+#
+# Replacement wording for "semeval" deliberately reuses SEMEVAL_STUDY_CONTEXT's
+# own vocabulary (attributes to / claims about / named entities) and avoids
+# the same banned near-synonyms (portray, stance, characterization, framing)
+# -- see the revision note above for why those are excluded.
+INTEGRATION_CLOSERS = {
+    "participants construct relationship quality": {
+        "semeval": "the corpus's articles attribute meaning to their named entities",
+    },
+    "participants' lived sense of relationship quality": {
+        "semeval": "the corpus's overall pattern of attribution to its named entities",
+    },
+    "how quality is built, sustained, eroded": {
+        "semeval": "how attributions to an entity are made, reinforced, or contested",
+    },
+}
+
+
+def swap_integration_closers(prompt_text: str, dataset: str) -> str:
+    """Replace any known Silan-specific integration-closer fragment with the
+    per-dataset equivalent.
+
+    No-op for dataset == "silan" (returns prompt_text unchanged) and for any
+    fragment not present in prompt_text -- most prompts have none of these
+    fragments at all, which is expected and fine. Unlike swap_study_context,
+    this never raises on a non-match: it is meant to be applied defensively
+    across every prompt in both traditions (coding, memo-writing, slot
+    recursion) rather than only where a STUDY CONTEXT header is guaranteed
+    to exist.
+    """
+    if dataset == "silan":
+        return prompt_text
+    for fragment, by_dataset in INTEGRATION_CLOSERS.items():
+        replacement = by_dataset.get(dataset)
+        if replacement and fragment in prompt_text:
+            prompt_text = prompt_text.replace(fragment, replacement, 1)
+    return prompt_text
+
+
 def extract_study_context(prompt_text: str) -> str:
     """Return the STUDY CONTEXT header line plus its contiguous bullet lines.
 

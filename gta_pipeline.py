@@ -1,6 +1,7 @@
 # gta_pipeline.py
 from llm_client import call_llm
 from prompt_registry import get_prompts, DEFAULT_TRADITION, DEFAULT_DATASET
+from study_contexts import swap_integration_closers
 import json
 
 def run_open_coding(chunks, model_type="local", tradition=DEFAULT_TRADITION, dataset=DEFAULT_DATASET):
@@ -98,45 +99,66 @@ def run_selective_coding(axial_relations, model_type="local", tradition=DEFAULT_
 # than being folded into coding. See prompts_charmaz_recursion.py.
 # ===========================================================================
 
-def run_initial_memo(open_codes, model_type="local"):
+def run_initial_memo(open_codes, model_type="local", dataset=DEFAULT_DATASET):
     """Charmaz Step 4 — initial memo-writing over the initial codes.
 
     Reason-then-write: the prompt asks the model to reason about meaning and
     cross-incident comparison before emitting each memo. Returns a parsed dict
     ({"memos": [...]}) or a fallback envelope on parse failure.
+
+    `dataset` swaps any Silan-specific closing-instruction fragment via
+    study_contexts.swap_integration_closers, mirroring run_open_coding /
+    run_axial_coding / run_selective_coding. INITIAL_MEMO_PROMPT currently
+    contains none of those fragments, so this is a no-op for it today; the
+    parameter exists so the whole Charmaz memo/integration chain shares one
+    consistent, dataset-aware call signature and a future edit to this
+    prompt can't silently reintroduce the MEMO_SORTING_PROMPT-style leak.
     """
     from prompts_charmaz_recursion import INITIAL_MEMO_PROMPT
+    prompt = swap_integration_closers(INITIAL_MEMO_PROMPT, dataset)
     coded_data = "\n".join(
         f"- {oc.get('open_code', '')}  ::  {oc.get('text_passage', '')}"
         for oc in open_codes
         if isinstance(oc, dict) and "__status__" not in oc
     )
     print("  -> Writing initial memos...")
-    raw = call_llm(INITIAL_MEMO_PROMPT, coded_data, model_type)
+    raw = call_llm(prompt, coded_data, model_type)
     return _safe_parse(raw, fallback={"memos": [], "__raw__": raw})
 
 
-def run_advanced_memo(focused_categories, model_type="local"):
+def run_advanced_memo(focused_categories, model_type="local", dataset=DEFAULT_DATASET):
     """Charmaz Step 6 — advanced memo-writing over the focused categories.
 
     Must name thin/ambiguous areas: those feed gap-focused re-sampling in the
     reflection loop. Returns a parsed dict ({"memos": [...]}).
+
+    `dataset` behaves as in run_initial_memo (no-op today for
+    ADVANCED_MEMO_PROMPT; kept for call-signature consistency).
     """
     from prompts_charmaz_recursion import ADVANCED_MEMO_PROMPT
+    prompt = swap_integration_closers(ADVANCED_MEMO_PROMPT, dataset)
     cats_text = json.dumps(focused_categories, indent=2)
     print("  -> Writing advanced memos...")
-    raw = call_llm(ADVANCED_MEMO_PROMPT, cats_text, model_type)
+    raw = call_llm(prompt, cats_text, model_type)
     return _safe_parse(raw, fallback={"memos": [], "__raw__": raw})
 
 
-def run_memo_sorting(focused_categories, memos, model_type="local"):
+def run_memo_sorting(focused_categories, memos, model_type="local", dataset=DEFAULT_DATASET):
     """Charmaz Step 9 — sort & integrate memos into the theoretical account.
 
     This is the Charmaz arm's terminal step (replaces the selective-coding call
     for this tradition). Returns the integrated account as text (Markdown).
+
+    `dataset` swaps MEMO_SORTING_PROMPT's closing-instruction fragments (see
+    study_contexts.INTEGRATION_CLOSERS) -- this prompt previously named
+    "relationship quality" verbatim regardless of dataset, which is why a
+    semeval Charmaz run's final theoretical account came back with leftover
+    Silan relationship-quality language. Fixed here; defaults to "silan"
+    (no-op / byte-identical to prior behavior) for existing callers.
     """
     from prompts_charmaz_recursion import MEMO_SORTING_PROMPT
-    prompt = MEMO_SORTING_PROMPT.format(
+    template = swap_integration_closers(MEMO_SORTING_PROMPT, dataset)
+    prompt = template.format(
         focused_categories=json.dumps(focused_categories, indent=2),
         memos=json.dumps(memos, indent=2),
     )

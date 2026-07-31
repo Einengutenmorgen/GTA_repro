@@ -46,6 +46,8 @@ from prompts_charmaz_recursion import (
     FOCUSED_CODING_ITER_PROMPT,
     APPLICABILITY_TEST_PROMPT,
 )
+from prompt_registry import DEFAULT_DATASET
+from study_contexts import swap_integration_closers
 
 # Defaults — all control-relevant, all disclosed (experiment-setup §6).
 DEFAULT_SATURATION_THRESHOLD = 0.80   # absorbed fraction that counts as "most"
@@ -158,11 +160,12 @@ def _format_new_codes(codes: List[dict]) -> str:
 # Per-step LLM moves
 # ---------------------------------------------------------------------------
 
-def _applicability_test(categories, units, call_llm) -> dict:
+def _applicability_test(categories, units, call_llm, dataset=DEFAULT_DATASET) -> dict:
     """Label a fresh slice with existing categories. Returns parsed result +
     absorbed fraction. Missing/failed assignments count as does_not_fit so a
     parse failure can never manufacture saturation."""
-    prompt = APPLICABILITY_TEST_PROMPT.format(
+    template = swap_integration_closers(APPLICABILITY_TEST_PROMPT, dataset)
+    prompt = template.format(
         existing_categories=_format_categories(categories),
         fresh_units=_format_units(units),
     )
@@ -193,10 +196,11 @@ def _applicability_test(categories, units, call_llm) -> dict:
     }
 
 
-def _initial_code_iter(categories, thin_areas_text, units, call_llm) -> List[dict]:
+def _initial_code_iter(categories, thin_areas_text, units, call_llm, dataset=DEFAULT_DATASET) -> List[dict]:
     """S3' — gap-focused initial coding of the unabsorbed units."""
     data_text = _format_units(units)
-    prompt = INITIAL_CODING_ITER_PROMPT.format(
+    template = swap_integration_closers(INITIAL_CODING_ITER_PROMPT, dataset)
+    prompt = template.format(
         existing_categories=_format_categories(categories),
         thin_areas=thin_areas_text,
     )
@@ -210,10 +214,11 @@ def _initial_code_iter(categories, thin_areas_text, units, call_llm) -> List[dic
     return [c for c in parsed if isinstance(c, dict) and c.get("open_code")]
 
 
-def _focused_code_iter(categories, new_codes, call_llm) -> dict:
+def _focused_code_iter(categories, new_codes, call_llm, dataset=DEFAULT_DATASET) -> dict:
     """S5' — integrate new codes, forming/revising categories. Returns the full
     updated category set + typed change list."""
-    prompt = FOCUSED_CODING_ITER_PROMPT.format(
+    template = swap_integration_closers(FOCUSED_CODING_ITER_PROMPT, dataset)
+    prompt = template.format(
         existing_categories=_format_categories(categories),
         new_codes=_format_new_codes(new_codes),
     )
@@ -232,9 +237,10 @@ def _focused_code_iter(categories, new_codes, call_llm) -> dict:
     }
 
 
-def _advanced_memo(categories, call_llm) -> dict:
+def _advanced_memo(categories, call_llm, dataset=DEFAULT_DATASET) -> dict:
     """S6 — refine the advanced memo (re-surfaces thin areas)."""
-    prompt = ADVANCED_MEMO_PROMPT.format(
+    template = swap_integration_closers(ADVANCED_MEMO_PROMPT, dataset)
+    prompt = template.format(
         focused_categories=_format_categories(categories),
     )
     raw = call_llm(prompt, "")
@@ -254,6 +260,7 @@ def run_charmaz_loop(
     call_llm: Callable[[str, str], str],
     saturation_threshold: float = DEFAULT_SATURATION_THRESHOLD,
     max_iterations: int = DEFAULT_MAX_ITERATIONS,
+    dataset: str = DEFAULT_DATASET,
 ) -> dict:
     """Run the slice-driven reflection loop.
 
@@ -267,6 +274,11 @@ def run_charmaz_loop(
     call_llm : (system_prompt, user_text) -> raw string. Caller binds the model.
     saturation_threshold : absorbed fraction that counts as saturation.
     max_iterations : hard cap on loop passes.
+    dataset : forwarded to every internal LLM step (applicability test,
+        gap-focused initial/focused coding, advanced-memo refinement) via
+        study_contexts.swap_integration_closers, so a "semeval" run stays
+        dataset-consistent through every iteration, not just the seed pass.
+        Defaults to "silan" (no-op / prior behavior unchanged).
 
     Returns a dict:
       {
@@ -300,7 +312,7 @@ def run_charmaz_loop(
         thin_text = _format_thin_areas(advanced_memo)
 
         # 1. Applicability test on the fresh slice ---------------------------
-        test = _applicability_test(categories, units, call_llm)
+        test = _applicability_test(categories, units, call_llm, dataset=dataset)
         fraction = test["absorbed_fraction"]
 
         record: dict = {
@@ -327,17 +339,17 @@ def run_charmaz_loop(
 
         # 3. Integrate the unabsorbed data ----------------------------------
         unabsorbed = [u for u in units if u.get("chunk_id") in set(test["unabsorbed_chunk_ids"])]
-        new_codes = _initial_code_iter(categories, thin_text, unabsorbed, call_llm)
+        new_codes = _initial_code_iter(categories, thin_text, unabsorbed, call_llm, dataset=dataset)
         record["n_unabsorbed_units"] = len(unabsorbed)
         record["new_initial_codes"] = new_codes
 
-        focused = _focused_code_iter(categories, new_codes, call_llm)
+        focused = _focused_code_iter(categories, new_codes, call_llm, dataset=dataset)
         categories = focused["categories"]
         record["changes_made"] = focused["changes_made"]
         record["focused_raw"] = focused["raw"]
 
         # 4. Refine the advanced memo (new thin areas for next round) --------
-        advanced_memo = _advanced_memo(categories, call_llm)
+        advanced_memo = _advanced_memo(categories, call_llm, dataset=dataset)
         record["advanced_memo"] = advanced_memo
         record["resulting_categories"] = [c.get("axial_category") for c in categories if isinstance(c, dict)]
 

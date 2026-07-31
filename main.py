@@ -94,12 +94,16 @@ def build_qa_index(country_dir, unit=None):
     return qa_units
 
 
-def run_slot_recursion(axial_relations, open_codes, chunk_index, qsim, model_type):
+def run_slot_recursion(axial_relations, open_codes, chunk_index, qsim, model_type, dataset=DEFAULT_DATASET):
     """Straussian empty-slot escalation over every axial category.
 
     Returns (resolved_categories, traces). Categories with no empty slots pass
     through untouched (their trace notes 'no empty slots'). Only meaningful for
     the Straussian paradigm model; Charmaz focused coding has no slots.
+
+    `dataset` is forwarded to resolve_category (see slot_recursion.py) for
+    interface symmetry with the rest of the pipeline; currently a no-op since
+    this function is only ever called with qsim built for dataset=="silan".
     """
     if not isinstance(axial_relations, list):
         print("  -> Axial output is not a list (parse failure upstream); skipping recursion.")
@@ -138,7 +142,8 @@ def run_slot_recursion(axial_relations, open_codes, chunk_index, qsim, model_typ
             print(f"  -> Category {i+1}/{len(axial_relations)} "
                   f"'{cat.get('axial_category','?')}' empty: {empties}")
         out = resolve_category(
-            cat, open_code_lookup, chunk_index, qsim, llm, interview_text_for_source
+            cat, open_code_lookup, chunk_index, qsim, llm, interview_text_for_source,
+            dataset=dataset,
         )
         trace = out.pop("__slot_trace__", None)
         resolved.append(out)
@@ -312,7 +317,7 @@ def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model, dataset=DEF
     if qsim is not None:
         print("=== Phase 2b: Empty-Slot Escalation (paradigm recall) ===")
         axial_relations, slot_traces = run_slot_recursion(
-            axial_relations, open_codes, chunk_index, qsim, MODEL_TO_USE
+            axial_relations, open_codes, chunk_index, qsim, MODEL_TO_USE, dataset=dataset
         )
         resolved_out_path = os.path.join(output_dir, "output_axial_codes_resolved.json")
         with open(resolved_out_path, "w") as f:
@@ -343,15 +348,17 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model, dataset=DEFAULT_DATA
     corpus exhaustion. The final integrated account comes from memo-sorting.
 
     `dataset` is forwarded to the initial/focused coding calls (registry-backed,
-    STUDY-CONTEXT-swappable). NOTE: the memo-writing and memo-sorting steps
-    below (run_initial_memo / run_advanced_memo / run_memo_sorting) call
-    prompts_charmaz_recursion.py directly, NOT through prompt_registry, and
-    that module's prompts still hardcode Silan relationship-quality framing
-    (e.g. "...participants' lived sense of relationship quality" in the final
-    theoretical-account prompt). That's out of scope for this change -- if you
-    run the Charmaz arm to completion on dataset="semeval", expect that
-    mismatch in the memo/integration steps specifically; only initial/focused
-    coding are dataset-aware so far.
+    STUDY-CONTEXT-swappable) AND to the memo-writing / reflection-loop /
+    memo-sorting steps below (run_initial_memo / run_advanced_memo /
+    run_charmaz_loop / run_memo_sorting). Those call prompts_charmaz_recursion.py
+    directly rather than through prompt_registry, but each now swaps its own
+    small set of Silan-specific closing-instruction fragments via
+    study_contexts.swap_integration_closers (see that module's
+    INTEGRATION_CLOSERS). This closes a confirmed leak: a real semeval run's
+    output_final_theory.md previously came back with literal "relationship
+    quality" / "participants construct" language baked into
+    MEMO_SORTING_PROMPT's closing sentence, because run_memo_sorting didn't
+    accept a `dataset` argument at all until now.
     """
     MODEL_TO_USE = model
     llm = lambda sp, ut: call_llm(sp, ut, MODEL_TO_USE)
@@ -378,7 +385,7 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model, dataset=DEFAULT_DATA
 
     # --- Phase 1b: Initial Memo-Writing -------------------------------------
     print("=== Phase 1b: Initial Memo-Writing ===")
-    initial_memo = run_initial_memo(initial_codes, MODEL_TO_USE)
+    initial_memo = run_initial_memo(initial_codes, MODEL_TO_USE, dataset=dataset)
     with open(os.path.join(output_dir, "output_initial_memos.json"), "w") as f:
         json.dump(initial_memo, f, indent=4)
     print(f"Saved -> output_initial_memos.json\n")
@@ -395,7 +402,7 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model, dataset=DEFAULT_DATA
 
     # --- Phase 2b: Advanced Memo-Writing (names thin areas) -----------------
     print("=== Phase 2b: Advanced Memo-Writing ===")
-    advanced_memo = run_advanced_memo(focused_categories, MODEL_TO_USE)
+    advanced_memo = run_advanced_memo(focused_categories, MODEL_TO_USE, dataset=dataset)
     with open(os.path.join(output_dir, "output_advanced_memos_seed.json"), "w") as f:
         json.dump(advanced_memo, f, indent=4)
     print(f"Saved -> output_advanced_memos_seed.json\n")
@@ -410,6 +417,7 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model, dataset=DEFAULT_DATA
         call_llm=llm,
         saturation_threshold=CHARMAZ_SATURATION_THRESHOLD,
         max_iterations=CHARMAZ_MAX_ITERATIONS,
+        dataset=dataset,
     )
     print(f"  -> stop_reason={loop['stop_reason']!r}, "
           f"saturation_reached={loop['saturation_reached']}, "
@@ -439,7 +447,7 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model, dataset=DEFAULT_DATA
 
     # --- Phase 4: Memo Sorting & Integration (theoretical account) ----------
     print("=== Phase 4: Sorting & Integration ===")
-    final_theory = run_memo_sorting(focused_categories, final_advanced_memo, MODEL_TO_USE)
+    final_theory = run_memo_sorting(focused_categories, final_advanced_memo, MODEL_TO_USE, dataset=dataset)
     with open(os.path.join(output_dir, "output_final_theory.md"), "w") as f:
         f.write(final_theory or "")
     print(f"Saved -> output_final_theory.md\n")

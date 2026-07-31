@@ -34,6 +34,8 @@ from prompts_recursion import (
     AGGREGATE_RESOLVE_PROMPT,
     CROSS_RESOLVE_PROMPT,
 )
+from prompt_registry import DEFAULT_DATASET
+from study_contexts import swap_integration_closers
 
 PARADIGM_SLOTS = ("condition", "action_interaction", "consequence")
 
@@ -83,6 +85,7 @@ def resolve_category(
     interview_text_for_source: Callable[[str], str],
     start_k: int = START_K,
     max_k: int = MAX_K,
+    dataset: str = DEFAULT_DATASET,
 ) -> dict:
     """Fill empty paradigm slots for one axial category via the ladder.
 
@@ -97,6 +100,14 @@ def resolve_category(
     interview_text_for_source : source_id -> full interview text (caller builds
         this from chunk_index, concatenating that participant's chunks in order).
     start_k, max_k : widening bounds for rung 2+.
+    dataset : forwarded to EXTRACT/AGGREGATE_RESOLVE/CROSS_RESOLVE via
+        study_contexts.swap_integration_closers. This ladder is only ever
+        invoked when qsim is not None, which main.py currently restricts to
+        dataset=="silan" (the Q&A-similarity index it depends on has no
+        semeval equivalent), so this is a no-op in every live call today --
+        added for interface symmetry with the Charmaz memo/loop chain and so
+        a future dataset that DOES run slot escalation isn't silently
+        exposed to unswapped closer text the way MEMO_SORTING_PROMPT was.
 
     Returns a NEW category dict with slots filled where possible and a
     "__slot_trace__" key logging every rung. Unresolved slots stay "".
@@ -129,9 +140,10 @@ def resolve_category(
     empty_q = _empty_slot_questions(empties)
 
     extractions: List[dict] = []
+    extract_template = swap_integration_closers(EXTRACT_PROMPT, dataset)
     for src in contributing_sources:
         interview = interview_text_for_source(src)
-        prompt = EXTRACT_PROMPT.format(
+        prompt = extract_template.format(
             axial_category=cat.get("axial_category", ""),
             reasoning=cat.get("reasoning", ""),
             filled_slots_context=filled_ctx,
@@ -150,7 +162,7 @@ def resolve_category(
 
     # aggregate-resolve over pooled evidence
     aggregated = _format_aggregated_evidence(extractions, empties)
-    agg_prompt = AGGREGATE_RESOLVE_PROMPT.format(
+    agg_prompt = swap_integration_closers(AGGREGATE_RESOLVE_PROMPT, dataset).format(
         axial_category=cat.get("axial_category", ""),
         filled_slots_context=filled_ctx,
         empty_slot_questions=empty_q,
@@ -197,7 +209,7 @@ def resolve_category(
 
         retrieved_qa = _format_retrieved_qa(new_hits, chunk_index)
         empty_q = _empty_slot_questions(empties)
-        cross_prompt = CROSS_RESOLVE_PROMPT.format(
+        cross_prompt = swap_integration_closers(CROSS_RESOLVE_PROMPT, dataset).format(
             axial_category=cat.get("axial_category", ""),
             filled_slots_context=_filled_slots_context(cat, empties),
             empty_slot_questions=empty_q,
