@@ -40,14 +40,7 @@ from __future__ import annotations
 import json
 from typing import Callable, Dict, List, Optional
 
-from prompts_charmaz_recursion import (
-    ADVANCED_MEMO_PROMPT,
-    INITIAL_CODING_ITER_PROMPT,
-    FOCUSED_CODING_ITER_PROMPT,
-    APPLICABILITY_TEST_PROMPT,
-)
-from prompt_registry import DEFAULT_DATASET
-from study_contexts import swap_integration_closers
+from prompt_registry import get_charmaz_recursion_prompts, _fill, DEFAULT_DATASET
 
 # Defaults — all control-relevant, all disclosed (experiment-setup §6).
 DEFAULT_SATURATION_THRESHOLD = 0.80   # absorbed fraction that counts as "most"
@@ -164,8 +157,9 @@ def _applicability_test(categories, units, call_llm, dataset=DEFAULT_DATASET) ->
     """Label a fresh slice with existing categories. Returns parsed result +
     absorbed fraction. Missing/failed assignments count as does_not_fit so a
     parse failure can never manufacture saturation."""
-    template = swap_integration_closers(APPLICABILITY_TEST_PROMPT, dataset)
-    prompt = template.format(
+    R = get_charmaz_recursion_prompts(dataset)
+    prompt = _fill(
+        R.applicability_test,
         existing_categories=_format_categories(categories),
         fresh_units=_format_units(units),
     )
@@ -199,8 +193,9 @@ def _applicability_test(categories, units, call_llm, dataset=DEFAULT_DATASET) ->
 def _initial_code_iter(categories, thin_areas_text, units, call_llm, dataset=DEFAULT_DATASET) -> List[dict]:
     """S3' — gap-focused initial coding of the unabsorbed units."""
     data_text = _format_units(units)
-    template = swap_integration_closers(INITIAL_CODING_ITER_PROMPT, dataset)
-    prompt = template.format(
+    R = get_charmaz_recursion_prompts(dataset)
+    prompt = _fill(
+        R.initial_coding_iter,
         existing_categories=_format_categories(categories),
         thin_areas=thin_areas_text,
     )
@@ -217,8 +212,9 @@ def _initial_code_iter(categories, thin_areas_text, units, call_llm, dataset=DEF
 def _focused_code_iter(categories, new_codes, call_llm, dataset=DEFAULT_DATASET) -> dict:
     """S5' — integrate new codes, forming/revising categories. Returns the full
     updated category set + typed change list."""
-    template = swap_integration_closers(FOCUSED_CODING_ITER_PROMPT, dataset)
-    prompt = template.format(
+    R = get_charmaz_recursion_prompts(dataset)
+    prompt = _fill(
+        R.focused_coding_iter,
         existing_categories=_format_categories(categories),
         new_codes=_format_new_codes(new_codes),
     )
@@ -239,8 +235,9 @@ def _focused_code_iter(categories, new_codes, call_llm, dataset=DEFAULT_DATASET)
 
 def _advanced_memo(categories, call_llm, dataset=DEFAULT_DATASET) -> dict:
     """S6 — refine the advanced memo (re-surfaces thin areas)."""
-    template = swap_integration_closers(ADVANCED_MEMO_PROMPT, dataset)
-    prompt = template.format(
+    R = get_charmaz_recursion_prompts(dataset)
+    prompt = _fill(
+        R.advanced_memo,
         focused_categories=_format_categories(categories),
     )
     raw = call_llm(prompt, "")
@@ -276,9 +273,9 @@ def run_charmaz_loop(
     max_iterations : hard cap on loop passes.
     dataset : forwarded to every internal LLM step (applicability test,
         gap-focused initial/focused coding, advanced-memo refinement) via
-        study_contexts.swap_integration_closers, so a "semeval" run stays
-        dataset-consistent through every iteration, not just the seed pass.
-        Defaults to "silan" (no-op / prior behavior unchanged).
+        prompt_registry.get_charmaz_recursion_prompts, so a "semeval" run
+        stays dataset-consistent through every iteration, not just the seed
+        pass. Defaults to "silan".
 
     Returns a dict:
       {

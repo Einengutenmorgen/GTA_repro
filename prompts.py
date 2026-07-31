@@ -1,4 +1,13 @@
 # # prompts.py
+#
+# DEPRECATED — superseded by prompt_registry.py.
+#
+# Nothing in the active pipeline imports this module anymore. It is kept on
+# disk only for historical reference / diffing against the old Straussian
+# silan-only prompt text. The live equivalent is prompt_registry.get_prompts
+# ("straussian", dataset), assembled from TRADITION_BLOCKS["straussian"] +
+# DATASET_BLOCKS["silan"|"semeval"] in prompt_registry.py. Do not edit this
+# file expecting it to affect a real run.
 
 #The Strauss & Corbin condition/action/consequence paradigm
 #ToDo: Make sure Prompt allows for empty categories (CAC)

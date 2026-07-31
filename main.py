@@ -347,18 +347,16 @@ def run_charmaz_arm(chunks, chunk_index, output_dir, model, dataset=DEFAULT_DATA
     and re-sampling (re-coding) where they do not, until saturation / max-iter /
     corpus exhaustion. The final integrated account comes from memo-sorting.
 
-    `dataset` is forwarded to the initial/focused coding calls (registry-backed,
-    STUDY-CONTEXT-swappable) AND to the memo-writing / reflection-loop /
-    memo-sorting steps below (run_initial_memo / run_advanced_memo /
-    run_charmaz_loop / run_memo_sorting). Those call prompts_charmaz_recursion.py
-    directly rather than through prompt_registry, but each now swaps its own
-    small set of Silan-specific closing-instruction fragments via
-    study_contexts.swap_integration_closers (see that module's
-    INTEGRATION_CLOSERS). This closes a confirmed leak: a real semeval run's
-    output_final_theory.md previously came back with literal "relationship
-    quality" / "participants construct" language baked into
-    MEMO_SORTING_PROMPT's closing sentence, because run_memo_sorting didn't
-    accept a `dataset` argument at all until now.
+    `dataset` is forwarded to the initial/focused coding calls AND to the
+    memo-writing / reflection-loop / memo-sorting steps below (run_initial_memo
+    / run_advanced_memo / run_charmaz_loop / run_memo_sorting). All of these
+    now route through prompt_registry.get_charmaz_recursion_prompts, which
+    assembles each prompt from the dataset axis (DATASET_BLOCKS) at once --
+    this closes a confirmed leak: a real semeval run's output_final_theory.md
+    once came back with literal "relationship quality" / "participants
+    construct" language baked into the memo-sorting prompt's closing sentence,
+    because run_memo_sorting didn't accept a `dataset` argument at all
+    originally.
     """
     MODEL_TO_USE = model
     llm = lambda sp, ut: call_llm(sp, ut, MODEL_TO_USE)

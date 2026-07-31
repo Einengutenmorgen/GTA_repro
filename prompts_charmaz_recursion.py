@@ -1,5 +1,14 @@
 # prompts_charmaz_recursion.py
 """
+DEPRECATED — superseded by prompt_registry.py.
+
+Nothing in the active pipeline imports this module anymore (gta_pipeline.py
+and charmaz_loop.py now call prompt_registry.get_charmaz_recursion_prompts).
+Kept on disk for historical reference / diffing only -- in particular, this
+file is what MEMO_SORTING_PROMPT's confirmed "relationship quality" leak
+originally lived in, before the fix and the later two-axis rewrite. Do not
+edit this file expecting it to affect a real run.
+
 Charmaz constructivist-GT recursion prompts: the memo, iterative-coding,
 applicability-test, and memo-sorting prompts that drive the slice-driven
 reflection loop in charmaz_loop.py.

@@ -1,4 +1,13 @@
 # prompts_charmaz.py
+#
+# DEPRECATED — superseded by prompt_registry.py.
+#
+# Nothing in the active pipeline imports this module anymore (kept on disk
+# for historical reference / diffing only). The live equivalent is
+# prompt_registry.get_prompts("charmaz", dataset), assembled from
+# TRADITION_BLOCKS["charmaz"] + DATASET_BLOCKS["silan"|"semeval"]. Do not
+# edit this file expecting it to affect a real run.
+#
 # Constructivist Grounded Theory (Charmaz 2006/2014) prompt set.
 # Replaces the Straussian open/axial/selective + condition-action-consequence
 # paradigm with Charmaz's initial -> focused -> theoretical coding.

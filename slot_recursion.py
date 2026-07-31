@@ -28,14 +28,12 @@ from __future__ import annotations
 import json
 from typing import Callable, Dict, List, Optional
 
-from prompts_recursion import (
+from prompt_registry import (
     SLOT_QUESTIONS,
-    EXTRACT_PROMPT,
-    AGGREGATE_RESOLVE_PROMPT,
-    CROSS_RESOLVE_PROMPT,
+    get_straussian_slot_prompts,
+    _fill,
+    DEFAULT_DATASET,
 )
-from prompt_registry import DEFAULT_DATASET
-from study_contexts import swap_integration_closers
 
 PARADIGM_SLOTS = ("condition", "action_interaction", "consequence")
 
@@ -100,14 +98,15 @@ def resolve_category(
     interview_text_for_source : source_id -> full interview text (caller builds
         this from chunk_index, concatenating that participant's chunks in order).
     start_k, max_k : widening bounds for rung 2+.
-    dataset : forwarded to EXTRACT/AGGREGATE_RESOLVE/CROSS_RESOLVE via
-        study_contexts.swap_integration_closers. This ladder is only ever
-        invoked when qsim is not None, which main.py currently restricts to
-        dataset=="silan" (the Q&A-similarity index it depends on has no
-        semeval equivalent), so this is a no-op in every live call today --
-        added for interface symmetry with the Charmaz memo/loop chain and so
-        a future dataset that DOES run slot escalation isn't silently
-        exposed to unswapped closer text the way MEMO_SORTING_PROMPT was.
+    dataset : forwarded to the EXTRACT / AGGREGATE_RESOLVE / CROSS_RESOLVE
+        prompts via prompt_registry.get_straussian_slot_prompts. This ladder
+        is only ever invoked when qsim is not None, which main.py currently
+        restricts to dataset=="silan" (the Q&A-similarity index it depends on
+        has no semeval equivalent), so this is a no-op in every live call
+        today -- added for interface symmetry with the Charmaz memo/loop
+        chain and so a future dataset that DOES run slot escalation isn't
+        silently exposed to unswapped closer text the way MEMO_SORTING_PROMPT
+        once was.
 
     Returns a NEW category dict with slots filled where possible and a
     "__slot_trace__" key logging every rung. Unresolved slots stay "".
@@ -139,11 +138,13 @@ def resolve_category(
     filled_ctx = _filled_slots_context(cat, empties)
     empty_q = _empty_slot_questions(empties)
 
+    R = get_straussian_slot_prompts(dataset)
+
     extractions: List[dict] = []
-    extract_template = swap_integration_closers(EXTRACT_PROMPT, dataset)
     for src in contributing_sources:
         interview = interview_text_for_source(src)
-        prompt = extract_template.format(
+        prompt = _fill(
+            R.extract,
             axial_category=cat.get("axial_category", ""),
             reasoning=cat.get("reasoning", ""),
             filled_slots_context=filled_ctx,
@@ -162,7 +163,8 @@ def resolve_category(
 
     # aggregate-resolve over pooled evidence
     aggregated = _format_aggregated_evidence(extractions, empties)
-    agg_prompt = swap_integration_closers(AGGREGATE_RESOLVE_PROMPT, dataset).format(
+    agg_prompt = _fill(
+        R.aggregate_resolve,
         axial_category=cat.get("axial_category", ""),
         filled_slots_context=filled_ctx,
         empty_slot_questions=empty_q,
@@ -209,7 +211,8 @@ def resolve_category(
 
         retrieved_qa = _format_retrieved_qa(new_hits, chunk_index)
         empty_q = _empty_slot_questions(empties)
-        cross_prompt = swap_integration_closers(CROSS_RESOLVE_PROMPT, dataset).format(
+        cross_prompt = _fill(
+            R.cross_resolve,
             axial_category=cat.get("axial_category", ""),
             filled_slots_context=_filled_slots_context(cat, empties),
             empty_slot_questions=empty_q,

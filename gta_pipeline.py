@@ -1,7 +1,12 @@
 # gta_pipeline.py
 from llm_client import call_llm
-from prompt_registry import get_prompts, DEFAULT_TRADITION, DEFAULT_DATASET
-from study_contexts import swap_integration_closers
+from prompt_registry import (
+    get_prompts,
+    get_charmaz_recursion_prompts,
+    _fill,
+    DEFAULT_TRADITION,
+    DEFAULT_DATASET,
+)
 import json
 
 def run_open_coding(chunks, model_type="local", tradition=DEFAULT_TRADITION, dataset=DEFAULT_DATASET):
@@ -106,23 +111,23 @@ def run_initial_memo(open_codes, model_type="local", dataset=DEFAULT_DATASET):
     cross-incident comparison before emitting each memo. Returns a parsed dict
     ({"memos": [...]}) or a fallback envelope on parse failure.
 
-    `dataset` swaps any Silan-specific closing-instruction fragment via
-    study_contexts.swap_integration_closers, mirroring run_open_coding /
-    run_axial_coding / run_selective_coding. INITIAL_MEMO_PROMPT currently
-    contains none of those fragments, so this is a no-op for it today; the
-    parameter exists so the whole Charmaz memo/integration chain shares one
-    consistent, dataset-aware call signature and a future edit to this
-    prompt can't silently reintroduce the MEMO_SORTING_PROMPT-style leak.
+    `dataset` selects the dataset-appropriate prompt via
+    prompt_registry.get_charmaz_recursion_prompts (replacing the old direct
+    import from prompts_charmaz_recursion.py + study_contexts.
+    swap_integration_closers). The skeleton puts {coded_data} at the very end
+    of the prompt (data-last convention), so it's filled in via `_fill()` here
+    and the fully-assembled prompt is sent as the whole system message, with
+    an empty user turn -- mirroring run_memo_sorting's existing pattern.
     """
-    from prompts_charmaz_recursion import INITIAL_MEMO_PROMPT
-    prompt = swap_integration_closers(INITIAL_MEMO_PROMPT, dataset)
+    R = get_charmaz_recursion_prompts(dataset)
     coded_data = "\n".join(
         f"- {oc.get('open_code', '')}  ::  {oc.get('text_passage', '')}"
         for oc in open_codes
         if isinstance(oc, dict) and "__status__" not in oc
     )
+    prompt = _fill(R.initial_memo, coded_data=coded_data)
     print("  -> Writing initial memos...")
-    raw = call_llm(prompt, coded_data, model_type)
+    raw = call_llm(prompt, "", model_type)
     return _safe_parse(raw, fallback={"memos": [], "__raw__": raw})
 
 
@@ -132,14 +137,15 @@ def run_advanced_memo(focused_categories, model_type="local", dataset=DEFAULT_DA
     Must name thin/ambiguous areas: those feed gap-focused re-sampling in the
     reflection loop. Returns a parsed dict ({"memos": [...]}).
 
-    `dataset` behaves as in run_initial_memo (no-op today for
-    ADVANCED_MEMO_PROMPT; kept for call-signature consistency).
+    `dataset` behaves as in run_initial_memo: pulls the dataset-appropriate
+    template from prompt_registry.get_charmaz_recursion_prompts and fills its
+    trailing {focused_categories} placeholder via `_fill()`.
     """
-    from prompts_charmaz_recursion import ADVANCED_MEMO_PROMPT
-    prompt = swap_integration_closers(ADVANCED_MEMO_PROMPT, dataset)
+    R = get_charmaz_recursion_prompts(dataset)
     cats_text = json.dumps(focused_categories, indent=2)
+    prompt = _fill(R.advanced_memo, focused_categories=cats_text)
     print("  -> Writing advanced memos...")
-    raw = call_llm(prompt, cats_text, model_type)
+    raw = call_llm(prompt, "", model_type)
     return _safe_parse(raw, fallback={"memos": [], "__raw__": raw})
 
 
@@ -149,16 +155,16 @@ def run_memo_sorting(focused_categories, memos, model_type="local", dataset=DEFA
     This is the Charmaz arm's terminal step (replaces the selective-coding call
     for this tradition). Returns the integrated account as text (Markdown).
 
-    `dataset` swaps MEMO_SORTING_PROMPT's closing-instruction fragments (see
-    study_contexts.INTEGRATION_CLOSERS) -- this prompt previously named
-    "relationship quality" verbatim regardless of dataset, which is why a
-    semeval Charmaz run's final theoretical account came back with leftover
-    Silan relationship-quality language. Fixed here; defaults to "silan"
-    (no-op / byte-identical to prior behavior) for existing callers.
+    `dataset` selects the dataset-appropriate closing/integration language via
+    prompt_registry.get_charmaz_recursion_prompts -- this prompt previously
+    named "relationship quality" verbatim regardless of dataset, which is why
+    a semeval Charmaz run's final theoretical account came back with leftover
+    Silan relationship-quality language. Fixed here (now via the two-axis
+    registry rather than a post-hoc string swap); defaults to "silan".
     """
-    from prompts_charmaz_recursion import MEMO_SORTING_PROMPT
-    template = swap_integration_closers(MEMO_SORTING_PROMPT, dataset)
-    prompt = template.format(
+    R = get_charmaz_recursion_prompts(dataset)
+    prompt = _fill(
+        R.memo_sorting,
         focused_categories=json.dumps(focused_categories, indent=2),
         memos=json.dumps(memos, indent=2),
     )

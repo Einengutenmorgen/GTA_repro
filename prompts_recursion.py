@@ -1,5 +1,12 @@
 # prompts_recursion.py
 """
+DEPRECATED — superseded by prompt_registry.py.
+
+Nothing in the active pipeline imports this module anymore (slot_recursion.py
+now calls prompt_registry.get_straussian_slot_prompts / SLOT_QUESTIONS from
+prompt_registry). Kept on disk for historical reference / diffing only. Do
+not edit this file expecting it to affect a real run.
+
 Prompts for the Straussian empty-slot escalation ladder (paradigm recall).
 
 Three distinct call shapes, used in sequence when a paradigm slot
