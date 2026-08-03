@@ -1,5 +1,5 @@
 # main.py
-import os 
+import os
 import glob
 import json
 #from PyPDF2 import PdfReader
@@ -14,7 +14,7 @@ from charmaz_loop import (
     DEFAULT_SATURATION_THRESHOLD, DEFAULT_MAX_ITERATIONS,
 )
 from llm_client import call_llm
-from prompt_registry import DEFAULT_DATASET
+from prompt_registry import DEFAULT_DATASET, get_taxonomy_match_prompt, _fill
 import time
 
 # --- Charmaz loop parameters (control-relevant; disclosed) ------------------
@@ -32,6 +32,30 @@ CHARMAZ_MAX_ITERATIONS = DEFAULT_MAX_ITERATIONS
 # True/False explicitly to override for BOTH datasets uniformly (e.g. for a
 # rung-1-forced-on SemEval ablation run).
 STRAUSSIAN_SKIP_RUNG1 = None
+
+# --- Taxonomy-seeded coding parameters (control-relevant, disclosed) --------
+# Additional experiment (see GTA_taxonomy_seeded_experiment.md): SKIP emergent
+# axial coding and inject a pre-existing SemEval taxonomy as the fixed axial
+# layer, then MATCH the emergent open codes against it and type the edge cases.
+# This is orthogonal to TRADITION and to the §14 slot ladder -- when
+# SEED_TAXONOMY is on, the seeded-matching arm runs instead of the normal
+# tradition arm.
+#
+# SEED_TAXONOMY : master switch. False -> normal pipeline (unchanged).
+# SEED_KIND     : "entity_role" (Subtask 1, domain-agnostic 22 fine sub-roles)
+#                 | "narrative" (Subtask 2, domain-scoped sub-narratives). Two
+#                 INDEPENDENT experiments; pick one per run.
+# SEED_LEVEL    : "fine" (built). "coarse" (roll-up, Experiment E3) is deferred
+#                 and raises in taxonomy_registry.load_taxonomy.
+# SEED_LABELS_DIR : path to the SemEval labels/<LANG> gold tree, passed
+#                 EXPLICITLY and used ONLY for eval scoring (never a prompt).
+#                 None -> soft edge-typing only, no hard scoring. Kept separate
+#                 from target_folders on purpose so gold can only enter via the
+#                 scorer. Leave None unless you are scoring.
+SEED_TAXONOMY = True
+SEED_KIND = "entity_role"
+SEED_LEVEL = "fine"
+SEED_LABELS_DIR = None
 
 # --- Dataset selection (independent of TRADITION, set in main()) -----------
 # "silan"   -> (default) Silan-Ciruelas relationship-quality interviews.
@@ -75,7 +99,7 @@ def extract_and_chunk_interviews(target_dir, pairs_per_chunk=1, unit=None):
     """
     pdf_files = glob.glob(os.path.join(target_dir, "**", "*.pdf"), recursive=True)
     chunks = []
-    
+
     for file_path in sorted(pdf_files):
         print(f"    Reading: {os.path.basename(file_path)}")
         chunks.extend(chunk_transcript(file_path, pairs_per_chunk=pairs_per_chunk, unit=unit))
@@ -169,8 +193,8 @@ def main():
     # Which GT tradition drives the prompts + whether slot recursion runs.
     # "straussian" -> open/axial/selective + paradigm-slot escalation ladder
     # "charmaz"    -> initial/focused/theoretical, NO slot recursion (no paradigm)
-    #TRADITION = "straussian"
-    TRADITION = "charmaz"
+    TRADITION = "straussian"
+    #TRADITION = "charmaz"
 
     # Which STUDY CONTEXT the prompts are focused on. Defaults to "silan" --
     # unchanged behavior from before this existed. Set to "semeval" to run
@@ -201,11 +225,11 @@ def main():
         # articles (article_chunking.py excludes them defensively too, but
         # don't rely on that as the only safeguard).
         target_folders = [
-            "train/raw-documents/EN",
-            #"train/raw-documents/BG",
-            #"train/raw-documents/HI",
-            #"train/raw-documents/PT",
-            #"train/raw-documents/RU",
+            "dev/raw-documents/EN",
+            #"dev/raw-documents/BG",
+            #"dev/raw-documents/HI",
+            #"dev/raw-documents/PT",
+            #"dev/raw-documents/RU",
             #"dev/raw-documents/EN",
             #"test/raw-documents/EN",   # test has no labels/ at all
         ]
@@ -251,7 +275,7 @@ def main():
             # `unit` (language code) tags every chunk, mirroring the Silan
             # country-code convention; derive it from the leaf language
             # folder name (target_folders entries look like
-            # "train/raw-documents/EN" -> unit = "EN").
+            # "dev/raw-documents/EN" -> unit = "EN").
             unit = os.path.basename(folder_name.rstrip("/"))
             chunks, chunk_index = extract_and_chunk_articles(country_dir, unit=unit)
             print(f"Extracted {len(chunks)} article chunks.\n")
@@ -269,7 +293,9 @@ def main():
 
         # Build the question/sentence-similarity cache (Straussian rung-2
         # retrieval). Only built for TRADITION=="straussian" (Charmaz has no
-        # paradigm slots to escalate). Grain differs by dataset:
+        # paradigm slots to escalate) AND when NOT running the seeded-taxonomy
+        # arm (the seeded arm skips emergent axial + slot escalation, so it
+        # never needs qsim). Grain differs by dataset:
         #   "silan"   -> qa_units grain (one row per interviewer question),
         #                independent of chunking; retrieval is cross-
         #                participant Q&A (top_k_other_participant).
@@ -280,7 +306,7 @@ def main():
         #                grain. See question_sim.build_sentence_sim_index and
         #                slot_recursion.resolve_category.
         qsim = None
-        if TRADITION == "straussian":
+        if TRADITION == "straussian" and not SEED_TAXONOMY:
             print("Building question/sentence-similarity index...")
             if DATASET == "silan":
                 qa_units = build_qa_index(country_dir, unit=unit)
@@ -295,7 +321,20 @@ def main():
         # The Charmaz block runs its own slice-driven constructivist flow
         # (initial+memo on slice 1 → focused+memo → reflection loop over the
         # remaining slices → memo-sorting integration).
-        if TRADITION == "straussian":
+        if SEED_TAXONOMY:
+            # Taxonomy-seeded arm: open coding -> seed the fixed axial layer
+            # -> match open codes against it -> type edge cases (+ optional
+            # eval scoring). Runs INSTEAD of the tradition arm; TRADITION is
+            # ignored on this path (open coding still uses it for its prompt,
+            # defaulting to straussian).
+            run_seeded_taxonomy_arm(
+                chunks, chunk_index=chunk_index, output_dir=output_dir,
+                model=MODEL_TO_USE, dataset=DATASET,
+                seed_kind=SEED_KIND, seed_level=SEED_LEVEL,
+                labels_dir=SEED_LABELS_DIR,
+                open_coding_tradition=("charmaz" if TRADITION == "charmaz" else "straussian"),
+            )
+        elif TRADITION == "straussian":
             run_straussian_arm(chunks, chunk_index=chunk_index,
                                qsim=qsim, output_dir=output_dir, model=MODEL_TO_USE,
                                dataset=DATASET, skip_rung1=STRAUSSIAN_SKIP_RUNG1)
@@ -366,6 +405,150 @@ def run_straussian_arm(chunks, chunk_index, qsim, output_dir, model,
     with open(theory_out_path, "w") as f:
         f.write(final_theory)
     print(f"Saved -> {theory_out_path}\n")
+
+
+def run_seeded_taxonomy_arm(chunks, chunk_index, output_dir, model,
+                            dataset, seed_kind, seed_level="fine",
+                            labels_dir=None, open_coding_tradition="straussian"):
+    """Taxonomy-seeded coding arm (additional experiment).
+
+    Flow: open coding (unchanged) -> SKIP emergent axial coding -> inject the
+    pre-existing SemEval taxonomy as the fixed axial layer -> match each open
+    code against it with BOTH a deterministic embedding matcher and an
+    interpretive LLM matcher -> type the edge cases -> optionally hard-score
+    against the gold key (eval-only). See GTA_taxonomy_seeded_experiment.md.
+
+    Two independent experiments select via seed_kind:
+      "entity_role" -> Subtask 1, domain-agnostic 22 fine sub-roles.
+      "narrative"   -> Subtask 2, domain-scoped sub-narratives (per-article
+                       domain resolved from the filename via domain_of).
+
+    FIREWALL: only the taxonomy SCHEMA reaches the model (via the match prompt's
+    {taxonomy_block}); the gold answer key (labels_dir) is loaded ONLY here for
+    scoring and never enters a prompt.
+    """
+    import taxonomy_registry as TR
+    import taxonomy_match as TM
+
+    MODEL_TO_USE = model
+    llm = lambda sp, ut: call_llm(sp, ut, MODEL_TO_USE)
+
+    # 1. Open Coding (unchanged; still emergent)
+    print("=== Phase 1: Open Coding (seeded-taxonomy experiment) ===")
+    open_codes = run_open_coding(chunks, MODEL_TO_USE,
+                                 tradition=open_coding_tradition, dataset=dataset)
+    with open(os.path.join(output_dir, "output_open_codes.json"), "w") as f:
+        json.dump(open_codes, f, indent=4)
+    print(f"Saved -> output_open_codes.json\n")
+
+    # 2. Seed the axial layer (fine). For entity_role: one domain-agnostic
+    #    taxonomy for all codes. For narrative: domain-scoped, so we partition
+    #    the open codes by their article's domain and match each partition
+    #    against that domain's tree.
+    print(f"=== Phase 2: Seeded Axial Layer ({seed_kind}, level={seed_level}) ===")
+    match_prompt = get_taxonomy_match_prompt(dataset).match
+
+    def make_render_prompt(taxonomy):
+        # Build the (system, user) closure taxonomy_match.llm_match expects.
+        block = taxonomy.taxonomy_block()  # SCHEMA ONLY -- never gold
+        if taxonomy.domain:
+            domain_note = (f"This article is from the {taxonomy.domain} "
+                           f"('{'Ukraine-Russia War' if taxonomy.domain=='URW' else 'Climate Change'}') domain. ")
+        else:
+            domain_note = ""
+        def render(open_code, _tax):
+            system = _fill(match_prompt, domain_note=domain_note, taxonomy_block=block)
+            user = _fill(
+                "Code: {open_code}\nEvidence passage: {text_passage}",
+                open_code=str(open_code.get("open_code", "")),
+                text_passage=str(open_code.get("text_passage", "")),
+            )
+            return system, user
+        return render
+
+    if seed_kind == "narrative":
+        # partition codes by article domain
+        buckets = {"URW": [], "CC": [], None: []}
+        for oc in TM.iter_valid_open_codes(open_codes):
+            sid = oc.get("source_id") or (oc.get("chunk_id", "").rsplit("_c", 1)[0])
+            dom = TR.domain_of(sid)
+            buckets.setdefault(dom, []).append(oc)
+        if buckets[None]:
+            print(f"  -> WARNING: {len(buckets[None])} open code(s) from articles "
+                  f"whose domain could not be parsed from the filename; skipped "
+                  f"from narrative matching (they need a domain to be scoped).")
+        typed_all = []
+        seed_axial_all = []
+        for dom in ("URW", "CC"):
+            if not buckets[dom]:
+                continue
+            taxonomy = TR.load_taxonomy(dataset, "narrative", level=seed_level, domain=dom)
+            seed_axial_all.extend(taxonomy.as_axial_relations())
+            typed_all.extend(_match_and_type(buckets[dom], taxonomy, llm,
+                                             make_render_prompt(taxonomy), TM))
+        typed = typed_all
+        # category signals need a per-domain view; compute per tree and merge.
+        cat_sig = {"per_domain": {}}
+        for dom in ("URW", "CC"):
+            if not buckets[dom]:
+                continue
+            taxonomy = TR.load_taxonomy(dataset, "narrative", level=seed_level, domain=dom)
+            dom_typed = [t for t in typed if (t.get("emb_category_id") or "").startswith(dom + "/")]
+            cat_sig["per_domain"][dom] = TM.category_signals(dom_typed, taxonomy)
+        taxonomy_for_gold = None  # narrative gold scored article-level, tree-agnostic
+    else:
+        taxonomy = TR.load_taxonomy(dataset, seed_kind, level=seed_level, domain=None)
+        seed_axial_all = taxonomy.as_axial_relations()
+        typed = _match_and_type(TM.iter_valid_open_codes(open_codes), taxonomy, llm,
+                                make_render_prompt(taxonomy), TM)
+        cat_sig = TM.category_signals(typed, taxonomy)
+        taxonomy_for_gold = taxonomy
+
+    # persist the seeded axial layer (format-identical to emergent axial output)
+    with open(os.path.join(output_dir, "output_axial_codes_seeded.json"), "w") as f:
+        json.dump(seed_axial_all, f, indent=4)
+
+    # 3. Persist the assignment table (pre-populated manual-typing sheet) + signals
+    rows = TM.assignment_rows(typed)
+    with open(os.path.join(output_dir, "output_taxonomy_assignments.json"), "w") as f:
+        json.dump(rows, f, indent=4)
+    _write_csv(os.path.join(output_dir, "output_taxonomy_assignments.csv"), rows)
+    with open(os.path.join(output_dir, "output_taxonomy_category_signals.json"), "w") as f:
+        json.dump(cat_sig, f, indent=4, default=list)
+    n_edge = sum(1 for t in typed if t.get("is_edge_case"))
+    print(f"  -> matched {len(typed)} open codes; {n_edge} flagged as edge cases.")
+    print(f"Saved -> output_taxonomy_assignments.(json|csv)")
+    print(f"Saved -> output_taxonomy_category_signals.json\n")
+
+    # 4. Optional eval scoring (EVAL-ONLY; gold never entered a prompt above)
+    if labels_dir:
+        print("=== Phase 3: Gold Scoring (eval-only) ===")
+        gold = TR.load_gold(dataset, seed_kind, labels_dir)
+        report = TM.score_against_gold(typed, gold, seed_kind)  # entity_role -> None w/o entity resolution
+        if report is not None:
+            with open(os.path.join(output_dir, "output_taxonomy_gold_score.json"), "w") as f:
+                json.dump(report, f, indent=4)
+            print(f"Saved -> output_taxonomy_gold_score.json\n")
+
+
+def _match_and_type(codes, taxonomy, llm, render_prompt, TM):
+    """Run both matchers over a code list against one taxonomy and type edges."""
+    emb = TM.embed_match(codes, taxonomy)
+    # align LLM results to the SAME valid-code ordering embed_match used
+    valid = TM.iter_valid_open_codes(codes)
+    llm_results = [TM.llm_match(oc, taxonomy, render_prompt, llm) for oc in valid]
+    return TM.classify_edge_cases(emb, llm_results, taxonomy=taxonomy)
+
+
+def _write_csv(path, rows):
+    import csv
+    if not rows:
+        open(path, "w").close()
+        return
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w.writeheader()
+        w.writerows(rows)
 
 
 def run_charmaz_arm(chunks, chunk_index, output_dir, model, dataset=DEFAULT_DATASET):

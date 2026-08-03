@@ -781,3 +781,65 @@ def get_straussian_slot_prompts(dataset: str = DEFAULT_DATASET) -> StraussianSlo
         aggregate_resolve=_fill(_AGGREGATE_RESOLVE_SKELETON, **D),
         cross_resolve=_fill(_CROSS_RESOLVE_SKELETON, **D),
     )
+
+# ============================================================================
+# TAXONOMY-SEEDED MATCHING (taxonomy-seeded coding experiments; see
+# GTA_taxonomy_seeded_experiment.md). ADDITIVE -- nothing above this line is
+# touched. Used by taxonomy_match.llm_match via a render_prompt closure built
+# in main.py.
+#
+# FIREWALL: this prompt intentionally SHOWS the model the taxonomy schema
+# ({taxonomy_block}) -- that is the seeded axial layer and the whole point of
+# the experiment. It must NEVER be fed the GOLD per-instance answers. The
+# {taxonomy_block} is rendered by taxonomy_registry.Taxonomy.taxonomy_block(),
+# which returns SCHEMA ONLY (names + definitions + examples).
+# ============================================================================
+
+_TAXONOMY_MATCH_SKELETON = """You are an expert qualitative researcher matching a single inductively-derived open code to a PRE-EXISTING category taxonomy.
+
+The taxonomy below was fixed in advance (it stands in for a completed first aggregation). Your job is NOT to invent categories, but to judge which single taxonomy category the open code best fits -- and, crucially, to flag when it fits poorly or ambiguously. A code that does not cleanly belong anywhere is an informative EDGE CASE, not a failure: say so rather than forcing a fit.
+
+{domain_note}Decide the best-fitting category for the open code below. Then judge whether this is an edge case:
+- Assign the single best category by NAME from the taxonomy, or the literal string "NONE" if no category genuinely fits.
+- If two or more categories fit almost equally well, still name the best one but set is_edge_case true with edge_case_type "straddler".
+- If the code fits nowhere, set category to "NONE", is_edge_case true, edge_case_type "orphan".
+- If the code fits but shifts the analytic stance of the category, set edge_case_type "reframing".
+- Otherwise, if it fits cleanly, set is_edge_case false.
+
+Return ONLY this JSON object, nothing else:
+{
+  "category": "exact category name from the taxonomy, or NONE",
+  "confidence": 0.0,
+  "reasoning": "one or two sentences on why this category (or why none fits)",
+  "is_edge_case": false,
+  "edge_case_type": "clean | straddler | orphan | reframing | merging | surface_anchoring"
+}
+
+TAXONOMY (fixed categories -- match against these; do not add new ones):
+{taxonomy_block}
+
+OPEN CODE TO MATCH:
+Code: {open_code}
+Evidence passage from the {source_label}: {text_passage}"""
+
+
+@dataclass(frozen=True)
+class TaxonomyMatchPrompt:
+    dataset: str
+    match: str
+
+
+def get_taxonomy_match_prompt(dataset: str = DEFAULT_DATASET) -> TaxonomyMatchPrompt:
+    """Template for the taxonomy-seeded LLM matcher (one dataset). The returned
+    string still contains the runtime placeholders {domain_note}, {taxonomy_block},
+    {open_code}, {text_passage} -- fill them with `_fill()` at call time. Dataset
+    tokens ({source_label}, {subject_phrase}) are already resolved.
+    """
+    ds_key = dataset.strip().lower()
+    if ds_key not in DATASETS:
+        raise ValueError(f"unknown dataset {dataset!r}; expected one of {DATASETS}")
+    D = DATASET_BLOCKS[ds_key]
+    return TaxonomyMatchPrompt(
+        dataset=ds_key,
+        match=_fill(_TAXONOMY_MATCH_SKELETON, **D),
+    )
