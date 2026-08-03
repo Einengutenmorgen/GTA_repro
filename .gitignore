@@ -9,5 +9,8 @@ data/.DS_Store
 data/RelationshipQuality/.DS_Store
 verify_semeval_prompts.py
 data/dataset
+data/dataset_splitted
 data/.DS_Store
 prompt_dumps
+.embedding_cache.pkl
+split_by_topic.sh
