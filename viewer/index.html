@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA Viewer</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='none' stroke='%233987e5' stroke-width='3'/><circle cx='16' cy='16' r='4' fill='%233987e5'/></svg>">
+</head>
+<body>
+<div id="app">
+
+  <aside class="rail">
+    <div class="brand">
+      <h1>GTA Viewer</h1>
+      <div class="sub" id="brand-sub">scanning…</div>
+    </div>
+    <div class="rail-scroll" id="rail-scroll"></div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="title-row">
+        <div style="min-width:0">
+          <h2 id="run-title">—</h2>
+          <div class="path" id="run-path"></div>
+        </div>
+        <div class="spacer"></div>
+        <button class="icon-btn" id="theme-btn" title="Toggle light / dark">◐ Theme</button>
+        <button class="icon-btn" id="reload-btn" title="Re-scan data directory">⟳ Rescan</button>
+      </div>
+      <nav class="tabs" id="tabs"></nav>
+    </header>
+    <section class="view" id="view"></section>
+  </main>
+
+  <aside class="inspector">
+    <div class="insp-head">
+      <div style="flex:1;min-width:0">
+        <h3 id="insp-title">Inspector</h3>
+        <div class="is" id="insp-sub"></div>
+      </div>
+      <button class="icon-btn" id="insp-close">✕</button>
+    </div>
+    <div class="insp-body" id="insp-body"></div>
+  </aside>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -19,3 +19,4 @@ split_by_topic.sh
 data/dataset/.DS_Store
 data/dataset/dev/labels/.DS_Store
 data/dataset/dev/.DS_Store
+__pycache__/
