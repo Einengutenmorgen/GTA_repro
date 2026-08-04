@@ -8,9 +8,14 @@ data/RelationshipQuality/Silan-Ciruelas_USA/Silan-Ciruelas_USA_Opt1and2
 data/.DS_Store
 data/RelationshipQuality/.DS_Store
 verify_semeval_prompts.py
-data/dataset
+data/dataset/test
+data/dataset/train
+data/output
 data/dataset_splitted
 data/.DS_Store
 prompt_dumps
 .embedding_cache.pkl
 split_by_topic.sh
+data/dataset/.DS_Store
+data/dataset/dev/labels/.DS_Store
+data/dataset/dev/.DS_Store
